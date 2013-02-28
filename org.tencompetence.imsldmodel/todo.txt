@@ -1,0 +1,72 @@
+Some model classes listen to model add/remove object events.
+
+
+These classes hold an Undo Cache for refs:
+------------------------------------------
+AbstractActivityModel - Environment refs
+ActivityStructureModel - Environment refs
+SupportActivityModel -  Role refs
+ConferenceModel - Role refs
+IndexSearchModel - All refs
+CompleteUOLType - Play Refs
+CompleteActType - RolePart Refs
+SendMailModel - Role refs for EmailDataTypes
+NotificationType - Role refs for EmailDataTypes
+
+
+These classes just remove the ref:
+----------------------------------
+ActivityStructureModel - Activity refs
+MonitorModel - Role ref
+PropertyGroupModel - Property refs
+
+
+These classes update something:
+-------------------------------
+ItemType - update Identifier ref if a Resource Identifier is changed
+
+
+However, not all classes listen to referenced objects that are removed,
+they persist the ref ID even if the object has been deleted:
+
+CompleteExpressionType (Component ref)
+NoValueType (Property ref)
+PropertyValueType (Property ref)
+ShowHideType (Component refs)
+UsersInRoleType (Role ref)
+EmailDataType (Property refs)
+NotificationType (Activity ref)
+WhenConditionTrueType (Role ref)
+TimeLimitType (Property ref)
+
+And this also means that some parent classes then become invalid because they now have redundant
+child objects which should be mandatory.
+
+
+Need to look at AbstractRefModel:
+
+Perhaps we should change AbstractRefModel to check the object exists when saving? 
+But we would need to remove the object from the master LDModel Object Table when removing the object from an LDModelObjectContainer.
+And that leads to problems...
+
+Could add dispose() to some classes, like ItemType, to remove PropertyChangeListener when deleting.
+But if they are added again thru Redo (as in the Environments editor) then the PropertyChangeListener will need to be re-added.
+
+I had thought about adding dispose() to ILDModelObject and calling it when adding/removing from LDModelObjectContaine like:
+
+// Add child
+if(child instanceof PropertyChangeListener) {
+	ldModel.addPropertyChangeListener(child);
+}
+
+// Remove child
+if(child instanceof PropertyChangeListener) {
+	ldModel.removePropertyChangeListener(child);
+}
+
+However, if we we did that and then did Undo in the Environments Editor (or PlaysHandler?) then that object
+would not have been listening to events to remove object refs and would get out of synch.
+Anyway, what's wrong with an object still listening?
+
+
+

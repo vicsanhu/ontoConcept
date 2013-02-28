@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Edited with ReCourse-->
+<!--Created - Fri Dec 05 11:23:08 CET 2008-->
+<!--Modified - Tue Jan 26 19:01:13 CET 2010-->
+<!--Authors- Mar Pérez-Sanagustín&Patricia Santos, UPF-->
+<manifest xmlns="http://www.imsglobal.org/xsd/imscp_v1p1" xmlns:imsld="http://www.imsglobal.org/xsd/imsld_v1p0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ldauthor="http://www.tencompetence.org/ldauthor" xsi:schemaLocation="http://www.imsglobal.org/xsd/imscp_v1p1 http://www.imsglobal.org/xsd/imscp_v1p1.xsd http://www.imsglobal.org/xsd/imsld_v1p0 http://www.imsglobal.org/xsd/IMS_LD_Level_A.xsd http://www.tencompetence.org/ldauthor ld-author.xsd" identifier="manifest-de3ec2f9-ad32-48c4-82c8-f1c02e91f5d3">
+  <organizations>
+    <imsld:learning-design identifier="ld-fc44d47a-d621-4c01-9ed2-c1deca17cf66" version="1.0.0" level="A" uri="http://www.yourURI.here/36778ed2-6411-41e8-8bb4-f768a10df091" sequence-used="false">
+      <imsld:title>Guided Discussion</imsld:title>
+      <imsld:learning-objectives>
+        <imsld:item identifier="item-d034f561-b388-4cf5-a81a-a61486af0f8b" isvisible="true" identifierref="Learning_Objectives">
+          <imsld:title>Learning Objectives</imsld:title>
+        </imsld:item>
+      </imsld:learning-objectives>
+      <imsld:components>
+        <imsld:roles>
+          <imsld:learner identifier="role-649c890d-8a57-4762-b90f-2fa889b6d760">
+            <imsld:title>Participant</imsld:title>
+          </imsld:learner>
+          <imsld:staff identifier="role-e2d9248c-1f6f-48b2-89c5-db1d5006ba13">
+            <imsld:title>Trainer/Moderator</imsld:title>
+          </imsld:staff>
+        </imsld:roles>
+        <imsld:activities>
+          <imsld:learning-activity identifier="la-a2ee8f70-3271-4f3a-b44c-d1b8fb92287b" isvisible="true">
+            <imsld:title>Pose a discussion question</imsld:title>
+            <imsld:environment-ref ref="env-8e940d03-3995-4b7c-baa9-f1300cd71214" />
+            <imsld:activity-description>
+              <imsld:item identifier="item-329e8570-4ec3-49b7-ae55-05aa7e9e92b8" isvisible="true" identifierref="Pose_a_discussion_question">
+                <imsld:title>Resource</imsld:title>
+              </imsld:item>
+            </imsld:activity-description>
+            <imsld:complete-activity>
+              <imsld:user-choice />
+            </imsld:complete-activity>
+          </imsld:learning-activity>
+          <imsld:learning-activity identifier="la-90593bdb-a698-4477-8a4d-853340f6cdb0" isvisible="true">
+            <imsld:title>Present your views</imsld:title>
+            <imsld:activity-description>
+              <imsld:item identifier="item-f60af7cc-37a8-4cc6-956e-7878e3ec03ec" isvisible="true" identifierref="Present_your_views">
+                <imsld:title>Resource</imsld:title>
+              </imsld:item>
+            </imsld:activity-description>
+            <imsld:complete-activity>
+              <imsld:user-choice />
+            </imsld:complete-activity>
+          </imsld:learning-activity>
+          <imsld:learning-activity identifier="la-107029d2-20c1-474f-ae48-915c773215ee" isvisible="true">
+            <imsld:title>Contribute an original answer</imsld:title>
+            <imsld:activity-description>
+              <imsld:item identifier="item-d9344e33-a1c5-4685-8888-453bf548c24d" isvisible="true" identifierref="Contribute_an_original_answer">
+                <imsld:title>Resource</imsld:title>
+              </imsld:item>
+            </imsld:activity-description>
+            <imsld:complete-activity>
+              <imsld:user-choice />
+            </imsld:complete-activity>
+          </imsld:learning-activity>
+        </imsld:activities>
+        <imsld:environments>
+          <imsld:environment identifier="env-8e940d03-3995-4b7c-baa9-f1300cd71214">
+            <imsld:title>Environment</imsld:title>
+            <imsld:learning-object identifier="lo-d956279a-301e-4676-ab92-6d49a1decf73" isvisible="true">
+              <imsld:title>Discussion Question or Issue</imsld:title>
+              <imsld:item identifier="item-cb5a4264-1c8b-47d7-848e-b6e493f14b10" isvisible="true" identifierref="Discussion_Question">
+                <imsld:title>Item</imsld:title>
+              </imsld:item>
+            </imsld:learning-object>
+          </imsld:environment>
+        </imsld:environments>
+      </imsld:components>
+      <imsld:method>
+        <imsld:play identifier="play-6a31524c-367d-487d-8f03-12217bc281e8" isvisible="true">
+          <imsld:title>Guided Discussion</imsld:title>
+          <imsld:act identifier="act-bff7ffd1-0f63-4bae-a025-0a7a55ce4606">
+            <imsld:title>Pose Question</imsld:title>
+            <imsld:role-part identifier="rolepart-f0030e1f-fdc3-4569-92eb-b40643d37dff">
+              <imsld:title>Role Part</imsld:title>
+              <imsld:role-ref ref="role-e2d9248c-1f6f-48b2-89c5-db1d5006ba13" />
+              <imsld:learning-activity-ref ref="la-a2ee8f70-3271-4f3a-b44c-d1b8fb92287b" />
+            </imsld:role-part>
+            <imsld:complete-act>
+              <imsld:when-role-part-completed ref="rolepart-f0030e1f-fdc3-4569-92eb-b40643d37dff" />
+            </imsld:complete-act>
+          </imsld:act>
+          <imsld:act identifier="act-40d076e5-4c13-41f2-b833-e053af0711e5">
+            <imsld:title>Answer</imsld:title>
+            <imsld:role-part identifier="rolepart-9ca8ed28-7d90-4724-9e5c-958b6a3e1e77">
+              <imsld:title>Role Part</imsld:title>
+              <imsld:role-ref ref="role-649c890d-8a57-4762-b90f-2fa889b6d760" />
+              <imsld:learning-activity-ref ref="la-107029d2-20c1-474f-ae48-915c773215ee" />
+            </imsld:role-part>
+            <imsld:complete-act>
+              <imsld:when-role-part-completed ref="rolepart-9ca8ed28-7d90-4724-9e5c-958b6a3e1e77" />
+            </imsld:complete-act>
+          </imsld:act>
+          <imsld:act identifier="act-c8af9e8b-15db-472e-a3b9-3e8a323159c3">
+            <imsld:title>Present Views</imsld:title>
+            <imsld:role-part identifier="rolepart-cc04f124-4aaa-4c68-8cab-8a877e936bca">
+              <imsld:title>Role Part</imsld:title>
+              <imsld:role-ref ref="role-649c890d-8a57-4762-b90f-2fa889b6d760" />
+              <imsld:learning-activity-ref ref="la-90593bdb-a698-4477-8a4d-853340f6cdb0" />
+            </imsld:role-part>
+          </imsld:act>
+        </imsld:play>
+      </imsld:method>
+      <imsld:metadata>
+        <ldauthor:root date-created="1228472588764">
+          <ldauthor:images />
+          <ldauthor:overview>
+            <ldauthor:description />
+            <ldauthor:tags />
+            <ldauthor:author />
+            <ldauthor:subject />
+          </ldauthor:overview>
+          <ldauthor:environments>
+            <ldauthor:environment ref="env-8e940d03-3995-4b7c-baa9-f1300cd71214">
+              <ldauthor:bounds x="30" y="22" width="-1" height="-1" />
+              <ldauthor:learning-object ref="lo-d956279a-301e-4676-ab92-6d49a1decf73">
+                <ldauthor:bounds x="17" y="11" width="-1" height="-1" />
+              </ldauthor:learning-object>
+            </ldauthor:environment>
+          </ldauthor:environments>
+        </ldauthor:root>
+      </imsld:metadata>
+    </imsld:learning-design>
+  </organizations>
+  <resources>
+    <resource identifier="Discussion_Question" type="webcontent" href="Learning_Object.html">
+      <file href="Learning_Object.html" />
+    </resource>
+    <resource identifier="Pose_a_discussion_question" type="webcontent" href="Pose_a_discussion_question.html">
+      <file href="Pose_a_discussion_question.html" />
+    </resource>
+    <resource identifier="Present_your_views" type="webcontent" href="Present_your_views.html">
+      <file href="Present_your_views.html" />
+    </resource>
+    <resource identifier="Contribute_an_original_answer" type="webcontent" href="Contribute_an_original_answer.html">
+      <file href="Contribute_an_original_answer.html" />
+    </resource>
+    <resource identifier="Learning_Objectives" type="webcontent" href="Learning_Objectives.html">
+      <file href="Learning_Objectives.html" />
+    </resource>
+  </resources>
+</manifest>
+

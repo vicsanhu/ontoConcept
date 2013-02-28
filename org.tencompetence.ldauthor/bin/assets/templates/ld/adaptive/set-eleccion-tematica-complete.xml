@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns:ld="http://www.imsglobal.org/xsd/imsld_v1p0" xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<link type="text/css" rel="stylesheet" href="style.css"/>
+		<title>Final Topic Selection</title>
+	</head>
+	<body>
+		<div class="C-eleccion-tematica-not-complete">
+			<b><p>Monitor the learner's topic selection</p></b>
+			<p>Select the learner you want to monitor from the menu in the left and press ok to see his/her answers.
+			Review all the learners' answers and select the Topic you want your students to work with taking into 
+			account their opinions. Your learners will not start with the questionnaire until you have chose a 
+			topic.</p>
+			
+			<p>Once you had seen the choices of the different students, select the FINAL topic from the list:
+			</p> 
+			<p><ld:set-property ref="GP-eleccion-final-profe"/></p>
+			
+			<p>Finish the activity by fixing the variable to true:</p>
+			<ld:set-property ref="GP-eleccion-tematica-completed"/>
+		</div>
+		
+		<div class="C-eleccion-tematica-complete">
+			<p>The Topic that is going to be worked is: </p>
+			<ld:view-property ref="GP-eleccion-final-profe" property-of="supported-person" view="value"/>
+		</div>
+	</body>
+</html>

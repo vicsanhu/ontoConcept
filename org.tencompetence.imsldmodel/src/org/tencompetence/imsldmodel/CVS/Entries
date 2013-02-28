@@ -1,0 +1,25 @@
+/Example.java/1.5/Thu Nov 26 09:16:04 2009//
+/IDisposable.java/1.3/Thu Nov 26 09:16:04 2009//
+/IIdentifier.java/1.3/Thu Nov 26 09:16:04 2009//
+/ILDModel.java/1.8/Thu Nov 26 09:16:04 2009//
+/ILDModelJDOMPersistence.java/1.3/Thu Nov 26 09:16:04 2009//
+/ILDModelObject.java/1.4/Thu Nov 26 09:16:04 2009//
+/ILDModelObjectContainer.java/1.3/Thu Nov 26 09:16:04 2009//
+/ILDModelObjectReference.java/1.3/Thu Nov 26 09:16:04 2009//
+/IMSNamespaces.java/1.4/Thu Nov 26 09:16:04 2009//
+/IParentable.java/1.3/Thu Nov 26 09:16:04 2009//
+/IPropertyChangeSupport.java/1.3/Thu Nov 26 09:16:04 2009//
+/ITitle.java/1.3/Thu Nov 26 09:16:04 2009//
+/LDModel.java/1.7/Thu Nov 26 09:16:04 2009//
+/LDModelFactory.java/1.10/Thu Nov 26 09:16:04 2009//
+D/activities////
+D/environments////
+D/expressions////
+D/impl////
+D/internal////
+D/method////
+D/properties////
+D/resources////
+D/roles////
+D/types////
+D/util////

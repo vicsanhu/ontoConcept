@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Edited with ReCourse-->
+<!--Created - Tue Jan 26 19:02:08 CET 2010-->
+<!--Modified - Tue Jan 26 19:02:08 CET 2010-->
+<!--Authors- Mar Pérez-Sanagustín&Patricia Santos, UPF-->
+<manifest xmlns="http://www.imsglobal.org/xsd/imscp_v1p1" xmlns:imsld="http://www.imsglobal.org/xsd/imsld_v1p0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ldauthor="http://www.tencompetence.org/ldauthor" xsi:schemaLocation="http://www.imsglobal.org/xsd/imscp_v1p1 http://www.imsglobal.org/xsd/imscp_v1p1.xsd http://www.imsglobal.org/xsd/imsld_v1p0 http://www.imsglobal.org/xsd/IMS_LD_Level_A.xsd http://www.tencompetence.org/ldauthor ld-author.xsd" identifier="manifest-4361b980-849f-4c35-bbd3-e02b44c6b0a8">
+  <organizations>
+    <imsld:learning-design identifier="ld-d47096ca-3f9b-447c-815b-d2b7e8c3f3f0" version="1.0.0" level="A" uri="http://www.yourURI.here/ae6af60e-065d-4314-b276-0cb170822b26" sequence-used="false">
+      <imsld:title>Guided Discussion</imsld:title>
+      <imsld:components>
+        <imsld:roles>
+          <imsld:learner identifier="role-f84cc243-0417-ba23-cc32-eb46b95ace78">
+            <imsld:title>Discussion Participant</imsld:title>
+          </imsld:learner>
+          <imsld:staff identifier="role-a309cd67-abbf-aa3e-0080-0f97ad7822a6">
+            <imsld:title>Trainer</imsld:title>
+          </imsld:staff>
+        </imsld:roles>
+        <imsld:activities>
+          <imsld:learning-activity identifier="la-00805ac8-1cdd-1fd2-d815-12bee9bac3fd" isvisible="true">
+            <imsld:title>Discuss</imsld:title>
+            <imsld:activity-description>
+              <imsld:title>Activity Description for Discuss</imsld:title>
+              <imsld:item identifier="item-67a30ec0-4b37-b2bb-66f2-3625cb43ca21" isvisible="true" identifierref="file-340ac723-0222-6e91-437b-bfb7295f9d3b.txt">
+                <imsld:title>Discuss Activity Description</imsld:title>
+              </imsld:item>
+            </imsld:activity-description>
+            <imsld:complete-activity>
+              <imsld:user-choice />
+            </imsld:complete-activity>
+          </imsld:learning-activity>
+          <imsld:learning-activity identifier="la-219d2caa-73a8-0948-39ae-6e47e5eaa93b" isvisible="true">
+            <imsld:title>Present views</imsld:title>
+            <imsld:activity-description>
+              <imsld:title>Activity Description for Present views</imsld:title>
+              <imsld:item identifier="item-cbffd802-3f93-97be-33a2-a29596e6fd22" isvisible="true" identifierref="file-d2d74666-ff30-5d5d-afc0-1c81342b2044.txt">
+                <imsld:title>Present views Activity Description</imsld:title>
+              </imsld:item>
+            </imsld:activity-description>
+            <imsld:complete-activity>
+              <imsld:user-choice />
+            </imsld:complete-activity>
+          </imsld:learning-activity>
+          <imsld:support-activity identifier="sa-f11cd324-df44-8b33-ed66-21198f16b7b4" isvisible="true">
+            <imsld:title>Pose questions</imsld:title>
+            <imsld:activity-description>
+              <imsld:title>Activity Description for Pose questions</imsld:title>
+              <imsld:item identifier="item-41adc51b-0127-3da3-e810-64671d198bb5" isvisible="true" identifierref="file-586f704d-0c9c-b4ae-5d71-5e5bfb2cd7bf.txt">
+                <imsld:title>Pose questions Activity Description</imsld:title>
+              </imsld:item>
+            </imsld:activity-description>
+            <imsld:complete-activity>
+              <imsld:user-choice />
+            </imsld:complete-activity>
+          </imsld:support-activity>
+        </imsld:activities>
+      </imsld:components>
+      <imsld:method>
+        <imsld:play identifier="play-21124c9e-15a3-894c-d966-055c95f270f5" isvisible="true">
+          <imsld:title>Guided Discussion</imsld:title>
+          <imsld:act identifier="act-1613546c-40d8-0c1c-59a7-d6b76f686be7">
+            <imsld:title>Pose questions - Discuss</imsld:title>
+            <imsld:role-part identifier="rolepart-1d1c90a3-d333-a7e5-63b3-3788520ed0c8">
+              <imsld:title>Pose questions</imsld:title>
+              <imsld:role-ref ref="role-a309cd67-abbf-aa3e-0080-0f97ad7822a6" />
+              <imsld:support-activity-ref ref="sa-f11cd324-df44-8b33-ed66-21198f16b7b4" />
+            </imsld:role-part>
+            <imsld:role-part identifier="rolepart-db70c5f0-0ac9-f972-35a4-3935771af1d3">
+              <imsld:title>Discuss</imsld:title>
+              <imsld:role-ref ref="role-f84cc243-0417-ba23-cc32-eb46b95ace78" />
+              <imsld:learning-activity-ref ref="la-00805ac8-1cdd-1fd2-d815-12bee9bac3fd" />
+            </imsld:role-part>
+          </imsld:act>
+          <imsld:act identifier="act-0e493060-80f4-f1f4-9bcf-b680e2caaa77">
+            <imsld:title>Present views</imsld:title>
+            <imsld:role-part identifier="rolepart-ada9086d-34c1-388a-9bf4-6725898a7ff4">
+              <imsld:title>Present views</imsld:title>
+              <imsld:role-ref ref="role-f84cc243-0417-ba23-cc32-eb46b95ace78" />
+              <imsld:learning-activity-ref ref="la-219d2caa-73a8-0948-39ae-6e47e5eaa93b" />
+            </imsld:role-part>
+          </imsld:act>
+        </imsld:play>
+      </imsld:method>
+      <imsld:metadata>
+        <ldauthor:root date-created="1264528928796">
+          <ldauthor:images />
+          <ldauthor:overview>
+            <ldauthor:description />
+            <ldauthor:tags />
+            <ldauthor:author />
+            <ldauthor:subject />
+          </ldauthor:overview>
+          <ldauthor:environments />
+        </ldauthor:root>
+      </imsld:metadata>
+    </imsld:learning-design>
+  </organizations>
+  <resources>
+    <resource identifier="file-586f704d-0c9c-b4ae-5d71-5e5bfb2cd7bf.txt" type="webcontent" href="file-586f704d-0c9c-b4ae-5d71-5e5bfb2cd7bf.txt">
+      <file href="file-586f704d-0c9c-b4ae-5d71-5e5bfb2cd7bf.txt" />
+    </resource>
+    <resource identifier="file-340ac723-0222-6e91-437b-bfb7295f9d3b.txt" type="webcontent" href="file-340ac723-0222-6e91-437b-bfb7295f9d3b.txt">
+      <file href="file-340ac723-0222-6e91-437b-bfb7295f9d3b.txt" />
+    </resource>
+    <resource identifier="file-d2d74666-ff30-5d5d-afc0-1c81342b2044.txt" type="webcontent" href="file-d2d74666-ff30-5d5d-afc0-1c81342b2044.txt">
+      <file href="file-d2d74666-ff30-5d5d-afc0-1c81342b2044.txt" />
+    </resource>
+  </resources>
+</manifest>
+

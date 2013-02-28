@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<html xmlns:ld="http://www.imsglobal.org/xsd/imsld_v1p0" xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title>Monitoring t1-p1</title>
+	</head>
+	<div class="C-eleccion-tematica-complete">
+		<div class="C-t1-p1-not-jumped">
+			<body>
+				<big> <b>QUESTION 1 - Correct answer: a) True </b> </big>
+				<p>Answer selected:
+				<ld:view-property property-of="supported-person" ref="LP-respuesta-individual-t1-p1X"  view="value"/>
+				</p>
+				
+				<P>Argument for the answer :
+				<ld:view-property  property-of="supported-person" ref="LP-argumento-individual-t1-p1X"  view="value"/>
+				</P>
+			</body>
+			
+			<p>Jump to question 1:</p> <!--which means that we jump this question-->
+			<ld:set-property property-of="supported-person" ref="LP-t1-p1-jumped"/>
+		
+		</div>
+	</div>
+	
+	<div class="C-t1-p1-jumped">
+			<p>Question 1 has been jumped for his student</p>
+	</div>
+	
+</html>

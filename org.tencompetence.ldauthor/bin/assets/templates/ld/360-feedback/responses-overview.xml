@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<html xmlns:ld="http://www.imsglobal.org/xsd/imsld_v1p0" xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title>The intitial thoughts</title>
+	</head>
+	<body>
+		<table width="533" border="0" cellspacing="0" cellpadding="0">
+				  <tr> 
+					<td >Personal dossier</td>
+				  </tr>
+					<tr colspan="2"> 
+					<td></td>
+				  </tr>
+				  <tr> 
+					<td>This learner's submission were</td>
+					<td><ld:view-property ref="LP-submission" property-of="supported-person"/></td>
+				  </tr>
+					<tr> 
+					<td>After looking at others' thoughts, this learner wrote</td>
+					<td><ld:view-property ref="LP-response-to-submission" property-of="supported-person"/></td>
+				  </tr>
+		 </table>  
+	</body>
+</html>

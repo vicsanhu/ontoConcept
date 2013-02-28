@@ -1,0 +1,29 @@
+Priority 1
+----------
+* Refactor LDGraphContentProvider to get common functionality in one place (Object Analysis)
+  such as getting Activity Stucture children and Env refs
+* Level B modelling
+
+
+Priority 2
+----------
+* Explain what the implications of inherited/parent Roles are
+
+
+
+Priority 3
+----------
+* Show Depths 1, 2, 3, 4, 5
+* Filters to hide elements (hide a Role in the Act view, show/hide Environments)
+* Fix Sash changing size when sizing window
+* Take screenshot
+
+
+
+Perhaps
+-------
+* Persist state. Is it even possible?
+* Bendpoints and Bezier curves in 1.1?
+* Use different connections styles for different relationships
+* You can set filters on the layout algorithms so as not to layout certain elements or, conversely, layout only a selection
+* You can set comparators on the layout algorithms so as to determine the layout order

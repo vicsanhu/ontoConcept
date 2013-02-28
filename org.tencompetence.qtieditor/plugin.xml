@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.2"?>
+<plugin>
+   <extension
+         point="org.eclipse.ui.editors">
+      <editor
+            class="org.tencompetence.qtieditor.ui.AssessmentTestEditor"
+            icon="icons/icon.png"
+            id="org.tencompetence.qtieditor.editor"
+            name="QTI Assessment Test Editor">
+         <contentTypeBinding
+               contentTypeId="org.tencompetence.ldauthor.content.QTI_Test">
+         </contentTypeBinding>
+      </editor>
+   </extension>
+ 
+<!--   
+      <extension
+         point="org.eclipse.ui.menus">
+      <menuContribution
+            locationURI="toolbar:org.tencompetence.filesComposite?before=fileEnd">
+         <command
+               commandId="org.tencompetence.ldauthor.QTI"
+               icon="icons/newfile.gif"
+               label="New QTI Test"
+               style="push">
+         </command>
+      </menuContribution>
+   </extension>
+   
+   <extension
+         point="org.eclipse.ui.commands">
+      <command
+            defaultHandler="org.tencompetence.qtieditor.ToolbarContributionHandler"
+            id="org.tencompetence.ldauthor.QTI"
+            name="New QTI Test">
+      </command>
+   </extension>
+   
+   <extension
+         point="org.eclipse.ui.popupMenus">
+      <viewerContribution
+            id="org.tencompetence.ldauthor.fileContributionPopup"
+            targetID="org.tencompetence.filesComposite.popupmenu">
+         <action
+               class="org.tencompetence.qtieditor.NewQTITestActionDelegate"
+               icon="icons/newfile.gif"
+               id="org.tencompetence.ldauthor.action1"
+               label="New QTI Test"
+               menubarPath="fileEnd">
+         </action>
+      </viewerContribution>
+   </extension>
+   
+      <extension
+         point="org.eclipse.ui.newWizards">
+      <wizard
+            class="org.tencompetence.qtieditor.ui.NewQTITestWizard"
+            icon="icons/newfile.gif"
+            id="org.tencompetence.qtieditor.NewQTITestWizard"
+            name="QTI Test"
+            preferredPerspectives="*">
+      </wizard>
+   </extension>
+   <extension
+         point="org.eclipse.ui.perspectiveExtensions">
+      <perspectiveExtension
+            targetID="*">
+         <newWizardShortcut
+               id="org.tencompetence.qtieditor.NewQTITestWizard">
+         </newWizardShortcut>
+      </perspectiveExtension>
+   </extension>
+   
+-->   
+   
+   <extension
+         point="org.eclipse.core.contenttype.contentTypes">
+      <content-type
+            base-type="org.eclipse.core.runtime.xml"
+            file-extensions="xml"
+            id="org.tencompetence.ldauthor.content.QTI_Test"
+            name="QTI Type"
+            priority="high">
+         <describer
+               class="org.eclipse.core.runtime.content.XMLRootElementContentDescriber">
+            <parameter
+                  name="element"
+                  value="assessmentTest">
+            </parameter>
+         </describer>
+      </content-type>
+   </extension>
+   <extension
+         point="org.tencompetence.ldauthor.contenthandler">
+      <contenthandler
+            class="org.tencompetence.qtieditor.QTITestContentHandler"
+            id="org.tencompetence.qtieditor.itemhandler">
+      </contenthandler>
+   </extension>
+   
+
+</plugin>

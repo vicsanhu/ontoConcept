@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Edited with ReCourse-->
+<!--Created - Tue Jan 26 12:57:54 CET 2010-->
+<!--Modified - Tue Jan 26 13:06:29 CET 2010-->
+<!--Authors- Mar Pérez-Sanagustín&Patricia Santos, UPF-->
+<!--Adapted from PROLIX templates-->
+<manifest xmlns="http://www.imsglobal.org/xsd/imscp_v1p1" xmlns:imsld="http://www.imsglobal.org/xsd/imsld_v1p0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ldauthor="http://www.tencompetence.org/ldauthor" xsi:schemaLocation="http://www.imsglobal.org/xsd/imscp_v1p1 http://www.imsglobal.org/xsd/imscp_v1p1.xsd http://www.imsglobal.org/xsd/imsld_v1p0 http://www.imsglobal.org/xsd/IMS_LD_Level_A.xsd http://www.tencompetence.org/ldauthor ld-author.xsd" identifier="manifest-20b6fe71-61fe-4bce-810a-3a2bc997ce8d">
+  <organizations>
+    <imsld:learning-design identifier="ld-c6f61484-0b9a-43e5-b24a-149a93fd450a" version="1.0.0" level="A" uri="http://www.yourURI.here/d7ef4bbb-51e2-4bc1-b201-f1dd24b5b80c" sequence-used="false">
+      <imsld:title>One-minute-paper</imsld:title>
+      <imsld:components>
+        <imsld:roles>
+          <imsld:learner identifier="role-3fca017f-999c-b4ed-cbe7-1f9d2a2eee2f">
+            <imsld:title>Learner</imsld:title>
+          </imsld:learner>
+          <imsld:staff identifier="role-4b9cfea2-e2bf-d10b-667e-118494db6aad">
+            <imsld:title>Trainer</imsld:title>
+          </imsld:staff>
+        </imsld:roles>
+        <imsld:activities>
+          <imsld:learning-activity identifier="la-445f5352-32e2-2800-cdd3-63182e683872" isvisible="true">
+            <imsld:title>Answer questions</imsld:title>
+            <imsld:activity-description>
+              <imsld:title>Activity Description for Answer questions</imsld:title>
+              <imsld:item identifier="item-a4d87da9-450a-10ab-1241-65c134c0dfbf" isvisible="true" identifierref="file-afbd9e1c-67ff-5f75-e058-ff96a0893076.txt">
+                <imsld:title>Answer questions Activity Description</imsld:title>
+              </imsld:item>
+            </imsld:activity-description>
+            <imsld:complete-activity>
+              <imsld:user-choice />
+            </imsld:complete-activity>
+          </imsld:learning-activity>
+          <imsld:support-activity identifier="sa-64ca4f3d-cce4-2be2-d462-24fb00337cca" isvisible="true">
+            <imsld:title>Evaluate &amp; act on reflection</imsld:title>
+            <imsld:role-ref ref="role-3fca017f-999c-b4ed-cbe7-1f9d2a2eee2f" />
+            <imsld:activity-description>
+              <imsld:title>Activity Description for Evaluate &amp; act on reflection</imsld:title>
+              <imsld:item identifier="item-71d44a9c-3bda-7de9-d52c-a9d20401ba15" isvisible="true" identifierref="file-e7ed9e92-8176-5a1a-3f56-ec28bae7be57.txt">
+                <imsld:title>Evaluate &amp; act on reflection Activity Description</imsld:title>
+              </imsld:item>
+            </imsld:activity-description>
+            <imsld:complete-activity>
+              <imsld:user-choice />
+            </imsld:complete-activity>
+          </imsld:support-activity>
+          <imsld:support-activity identifier="sa-82acde8a-4fd9-a6a4-0619-4685e5ca8fe2" isvisible="true">
+            <imsld:title>Prepare one-minute-paper reflection</imsld:title>
+            <imsld:role-ref ref="role-3fca017f-999c-b4ed-cbe7-1f9d2a2eee2f" />
+            <imsld:environment-ref ref="env-c65d25ad-95a7-4e01-9cc0-d730ee2ce020" />
+            <imsld:activity-description>
+              <imsld:title>Activity Description for Prepare one-minute-paper reflection</imsld:title>
+              <imsld:item identifier="item-c2753d77-c93a-45ed-e2cc-3b11fdef78e6" isvisible="true" identifierref="file-14ac7369-aeb6-7eb1-642d-1fbac27862ab.txt">
+                <imsld:title>Prepare one-minute-paper reflection Activity Description</imsld:title>
+              </imsld:item>
+            </imsld:activity-description>
+            <imsld:complete-activity>
+              <imsld:user-choice />
+            </imsld:complete-activity>
+          </imsld:support-activity>
+          <imsld:support-activity identifier="sa-09032005-6804-406c-879f-e3bad1caf63e" isvisible="true">
+            <imsld:title>The Support activity 1: Prepare one-minute-paper reflection</imsld:title>
+            <imsld:environment-ref ref="env-c65d25ad-95a7-4e01-9cc0-d730ee2ce020" />
+            <imsld:activity-description>
+              <imsld:item identifier="item-98a98a04-2b21-4f74-8fdb-a01f218a42bf" isvisible="true" identifierref="_Use_The_Support_activity_1__Prepare_one-minute-paper_reflection">
+                <imsld:title>Resource</imsld:title>
+              </imsld:item>
+            </imsld:activity-description>
+            <imsld:complete-activity>
+              <imsld:user-choice />
+            </imsld:complete-activity>
+          </imsld:support-activity>
+        </imsld:activities>
+        <imsld:environments>
+          <imsld:environment identifier="env-c65d25ad-95a7-4e01-9cc0-d730ee2ce020">
+            <imsld:title>Question Enviroment</imsld:title>
+            <imsld:service identifier="conference-1fc000d6-2871-4c58-bb61-e0a4fedbbc3a" isvisible="true" parameters="widget=discussion">
+              <imsld:conference conference-type="synchronous">
+                <imsld:title>Questions Forum</imsld:title>
+                <imsld:participant role-ref="role-3fca017f-999c-b4ed-cbe7-1f9d2a2eee2f" />
+                <imsld:observer role-ref="role-4b9cfea2-e2bf-d10b-667e-118494db6aad" />
+                <imsld:conference-manager role-ref="role-4b9cfea2-e2bf-d10b-667e-118494db6aad" />
+                <imsld:moderator role-ref="role-4b9cfea2-e2bf-d10b-667e-118494db6aad" />
+                <imsld:item identifier="item-2b240f29-6058-4eb7-bbf0-39c5978705f3" isvisible="true" identifierref="Conference">
+                  <imsld:title>Item</imsld:title>
+                </imsld:item>
+              </imsld:conference>
+            </imsld:service>
+            <imsld:service identifier="conference-7a2a8147-e93c-47f9-bb55-da9068ef5ef8" isvisible="true" parameters="widget=chat">
+              <imsld:conference conference-type="synchronous">
+                <imsld:title>Chat for questions' distribution</imsld:title>
+                <imsld:participant role-ref="role-3fca017f-999c-b4ed-cbe7-1f9d2a2eee2f" />
+                <imsld:observer role-ref="role-4b9cfea2-e2bf-d10b-667e-118494db6aad" />
+                <imsld:conference-manager role-ref="role-4b9cfea2-e2bf-d10b-667e-118494db6aad" />
+                <imsld:moderator role-ref="role-4b9cfea2-e2bf-d10b-667e-118494db6aad" />
+                <imsld:item identifier="item-02d1534d-1827-4fdd-bab2-188fb8125d05" isvisible="true" identifierref="Conference-1">
+                  <imsld:title>Item</imsld:title>
+                </imsld:item>
+              </imsld:conference>
+            </imsld:service>
+          </imsld:environment>
+        </imsld:environments>
+      </imsld:components>
+      <imsld:method>
+        <imsld:play identifier="play-bffdb442-12d3-3eb1-bcb1-eca6da68aa06" isvisible="true">
+          <imsld:title>One-minute-paper</imsld:title>
+          <imsld:act identifier="act-35c63f4f-493d-591e-e177-2f6dc52e8fd5">
+            <imsld:title>Prepare one-minute-paper reflection</imsld:title>
+            <imsld:role-part identifier="rolepart-18c2404f-7f83-dbfa-fdb1-41877b21da18">
+              <imsld:title>Prepare one-minute-paper reflection</imsld:title>
+              <imsld:role-ref ref="role-4b9cfea2-e2bf-d10b-667e-118494db6aad" />
+              <imsld:support-activity-ref ref="sa-82acde8a-4fd9-a6a4-0619-4685e5ca8fe2" />
+            </imsld:role-part>
+            <imsld:role-part identifier="rolepart-58c29fc6-c0c9-44b6-9095-9e932875fd8e">
+              <imsld:title>Role Part</imsld:title>
+              <imsld:role-ref ref="role-4b9cfea2-e2bf-d10b-667e-118494db6aad" />
+              <imsld:support-activity-ref ref="sa-09032005-6804-406c-879f-e3bad1caf63e" />
+            </imsld:role-part>
+            <imsld:role-part identifier="rolepart-37a9f5e5-9c9d-42c3-bc86-4f318649a01e">
+              <imsld:title>Role Part</imsld:title>
+              <imsld:role-ref ref="role-3fca017f-999c-b4ed-cbe7-1f9d2a2eee2f" />
+              <imsld:support-activity-ref ref="sa-09032005-6804-406c-879f-e3bad1caf63e" />
+            </imsld:role-part>
+          </imsld:act>
+          <imsld:act identifier="act-8bf37fbd-3a16-eea5-4d5f-3137c50f6901">
+            <imsld:title>Answer questions</imsld:title>
+            <imsld:role-part identifier="rolepart-b902bc2a-9b6f-815f-7c6e-4939b3492857">
+              <imsld:title>Answer questions</imsld:title>
+              <imsld:role-ref ref="role-3fca017f-999c-b4ed-cbe7-1f9d2a2eee2f" />
+              <imsld:learning-activity-ref ref="la-445f5352-32e2-2800-cdd3-63182e683872" />
+            </imsld:role-part>
+          </imsld:act>
+          <imsld:act identifier="act-b19edf72-ee06-d7a4-7d32-b36eb874e67b">
+            <imsld:title>Evaluate &amp; act on reflection</imsld:title>
+            <imsld:role-part identifier="rolepart-70fe46eb-435b-2fcc-a926-4adc4624b0d6">
+              <imsld:title>Evaluate &amp; act on reflection</imsld:title>
+              <imsld:role-ref ref="role-4b9cfea2-e2bf-d10b-667e-118494db6aad" />
+              <imsld:support-activity-ref ref="sa-64ca4f3d-cce4-2be2-d462-24fb00337cca" />
+            </imsld:role-part>
+          </imsld:act>
+        </imsld:play>
+      </imsld:method>
+    </imsld:learning-design>
+  </organizations>
+  <resources>
+    <resource identifier="file-afbd9e1c-67ff-5f75-e058-ff96a0893076.txt" type="webcontent" href="file-afbd9e1c-67ff-5f75-e058-ff96a0893076.txt">
+      <file href="file-afbd9e1c-67ff-5f75-e058-ff96a0893076.txt" />
+    </resource>
+    <resource identifier="file-e7ed9e92-8176-5a1a-3f56-ec28bae7be57.txt" type="webcontent" href="file-e7ed9e92-8176-5a1a-3f56-ec28bae7be57.txt">
+      <file href="file-e7ed9e92-8176-5a1a-3f56-ec28bae7be57.txt" />
+    </resource>
+    <resource identifier="file-14ac7369-aeb6-7eb1-642d-1fbac27862ab.txt" type="webcontent" href="file-14ac7369-aeb6-7eb1-642d-1fbac27862ab.txt">
+      <file href="file-14ac7369-aeb6-7eb1-642d-1fbac27862ab.txt" />
+    </resource>
+    <resource identifier="_Use_The_Support_activity_1__Prepare_one-minute-paper_reflection" type="webcontent" href="_Use_The_Support_activity_1__Prepare_one-minute-paper_reflection.html">
+      <file href="_Use_The_Support_activity_1__Prepare_one-minute-paper_reflection.html" />
+    </resource>
+    <resource identifier="Conference" type="webcontent" href="Conference.html">
+      <file href="Conference.html" />
+    </resource>
+    <resource identifier="Conference-1" type="webcontent" href="Conference-1.html">
+      <file href="Conference-1.html" />
+    </resource>
+  </resources>
+</manifest>
+

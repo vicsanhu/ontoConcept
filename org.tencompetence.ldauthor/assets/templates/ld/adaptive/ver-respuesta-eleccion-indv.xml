@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<html xmlns:ld="http://www.imsglobal.org/xsd/imsld_v1p0" xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title>Individual choice and reflection of the topic</title>
+	</head>
+	<body>
+		<b><p>Answers of the student selected</p></b>
+		
+		<p>Topic selected:
+		<ld:view-property ref="LP-eleccion-tematica-alumno" property-of="supported-person" view="value"/>
+		</p>
+		<P>Previous knowledge about the topic:
+		<ld:view-property property-of="supported-person" ref="LP-argumento-eleccion-tematica-alumno" view="value"/>
+		</P>
+	</body>
+	
+</html>

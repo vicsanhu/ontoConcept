@@ -1,0 +1,4 @@
+[Trainer]
+Solicit the results from the learners' discussions. Moderate the discussion as necessary. You can use the chat for moderating the discussion.
+
+Fill the activity "Discuss Results" for giving some guidelines about how your learners should behave.

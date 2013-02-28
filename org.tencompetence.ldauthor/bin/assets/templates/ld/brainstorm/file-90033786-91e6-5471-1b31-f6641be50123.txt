@@ -1,0 +1,5 @@
+Generate about five criteria for judging which ideas best solve the problem. Criteria should start with the word "should", for example, "it should be cost effective", "it should be legal", "it should be possible to finish before July 15", etc.
+
+Then, assign each proposed solution a score of 0 to 5 points depending on how well it meets each criterion that you generated.
+
+Add up the scores. The idea with the highest score may best solve the problem.

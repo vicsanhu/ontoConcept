@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<html xmlns:ld="http://www.imsglobal.org/xsd/imsld_v1p0" xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title>Reading teacher´s first correction and your remarks</title>
+	</head>
+	<body>
+ 		 <table width="533" border="0" cellspacing="0" cellpadding="0">
+ 				   <tr> 
+					<td>Your assesment</td>
+					<td><ld:view-property ref="LP-submission" property-of="self" view="value"/></td>
+				  </tr>
+ 				   <tr> 
+					<td>First correction</td>
+					<td><ld:view-property ref="LP-tutor-comments-submission" property-of="self" view="value"/></td>
+				  </tr>				  
+ 				   <tr> 
+					<td>Your remarks on the first correction</td>
+					<td><ld:view-property ref="LP-response-to-submission" property-of="self" view="value"/></td>
+				  </tr>				  				  
+		 </table>  	
+	</body>
+</html>

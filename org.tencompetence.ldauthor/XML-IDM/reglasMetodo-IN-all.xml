@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<methods>
+	<method id-method="RET-met1-1">
+			<rule>
+				<id-rule>met1-1-1</id-rule>
+				<methodName>conceptual</methodName>
+				<class-onto>http://www.cc.uah.es/ie/ont/elabtheory.owl#ConceptLearningActivity</class-onto>
+				<property-onto>http://www.cc.uah.es/ie/ont/elabtheory.owl#RET-rule-1-1-1 </property-onto>
+				<ld-object>  </ld-object>
+				<recomm>The Learning Design may include a topic that includes at least two other topics.</recomm>
+			</rule>
+			<rule>
+				<id-rule>met1-1-2</id-rule>
+				<methodName>conceptual</methodName>
+				<class-onto>http://www.cc.uah.es/ie/ont/elabtheory.owl#ConceptLearningActivity</class-onto>
+				<property-onto>http://www.cc.uah.es/ie/ont/elabtheory.owl#RET-rule-1-1-2 </property-onto>
+				<ld-object>  </ld-object>
+				<recomm>The Learning Design may include a topic that includes at least two other topics, so that they specialize to the first. </recomm>
+			</rule>
+			<rule>
+				<id-rule>met1-1-3</id-rule>
+				<methodName>conceptual</methodName>
+				<class-onto>http://www.cc.uah.es/ie/ont/elabtheory.owl#ConceptLearningActivity</class-onto>
+				<property-onto>http://www.cc.uah.es/ie/ont/elabtheory.owl#RET-rule-1-1-3 </property-onto>
+				<ld-object>  </ld-object>
+				<recomm>The Learning Design may include a topic that has at least two other topics that are part of it.</recomm>
+			</rule>
+			<rule>
+				<id-rule>met1-1-4</id-rule>
+				<methodName>conceptual</methodName>
+				<class-onto>http://www.cc.uah.es/ie/ont/elabtheory.owl#ConceptLearningActivity</class-onto>
+				<property-onto>http://www.cc.uah.es/ie/ont/elabtheory.owl#RET-rule-1-1-4 </property-onto>
+				<ld-object>  </ld-object>
+				<recomm>The Learning Design may include a topic that has at least two "supporting content".</recomm>
+			</rule>
+	</method>
+	<method id-method="RET-met1-2">
+			<rule>
+				<id-rule>met1-2</id-rule>
+				<methodName>conceptual</methodName>
+				<class-onto>http://www.eume.net/ontology/ld.owl#Activity-Structure</class-onto>
+				<property-onto>http://www.cc.uah.es/ie/ont/elabtheory.owl#RET-rule-1-2 </property-onto>
+				<ld-object>  </ld-object>
+				<recomm>Learning activities associated with broader concepts should be presented first.</recomm>
+			</rule>
+	</method>
+	<method id-method="RET-met1-4">
+			<rule>
+				<id-rule>met1-4</id-rule>
+				<methodName>conceptual</methodName>
+				<class-onto>http://www.cc.uah.es/ie/ont/elabtheory.owl#ConceptLearningActivity</class-onto>
+				<property-onto>http://www.cc.uah.es/ie/ont/elabtheory.owl#RET-rule-1-4 </property-onto>
+				<ld-object>  </ld-object>
+				<recomm>Some of the concepts considered in the Learning Design must have a "supporting content".</recomm>
+			</rule>
+	</method>
+	<method id-method="RET-met1-5">
+			<rule>
+				<id-rule>met1-5-1</id-rule>
+				<methodName>conceptual</methodName>
+				<class-onto>http://www.eume.net/ontology/ld.owl#Method</class-onto>
+				<property-onto>http://www.cc.uah.es/ie/ont/elabtheory.owl#RET-rule-1-5-1 </property-onto>
+				<ld-object>  </ld-object>
+				<recomm>The Learning Design should have a play with at least two acts.</recomm>
+			</rule>
+			<rule>
+				<id-rule>met1-5-2</id-rule>
+				<methodName>conceptual</methodName>
+				<class-onto>http://www.eume.net/ontology/ld.owl#Activity-Structure</class-onto>
+				<property-onto>http://www.cc.uah.es/ie/ont/elabtheory.owl#RET-rule-1-5-2 </property-onto>
+				<ld-object>  </ld-object>
+				<recomm>The Learning Design may have a "Activities Structure" which allows grouping at least two activities.</recomm>
+			</rule>
+	</method>
+	<method id-method="RET-met1-6">
+			<rule>
+				<id-rule>met1-6-1</id-rule>
+				<methodName>conceptual</methodName>
+				<class-onto>http://www.eume.net/ontology/ld.owl#Method</class-onto>
+				<property-onto>http://www.cc.uah.es/ie/ont/elabtheory.owl#RET-rule-1-6-1 </property-onto>
+				<ld-object>  </ld-object>
+				<recomm>The student should be allowed to choose the next Play.</recomm>
+			</rule>
+			<rule>
+				<id-rule>met1-6-2</id-rule>
+				<methodName>conceptual</methodName>
+				<class-onto>http://www.eume.net/ontology/ld.owl#Method</class-onto>
+				<property-onto>http://www.cc.uah.es/ie/ont/elabtheory.owl#RET-rule-1-6-2 </property-onto>
+				<ld-object>  </ld-object>
+				<recomm>The student should be allowed to choose the next Act.</recomm>
+			</rule>
+	</method>
+	<method id-method="RET-met3-1">
+			<rule>
+				<id-rule>met3-1-1</id-rule>
+				<methodName>simplifying</methodName>
+				<class-onto>http://www.cc.uah.es/ie/ont/elabtheory.owl#ConceptLearningActivity</class-onto>
+				<property-onto>http://www.cc.uah.es/ie/ont/elabtheory.owl#RET-rule-3-1-1 </property-onto>
+				<ld-object>  </ld-object>
+				<recomm>The Learning Design must use concepts, which have at least two levels deep.</recomm>
+			</rule>
+			<rule>
+				<id-rule>met3-1-2</id-rule>
+				<methodName>simplifying</methodName>
+				<class-onto>http://www.cc.uah.es/ie/ont/elabtheory.owl#ConceptLearningActivity</class-onto>
+				<property-onto>http://www.cc.uah.es/ie/ont/elabtheory.owl#RET-rule-3-1-2 </property-onto>
+				<ld-object>  </ld-object>
+				<recomm>The Learning Design should use at least one concept that includes other two, and one of these must have at least one level deep.</recomm>
+			</rule>
+	</method>
+	<method id-method="RET-met3-2">
+			<rule>
+				<id-rule>met3-2-2</id-rule>
+				<methodName>simplifying</methodName>
+				<class-onto>http://www.eume.net/ontology/ld.owl#Activity-Structure</class-onto>
+				<property-onto>http://www.cc.uah.es/ie/ont/elabtheory.owl#RET-rule-3-2-2</property-onto>
+				<ld-object>  </ld-object>
+				<recomm>Learning activities associated with simpler conditions should be presented first.</recomm>
+			</rule>
+	</method>
+	<method id-method="RET-met3-5">
+			<rule>
+				<id-rule>met3-5-1</id-rule>
+				<methodName>simplifying</methodName>
+				<class-onto>http://www.eume.net/ontology/ld.owl#Method</class-onto>
+				<property-onto>http://www.cc.uah.es/ie/ont/elabtheory.owl#RET-rule-3-5-1 </property-onto>
+				<ld-object>  </ld-object>
+				<recomm>The Learning Design must include a topical and "supporting Content" in the same Play</recomm>
+			</rule>
+			<rule>
+				<id-rule>met3-5-2</id-rule>
+				<methodName>simplifying</methodName>
+				<class-onto>http://www.eume.net/ontology/ld.owl#Method</class-onto>
+				<property-onto>http://www.cc.uah.es/ie/ont/elabtheory.owl#RET-rule-3-5-2 </property-onto>
+				<ld-object>  </ld-object>
+				<recomm>The Learning Design must include a topic and "supporting content"of another that contains it, in the same Play</recomm>
+			</rule>
+			<rule>
+				<id-rule>met3-5-3</id-rule>
+				<methodName>simplifying</methodName>
+				<class-onto>http://www.eume.net/ontology/ld.owl#Method</class-onto>
+				<property-onto>http://www.cc.uah.es/ie/ont/elabtheory.owl#RET-rule-3-5-3 </property-onto>
+				<ld-object>  </ld-object>
+				<recomm>The Learning Design must include a topical and "supporting content" in the same Play</recomm>
+			</rule>
+			<rule>
+				<id-rule>met3-5-4</id-rule>
+				<methodName>simplifying</methodName>
+				<class-onto>http://www.eume.net/ontology/ld.owl#Method</class-onto>
+				<property-onto>http://www.cc.uah.es/ie/ont/elabtheory.owl#RET-rule-3-5-4 </property-onto>
+				<ld-object>  </ld-object>
+				<recomm>The Learning Design must include a topical and "supporting content" in the same Play</recomm>
+			</rule>
+			
+	</method>
+	<method id-method="RET-met3-6">
+			<rule>
+				<id-rule>met3-6-1</id-rule>
+				<methodName>simplifying</methodName>
+				<class-onto>http://www.eume.net/ontology/ld.owl#Method</class-onto>
+				<property-onto>http://www.cc.uah.es/ie/ont/elabtheory.owl#RET-rule-3-6-1 </property-onto>
+				<ld-object>  </ld-object>
+				<recomm>The Learning Design should have a Play with at least two Acts.</recomm>
+			</rule>
+			<rule>
+				<id-rule>met3-6-2</id-rule>
+				<methodName>simplifying</methodName>
+				<class-onto>http://www.eume.net/ontology/ld.owl#Activity-Structure</class-onto>
+				<property-onto>http://www.cc.uah.es/ie/ont/elabtheory.owl#RET-rule-3-6-2 </property-onto>
+				<ld-object>  </ld-object>
+				<recomm>The Learning Design may have a "Activities Structure" which allows grouping at least two activities.</recomm>
+			</rule>
+	</method>
+	<method id-method="RET-met3-7"> 
+			<rule>
+				<id-rule>met3-7</id-rule>
+				<methodName>simplifying</methodName>
+				<class-onto>http://www.eume.net/ontology/ld.owl#Method</class-onto>
+				<property-onto>http://www.cc.uah.es/ie/ont/elabtheory.owl#RET-rule-3-7 </property-onto>
+				<ld-object>  </ld-object>
+				<recomm>The student should be able to choose the next Learning Activity</recomm>
+			</rule>
+	</method>
+</methods>

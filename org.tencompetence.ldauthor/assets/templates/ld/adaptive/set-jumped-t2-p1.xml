@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<html xmlns:ld="http://www.imsglobal.org/xsd/imsld_v1p0" xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title>Jump t2-p1</title>
+	</head>
+	<body>
+	
+	<div class="C-eleccion-tematica-complete">
+		<div class="C-t2-p1-not-jumped">
+		
+				<p>You can make the learner jump a question by selecting his/her name on the list from the left menu</p>
+		</div>
+	</div>
+		
+		<div class="C-t2-p1-jumped">
+			<p>Question 1 has been jumped for this student</p>
+		</div>
+	
+	</body>
+	
+</html>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<html xmlns:ld="http://www.imsglobal.org/xsd/imsld_v1p0" xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<link type="text/css" rel="stylesheet" href="style.css"/>
+		<title>Quest t2 - Question 12</title>
+	</head>
+	<body>
+	<div class="C-t2-p2-not-jumped">
+		<div class="C-t2-p2-not-complete">
+			<b><p>Topic 2: Question 2</p></b>
+			<p>Your previous answer was incorrect. Try now with this exercise.
+			</p> 
+			
+			<p>Read the questions carefully, select the appropriate 
+			answer and justify your response.
+			</p> 
+			
+			<p>
+				(TO BE COMPLETED: Write the question for the student. The correct answer should be TRUE)
+			</p>
+				
+			
+			<p>Please, mark the most correct answer.
+			<ld:set-property ref="LP-respuesta-individual-t2-p12X"/></p>
+			
+			<p>Please, justify your response:</p>
+			<ld:set-property ref="LP-argumento-individual-t2-p12X"/>
+			
+			<p>Once finished the activity select true:</p>
+			<ld:set-property ref="LP-t2-p2-completed"/>			
+		</div>
+		
+		
+		<div class="C-t2-p2-complete">
+			<p>The correct answer is TRUE. (TO BE COMPLETED: You can add an explanation of the correct answer)
+
+			</p>
+			<p>Your Answer: 
+			<ld:view-property ref="LP-respuesta-individual-t2-p12X" property-of="self" view="value"/></p>
+			<p>Your Justification:</p>
+			<ld:view-property ref="LP-argumento-individual-t2-p12X" property-of="self" view="value"/>
+			
+		</div>
+		</div>
+		
+		<div class="C-t2-p2-jumped">
+			<p>The teacher has decided to make you jump
+			this question. Please, continue with the next question.</p>
+		</div>
+	</body>
+</html>

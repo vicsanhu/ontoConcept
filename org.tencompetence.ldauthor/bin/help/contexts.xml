@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<?NLS TYPE="org.eclipse.help.contexts"?> 
+<contexts>
+    
+    <context id="inspectorViewHelp">
+        <description>This is the Inspector. You can...</description>
+        <topic label="Inspector. View" href="help/organiser.html"/>
+    </context>
+
+    <context id="organiserViewHelp">
+        <description>This is the Library View. You can organise your bookmarks for Learning Designs and Resources.</description>
+        <topic label="Library View" href="help/organiser.html"/>
+    </context>
+    
+    <context id="checkerViewHelp">
+        <description>This is the Checker View. You can check what's missing.</description>
+        <topic label="Checker View" href="help/checker.html"/>
+    </context>
+    
+    <context id="publisherViewHelp">
+        <description>This is the Publisher View. Publish and manage Units of Learning on a CopperCore Server.</description>
+        <topic label="Publisher View" href="help/publisher.html"/>
+    </context>
+
+    <context id="rolesEditorHelp">
+        <description>This is the Roles Editor. You can create Roles.</description>
+        <topic label="Roles Editor" href="help/roles-editor.html"/>
+    </context>
+    
+    <context id="resourcesEditorHelp">
+        <description>This is the Resources Editor. You can organise and manage Resources for the Unit of Learning.</description>
+        <topic label="Resources Editor" href="help/resource-editor.html"/>
+    </context>
+
+</contexts>

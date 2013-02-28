@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<html xmlns:ld="http://www.imsglobal.org/xsd/imsld_v1p0" xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title>Reading final teacher´s remarks and final qualifications for all the group</title>
+	</head>
+	<body>
+		<table width="533" border="0" cellspacing="0" cellpadding="0">
+		  <tr> 
+			<td colspan="3">Personal dossier</td>
+		  </tr>
+		  <tr> 
+			<td width="27"></td>
+			<td width="157">Name</td>
+			<td width="349"><ld:view-property ref="LP-name2" property-of="self" view="value"/></td>
+		  </tr>
+		  <tr> 
+			<td></td>
+			<td>Email</td>
+			<td><ld:view-property ref="LP-email2" property-of="self" view="value"/></td>
+		  </tr>
+		  <tr> 
+			<td></td>
+			<td>Title of assignement</td>
+			<td><ld:view-property ref="LP-title2" property-of="self" view="value"/></td>
+		  </tr>
+		  <tr> 
+			<td></td>
+			<td>File</td>
+			<td><ld:view-property ref="LP-submission2" property-of="self" view="value"/></td>
+		  </tr>
+		  <tr> 
+			<td colspan="3">Teacher notes</td>
+		  </tr>
+		  <tr> 
+			<td height="35"></td>
+			<td height="35">First remark</td>
+			<td><ld:view-property ref="LP-tutor-comments-submission" property-of="self" view="value"/></td>
+		  </tr>
+		    <tr> 
+			<td height="35"></td>
+			<td height="35">Second remark</td>
+			<td><ld:view-property ref="LP-tutor-comments-submission2" property-of="self" view="value"/></td>
+		  </tr>
+		  <tr> 
+			<td height="35"></td>
+			<td height="35">Your feedback</td>
+			<td><ld:view-property ref="LP-response-to-submission" property-of="self" view="value"/></td>
+		  </tr>
+		  <tr> 
+			<td height="35"></td>
+			<td height="35">Final remark</td>
+			<td><ld:view-property ref="LP-tutor-comments-submission-final" property-of="self"/></td>
+		  </tr>
+		  <tr> 
+			<td height="35"></td>
+			<td height="35">Qualification</td>
+			<td><ld:view-property ref="LP-tutor-comments-submission-qualifications" property-of="self" view="value"/></td>
+		  </tr>
+		  <tr> 
+			<td height="35"></td>
+			<td height="35">Numerical mark (0-10)</td>
+			<td><ld:view-property ref="LP-tutor-comments-submission-mark" property-of="self"/></td>
+		  </tr>
+		</table>	
+	</body>
+</html>

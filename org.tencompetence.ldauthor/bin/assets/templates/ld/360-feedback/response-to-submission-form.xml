@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<html xmlns:ld="http://www.imsglobal.org/xsd/imsld_v1p0" xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title>Reading teacher´s remarks and optionally requesting a review</title>
+	</head>
+	<body>
+ 		 <table width="533" border="0" cellspacing="0" cellpadding="0">
+ 				   <tr> 
+					<td colspan="2">PeerStudent1's remarks were</td>
+					<td><ld:view-property ref="LP-tutor-comments-submission" property-of="self" view="value"/></td>
+				  </tr>
+				  <tr> 
+					<td colspan="2">PeerStudent2's remarks were</td>
+					<td><ld:view-property ref="LP-tutor-comments-submission2" property-of="self" view="value"/></td>
+				  </tr>
+		 </table>  	
+		<p></p>
+		<div class="C-Activity3-not-complete">
+ 		 <table width="533" border="0" cellspacing="0" cellpadding="0">
+ 				   <tr> 
+					<td>If you want to request a review, write here your comments and send them to the teacher</td>
+					<td><ld:set-property ref="LP-response-to-submission" property-of="self" view="value"/></td>
+				  </tr>
+		 </table>		
+		</div>
+		<div class="C-Activity3-complete">
+ 		 <table width="533" border="0" cellspacing="0" cellpadding="0">
+ 				   <tr> 
+					<td>These are your remarks on the first correction</td>
+					<td><ld:view-property ref="LP-response-to-submission" property-of="self" view="value"/></td>
+				  </tr>
+		 </table>		
+		</div>
+	</body>
+</html>

@@ -1,0 +1,18 @@
+/IBrowserView.java/1.1/Mon Sep  3 12:07:14 2007//
+/ICheckerView.java/1.1/Fri Nov 23 12:19:21 2007//
+/IConditionsView.java/1.1/Mon Jun  8 11:18:52 2009//
+/ILDPropertiesView.java/1.1/Thu Oct 30 12:30:45 2008//
+/IOrganiserView.java/1.2/Fri Nov 21 17:09:42 2008//
+/IPreviewView.java/1.1/Fri Oct 30 14:18:10 2009//
+/IPublisherView.java/1.1/Fri Nov 23 12:19:21 2007//
+/ViewManager.java/1.10/Sat Nov 22 01:47:39 2008//
+D/browser////
+D/checker////
+D/conditions////
+D/inspector////
+D/ldproperties////
+D/organiser////
+D/preview////
+D/project////
+D/properties////
+D/publisher////

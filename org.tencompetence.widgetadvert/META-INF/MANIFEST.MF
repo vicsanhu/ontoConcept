@@ -1,0 +1,22 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: WidgetAdvert Plug-in
+Bundle-SymbolicName: org.tencompetence.widgetadvert;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: Bolton University
+Require-Bundle: org.eclipse.core.runtime,
+ org.tencompetence.jdom,
+ org.tencompetence.ldauthor,
+ org.eclipse.ui;bundle-version="3.4.1"
+Bundle-ClassPath: .,
+ lib/commons-codec-1.3.jar,
+ lib/commons-httpclient-3.0.1.jar,
+ lib/commons-logging-1.1.jar
+Export-Package: org.apache.commons.httpclient,
+ org.tencompetence.widgetadvert,
+ org.tencompetence.widgetadvert.impl,
+ org.tencompetence.widgetadvert.model,
+ org.tencompetence.widgetadvert.model.impl
+Bundle-Activator: org.tencompetence.widgetadvert.WidgetAdvertPlugin
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: J2SE-1.5

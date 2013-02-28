@@ -1,0 +1,4 @@
+[Trainer]
+Promote the learners discussion  with another learner the results of their own thoughts.
+
+*You can use the chat environment to make the learners contact each other. Configure the chat in the environment-chat-discussion. 

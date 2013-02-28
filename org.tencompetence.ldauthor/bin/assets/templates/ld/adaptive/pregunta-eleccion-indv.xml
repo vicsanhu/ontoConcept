@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<html xmlns:ld="http://www.imsglobal.org/xsd/imsld_v1p0" xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<link type="text/css" rel="stylesheet" href="style.css"/>
+		<title>Topic selection</title>
+	</head>
+	<body>
+		<div class="C-eleccion-tematica-not-complete">
+			<big> <b>CHOOSE A TOPIC</b> </big> <!--P11-->
+			
+			<p>INSTRUCTIONS: This is an adaptive UoL that structures a sequence of activities that varies according to the chooses of the learner. 
+			The adaptation is based on properties that you should modify using the Properties tap on the bottom of the screen. 
+			You should also vary the resources associated to each of the questions and named with the "prefix resource-quest-..." using the Resources tab located in the overview section. 
+			The parts of the UoL that should be modified will be indicated with (TO BE COMPLETED). 
+			</p>
+			
+			<p>The teacher has proposed two different topics to work with: T1:Topic 1(TO BE COMPLETED)or T2:Topic 2(TO BE COMPLETED)
+			Read Carefully the contents of each of the topics and decide with your colleagues which is the one
+			you want to work in. Use the chat widget located on the left menu for the discussion.
+			</p>
+			<p><b>T1</b> </p>
+			<p>Describe the topic 1
+			</p> 
+			<p><b>T2</b> </p>
+			<p>Describe the topic 2
+			</p> 
+			
+			<p>Select the decided topic from the list:
+			<ld:set-property ref="LP-eleccion-tematica-alumno"/></p>
+			
+			<p>Comment briefly your initial ideas about the topic:
+			<ld:set-property ref="LP-argumento-eleccion-tematica-alumno"/></p>
+			
+			<p>Wait until the teachers decides which is the topic for the next activity.</p>
+		</div>
+		<div class="C-eleccion-tematica-complete">
+			<p>Your answer: 
+			<ld:view-property ref="LP-eleccion-tematica-alumno" property-of="self" view="value"/></p>
+			<p>Your initial ideas about the topic:</p>
+			<ld:view-property ref="LP-argumento-eleccion-tematica-alumno" property-of="self" view="value"/>
+			<p>The teacher has considered the final decisions of all your collegues and has choosen a topic
+			for the activity. You can start now with the activity.</p>
+		</div>
+	</body>
+</html>

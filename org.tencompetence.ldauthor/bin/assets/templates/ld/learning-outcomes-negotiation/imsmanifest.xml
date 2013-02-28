@@ -1,0 +1,722 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Edited with ReCourse-->
+<!--Created - Tue Jan 26 17:49:36 CET 2010-->
+<!--Modified - Tue Jan 26 17:49:36 CET 2010-->
+<!--Authors- Mar Pérez-Sanagustín&Patricia Santos, UPF-->
+<manifest xmlns="http://www.imsglobal.org/xsd/imscp_v1p1" xmlns:imsld="http://www.imsglobal.org/xsd/imsld_v1p0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ldauthor="http://www.tencompetence.org/ldauthor" xsi:schemaLocation="http://www.imsglobal.org/xsd/imscp_v1p1 http://www.imsglobal.org/xsd/imscp_v1p1.xsd http://www.imsglobal.org/xsd/imsld_v1p0 http://www.imsglobal.org/xsd/IMS_LD_Level_B.xsd http://www.tencompetence.org/ldauthor ld-author.xsd" identifier="manifest-85aa1732-de41-4994-a2fb-2ecb6edb702e">
+  <organizations>
+    <imsld:learning-design identifier="ld-540e5066-e1fb-43b0-82a7-cae7905edaa3" version="1.0.0" level="B" uri="http://www.yourURI.here/049c4ede-ae65-45fd-94e9-87fbcc5717ba" sequence-used="false">
+      <imsld:title>Learning Outcomes Negotiation</imsld:title>
+      <imsld:prerequisites>
+        <imsld:item identifier="item-4b67f04e-d560-4d06-bb88-13ed74589f14" isvisible="true" identifierref="Prerequisites">
+          <imsld:title>Prerequisites</imsld:title>
+        </imsld:item>
+      </imsld:prerequisites>
+      <imsld:components>
+        <imsld:roles>
+          <imsld:learner identifier="role-e4e47fac-9015-464a-91bd-791a9d2e8204">
+            <imsld:title>All learners</imsld:title>
+            <imsld:learner identifier="role-b60e0134-5843-4d3c-ad98-de4f82ce0b81">
+              <imsld:title>Learning Set 1</imsld:title>
+            </imsld:learner>
+            <imsld:learner identifier="role-59784d25-4e93-421d-8136-923120dca3dd">
+              <imsld:title>Learning Set 2</imsld:title>
+            </imsld:learner>
+          </imsld:learner>
+          <imsld:staff identifier="role-207334b1-f834-4d92-bf86-40e40c55bccb">
+            <imsld:title>Facilitator</imsld:title>
+          </imsld:staff>
+        </imsld:roles>
+        <imsld:properties>
+          <imsld:locpers-property identifier="locprop-bcd4ee9e-55ad-41ba-a0ee-e619262cd54c">
+            <imsld:title>advocate-contacted</imsld:title>
+            <imsld:datatype datatype="string" />
+            <imsld:initial-value>no-choice</imsld:initial-value>
+            <imsld:restriction restriction-type="enumeration">yes</imsld:restriction>
+            <imsld:restriction restriction-type="enumeration">no</imsld:restriction>
+            <imsld:restriction restriction-type="enumeration">no-choice</imsld:restriction>
+          </imsld:locpers-property>
+          <imsld:locpers-property identifier="locprop-385b5ae6-388c-4e2b-9010-39cea328220f">
+            <imsld:title>advocate-info</imsld:title>
+            <imsld:datatype datatype="text" />
+            <imsld:initial-value>Please enter your details here</imsld:initial-value>
+          </imsld:locpers-property>
+          <imsld:locpers-property identifier="locprop-1dad2b2d-9d4a-4750-9d50-36ee49de2d2c">
+            <imsld:title>draft-file</imsld:title>
+            <imsld:datatype datatype="file" />
+          </imsld:locpers-property>
+          <imsld:locpers-property identifier="locprop-b524daf9-e44a-4be9-945f-b1abbbefd0d6">
+            <imsld:title>date_draft_sent</imsld:title>
+            <imsld:datatype datatype="datetime" />
+          </imsld:locpers-property>
+          <imsld:locpers-property identifier="locprop-43f6f142-6c56-4e78-bd10-b86bfe598340">
+            <imsld:title>number_of_times_draft_sent</imsld:title>
+            <imsld:datatype datatype="integer" />
+            <imsld:initial-value>0</imsld:initial-value>
+          </imsld:locpers-property>
+          <imsld:locpers-property identifier="locprop-771351f0-18ba-400a-8be5-a05e54c0aa7b">
+            <imsld:title>feedback-text</imsld:title>
+            <imsld:datatype datatype="text" />
+            <imsld:initial-value>No feedback yet.</imsld:initial-value>
+          </imsld:locpers-property>
+          <imsld:locpers-property identifier="locprop-23c5a544-abb6-46c5-a805-238337fcdf31">
+            <imsld:title>toogle_submit_final_version_act</imsld:title>
+            <imsld:datatype datatype="boolean" />
+            <imsld:initial-value>false</imsld:initial-value>
+          </imsld:locpers-property>
+          <imsld:locpers-property identifier="locprop-6041b274-aa3c-44e4-9a09-e7e45f8053c1">
+            <imsld:title>final_file</imsld:title>
+            <imsld:datatype datatype="file" />
+          </imsld:locpers-property>
+          <imsld:locpers-property identifier="locprop-1b4a6b4a-eda0-4713-a7f8-bed05a314dc6">
+            <imsld:title>is_advocate_signed_off</imsld:title>
+            <imsld:datatype datatype="string" />
+            <imsld:initial-value>not-set</imsld:initial-value>
+            <imsld:restriction restriction-type="enumeration">not-set</imsld:restriction>
+            <imsld:restriction restriction-type="enumeration">approved</imsld:restriction>
+            <imsld:restriction restriction-type="enumeration">refused</imsld:restriction>
+          </imsld:locpers-property>
+          <imsld:locpers-property identifier="locprop-51147033-54c8-4243-bcad-e20d34cf4c9a">
+            <imsld:title>final-draft-submitted</imsld:title>
+            <imsld:datatype datatype="boolean" />
+            <imsld:initial-value>false</imsld:initial-value>
+          </imsld:locpers-property>
+          <imsld:locpers-property identifier="locprop-fa456a4a-f3a9-4d37-a263-c9968179e320">
+            <imsld:title>feedback_on_final_draft</imsld:title>
+            <imsld:datatype datatype="text" />
+            <imsld:initial-value>No comments yet.</imsld:initial-value>
+          </imsld:locpers-property>
+        </imsld:properties>
+        <imsld:activities>
+          <imsld:learning-activity identifier="la-7d227d3c-1144-454d-af23-cbf69b05e71c" isvisible="true">
+            <imsld:title>About the Learning Outcomes negotiation process</imsld:title>
+            <imsld:activity-description>
+              <imsld:item identifier="item-24c5d97c-5818-4112-8d3b-4be92cf8f248" isvisible="true" identifierref="Learning_Activity">
+                <imsld:title>Resource</imsld:title>
+              </imsld:item>
+            </imsld:activity-description>
+          </imsld:learning-activity>
+          <imsld:learning-activity identifier="la-56719d67-4564-4307-a121-c2e49357b79e" isvisible="true">
+            <imsld:title>Read the module guidance</imsld:title>
+            <imsld:activity-description>
+              <imsld:item identifier="item-d1939147-4399-4fae-ad2f-97a5a4375b6b" isvisible="true" identifierref="Read_the_module">
+                <imsld:title>Resource</imsld:title>
+              </imsld:item>
+            </imsld:activity-description>
+            <imsld:complete-activity>
+              <imsld:user-choice />
+            </imsld:complete-activity>
+          </imsld:learning-activity>
+          <imsld:learning-activity identifier="la-156f5f0b-2d8c-44c7-aab9-c1560820f184" isvisible="true">
+            <imsld:title>Brainstorm and discuss your draft</imsld:title>
+            <imsld:environment-ref ref="env-44d63cf5-1997-4636-a82a-8e3b467d2a15" />
+            <imsld:activity-description>
+              <imsld:item identifier="item-609b9139-c74b-4e81-bf4f-055163777980" isvisible="true" identifierref="Brainstorm">
+                <imsld:title>Resource</imsld:title>
+              </imsld:item>
+            </imsld:activity-description>
+          </imsld:learning-activity>
+          <imsld:learning-activity identifier="la-f1a15bee-7048-458b-a006-0ea926e20b5c" isvisible="true">
+            <imsld:title>Critical review</imsld:title>
+            <imsld:activity-description>
+              <imsld:item identifier="item-fc268fd7-3673-4429-b425-14493b97bab0" isvisible="true" identifierref="Critical_review">
+                <imsld:title>Resource</imsld:title>
+              </imsld:item>
+            </imsld:activity-description>
+            <imsld:complete-activity>
+              <imsld:user-choice />
+            </imsld:complete-activity>
+          </imsld:learning-activity>
+          <imsld:learning-activity identifier="la-49965d60-d21d-4d6c-8df2-293c7a5c5a0f" isvisible="true">
+            <imsld:title>Share the first draft</imsld:title>
+            <imsld:activity-description>
+              <imsld:item identifier="item-982ee2a4-9530-4d9a-add1-dcfabbe25411" isvisible="true" identifierref="Share_the_first_draft">
+                <imsld:title>Resource</imsld:title>
+              </imsld:item>
+            </imsld:activity-description>
+          </imsld:learning-activity>
+          <imsld:learning-activity identifier="la-b88a2cd6-cb2d-4b93-b52e-b634d09569d4" isvisible="false">
+            <imsld:title>Request sign off</imsld:title>
+            <imsld:activity-description>
+              <imsld:item identifier="item-9dbf03f3-2795-45b4-8c4a-720109e3a9d2" isvisible="true" identifierref="Sign_off">
+                <imsld:title>Resource</imsld:title>
+              </imsld:item>
+            </imsld:activity-description>
+          </imsld:learning-activity>
+          <imsld:learning-activity identifier="la-1ca7d73f-b771-4de7-b745-b2988aed7b01" isvisible="true">
+            <imsld:title>Useful documents</imsld:title>
+            <imsld:environment-ref ref="env-af7c0159-3fac-4a22-afb6-67a68a1a1a36" />
+            <imsld:activity-description>
+              <imsld:item identifier="item-c2dff663-73b5-404a-8f85-2b51f5634698" isvisible="true" identifierref="Look_at_the_template">
+                <imsld:title>Resource</imsld:title>
+              </imsld:item>
+            </imsld:activity-description>
+          </imsld:learning-activity>
+          <imsld:learning-activity identifier="la-4e2b0da6-1f3a-4acb-924e-1f8fc64ba9f8" isvisible="true">
+            <imsld:title>Collect resources in Delicious &amp; Drop.io</imsld:title>
+            <imsld:environment-ref ref="env-e935b75d-7e23-41b5-94b4-c87721de33b8" />
+            <imsld:activity-description>
+              <imsld:item identifier="item-c1fab65e-f136-4533-babc-e1fe22d30a78" isvisible="true" identifierref="Collect_resources_in_Delicious">
+                <imsld:title>Resource</imsld:title>
+              </imsld:item>
+            </imsld:activity-description>
+          </imsld:learning-activity>
+          <imsld:learning-activity identifier="la-776fdb46-37f4-45a4-a6c8-3fd90d7d6859" isvisible="true">
+            <imsld:title>Workplace advocate information</imsld:title>
+            <imsld:activity-description>
+              <imsld:item identifier="item-9d1a7628-aef0-40e9-9a35-8bba2b02c3ab" isvisible="true" identifierref="Workplace_advocate_information">
+                <imsld:title>Resource</imsld:title>
+              </imsld:item>
+            </imsld:activity-description>
+          </imsld:learning-activity>
+          <imsld:learning-activity identifier="la-e1c27f03-697a-4c80-b190-6ea6623ccd1f" isvisible="true">
+            <imsld:title>Requesting feedback</imsld:title>
+            <imsld:activity-description>
+              <imsld:item identifier="item-5a1f9678-a7a6-486d-9039-f1fcc970dbd4" isvisible="true" identifierref="Requesting_feedback">
+                <imsld:title>Resource</imsld:title>
+              </imsld:item>
+            </imsld:activity-description>
+            <imsld:complete-activity>
+              <imsld:user-choice />
+            </imsld:complete-activity>
+          </imsld:learning-activity>
+          <imsld:learning-activity identifier="la-3de578c4-da59-4e3c-bac0-742cdd392fcd" isvisible="true">
+            <imsld:title>When your draft is ready</imsld:title>
+            <imsld:activity-description>
+              <imsld:item identifier="item-166d9b17-ff48-49ef-ada6-3f99c712188c" isvisible="true" identifierref="Completed">
+                <imsld:title>Resource</imsld:title>
+              </imsld:item>
+            </imsld:activity-description>
+            <imsld:complete-activity>
+              <imsld:user-choice />
+            </imsld:complete-activity>
+            <imsld:on-completion>
+              <imsld:change-property-value>
+                <imsld:property-ref ref="locprop-23c5a544-abb6-46c5-a805-238337fcdf31" />
+                <imsld:property-value>true</imsld:property-value>
+              </imsld:change-property-value>
+            </imsld:on-completion>
+          </imsld:learning-activity>
+          <imsld:learning-activity identifier="la-dc249b8b-775d-4f67-b88f-7f2468e73573" isvisible="true">
+            <imsld:title>Facilitator: montitor learner progress</imsld:title>
+            <imsld:activity-description>
+              <imsld:item identifier="item-e172995c-eb3f-4c31-bf33-f19388c6693e" isvisible="true" identifierref="Montitor_learner_progress">
+                <imsld:title>Resource</imsld:title>
+              </imsld:item>
+            </imsld:activity-description>
+          </imsld:learning-activity>
+          <imsld:learning-activity identifier="la-78f7f604-6a3d-46b3-a0a1-9ee9957152c4" isvisible="true">
+            <imsld:title>Facilitator: send feedback on a draft</imsld:title>
+            <imsld:activity-description>
+              <imsld:item identifier="item-53e83c09-3ba0-4fa1-bb04-b2c5f9751f54" isvisible="true" identifierref="Send_feedback_on_a_draft">
+                <imsld:title>Resource</imsld:title>
+              </imsld:item>
+            </imsld:activity-description>
+          </imsld:learning-activity>
+          <imsld:learning-activity identifier="la-192ce153-9d2b-468e-b6bc-98860a5e45bd" isvisible="true">
+            <imsld:title>Facilitator: sign off</imsld:title>
+            <imsld:activity-description>
+              <imsld:item identifier="item-3c6b5b05-88ce-4f3c-a99a-0e18114b3c4a" isvisible="true" identifierref="Sign_off-1">
+                <imsld:title>Resource</imsld:title>
+              </imsld:item>
+            </imsld:activity-description>
+          </imsld:learning-activity>
+          <imsld:learning-activity identifier="la-16e54a94-567b-4b3e-b068-cbd6fd83c8bc" isvisible="true">
+            <imsld:title>Forum and chat for discussing the process</imsld:title>
+            <imsld:environment-ref ref="env-2314cc8f-2579-464c-8bd0-ab8edaa30001" />
+            <imsld:activity-description>
+              <imsld:item identifier="item-92b2d86f-26e6-457c-805e-db38e01846b1" isvisible="true" identifierref="Forum_and_chat_for_discussing_the_process">
+                <imsld:title>Resource</imsld:title>
+              </imsld:item>
+            </imsld:activity-description>
+          </imsld:learning-activity>
+          <imsld:learning-activity identifier="la-a2de15cf-2631-46ee-8fd8-37f587f6a5a9" isvisible="true">
+            <imsld:title>test</imsld:title>
+            <imsld:activity-description>
+              <imsld:item identifier="item-258bc384-e56a-41ba-bb6b-bdff746a45eb" isvisible="true" identifierref="test_htm">
+                <imsld:title>Resource</imsld:title>
+              </imsld:item>
+            </imsld:activity-description>
+            <imsld:complete-activity>
+              <imsld:user-choice />
+            </imsld:complete-activity>
+          </imsld:learning-activity>
+          <imsld:learning-activity identifier="la-1d872c74-ccfe-4dde-866d-1d6d3d46ce32" isvisible="true">
+            <imsld:title>Getting Feedback from your Learning Set</imsld:title>
+            <imsld:activity-description>
+              <imsld:item identifier="item-541ba905-48e4-4c18-b762-10b879ca9b5b" isvisible="true" identifierref="Getting_Feedback_from_your_Learning_Set">
+                <imsld:title>Resource</imsld:title>
+              </imsld:item>
+            </imsld:activity-description>
+          </imsld:learning-activity>
+          <imsld:learning-activity identifier="la-cb378117-826f-499f-b12a-5e8ba123afef" isvisible="true">
+            <imsld:title>FeedBack on your draft</imsld:title>
+            <imsld:activity-description>
+              <imsld:item identifier="item-8815d5d1-d67c-400f-9460-a6b33ed33986" isvisible="true" identifierref="FeedBack_on_your_draft">
+                <imsld:title>Resource</imsld:title>
+              </imsld:item>
+            </imsld:activity-description>
+          </imsld:learning-activity>
+          <imsld:support-activity identifier="sa-29fc9ecf-404f-4d4c-bc0f-a38cd3bd1816" isvisible="true">
+            <imsld:title>Briefing on this process</imsld:title>
+            <imsld:environment-ref ref="env-2e918b8f-ecb3-40a5-9ec9-b6e8c4777720" />
+            <imsld:activity-description>
+              <imsld:item identifier="item-65fd7c17-9e4d-4a4b-837f-cdedfd402dac" isvisible="true" identifierref="Support_Activity">
+                <imsld:title>Resource</imsld:title>
+              </imsld:item>
+            </imsld:activity-description>
+          </imsld:support-activity>
+          <imsld:support-activity identifier="sa-eeb81e19-e72d-4838-90e0-a01b223ab9e6" isvisible="true">
+            <imsld:title>Monitor overall learner progress</imsld:title>
+            <imsld:role-ref ref="role-b60e0134-5843-4d3c-ad98-de4f82ce0b81" />
+            <imsld:role-ref ref="role-59784d25-4e93-421d-8136-923120dca3dd" />
+            <imsld:activity-description>
+              <imsld:item identifier="item-8e13e644-9c17-4c09-a34b-f6f63b0bfa07" isvisible="true" identifierref="Montitor_learner_progress">
+                <imsld:title>Resource</imsld:title>
+              </imsld:item>
+            </imsld:activity-description>
+          </imsld:support-activity>
+          <imsld:support-activity identifier="sa-a78a7037-3b04-4c76-87c2-25d0ea5dab2b" isvisible="true">
+            <imsld:title>Send feedback on a draft</imsld:title>
+            <imsld:role-ref ref="role-b60e0134-5843-4d3c-ad98-de4f82ce0b81" />
+            <imsld:role-ref ref="role-59784d25-4e93-421d-8136-923120dca3dd" />
+            <imsld:activity-description>
+              <imsld:item identifier="item-5f33993f-bc17-43a7-9a62-cfb9bf4b23c0" isvisible="true" identifierref="Send_feedback_on_a_draft">
+                <imsld:title>Resource</imsld:title>
+              </imsld:item>
+            </imsld:activity-description>
+          </imsld:support-activity>
+          <imsld:support-activity identifier="sa-659a0918-b87f-4715-845a-6eea68f6fe31" isvisible="true">
+            <imsld:title>Sign off learners contract</imsld:title>
+            <imsld:activity-description>
+              <imsld:item identifier="item-ad3c7201-67c4-4cef-8b7e-9253d5c51cf8" isvisible="true" identifierref="Sign_off-1">
+                <imsld:title>Resource</imsld:title>
+              </imsld:item>
+            </imsld:activity-description>
+            <imsld:complete-activity>
+              <imsld:user-choice />
+            </imsld:complete-activity>
+          </imsld:support-activity>
+          <imsld:support-activity identifier="sa-167a0e28-4dfd-4247-bea0-ea7c9e840157" isvisible="true">
+            <imsld:title>Monitor "Getting started" section</imsld:title>
+            <imsld:environment-ref ref="env-2314cc8f-2579-464c-8bd0-ab8edaa30001" />
+            <imsld:environment-ref ref="env-af7c0159-3fac-4a22-afb6-67a68a1a1a36" />
+            <imsld:activity-description>
+              <imsld:item identifier="item-20c7c056-4622-48e5-b68e-dac8c224887a" isvisible="true" identifierref="Facilitator__Monitor_forums_and_chat">
+                <imsld:title>Resource</imsld:title>
+              </imsld:item>
+            </imsld:activity-description>
+          </imsld:support-activity>
+          <imsld:support-activity identifier="sa-83572a22-8713-488e-9186-fa180cec6da6" isvisible="true">
+            <imsld:title>Monitor "Working on the draft" section</imsld:title>
+            <imsld:environment-ref ref="env-44d63cf5-1997-4636-a82a-8e3b467d2a15" />
+            <imsld:environment-ref ref="env-e935b75d-7e23-41b5-94b4-c87721de33b8" />
+            <imsld:activity-description>
+              <imsld:item identifier="item-29e14342-6bca-415d-9d3e-094ad7f0627d" isvisible="true" identifierref="Facilitator__Monitor_forums_chat_in__Working_on_the_draft__section">
+                <imsld:title>Resource</imsld:title>
+              </imsld:item>
+            </imsld:activity-description>
+          </imsld:support-activity>
+          <imsld:activity-structure identifier="as-5f954609-645c-4839-92d0-58967965ee9b" structure-type="sequence">
+            <imsld:title>Getting started</imsld:title>
+            <imsld:learning-activity-ref ref="la-7d227d3c-1144-454d-af23-cbf69b05e71c" />
+            <imsld:learning-activity-ref ref="la-16e54a94-567b-4b3e-b068-cbd6fd83c8bc" />
+            <imsld:learning-activity-ref ref="la-1ca7d73f-b771-4de7-b745-b2988aed7b01" />
+          </imsld:activity-structure>
+          <imsld:activity-structure identifier="as-d0fc9764-eae5-4a67-8e65-76de564ffb4b" structure-type="sequence">
+            <imsld:title>Working on the draft</imsld:title>
+            <imsld:learning-activity-ref ref="la-156f5f0b-2d8c-44c7-aab9-c1560820f184" />
+            <imsld:learning-activity-ref ref="la-4e2b0da6-1f3a-4acb-924e-1f8fc64ba9f8" />
+            <imsld:learning-activity-ref ref="la-776fdb46-37f4-45a4-a6c8-3fd90d7d6859" />
+            <imsld:learning-activity-ref ref="la-1d872c74-ccfe-4dde-866d-1d6d3d46ce32" />
+            <imsld:learning-activity-ref ref="la-49965d60-d21d-4d6c-8df2-293c7a5c5a0f" />
+            <imsld:learning-activity-ref ref="la-cb378117-826f-499f-b12a-5e8ba123afef" />
+            <imsld:learning-activity-ref ref="la-3de578c4-da59-4e3c-bac0-742cdd392fcd" />
+          </imsld:activity-structure>
+          <imsld:activity-structure identifier="as-c6379174-c737-4e82-9152-0c1b7e602ae3" structure-type="selection">
+            <imsld:title>Monitor - Getting started</imsld:title>
+            <imsld:support-activity-ref ref="sa-167a0e28-4dfd-4247-bea0-ea7c9e840157" />
+          </imsld:activity-structure>
+          <imsld:activity-structure identifier="as-5707536b-c98e-45e3-a2e6-1af01693a01b" structure-type="selection">
+            <imsld:title>Monitor -  Working on the draft</imsld:title>
+            <imsld:support-activity-ref ref="sa-83572a22-8713-488e-9186-fa180cec6da6" />
+          </imsld:activity-structure>
+        </imsld:activities>
+        <imsld:environments>
+          <imsld:environment identifier="env-af7c0159-3fac-4a22-afb6-67a68a1a1a36">
+            <imsld:title>Learning contract negotiation resources</imsld:title>
+            <imsld:learning-object identifier="lo-5a1e3825-e55f-4a79-9c90-5c93c9ae503a" isvisible="true">
+              <imsld:title>Learning Contract</imsld:title>
+              <imsld:item identifier="item-50383073-eb60-4dea-89d4-9e14ca02b842" isvisible="true" identifierref="personalised_learning_contract_doc">
+                <imsld:title>Learning contract</imsld:title>
+              </imsld:item>
+            </imsld:learning-object>
+            <imsld:learning-object identifier="lo-54ae6701-2abb-420f-8420-dd6cdd0cf0ce" isvisible="true" type="knowledge-object">
+              <imsld:title>Workplace advocate</imsld:title>
+              <imsld:item identifier="item-ac5e1fd2-b16d-45a7-a26b-63b4858fc066" isvisible="true" identifierref="Workplace_Advocate_docx">
+                <imsld:title>Workplace advocate</imsld:title>
+              </imsld:item>
+            </imsld:learning-object>
+          </imsld:environment>
+          <imsld:environment identifier="env-44d63cf5-1997-4636-a82a-8e3b467d2a15">
+            <imsld:title>Needs identification brainstorm</imsld:title>
+            <imsld:service identifier="conference-1cec34d5-92b7-4903-8287-1819c929d621" isvisible="true" parameters="widget=chat">
+              <imsld:conference conference-type="synchronous">
+                <imsld:title>Default chat widget</imsld:title>
+                <imsld:participant role-ref="role-59784d25-4e93-421d-8136-923120dca3dd" />
+                <imsld:participant role-ref="role-b60e0134-5843-4d3c-ad98-de4f82ce0b81" />
+                <imsld:participant role-ref="role-207334b1-f834-4d92-bf86-40e40c55bccb" />
+                <imsld:observer role-ref="role-207334b1-f834-4d92-bf86-40e40c55bccb" />
+                <imsld:conference-manager role-ref="role-207334b1-f834-4d92-bf86-40e40c55bccb" />
+                <imsld:moderator role-ref="role-207334b1-f834-4d92-bf86-40e40c55bccb" />
+                <imsld:item identifier="item-35e76aff-b5cb-4cfe-8d7a-493f4df1fe3a" isvisible="true" identifierref="Conference-2">
+                  <imsld:title>Item</imsld:title>
+                </imsld:item>
+              </imsld:conference>
+            </imsld:service>
+            <imsld:service identifier="conference-5a831449-fbf8-4878-a331-8b6b940efc99" isvisible="true" parameters="widget=discussion">
+              <imsld:conference conference-type="synchronous">
+                <imsld:title>Default discussion/forum widget</imsld:title>
+                <imsld:participant role-ref="role-59784d25-4e93-421d-8136-923120dca3dd" />
+                <imsld:participant role-ref="role-b60e0134-5843-4d3c-ad98-de4f82ce0b81" />
+                <imsld:participant role-ref="role-207334b1-f834-4d92-bf86-40e40c55bccb" />
+                <imsld:observer role-ref="role-207334b1-f834-4d92-bf86-40e40c55bccb" />
+                <imsld:conference-manager role-ref="role-207334b1-f834-4d92-bf86-40e40c55bccb" />
+                <imsld:moderator role-ref="role-207334b1-f834-4d92-bf86-40e40c55bccb" />
+                <imsld:item identifier="item-ea07aaf9-b652-4566-afb9-f544f550a1ab" isvisible="true" identifierref="Conference-3">
+                  <imsld:title>Item</imsld:title>
+                </imsld:item>
+              </imsld:conference>
+            </imsld:service>
+          </imsld:environment>
+          <imsld:environment identifier="env-2e918b8f-ecb3-40a5-9ec9-b6e8c4777720">
+            <imsld:title>About this UOL</imsld:title>
+            <imsld:learning-object identifier="lo-1b357e31-8307-452a-810f-510277897f46" isvisible="true" type="knowledge-object">
+              <imsld:title>Swimlanes</imsld:title>
+              <imsld:item identifier="item-40a5cb1d-bcbe-4486-a6db-c818ca14107e" isvisible="true" identifierref="Learning_contract_negotiation_jpg">
+                <imsld:title>Swimlanes</imsld:title>
+              </imsld:item>
+            </imsld:learning-object>
+          </imsld:environment>
+          <imsld:environment identifier="env-2314cc8f-2579-464c-8bd0-ab8edaa30001">
+            <imsld:title>Discuss UOL</imsld:title>
+            <imsld:service identifier="conference-1ff90432-7224-4e02-a248-53cdf7d28233" isvisible="true" parameters="widget=discussion">
+              <imsld:conference conference-type="synchronous">
+                <imsld:title>Default discussion/forum widget</imsld:title>
+                <imsld:participant role-ref="role-59784d25-4e93-421d-8136-923120dca3dd" />
+                <imsld:participant role-ref="role-b60e0134-5843-4d3c-ad98-de4f82ce0b81" />
+                <imsld:participant role-ref="role-207334b1-f834-4d92-bf86-40e40c55bccb" />
+                <imsld:observer role-ref="role-207334b1-f834-4d92-bf86-40e40c55bccb" />
+                <imsld:conference-manager role-ref="role-207334b1-f834-4d92-bf86-40e40c55bccb" />
+                <imsld:moderator role-ref="role-207334b1-f834-4d92-bf86-40e40c55bccb" />
+                <imsld:item identifier="item-893df47d-a7a5-40c5-b0af-9b2c6dd5635f" isvisible="true" identifierref="Conference">
+                  <imsld:title>Item</imsld:title>
+                </imsld:item>
+              </imsld:conference>
+            </imsld:service>
+            <imsld:service identifier="conference-2a532e72-e1f0-496a-b51b-6638e26c5a5e" isvisible="true" parameters="widget=chat">
+              <imsld:conference conference-type="synchronous">
+                <imsld:title>Default chat widget</imsld:title>
+                <imsld:participant role-ref="role-59784d25-4e93-421d-8136-923120dca3dd" />
+                <imsld:participant role-ref="role-b60e0134-5843-4d3c-ad98-de4f82ce0b81" />
+                <imsld:participant role-ref="role-207334b1-f834-4d92-bf86-40e40c55bccb" />
+                <imsld:observer role-ref="role-207334b1-f834-4d92-bf86-40e40c55bccb" />
+                <imsld:conference-manager role-ref="role-207334b1-f834-4d92-bf86-40e40c55bccb" />
+                <imsld:moderator role-ref="role-207334b1-f834-4d92-bf86-40e40c55bccb" />
+                <imsld:item identifier="item-a67acc29-8cc9-4de4-9068-e007958215a9" isvisible="true" identifierref="Conference-1">
+                  <imsld:title>Item</imsld:title>
+                </imsld:item>
+              </imsld:conference>
+            </imsld:service>
+          </imsld:environment>
+          <imsld:environment identifier="env-e935b75d-7e23-41b5-94b4-c87721de33b8">
+            <imsld:title>Delicious and Drop.io</imsld:title>
+            <imsld:learning-object identifier="lo-83b98baf-b4fe-45e4-8e50-75c658038de2" isvisible="true" type="knowledge-object">
+              <imsld:title>Delicious</imsld:title>
+              <imsld:item identifier="item-057bdae0-a3c8-4ace-98e2-26890ae8db20" isvisible="true" identifierref="delicious-link_html">
+                <imsld:title>Item</imsld:title>
+              </imsld:item>
+            </imsld:learning-object>
+            <imsld:service identifier="conference-8b40cb2b-0062-4680-b480-5ce917fe49f6" isvisible="true" parameters="widget=dropio">
+              <imsld:conference conference-type="synchronous">
+                <imsld:title>Drop.io</imsld:title>
+                <imsld:participant role-ref="role-e4e47fac-9015-464a-91bd-791a9d2e8204" />
+                <imsld:moderator role-ref="role-207334b1-f834-4d92-bf86-40e40c55bccb" />
+                <imsld:item identifier="item-6a6fbd63-5624-4173-abbf-a22fdda896fa" isvisible="true" identifierref="Conference-4">
+                  <imsld:title>Item</imsld:title>
+                </imsld:item>
+              </imsld:conference>
+            </imsld:service>
+          </imsld:environment>
+        </imsld:environments>
+      </imsld:components>
+      <imsld:method>
+        <imsld:play identifier="play-bc691747-40bc-425e-90e7-5fcb6c46ac4d" isvisible="true">
+          <imsld:title>Module</imsld:title>
+          <imsld:act identifier="act-ae86ac38-744e-43ca-a226-9e2b89ed71c2">
+            <imsld:title>About the process, and support</imsld:title>
+            <imsld:role-part identifier="rolepart-60546830-924e-44eb-8f0c-ec7ce43de97a">
+              <imsld:title>Role Part</imsld:title>
+              <imsld:role-ref ref="role-207334b1-f834-4d92-bf86-40e40c55bccb" />
+              <imsld:support-activity-ref ref="sa-29fc9ecf-404f-4d4c-bc0f-a38cd3bd1816" />
+            </imsld:role-part>
+            <imsld:role-part identifier="rolepart-a925a1fb-1986-4948-b943-987e760df772">
+              <imsld:title>Role Part</imsld:title>
+              <imsld:role-ref ref="role-207334b1-f834-4d92-bf86-40e40c55bccb" />
+              <imsld:support-activity-ref ref="sa-eeb81e19-e72d-4838-90e0-a01b223ab9e6" />
+            </imsld:role-part>
+            <imsld:role-part identifier="rolepart-51bcf81b-a585-485b-b963-ede49b98be31">
+              <imsld:title>Role Part</imsld:title>
+              <imsld:role-ref ref="role-b60e0134-5843-4d3c-ad98-de4f82ce0b81" />
+              <imsld:activity-structure-ref ref="as-5f954609-645c-4839-92d0-58967965ee9b" />
+            </imsld:role-part>
+            <imsld:role-part identifier="rolepart-09ff9670-8fee-4c62-8b58-85848c8793da">
+              <imsld:title>Role Part</imsld:title>
+              <imsld:role-ref ref="role-59784d25-4e93-421d-8136-923120dca3dd" />
+              <imsld:activity-structure-ref ref="as-5f954609-645c-4839-92d0-58967965ee9b" />
+            </imsld:role-part>
+            <imsld:role-part identifier="rolepart-c6842461-98e7-41f3-85a2-59912b75998b">
+              <imsld:title>Role Part</imsld:title>
+              <imsld:role-ref ref="role-207334b1-f834-4d92-bf86-40e40c55bccb" />
+              <imsld:activity-structure-ref ref="as-c6379174-c737-4e82-9152-0c1b7e602ae3" />
+            </imsld:role-part>
+          </imsld:act>
+          <imsld:act identifier="act-7b6f9955-98a3-4a6e-bfee-6b4fc2cf42c0">
+            <imsld:title>Working on the draft</imsld:title>
+            <imsld:role-part identifier="rolepart-90a6ab0a-29bb-4429-b34b-e8839dd25f8a">
+              <imsld:title>Role Part</imsld:title>
+              <imsld:role-ref ref="role-b60e0134-5843-4d3c-ad98-de4f82ce0b81" />
+              <imsld:activity-structure-ref ref="as-d0fc9764-eae5-4a67-8e65-76de564ffb4b" />
+            </imsld:role-part>
+            <imsld:role-part identifier="rolepart-62a93c8e-ed20-480d-8a82-3faa17baa942">
+              <imsld:title>Role Part</imsld:title>
+              <imsld:role-ref ref="role-59784d25-4e93-421d-8136-923120dca3dd" />
+              <imsld:activity-structure-ref ref="as-d0fc9764-eae5-4a67-8e65-76de564ffb4b" />
+            </imsld:role-part>
+            <imsld:role-part identifier="rolepart-fc74f04f-beb7-4990-9c12-ab0b1696ef5a">
+              <imsld:title>Role Part</imsld:title>
+              <imsld:role-ref ref="role-207334b1-f834-4d92-bf86-40e40c55bccb" />
+              <imsld:activity-structure-ref ref="as-5707536b-c98e-45e3-a2e6-1af01693a01b" />
+            </imsld:role-part>
+          </imsld:act>
+          <imsld:act identifier="act-6deba60a-414a-4379-88f0-2a23c0158d19">
+            <imsld:title>Submit the final version</imsld:title>
+            <imsld:role-part identifier="rolepart-d5a3d240-6d8d-450e-bd06-0d05f582fe47">
+              <imsld:title>Role Part</imsld:title>
+              <imsld:role-ref ref="role-b60e0134-5843-4d3c-ad98-de4f82ce0b81" />
+              <imsld:learning-activity-ref ref="la-b88a2cd6-cb2d-4b93-b52e-b634d09569d4" />
+            </imsld:role-part>
+            <imsld:role-part identifier="rolepart-ca188f89-ff50-4361-b04a-26d23a788cd3">
+              <imsld:title>Role Part</imsld:title>
+              <imsld:role-ref ref="role-59784d25-4e93-421d-8136-923120dca3dd" />
+              <imsld:learning-activity-ref ref="la-b88a2cd6-cb2d-4b93-b52e-b634d09569d4" />
+            </imsld:role-part>
+          </imsld:act>
+        </imsld:play>
+        <imsld:conditions>
+          <imsld:if>
+            <imsld:is-not>
+              <imsld:property-ref ref="locprop-23c5a544-abb6-46c5-a805-238337fcdf31" />
+              <imsld:property-value>true</imsld:property-value>
+            </imsld:is-not>
+          </imsld:if>
+          <imsld:then>
+            <imsld:hide>
+              <imsld:learning-activity-ref ref="la-b88a2cd6-cb2d-4b93-b52e-b634d09569d4" />
+            </imsld:hide>
+          </imsld:then>
+          <imsld:else>
+            <imsld:show>
+              <imsld:learning-activity-ref ref="la-b88a2cd6-cb2d-4b93-b52e-b634d09569d4" />
+            </imsld:show>
+          </imsld:else>
+        </imsld:conditions>
+        <imsld:conditions>
+          <imsld:if>
+            <imsld:not>
+              <imsld:no-value>
+                <imsld:property-ref ref="locprop-6041b274-aa3c-44e4-9a09-e7e45f8053c1" />
+              </imsld:no-value>
+            </imsld:not>
+          </imsld:if>
+          <imsld:then>
+            <imsld:change-property-value>
+              <imsld:property-ref ref="locprop-51147033-54c8-4243-bcad-e20d34cf4c9a" />
+              <imsld:property-value>true</imsld:property-value>
+            </imsld:change-property-value>
+          </imsld:then>
+          <imsld:if>
+            <imsld:is-not>
+              <imsld:property-ref ref="locprop-1b4a6b4a-eda0-4713-a7f8-bed05a314dc6" />
+              <imsld:property-value>approved</imsld:property-value>
+            </imsld:is-not>
+          </imsld:if>
+          <imsld:then>
+            <imsld:hide>
+              <imsld:class class="signoffset" with-control="false" title="signoffset" />
+            </imsld:hide>
+            <imsld:show>
+              <imsld:class class="signoffnotset" with-control="false" title="signoffnotset" />
+            </imsld:show>
+          </imsld:then>
+          <imsld:else>
+            <imsld:show>
+              <imsld:class class="signoffset" with-control="false" title="signoffset" />
+            </imsld:show>
+            <imsld:hide>
+              <imsld:class class="signoffnotset" with-control="false" title="signoffnotset" />
+            </imsld:hide>
+          </imsld:else>
+          <imsld:if>
+            <imsld:not>
+              <imsld:no-value>
+                <imsld:property-ref ref="locprop-1dad2b2d-9d4a-4750-9d50-36ee49de2d2c" />
+              </imsld:no-value>
+            </imsld:not>
+          </imsld:if>
+          <imsld:then>
+            <imsld:change-property-value>
+              <imsld:property-ref ref="locprop-b524daf9-e44a-4be9-945f-b1abbbefd0d6" />
+              <imsld:property-value>
+                <imsld:calculate>
+                  <imsld:current-datetime />
+                </imsld:calculate>
+              </imsld:property-value>
+            </imsld:change-property-value>
+            <imsld:change-property-value>
+              <imsld:property-ref ref="locprop-43f6f142-6c56-4e78-bd10-b86bfe598340" />
+              <imsld:property-value>
+                <imsld:calculate>
+                  <imsld:sum>
+                    <imsld:property-ref ref="locprop-43f6f142-6c56-4e78-bd10-b86bfe598340" />
+                    <imsld:property-value>1</imsld:property-value>
+                  </imsld:sum>
+                </imsld:calculate>
+              </imsld:property-value>
+            </imsld:change-property-value>
+          </imsld:then>
+        </imsld:conditions>
+      </imsld:method>
+    </imsld:learning-design>
+  </organizations>
+  <resources>
+    <resource identifier="Learning_Activity" type="webcontent" href="Learning_Activity.html">
+      <file href="Learning_Activity.html" />
+    </resource>
+    <resource identifier="Support_Activity" type="webcontent" href="Support_Activity.html">
+      <file href="Support_Activity.html" />
+    </resource>
+    <resource identifier="Learning_Object" type="webcontent" href="Learning_Object.html">
+      <file href="Learning_Object.html" />
+    </resource>
+    <resource identifier="Prerequisites" type="webcontent" href="Prerequisites.html">
+      <file href="Prerequisites.html" />
+    </resource>
+    <resource identifier="personalised_learning_contract_doc" type="webcontent" href="personalised%20learning%20contract.doc">
+      <file href="personalised%20learning%20contract.doc" />
+    </resource>
+    <resource identifier="Read_the_module" type="webcontent" href="Read_the_module.html">
+      <file href="Read_the_module.html" />
+    </resource>
+    <resource identifier="Brainstorm" type="webcontent" href="Brainstorm.html">
+      <file href="Brainstorm.html" />
+    </resource>
+    <resource identifier="Critical_review" type="webcontent" href="Critical_review.html">
+      <file href="Critical_review.html" />
+    </resource>
+    <resource identifier="Share_the_first_draft" type="imsldcontent" href="Share_the_first_draft.html">
+      <file href="Share_the_first_draft.html" />
+    </resource>
+    <resource identifier="Sign_off" type="imsldcontent" href="Sign_off.html">
+      <file href="Sign_off.html" />
+    </resource>
+    <resource identifier="Workplace_Advocate_docx" type="webcontent" href="Workplace%20Advocate.docx">
+      <file href="Workplace%20Advocate.docx" />
+    </resource>
+    <resource identifier="Knowledge_Object" type="webcontent" href="Knowledge_Object.html">
+      <file href="Knowledge_Object.html" />
+    </resource>
+    <resource identifier="Knowledge_Object-1" type="webcontent" href="Knowledge_Object-1.html">
+      <file href="Knowledge_Object-1.html" />
+    </resource>
+    <resource identifier="Learning_contract_negotiation_jpg" type="webcontent" href="Learning%20contract%20negotiation.jpg">
+      <file href="Learning%20contract%20negotiation.jpg" />
+    </resource>
+    <resource identifier="Knowledge_Object-2" type="webcontent" href="Knowledge_Object-2.html">
+      <file href="Knowledge_Object-2.html" />
+    </resource>
+    <resource identifier="Conference" type="webcontent" href="Conference.html">
+      <file href="Conference.html" />
+    </resource>
+    <resource identifier="Conference-1" type="webcontent" href="Conference-1.html">
+      <file href="Conference-1.html" />
+    </resource>
+    <resource identifier="delicious-link_html" type="webcontent" href="delicious-link.html">
+      <file href="delicious-link.html" />
+    </resource>
+    <resource identifier="Look_at_the_template" type="webcontent" href="Look_at_the_template.html">
+      <file href="Look_at_the_template.html" />
+    </resource>
+    <resource identifier="Knowledge_Object-3" type="webcontent" href="Knowledge_Object-3.html">
+      <file href="Knowledge_Object-3.html" />
+    </resource>
+    <resource identifier="Knowledge_Object-4" type="webcontent" href="Knowledge_Object-4.html">
+      <file href="Knowledge_Object-4.html" />
+    </resource>
+    <resource identifier="Collect_resources_in_Delicious" type="webcontent" href="Collect_resources_in_Delicious.html">
+      <file href="Collect_resources_in_Delicious.html" />
+    </resource>
+    <resource identifier="Conference-2" type="webcontent" href="Conference-2.html">
+      <file href="Conference-2.html" />
+    </resource>
+    <resource identifier="Conference-3" type="webcontent" href="Conference-3.html">
+      <file href="Conference-3.html" />
+    </resource>
+    <resource identifier="Workplace_advocate_information" type="imsldcontent" href="Workplace_advocate_information.htm">
+      <file href="Workplace_advocate_information.htm" />
+    </resource>
+    <resource identifier="Requesting_feedback" type="webcontent" href="Requesting_feedback.html">
+      <file href="Requesting_feedback.html" />
+    </resource>
+    <resource identifier="Completed" type="webcontent" href="Completed.html">
+      <file href="Completed.html" />
+    </resource>
+    <resource identifier="Montitor_learner_progress" type="imsldcontent" href="Monitor_learner_progress.htm">
+      <file href="Monitor_learner_progress.htm" />
+    </resource>
+    <resource identifier="Send_feedback_on_a_draft" type="imsldcontent" href="Send_feedback_on_a_draft.html">
+      <file href="Send_feedback_on_a_draft.html" />
+    </resource>
+    <resource identifier="Sign_off-1" type="webcontent" href="Sign_off-1.html">
+      <file href="Sign_off-1.html" />
+    </resource>
+    <resource identifier="Forum_and_chat_for_discussing_the_process" type="webcontent" href="Forum_and_chat_for_discussing_the_process.html">
+      <file href="Forum_and_chat_for_discussing_the_process.html" />
+    </resource>
+    <resource identifier="Facilitator__send_feedback_on_a_draft" type="webcontent" href="Facilitator__send_feedback_on_a_draft.html">
+      <file href="Facilitator__send_feedback_on_a_draft.html" />
+    </resource>
+    <resource identifier="Facilitator__sign_off" type="webcontent" href="Facilitator__sign_off.html">
+      <file href="Facilitator__sign_off.html" />
+    </resource>
+    <resource identifier="Conference-4" type="webcontent" href="Conference-4.html">
+      <file href="Conference-4.html" />
+    </resource>
+    <resource identifier="test_htm" type="imsldcontent" href="test.htm">
+      <file href="test.htm" />
+    </resource>
+    <resource identifier="Facilitator__Monitor_forums_and_chat" type="webcontent" href="Facilitator__Monitor_forums_and_chat.html">
+      <file href="Facilitator__Monitor_forums_and_chat.html" />
+    </resource>
+    <resource identifier="Facilitator__Monitor_forums_chat_in__Working_on_the_draft__section" type="webcontent" href="Facilitator__Monitor_forums_chat_in__Working_on_the_draft__section.html">
+      <file href="Facilitator__Monitor_forums_chat_in__Working_on_the_draft__section.html" />
+    </resource>
+    <resource identifier="Getting_Feedback_from_your_Learning_Set" type="webcontent" href="Getting_Feedback_from_your_Learning_Set.html">
+      <file href="Getting_Feedback_from_your_Learning_Set.html" />
+    </resource>
+    <resource identifier="FeedBack_on_your_draft" type="imsldcontent" href="FeedBack_on_your_draft.html">
+      <file href="FeedBack_on_your_draft.html" />
+    </resource>
+  </resources>
+</manifest>
+

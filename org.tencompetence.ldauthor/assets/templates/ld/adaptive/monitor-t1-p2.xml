@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<html xmlns:ld="http://www.imsglobal.org/xsd/imsld_v1p0" xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title>Monitoring t1-p2</title>
+	</head>
+	<body>
+		<div class="C-t1-p2-not-jumped">
+				<big> <b>QUESTION 2 [1.(a)True]- Correct answer: a) True </b> </big> <!--P11-->
+				<p>Answer selected:
+				<ld:view-property property-of="supported-person" ref="LP-respuesta-individual-t1-p11X"  view="value"/>
+				</p>
+				<P>Argument for the answer :
+				<ld:view-property  property-of="supported-person" ref="LP-argumento-individual-t1-p11X"  view="value"/>
+				</P>
+				
+				<big> <b>QUESTION 2 [1.(b)False]- Correct answer: a) True </b> </big> <!--P12-->
+				<p>Answer selected:</p>
+				<ld:view-property property-of="supported-person" ref="LP-respuesta-individual-t1-p12X"  view="value"/>
+				
+				<P>Argument for the answer :</P>
+				
+				<big> <b><p>Jump to question 2:</p> </b> </big><!--which means that we jump this question-->
+				<ld:set-property property-of="supported-person" ref="LP-t1-p2-jumped"/>
+		
+		</div>
+		
+		<div class="C-t1-p2-jumped">
+			<p>Question 2 has been jumped for his student</p>
+		</div>
+	</body>
+	
+</html>

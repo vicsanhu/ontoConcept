@@ -1,0 +1,47 @@
+ReCourse Build Notes
+---------------------
+
+In order to create binaries and installers for all platforms ensure the Eclipse RCP Delta pack
+is installed in your Eclipse target.
+
+1.  Edit the "plugin.xml" file to set the correct Version (format is X.X.X.qualifier)
+2.  Edit the "branding/mac/Info.plist" file to set the correct CFBundleShortVersionString and CFBundleVersion (format is X.X.X)
+3.  Edit and update the changes.txt file.
+4.  Ensure all changes are commited to CVS.
+5.  Open the "ldauthor.product" file and click on the "Eclipse Product export wizard" link and set the following settings:
+	
+	Configuration:						              /org.tencompetence.ldauthor/ldauthor.product
+	Root directory:						              (leave blank)
+	Synchronize before exporting:		              ticked
+	Directory:							              /ReCourse
+	Export Source:				                      unticked
+	Generate metadata repository:                     unticked
+	Export for multiple platforms:		              ticked
+	Allow for binary cycles in target platform:       ticked
+	
+	Click "Next" and select the following OS platforms:
+	
+	linux (gtx/x86)
+	linux (gtx/x86_64)
+	macosx (carbon/x86)
+	win32 (win32/x86)
+	
+	(Note that it is possible for the Product Export wizard to export a "macosx (carbon/ppc)" version,
+	but it is exactly the same as the x86 version, so only this one is necessary.)
+	
+	Click "Finish" and wait for the export wizard to create the output folders in "/ReCourse".
+	The "/ReCourse" folder should be created on your local drive with the following build sub-folders:
+	
+	linux.gtk.x86
+	linux.gtk.x86_64
+	macosx.carbon.x86
+	win32.win32.x86
+
+6.  Now open and edit the "ldauthor-makeinstallers.xml" Ant Script file in order to set the app version number and the location of the
+	Windows JRE of the build machine.  (There will be two Windows versions, one with shipped JRE and one without.)
+7.  Run this Ant script from Eclipse.
+
+8.  Check that the builds run on each platform
+9.  If all is OK, tag all files in CVS as version "recourse-release_XpXpX"
+10.  Upload all files to public download folder
+11.  Update the website

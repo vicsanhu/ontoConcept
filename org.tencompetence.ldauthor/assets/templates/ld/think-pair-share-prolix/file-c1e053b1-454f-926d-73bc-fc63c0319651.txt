@@ -1,0 +1,4 @@
+[Trainer]
+In this phase the learner have to individually think about the question.
+
+Fill in the "Learning Activity: Think about the question" explaining this to the learner.

@@ -1,0 +1,328 @@
+Version 2.0.3   01 February 2010
+---------------------------------
++ Added updated templates
++ Built on Eclipse 3.5.2
+
+
+
+Version 2.0.2   07 January 2010
+---------------------------------
++ Added new templates to "New Learning Design" wizard
++ Built on Eclipse 3.6
+* Some minor fixes
+
+
+
+
+Version 2.0.1   26 November 2009
+---------------------------------
++ PDF content is now displayed as a link to to be shown in external viewer in Item Viewer in the Inspector
+* Fixed: Encoding issues in QTI Editor
+* Fixed: Dragging widget over Environments palette prematurely created object
+* Fixed: Help Contents menu not working
+* Fixed: Not launching external editor on Windows if spaces in file path
+* Fixed: QTI Test wizard now defaults to selection of Staff Role if it is the only Role in the UOL
+* Fixed: Button problems on Linux
+
+
+
+Version 2.0.0   03 July 2009
+--------------------------------
++ New Visualiser feature
++ Added SAXParser XML validation to Checker and Package/Publish/Upload dialogs
++ Improvements to LD Checker
++ Double-clicking on an error in the LD Checker opens the corresponding editor tab or Inspector for the object
++ Added a new Warning type to the LD Checker for issues that pass XML validation but are not strictly correct
++ New Resource, New Item, and New Activity wizards have option to create HTML ("webcontent") or XHTML ("imsldcontent") files
++ Resources are set to "imsldcontent" type by default if they have an .xml or .xhtml extension
++ Added Open, Properties, and Conditions buttons to main toolbar
++ If a Property's data type is "boolean" no Restriction types are allowed, and only "true" and false" values are allowed
++ If a Property's data type is "integer" or "real" only valid numbers can be entered
++ If a Global Property is set to "Existing Definition" then the Name in the Properties table is taken from part of the HREF's URI
++ Setting external editor paths in Preferences now respects command lines with parameters and spaces (e.g /usr/bin/myeditor -edit)
++ Setting external editor paths to Shell scripts in Preferences now works on Linux
++ User is warned if LD needs saving before uploading or packaging
++ If advanced Calculation is used in a Change Property Value Type then the simple value field is disabled
++ File format is checked for validity on Open action
++ Now built on Eclipse 3.5 (general improvements, speed and stability)
++ Mac version uses one .app bundle for all sub-folders (except the "docs" folder)
+* Fixed: user can now only open files named "imsmanifest.xml"
+* Fixed: extra " character added to Properties Copy to Clipboard dialog
+* Fixed: New LD wizard not setting Title, Learning Objectives and Prerequisites under some circumstances
+* Fixed: Property Ref and Property Value types not allowed to have "is / is not" in front of them in Conditions
+
+
+
+Version 1.8.0   19 June 2009
+--------------------------------
++ Added Level B Conditions Editor
++ Added Level C Notifications editors
++ Added "When a Condition is True" Level B support for Act ("Phase") Completion Rule
++ Added "Advanced" Expression editor for "When a Property is set" and "Change Property Value" Completion rules
++ LD Level (A, B or C) is automatically set when saving or running the Checker
++ Added "Copy to Clipboard" menu item in LD Properties View - copies selected Property as XML code for use in content files
++ Internal refactoring to create separate Library for LD model
++ QTI test selection now displays as a message instead of raw XML in the Inspector and Preview
+* Rich Text Editor no longer saves files as UTF-8. They are now ANSI.
+* Fixed: On Ubuntu the File Tree could display too large icons
+* Fixed: Highlight only one Act ("Phase") selection at a time when there is more than one Play ("Module")
+* Fixed: Under some circumstances it was possible to add more than one Item to the Resources section of a Conference service
+
+
+
+Version 1.7.2   06 April 2009
+--------------------------------
++ Added New Learning Object types to Environment Editor - Knowledge, Test and Tool types
++ New Test Object creates linked QTI Test
++ Added "New Test Activity" to create Learning Activity linked to QTI Test
++ Added "New QTI Test Resource" to create Learning Activity linked to QTI Test
+- Removed New QTI Test Wizard from main menu - use Resources Tab instead
+* Can no longer add/delete users in Publisher View (use the Link Tool instead)
+
+
+
+Version 1.7.1   19 January 2009
+--------------------------------
++ Added New QTI Test Wizard to main menu
++ If a QTI Test file type is selected as New Resource then its type is set to imsqti_test_xmlv2p1
++ Including Recourse info in manifest when uploading to CC is now an option in CC Preferences
+* Fixed regression bug in Environment Editor - no Delete/Undo
+
+
+
+Version 1.7.0   16 December 2008
+--------------------------------
++ Added QTI Editor
++ Support for LD templates
++ Added "New Learning Design" Templates wizard
++ Added "Save As Template..." option
++ Added "Templates" Preferences item to edit Template names, descriptions and categories
++ No need to select an Empty folder for new LD (LD root folder is created from LD Name in wizard)
++ Added Level B Properties Editor
++ Added Level B Monitor type
++ Added Level B Time Limit type
++ Added Level B Send Mail Properties
++ Added simple Level B Completion rules for UOL, Play, Act and Activities (no Calculate option yet)
++ Swapped order of Learning Objectives & Prerequisites on Learning Activity Tabs and Overview
++ New Default LD no longer has explanatory note in Environment Editor
++ Double-clicking on an Environment in the Activity Inspector jumps to the Environments Editor
++ Added new option to "New Item" and "New Activity" wizards - Use an existing file as description
++ Default LA and SA in New Default LD is set to "User Choice" for Completion Rule
++ Added Preview Popups to Role Part Table (can be switched off/on in Preferences)
++ Added Preview for Learning Object
++ Improved existing Previews
++ Library view now uses tabs (more room for additions)
++ Double-clicking on an .xml file type opens Editor instead of Preview
+* Fixed toolbar update issue in Resources section of Library
+* Fixed Play layout problem on Ubuntu
+* Improved editor focus context handling in views and menus
+* Fixed Null Pointer Exception in Resources table if user enters invalid ID and clicks outside cell
+
+
+
+Version 1.6.1   27 October 2008
+-------------------------------
++ Added "Author" and "Subject" fields to Overview tab
++ Scrollbar added to Overview tab
++ Added "Upload UOL to Fedora Server" menu item
++ Improved integration with CopperCore Server 
++ Improved speed of CopperCore Publisher View
++ User name and password required for CopperCore server in Preferences (will work in future versions)
++ "Package UOL" menu item split into two - "Package to zip file" and "Publish to CopperCore server"
++ "Publish to CopperCore server" action automatically zips the UOL and uploads it
++ All files in the LD's root folder are added to the zip package regardless of declared dependent files
++ Activity completion rule is set to default of "User Choice"
++ Environment editor palette changed
++ Fixed selection/deseletion issue in Environment Editor
++ Resources and Item files are assigned more user-friendly names
++ Library view does not lose context if closed and re-opened
++ "New Role" dialog provides includes all Role controls and options
++ Changed default names to "Design", "Module" and "Phase"
++ Item Viewer refreshes when changes made in Item Editor
++ Item Viewer has easy link to create new Item if there isn't one
++ "New Item" wizard has option to add (link to) a URL
++ "New Activity" wizard has option to add (link to) a URL
+* Improved drag and drop in Item tree-table (can drag item into empty space and it will move to end)
+* Fixed bug in Item Editor where Null Pointer could occur when dragging Items
+
+
+
+Version 1.6.0   13 October 2008
+-------------------------------
++ New "Overview" tab added (hyperlinks from Play area have been moved to this)
++ Editor tabs are now bigger and with icons
++ The "Inspector" view now replaces the Properties View with tabs on bottom of window
++ Item Editor changed - edit button now edits current item, added Item Editor button
++ Checker now always opens with at least one LD editor instance in scope
++ Toolbar view buttons are now show/hide toggles
++ "Organiser" renamed to "Library"
++ "Global" tab on Library (Organiser) renamed to "Local" (Local files)
++ Editor "Main" tab renamed to "Method"
++ "Package UOL" action moved to top File Menu
++ Changed names and order of Properties Tabs
++ Library (Organiser) view hidden by default
++ Added "Rename" menu item to Role-Parts table
++ Added "Rename" menu items to Play and Acts area
++ Added "Rename" menu items to all Library (Organiser) viewers
++ Re-organised right-click menu on Plays and Acts areas
++ Re-organised menus on Role-Parts area
++ Re-organised menus on Library Activities tab
++ Library (Organiser) View no longer opens by default each time the app is started
++ Added Resources section to Library (Organiser) View - can drag Resources to Item tables
++ Environment Editor - Environment entry moved up in palette
++ A new default LD has a more helpful note present in the Environment Editor
++ Publisher View has button to launch Sled player in Browser (future version will auto-login to selected Run)
++ "Add/Edit Environments" hyperlink added to Activity Properties Editor
++ When adding a Support Activity as a Role-Part, the default Role is a Staff (Teacher) role if available
++ When deleting a Resource the user is warned if it is in use (Items reference it)
++ Increased size of Resource drop-down combo boxes (12 items shown, was 5)
++ Library (Organiser) View does not lose current LD editor's contents if switching to Rich Text Editor
++ Clearer "Window" menu items
++ Added bigger "New Resource" button
++ Add right-click "Import files..." menu action to Files window
++ Added Proxy Connections Preference page
+* Fixed null pointer exception if opening Previewer with no LD in focus
+* Fixed "About" dialog not showing on Mac
+
+
+
+Version 1.5.8   07 September 2008
+---------------------------------
+* Fixed layout problem in Plays bar on Linux (tested on Ubuntu 8.04)
+* Fixed some keypress problems in Rich Text Editor
+* Removed Monitor from Environment Palette (a Level B Service)
+* Package Zip wizard – .zip extension is added to filename by default if not present
+
+
+
+Version 1.5.7   07 August 2008
+-------------------------------
++ When adding a new Play, a default Act is also added
++ Play widgets have some extra space at the bottom (so you can drag an Act there)
++ Improved some Properties Views
++ Activity Preview shows the parent Activity Structure's Environments content (if present)
++ Added Preview for Activity Structure type
++ The "New Item" wizard now has the option to not create or reference a Resource (might want to add it later)
++ Resources with ".xml" extension now display as web content in previews on Windows (uses a .html temp file)
+* Checker does not show error if an Item does not reference a Resource (this is valid)
+* Fixed imsmanifest.xml file types greyed out on "Open" dialog for Mac
+* Fixed Properties View Browser display problems on Mac
+
+
+
+Version 1.5.6   14 July 2008
+-----------------------------
++ Now built on Eclipse 3.4 (general improvements, improved Mac and Linux support)
++ Re-engineered Play widgets (ExpandBar and ExpandItems) - Drag and Drop was not working on Linux
+
+
+
+Version 1.5.5   05 June 2008
+-----------------------------
++ Double-click on Item in Item Editor Table invokes Edit action
++ Added Rule to Checker - check each (file-based) Resource has a key dependent file entry
++ Added Rule to Checker - check each Resource's referenced files exist
++ Improved Resource dependent files logic
+* Fixed bug where a Resource might not have a primary dependent file entry
+
+
+
+Version 1.5.4   03 June 2008
+-----------------------------
++ Added "New Item" wizard for adding Resource Items in Item Edtors. Can now add quick Resource text, or reference existing Resource.
++ Added "New Resource" wizard for adding Resources in Resources panel. Can now add quick Resource text, or reference existing File.
++ Removed "Save Changes" button from Organiser Resource Properties View (Organiser will auto-save)
+
+
+
+Version 1.5.3   29 May 2008
+-----------------------------
++ When user creates a new Learning Object a default Resource Item, Resource and HTML file are automatically created
++ When user creates a new Send Mail a default Learner recipient is set, if available
++ When user creates a new Index Search a default class string is added
++ When user creates a new Conference a default Resource Item, Resource and HTML file are automatically created
++ When user creates a new Conference a default Learner Participant is added, if available
++ When user creates a new Vote Widget (Conference) a default Staff Manager is added, if available
++ When user creates a new Activity a default Description Item, Resource and HTML file are automatically created
++ Default Learning Objectives and Prerequisites Item and files are created for a new default LD
++ The "New Activity/Group" wizard now provides a simple description text box - a default Description Item, Resource and HTML file are automatically created
++ Added an "Edit" button to the Items Table Panel - user can edit corresponding Resource's file if present
+* Added Preference to use Rich Text Editor or not
+
+
+
+Version 1.5.2   28 May 2008
+-----------------------------
++ Added Preview window of Activities and Environments
++ Added UoL Error/Checker status to Packaging wizard
++ Added "Play Properties" and "Act Properties" contextual menu items to Play widgets
++ Improved contextual menu access in Plays area
++ UoL Links panel now has scroll bar if too small
++ New LDs have newly generated identifiers and unique URI
++ New OpenDocument.net repository default IDs added to Preferences
+
+
+
+
+Version 1.5.1   24 Apr 2008    
+-----------------------------------
++ Role Parts table - Activities are no longer limited to fixed order, can now be drag and droppped
++ New Play/Act button
++ New Activities button
++ Internal IDs of objects are shown in Properties View
++ "New File" action in Files View opens file for editing
++ Added Preference for specifying external editors
++ Improved OpenDocument.net module.  Supports uploading of UoLs
++ Organiser View opens each time the app is started
+* Bug fixes
+
+
+
+Version 1.5.0   03 Apr 2008    
+-----------------------------------
++ New interface 
+
+
+
+Version 1.0.1   26 Mar 2008    
+-----------------------------------
++ Local data folder changed to "user.home/.../ReCourse"
++ Activities and Activity Structures show useful tooltips
++ Activities show an overlay icon when they reference Environments
++ Changed icon for Support Activity
++ Added more tooltips and other onscreen cues
++ Added Tools Menu
++ Added OpenDocument.net Search View
++ Added Widget support and Widget Query option
+
+
+
+Version 1.0.0   31 January 2008    
+-----------------------------------
++ Added Preference to change LD object names to user specified
+* Internal support of Level B & C elements
+
+
+
+Version 0.9.4    4 December 2007     
+-----------------------------------
++ Can upload zipped UoL to a CopperCore server in the Zip wizard
++ Publisher View to manage CopperCore Runs and Users
++ Notes now have a Properties editor
++ Notes are post-it colour (yellow)
+* Fixed bug on drag and drop Resource from Organiser to Environment
+* Internal changes
+
+
+
+Version 0.9.3    14 November 2007
+-----------------------------------
++ Added "Save as Zip" functionality to the "Packaging" button
++ Added "Checker" view to check for missing/incorrect LD elements
++ "New LD" action has an option to base the new LD on either a blank, a default, or an existing LD (template)
++ Resources Table has an option from the right-click menu - "View Item References"
++ Resources Files Tree now supports Cut, Copy and Paste of files and folders
++ Item Table shows a tooltip over the Resource cell of the referenced file/url
++ ld-author.xsd Schema file is copied to the LD root folder
+* Fixed a bug in the Organiser Tree when changing the user data folder in Preferences
+* Fixed a bug where opening a non-existent manifest file caused an error

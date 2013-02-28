@@ -1,0 +1,21 @@
+/AbstractLDEditorPalette.java/1.9/Tue May 19 18:21:05 2009//
+/AbstractLDGraphicalEditor.java/1.33/Mon Feb  1 10:45:09 2010//
+/AbstractLDGraphicalEditorPage.java/1.15/Mon Feb  1 10:45:09 2010//
+/DataElementFactory.java/1.2/Mon Sep  3 12:18:10 2007//
+/LDGraphicalEditorActionBarContributor.java/1.7/Mon Jan 19 11:53:57 2009//
+/LDGraphicalEditorContextMenuProvider.java/1.6/Sat Nov 22 11:52:33 2008//
+/LDGraphicalEditorFlyoutPreferences.java/1.2/Thu Apr 24 10:15:03 2008//
+/Messages.java/1.1/Thu Apr 24 10:15:03 2008//
+/OverviewOutlinePage.java/1.4/Wed Oct 24 17:25:38 2007//
+D/actions////
+D/commands////
+D/directedit////
+D/dnd////
+D/figures////
+D/itemmodel////
+D/itemtype////
+/messages.properties/1.1/Thu Apr 24 10:15:03 2008//
+D/model////
+D/overview////
+D/parts////
+D/policies////

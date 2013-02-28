@@ -1,0 +1,106 @@
+<!--In-built list of LD templates and their descriptions-->
+<manifest>
+  <group id="inbuilt-group-1" name="Basic" />
+  
+  <group id="inbuilt-group-2" name="Trainer-driven models">
+    
+    <template name="Socratic Questioning 1" location="socratic">
+      <description>Named for the early Greek philosopher and teacher Socrates, a Socratic approach is one in which the trainer poses thoughtful questions to help learners learn.
+
+During Socratic questioning, the trainer models critical thinking who respects learners' viewpoints, probes their understanding, and shows genuine interest in their thinking. The trainer poses questions that are more meaningful than those a novice of a given topic might develop on his or her own. The trainer creates and sustains an intellectually stimulating training environment (Merritts and Walter, 2008).</description>
+      <learning-objectives>Scientific practices of inquiry, Construct knowledge, Problem-solving skills, Long-term retention of knowledge, Critical Thinking.</learning-objectives>
+    </template>
+    
+    <template name="Socratic Questioning 2" location="socratic2">
+      <description>In the Socratic approach to teaching, the trainer poses thoughtful questions to help learners learn.</description>
+    </template>
+    
+    <template name="Inquiry Based Learning" location="inquiry-based-learning">
+      <description>The essence of inquiry-based learning is that learners participate in the planning, development and evaluation of projects and activities.</description>
+    </template>
+    
+    <template name="One Minute Paper" location="one-minute-paper">
+      <description>Learners quickly write thoughts to make level of understanding explicit. Feedback to trainer.</description>
+    </template>
+    
+    <template name="Jigsaw" location="jigsaw">
+      <description>Jigsaw CLFP organizes a complex learning flow for a context in which several small groups are facing the study of a lot of information for the resolution of the same problem.
+
+The activity flow is structured in three phases: i) a first phase in which an individual or initial group studies a particular subproblem, ii) a second phase in which the students that are involved in the same problem are grouped in Expert groups for exchanging ideas, and iii) a third phase in which the students are grouped in Jigsaw groups formed by one expert in each subproblem to solve the whole problem.</description>
+    </template>
+    
+    <template name="Think Pair Share 1" location="think-pair-share-collage">
+      <description>Break long presentations: learners think individually, discuss in pairs, then report back to trainer.</description>
+    </template>
+    
+    <template name="Think Pair Share 2" location="think-pair-share-prolix">
+      <description>Break long presentations: learners think individually, discuss in pairs, then report back to trainer.</description>
+    </template>
+    
+    <template name="Learning Outcomes Negotiation" location="learning-outcomes-negotiation">
+      <description>UoL for supporting the trainer in following the students progress by storing and commenting the outcomes from a negotiation process.</description>
+    </template>
+
+  </group>
+  
+  <group id="inbuilt-group-3" name="Discussion-oriented models">
+    <template name="Brainstorming" location="brainstorm">
+      <description>The general idea of brainstorming is that the participants generate new ideas in a group effort in order to solve problems creatively.</description>
+    </template>
+    
+    <template name="Debate" location="debate">
+      <description>This is a template for creating a debate for two groups.  It was designed by Dai Griffiths of Bolton University.</description>
+    </template>
+    
+    <template name="Guided Discussion 1" location="guided-discussion">
+      <description>The goal of guided or directed discussion tasks is to give learners a chance to develop critical thinking, clear oral expression, as well as experience in posing and responding to questions.</description>
+      <learning-objectives>Critical thinking, Clear oral expression.</learning-objectives>
+    </template>
+    
+    <template name="Guided Discussion 2" location="guided-discussion2">
+      <description>Trainer-guided discussions give learners a chance to develop critical thinking, clear oral expression, as well as experience in posing and responding to questions.</description>
+    </template>
+    
+    <template name="360 Degree Feedback" location="360-feedback">
+      <description>Assessment of tasks, students evaluate tasks of their class-mates, think individually, discuss in group, then report back to partner, self-assessment.</description>
+    </template>
+    
+    <template name="Peer Assessment" location="peer-assessment">
+      <description>Assessment of tasks, evaluation in pairs, self-assessment.</description>
+    </template>
+
+  </group>
+  
+  <group id="inbuilt-group-4" name="Collaborative assessment-driven models">
+  	
+  	<template name="Peer Learning" location="peer-learning">
+      <description>Peer learning provides learners with an opportunity to instruct each other on relevant topics. Learners experience higher self-efficacy, which has been shown to be positively related to performance in a task.</description>
+    </template>
+    
+  </group>
+  
+  <group id="inbuilt-group-5" name="Assessment-model driven">
+  
+  	<template name="Formative Assessment" location="formative-assessment">
+      <description>This UoL includes a set of questionnaires and activities to reinforce concepts.</description>
+    </template>
+
+  	<template name="Summative Assessment" location="summative-assessment">
+      <description>UoL for making the students memorize concepts/ideas/rules.</description>
+    </template>
+    
+  </group>
+  
+  <group id="inbuilt-group-6" name="Adaptive-driven models">
+  
+    <template name="Adaptive" location="adaptive">
+      <description>This adaptive UoL allows you to design a UoL in which the questions change according to the answers given by the students.</description>
+    </template>
+    
+    <template name="Adaptive Assessment" location="adaptive-assessment">
+      <description>Adaptive UoL that offers two different main topics, Verbs and Vocabulary, and adapt the content depending on the responses of the student.</description>
+    </template>
+  
+  </group>
+  
+</manifest>

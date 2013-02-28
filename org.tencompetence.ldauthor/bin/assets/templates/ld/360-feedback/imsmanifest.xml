@@ -1,0 +1,771 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Edited with ReCourse-->
+<!--Created - Tue Jan 26 18:12:44 CET 2010-->
+<!--Modified - Tue Jan 26 18:38:32 CET 2010-->
+<!--Authors- Patricia Santos & Mar Pérez-Sanagustín, UPF-->
+
+<manifest xmlns="http://www.imsglobal.org/xsd/imscp_v1p1" xmlns:imsld="http://www.imsglobal.org/xsd/imsld_v1p0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ldauthor="http://www.tencompetence.org/ldauthor" xsi:schemaLocation="http://www.imsglobal.org/xsd/imscp_v1p1 http://www.imsglobal.org/xsd/imscp_v1p1.xsd http://www.imsglobal.org/xsd/imsld_v1p0 http://www.imsglobal.org/xsd/IMS_LD_Level_B.xsd http://www.tencompetence.org/ldauthor ld-author.xsd" identifier="manifest-9f1fd493-15fd-47fa-be8b-d8fd3224b2ab">
+  <organizations>
+    <imsld:learning-design identifier="ld-ae122818-008f-4548-bdc7-103c55735d16" version="1.0.0" level="B" uri="http://www.yourURI.here/232b0211-4287-440e-8c3e-6aef1a80c80e" sequence-used="false">
+      <imsld:title>360-assessment</imsld:title>
+      <imsld:components>
+        <imsld:roles>
+          <imsld:learner identifier="Learner">
+            <imsld:title>Student</imsld:title>
+          </imsld:learner>
+          <imsld:learner identifier="role-897f85c6-3967-46a7-bc6b-30afe34b864d">
+            <imsld:title>Peer-student</imsld:title>
+          </imsld:learner>
+          <imsld:learner identifier="role-3ed9fe16-cbd8-434a-b5ad-20d635cc6680">
+            <imsld:title>PeerStudent2</imsld:title>
+          </imsld:learner>
+          <imsld:staff identifier="Tutor">
+            <imsld:title>Teacher</imsld:title>
+          </imsld:staff>
+        </imsld:roles>
+        <imsld:properties>
+          <imsld:locpers-property identifier="LP-submission">
+            <imsld:title>Your assesment</imsld:title>
+            <imsld:datatype datatype="file" />
+          </imsld:locpers-property>
+          <imsld:locpers-property identifier="LP-name">
+            <imsld:title>Your name</imsld:title>
+            <imsld:datatype datatype="string" />
+          </imsld:locpers-property>
+          <imsld:locpers-property identifier="LP-email">
+            <imsld:title>Your email</imsld:title>
+            <imsld:datatype datatype="string" />
+          </imsld:locpers-property>
+          <imsld:locpers-property identifier="LP-title">
+            <imsld:title>Title of your assignement</imsld:title>
+            <imsld:datatype datatype="string" />
+          </imsld:locpers-property>
+          <imsld:locpers-property identifier="LP-submission2">
+            <imsld:title>Your assesment</imsld:title>
+            <imsld:datatype datatype="file" />
+          </imsld:locpers-property>
+          <imsld:locpers-property identifier="LP-name2">
+            <imsld:title>Your name</imsld:title>
+            <imsld:datatype datatype="string" />
+          </imsld:locpers-property>
+          <imsld:locpers-property identifier="LP-email2">
+            <imsld:title>Your email</imsld:title>
+            <imsld:datatype datatype="string" />
+          </imsld:locpers-property>
+          <imsld:locpers-property identifier="LP-title2">
+            <imsld:title>Title of your assignement</imsld:title>
+            <imsld:datatype datatype="string" />
+          </imsld:locpers-property>
+          <imsld:locpers-property identifier="LP-response-to-submission">
+            <imsld:title>Responses to the submission</imsld:title>
+            <imsld:datatype datatype="text" />
+          </imsld:locpers-property>
+          <imsld:locpers-property identifier="LP-tutor-comments-submission">
+            <imsld:title>Remarks from the teacher</imsld:title>
+            <imsld:datatype datatype="text" />
+          </imsld:locpers-property>
+          <imsld:locpers-property identifier="LP-tutor-comments-submission2">
+            <imsld:title>Remarks from the peer-student</imsld:title>
+            <imsld:datatype datatype="text" />
+          </imsld:locpers-property>
+          <imsld:locpers-property identifier="LP-tutor-comments-submission-final">
+            <imsld:title>Remarks from the teacher</imsld:title>
+            <imsld:datatype datatype="text" />
+          </imsld:locpers-property>
+          <imsld:locpers-property identifier="LP-tutor-comments-submission-qualifications">
+            <imsld:title>Local Personal Property</imsld:title>
+            <imsld:datatype datatype="string" />
+            <imsld:initial-value>Select</imsld:initial-value>
+            <imsld:restriction restriction-type="enumeration">Select</imsld:restriction>
+            <imsld:restriction restriction-type="enumeration">A-the best</imsld:restriction>
+            <imsld:restriction restriction-type="enumeration">B-good</imsld:restriction>
+            <imsld:restriction restriction-type="enumeration">C-half</imsld:restriction>
+            <imsld:restriction restriction-type="enumeration">D-repeat</imsld:restriction>
+            <imsld:restriction restriction-type="enumeration">E-out</imsld:restriction>
+          </imsld:locpers-property>
+          <imsld:locpers-property identifier="LP-tutor-comments-submission-mark">
+            <imsld:title>Numeric mark (0-10)</imsld:title>
+            <imsld:datatype datatype="integer" />
+          </imsld:locpers-property>
+          <imsld:loc-property identifier="LP-activity-2-completed">
+            <imsld:title>Submission of assesment completed</imsld:title>
+            <imsld:datatype datatype="boolean" />
+            <imsld:initial-value>false</imsld:initial-value>
+          </imsld:loc-property>
+          <imsld:loc-property identifier="LP-activity-3-completed">
+            <imsld:title>Correcting completed</imsld:title>
+            <imsld:datatype datatype="boolean" />
+            <imsld:initial-value>false</imsld:initial-value>
+          </imsld:loc-property>
+          <imsld:loc-property identifier="LP-activity-4-completed">
+            <imsld:title>Reviewing completed</imsld:title>
+            <imsld:datatype datatype="boolean" />
+            <imsld:initial-value>false</imsld:initial-value>
+          </imsld:loc-property>
+        </imsld:properties>
+        <imsld:activities>
+          <imsld:learning-activity identifier="LA-introduction" isvisible="true">
+            <imsld:title>Description of this Example Unit of Learning</imsld:title>
+            <imsld:activity-description>
+              <imsld:item identifier="I-introduction" isvisible="true" identifierref="R-intro">
+                <imsld:title>Introduction</imsld:title>
+              </imsld:item>
+              <imsld:item identifier="I-credits" isvisible="true" identifierref="R-credits">
+                <imsld:title>Credits</imsld:title>
+              </imsld:item>
+            </imsld:activity-description>
+            <imsld:complete-activity>
+              <imsld:user-choice />
+            </imsld:complete-activity>
+          </imsld:learning-activity>
+          <imsld:learning-activity identifier="LA-enter-submission" isvisible="true">
+            <imsld:title>Enter your personal info and submit your assesment</imsld:title>
+            <imsld:learning-objectives>
+              <imsld:title>Objectives</imsld:title>
+              <imsld:item identifier="item-dd784232-434b-4ea6-8cae-13036cf46d8c" isvisible="true" identifierref="R-objectives-1" />
+            </imsld:learning-objectives>
+            <imsld:prerequisites>
+              <imsld:title>Prerequisites</imsld:title>
+              <imsld:item identifier="item-24dd2cd0-808b-4594-ad2d-861ee979f05c" isvisible="true" identifierref="R-pre-1" />
+            </imsld:prerequisites>
+            <imsld:activity-description>
+              <imsld:item identifier="I-enter-submission" isvisible="true" identifierref="R-submission">
+                <imsld:title>Enter your personal info and submit your assesment</imsld:title>
+              </imsld:item>
+            </imsld:activity-description>
+            <imsld:complete-activity>
+              <imsld:when-property-value-is-set>
+                <imsld:property-ref ref="LP-activity-2-completed" />
+                <imsld:property-value>true</imsld:property-value>
+              </imsld:when-property-value-is-set>
+            </imsld:complete-activity>
+          </imsld:learning-activity>
+          <imsld:learning-activity identifier="LA-respond-to-others" isvisible="false">
+            <imsld:title>Reading your correction and requesting a review</imsld:title>
+            <imsld:learning-objectives>
+              <imsld:title>Objectives</imsld:title>
+              <imsld:item identifier="item-363312af-08d3-4111-aa0f-1ca4579432d3" isvisible="true" identifierref="R-objectives-2" />
+            </imsld:learning-objectives>
+            <imsld:prerequisites>
+              <imsld:title>Prerequisites</imsld:title>
+              <imsld:item identifier="item-334e7ca8-4faf-4dac-8f9e-237d12ee1547" isvisible="true" identifierref="R-pre-2" />
+            </imsld:prerequisites>
+            <imsld:environment-ref ref="env-c78cd2c3-1420-4dea-b5e8-552528377e55" />
+            <imsld:activity-description>
+              <imsld:item identifier="I-respond-to-others-1" isvisible="true" identifierref="R-response-to-submission-form">
+                <imsld:title>Reading your correction and requesting a review</imsld:title>
+              </imsld:item>
+            </imsld:activity-description>
+            <imsld:complete-activity>
+              <imsld:when-property-value-is-set>
+                <imsld:property-ref ref="LP-activity-3-completed" />
+                <imsld:property-value>true</imsld:property-value>
+              </imsld:when-property-value-is-set>
+            </imsld:complete-activity>
+          </imsld:learning-activity>
+          <imsld:learning-activity identifier="LA-respond-to-others-2" isvisible="false">
+            <imsld:title>Final valuation and dossier</imsld:title>
+            <imsld:learning-objectives>
+              <imsld:title>Objectives</imsld:title>
+              <imsld:item identifier="item-bb6f9e6e-e975-4b3c-9d8c-98018b7ad15a" isvisible="true" identifierref="R-objectives-3" />
+            </imsld:learning-objectives>
+            <imsld:prerequisites>
+              <imsld:title>Prerequisites</imsld:title>
+              <imsld:item identifier="item-8d328c66-37bf-4493-8241-44d8a50fb874" isvisible="true" identifierref="R-pre-3" />
+            </imsld:prerequisites>
+            <imsld:environment-ref ref="E-overview-remarks-2" />
+            <imsld:activity-description>
+              <imsld:item identifier="I-respond-to-others-2" isvisible="true" identifierref="R-response-to-submission-form-2">
+                <imsld:title>Reviewing</imsld:title>
+              </imsld:item>
+            </imsld:activity-description>
+            <imsld:complete-activity>
+              <imsld:when-property-value-is-set>
+                <imsld:property-ref ref="LP-activity-4-completed" />
+                <imsld:property-value>true</imsld:property-value>
+              </imsld:when-property-value-is-set>
+            </imsld:complete-activity>
+          </imsld:learning-activity>
+          <imsld:learning-activity identifier="la-ef84e555-8a3c-4880-8442-5d2015d7b3c9" isvisible="true">
+            <imsld:title>Submission2</imsld:title>
+            <imsld:activity-description>
+              <imsld:item identifier="item-bd9a224b-e4c7-4989-afb0-c6b4af4c93e1" isvisible="true" identifierref="Copiasubmission-form_xml">
+                <imsld:title>Resource</imsld:title>
+              </imsld:item>
+            </imsld:activity-description>
+            <imsld:complete-activity>
+              <imsld:user-choice />
+            </imsld:complete-activity>
+          </imsld:learning-activity>
+          <imsld:learning-activity identifier="la-2a6e4272-d7ca-4ea7-a37c-ac59572135be" isvisible="true">
+            <imsld:title>Checking-teacher</imsld:title>
+            <imsld:activity-description>
+              <imsld:item identifier="item-4bacb18f-4b79-4a73-b43b-e8ca10e3aef7" isvisible="true" identifierref="R-set-activity2-complete">
+                <imsld:title>Resource</imsld:title>
+              </imsld:item>
+            </imsld:activity-description>
+            <imsld:complete-activity>
+              <imsld:user-choice />
+            </imsld:complete-activity>
+          </imsld:learning-activity>
+          <imsld:learning-activity identifier="la-73facdbe-427a-4e59-9585-8729a3968e3e" isvisible="true">
+            <imsld:title>Checking-trainer</imsld:title>
+            <imsld:environment-ref ref="env-c78cd2c3-1420-4dea-b5e8-552528377e55" />
+            <imsld:activity-description>
+              <imsld:item identifier="item-5d0fe04d-a823-4874-bf3f-caeb924498f9" isvisible="true" identifierref="R-set-activity2-complete">
+                <imsld:title>Resource</imsld:title>
+              </imsld:item>
+            </imsld:activity-description>
+            <imsld:complete-activity>
+              <imsld:user-choice />
+            </imsld:complete-activity>
+          </imsld:learning-activity>
+          <imsld:learning-activity identifier="la-58ee1c4b-d929-4ca8-a416-b7630baa5434" isvisible="true">
+            <imsld:title>Learner Task</imsld:title>
+            <imsld:activity-description>
+              <imsld:item identifier="item-1473bcae-2c9d-42e6-94cf-6826d218a4b7" isvisible="true" identifierref="Text">
+                <imsld:title>Resource</imsld:title>
+              </imsld:item>
+            </imsld:activity-description>
+            <imsld:complete-activity>
+              <imsld:user-choice />
+            </imsld:complete-activity>
+          </imsld:learning-activity>
+          <imsld:learning-activity identifier="la-d1195c75-4188-43c2-9125-b57185f0c0cb" isvisible="true">
+            <imsld:title>Description of the Unit</imsld:title>
+            <imsld:activity-description>
+              <imsld:item identifier="item-40f2d742-cb99-4dcf-9e03-33cf20419c24" isvisible="true" identifierref="Description_of_the_Unit">
+                <imsld:title>Resource</imsld:title>
+              </imsld:item>
+            </imsld:activity-description>
+            <imsld:complete-activity>
+              <imsld:user-choice />
+            </imsld:complete-activity>
+          </imsld:learning-activity>
+          <imsld:learning-activity identifier="la-1c6da3b9-b625-4afd-9002-338c4d481e06" isvisible="true">
+            <imsld:title>Description</imsld:title>
+            <imsld:activity-description>
+              <imsld:item identifier="item-d4883ce6-ba3d-48ec-af17-0563fee40e67" isvisible="true" identifierref="Description">
+                <imsld:title>Resource</imsld:title>
+              </imsld:item>
+            </imsld:activity-description>
+            <imsld:complete-activity>
+              <imsld:user-choice />
+            </imsld:complete-activity>
+          </imsld:learning-activity>
+          <imsld:learning-activity identifier="la-eff57120-7498-4675-b6c3-7502d19a22b5" isvisible="true">
+            <imsld:title>List of Students and Peer-Students</imsld:title>
+            <imsld:activity-description>
+              <imsld:item identifier="item-1d1b31a8-bfd8-444d-a492-dd9e35134424" isvisible="true" identifierref="List_of_Students_and_Peer-Students">
+                <imsld:title>Resource</imsld:title>
+              </imsld:item>
+            </imsld:activity-description>
+            <imsld:complete-activity>
+              <imsld:user-choice />
+            </imsld:complete-activity>
+          </imsld:learning-activity>
+          <imsld:support-activity identifier="SA-first-step" isvisible="true">
+            <imsld:title>Checking the submission of assesments</imsld:title>
+            <imsld:role-ref ref="Learner" />
+            <imsld:environment-ref ref="E-overview-remarks" />
+            <imsld:activity-description>
+              <imsld:item identifier="I-sa-first-step" isvisible="true" identifierref="R-set-activity2-complete">
+                <imsld:title>Close the submission</imsld:title>
+              </imsld:item>
+            </imsld:activity-description>
+            <imsld:complete-activity>
+              <imsld:when-property-value-is-set>
+                <imsld:property-ref ref="LP-activity-2-completed" />
+                <imsld:property-value>true</imsld:property-value>
+              </imsld:when-property-value-is-set>
+            </imsld:complete-activity>
+          </imsld:support-activity>
+          <imsld:support-activity identifier="SA-respond" isvisible="true">
+            <imsld:title>Correcting the assesment</imsld:title>
+            <imsld:role-ref ref="Learner" />
+            <imsld:environment-ref ref="env-c78cd2c3-1420-4dea-b5e8-552528377e55" />
+            <imsld:activity-description>
+              <imsld:item identifier="item-b5deeaf9-1647-463d-954e-268cbb8aa23d" isvisible="true" identifierref="R-response-to-submission-form-tutor" />
+            </imsld:activity-description>
+            <imsld:complete-activity>
+              <imsld:when-property-value-is-set>
+                <imsld:property-ref ref="LP-activity-3-completed" />
+                <imsld:property-value>true</imsld:property-value>
+              </imsld:when-property-value-is-set>
+            </imsld:complete-activity>
+          </imsld:support-activity>
+          <imsld:support-activity identifier="SA-respondPeer" isvisible="true">
+            <imsld:title>Correcting the assesment</imsld:title>
+            <imsld:role-ref ref="Learner" />
+            <imsld:environment-ref ref="env-c78cd2c3-1420-4dea-b5e8-552528377e55" />
+            <imsld:activity-description>
+              <imsld:item identifier="item-b5deeaf9-1647-463d-954e-268cbb8aa23dpeer" isvisible="true" identifierref="R-response-to-submission-form-tutorPeer" />
+            </imsld:activity-description>
+            <imsld:complete-activity>
+              <imsld:when-property-value-is-set>
+                <imsld:property-ref ref="LP-activity-3-completed" />
+                <imsld:property-value>true</imsld:property-value>
+              </imsld:when-property-value-is-set>
+            </imsld:complete-activity>
+          </imsld:support-activity>
+          <imsld:support-activity identifier="SA-respond-2" isvisible="true">
+            <imsld:title>Reviewing and final remarks</imsld:title>
+            <imsld:role-ref ref="Learner" />
+            <imsld:activity-description>
+              <imsld:item identifier="item-d364976d-bf15-4d96-bb14-4207157aa8ad" isvisible="true" identifierref="R-response-to-submission-form-tutor-2" />
+            </imsld:activity-description>
+            <imsld:complete-activity>
+              <imsld:when-property-value-is-set>
+                <imsld:property-ref ref="LP-activity-4-completed" />
+                <imsld:property-value>true</imsld:property-value>
+              </imsld:when-property-value-is-set>
+            </imsld:complete-activity>
+          </imsld:support-activity>
+          <imsld:support-activity identifier="sa-30ade002-fb08-4568-8307-26fc1eee92fd" isvisible="true">
+            <imsld:title>Checking the submission-peerlearner2</imsld:title>
+            <imsld:activity-description>
+              <imsld:item identifier="item-8f6bfc38-0f5c-44c2-a4f9-517310ba09fc" isvisible="true" identifierref="set-activitypeerstudent2-complete_xml">
+                <imsld:title>Resource</imsld:title>
+              </imsld:item>
+            </imsld:activity-description>
+            <imsld:complete-activity>
+              <imsld:user-choice />
+            </imsld:complete-activity>
+          </imsld:support-activity>
+          <imsld:support-activity identifier="sa-9f4edd46-39b3-496d-b4e0-8f0cc92880c3" isvisible="true">
+            <imsld:title>Correcting peerstudent2</imsld:title>
+            <imsld:activity-description>
+              <imsld:item identifier="item-b402fab9-c4d6-4807-aa54-20633bae0cba" isvisible="true" identifierref="submission-tutor-form4_xml">
+                <imsld:title>Resource</imsld:title>
+              </imsld:item>
+            </imsld:activity-description>
+            <imsld:complete-activity>
+              <imsld:user-choice />
+            </imsld:complete-activity>
+          </imsld:support-activity>
+          <imsld:activity-structure identifier="AS-first-step" structure-type="sequence">
+            <imsld:title>Submitting</imsld:title>
+            <imsld:learning-activity-ref ref="la-58ee1c4b-d929-4ca8-a416-b7630baa5434" />
+            <imsld:learning-activity-ref ref="LA-enter-submission" />
+          </imsld:activity-structure>
+          <imsld:activity-structure identifier="AS-second-step" structure-type="sequence">
+            <imsld:title>Reviewing</imsld:title>
+            <imsld:learning-activity-ref ref="LA-respond-to-others" />
+          </imsld:activity-structure>
+          <imsld:activity-structure identifier="AS-third-step" structure-type="sequence">
+            <imsld:title>Reading</imsld:title>
+            <imsld:learning-activity-ref ref="LA-respond-to-others-2" />
+          </imsld:activity-structure>
+          <imsld:activity-structure identifier="as-0924c041-9c2d-4524-8194-dd93966f438d" structure-type="selection">
+            <imsld:title>Submitting2</imsld:title>
+            <imsld:learning-activity-ref ref="la-ef84e555-8a3c-4880-8442-5d2015d7b3c9" />
+          </imsld:activity-structure>
+        </imsld:activities>
+        <imsld:environments>
+          <imsld:environment identifier="E-overview-remarks">
+            <imsld:title>Checking the submission</imsld:title>
+            <imsld:service identifier="S-overview-submission" isvisible="true">
+              <imsld:monitor>
+                <imsld:role-ref ref="Learner" />
+                <imsld:title>What assesments have been submitted?</imsld:title>
+                <imsld:item identifier="item-a9d7c35d-6ef1-45cb-add6-b913664fae17" isvisible="true" identifierref="R-submission-overview" />
+              </imsld:monitor>
+            </imsld:service>
+          </imsld:environment>
+          <imsld:environment identifier="E-overview-remarks-2">
+            <imsld:title>Final remarks</imsld:title>
+            <imsld:service identifier="S-overview-submission-2" isvisible="true">
+              <imsld:monitor>
+                <imsld:role-ref ref="Learner" />
+                <imsld:title>Final remarks</imsld:title>
+                <imsld:item identifier="item-1c4c8939-73ff-4041-917d-7bed4529c725" isvisible="true" identifierref="R-submission-overview-2" />
+              </imsld:monitor>
+            </imsld:service>
+          </imsld:environment>
+          <imsld:environment identifier="E-response-by-tutor">
+            <imsld:title>Teacher´s remarks on the assignements</imsld:title>
+            <imsld:learning-object identifier="lo-E-response-by-tutor" isvisible="true">
+              <imsld:title>Teacher´s remarks on the assignements</imsld:title>
+              <imsld:item identifier="item-63c3a109-f6a6-4045-9851-a1c29e30222c" isvisible="true" identifierref="R-response-by-tutor" />
+            </imsld:learning-object>
+          </imsld:environment>
+          <imsld:environment identifier="env-c78cd2c3-1420-4dea-b5e8-552528377e55">
+            <imsld:title>discussion Forum</imsld:title>
+            <imsld:service identifier="conference-2b5381d9-e828-4e58-aedb-d95a0e0b2610" isvisible="true" parameters="widget=discussion">
+              <imsld:conference conference-type="synchronous">
+                <imsld:title>Discussion/forum widget</imsld:title>
+                <imsld:participant role-ref="Learner" />
+                <imsld:item identifier="item-6f2519bf-7990-4d57-97e1-08c7c3003cf9" isvisible="true" identifierref="Conference">
+                  <imsld:title>Item</imsld:title>
+                </imsld:item>
+              </imsld:conference>
+            </imsld:service>
+          </imsld:environment>
+        </imsld:environments>
+      </imsld:components>
+      <imsld:method>
+        <imsld:play identifier="P-1" isvisible="true">
+          <imsld:title>A full cycle of a free style assesment</imsld:title>
+          <imsld:act identifier="act-7f27f2ba-38d6-4862-93ae-6255b2672159">
+            <imsld:title>Description Unit</imsld:title>
+            <imsld:role-part identifier="rolepart-c11d15fd-06cb-4069-864b-fc8c7bbf8711">
+              <imsld:title>Role Part</imsld:title>
+              <imsld:role-ref ref="role-897f85c6-3967-46a7-bc6b-30afe34b864d" />
+              <imsld:learning-activity-ref ref="la-1c6da3b9-b625-4afd-9002-338c4d481e06" />
+            </imsld:role-part>
+            <imsld:role-part identifier="rolepart-5e1ce57f-cce3-48f8-a194-9d5463ddd637">
+              <imsld:title>Role Part</imsld:title>
+              <imsld:role-ref ref="Tutor" />
+              <imsld:learning-activity-ref ref="la-1c6da3b9-b625-4afd-9002-338c4d481e06" />
+            </imsld:role-part>
+            <imsld:role-part identifier="rolepart-e30b585f-a7b2-450a-a1ef-93adb66a457b">
+              <imsld:title>Role Part</imsld:title>
+              <imsld:role-ref ref="Learner" />
+              <imsld:learning-activity-ref ref="la-eff57120-7498-4675-b6c3-7502d19a22b5" />
+            </imsld:role-part>
+            <imsld:role-part identifier="rolepart-b52e830e-e36e-4164-9dc4-226ba281736b">
+              <imsld:title>Role Part</imsld:title>
+              <imsld:role-ref ref="role-897f85c6-3967-46a7-bc6b-30afe34b864d" />
+              <imsld:learning-activity-ref ref="la-eff57120-7498-4675-b6c3-7502d19a22b5" />
+            </imsld:role-part>
+            <imsld:role-part identifier="rolepart-72338a98-651a-45d5-a38b-233dcd9a9c0a">
+              <imsld:title>Role Part</imsld:title>
+              <imsld:role-ref ref="Tutor" />
+              <imsld:learning-activity-ref ref="la-eff57120-7498-4675-b6c3-7502d19a22b5" />
+            </imsld:role-part>
+            <imsld:role-part identifier="rolepart-f8ff74ac-ff36-4baa-83bc-5951e8f3979f">
+              <imsld:title>Role Part</imsld:title>
+              <imsld:role-ref ref="Learner" />
+              <imsld:learning-activity-ref ref="la-1c6da3b9-b625-4afd-9002-338c4d481e06" />
+            </imsld:role-part>
+            <imsld:role-part identifier="rolepart-abf599bd-d5f8-4bba-868d-eea92c379b4a">
+              <imsld:title>Role Part</imsld:title>
+              <imsld:role-ref ref="role-3ed9fe16-cbd8-434a-b5ad-20d635cc6680" />
+              <imsld:learning-activity-ref ref="la-1c6da3b9-b625-4afd-9002-338c4d481e06" />
+            </imsld:role-part>
+            <imsld:role-part identifier="rolepart-f20cf1ec-fab7-482d-a593-15a5e25d6685">
+              <imsld:title>Role Part</imsld:title>
+              <imsld:role-ref ref="role-3ed9fe16-cbd8-434a-b5ad-20d635cc6680" />
+              <imsld:learning-activity-ref ref="la-eff57120-7498-4675-b6c3-7502d19a22b5" />
+            </imsld:role-part>
+          </imsld:act>
+          <imsld:act identifier="A-1">
+            <imsld:title>1/3 Submission</imsld:title>
+            <imsld:role-part identifier="RP-Learner-1">
+              <imsld:title>First step</imsld:title>
+              <imsld:role-ref ref="Learner" />
+              <imsld:activity-structure-ref ref="AS-first-step" />
+            </imsld:role-part>
+            <imsld:role-part identifier="rolepart-2f51444c-572d-4a32-aa97-285a4310556e">
+              <imsld:title>Role Part</imsld:title>
+              <imsld:role-ref ref="role-897f85c6-3967-46a7-bc6b-30afe34b864d" />
+              <imsld:support-activity-ref ref="SA-first-step" />
+            </imsld:role-part>
+            <imsld:role-part identifier="rolepart-b6d6df2b-e09a-4eea-82cb-522ea798cbb8">
+              <imsld:title>Role Part</imsld:title>
+              <imsld:role-ref ref="role-3ed9fe16-cbd8-434a-b5ad-20d635cc6680" />
+              <imsld:support-activity-ref ref="sa-30ade002-fb08-4568-8307-26fc1eee92fd" />
+            </imsld:role-part>
+          </imsld:act>
+          <imsld:act identifier="A-2">
+            <imsld:title>2/3 Reading the first correction and requesting an optional review</imsld:title>
+            <imsld:role-part identifier="RP-Learner-2">
+              <imsld:title>Second step</imsld:title>
+              <imsld:role-ref ref="Learner" />
+              <imsld:activity-structure-ref ref="AS-second-step" />
+            </imsld:role-part>
+            <imsld:role-part identifier="rolepart-2d9117fd-6f4f-439b-adc0-d2098573d8ff">
+              <imsld:title>Role Part</imsld:title>
+              <imsld:role-ref ref="role-897f85c6-3967-46a7-bc6b-30afe34b864d" />
+              <imsld:support-activity-ref ref="SA-respond" />
+            </imsld:role-part>
+            <imsld:role-part identifier="rolepart-2d9117fd-6f4f-439b-adc0-d2098573d8ffpeer">
+              <imsld:title>Role Part</imsld:title>
+              <imsld:role-ref ref="role-3ed9fe16-cbd8-434a-b5ad-20d635cc6680" />
+              <imsld:support-activity-ref ref="SA-respondPeer" />
+            </imsld:role-part>
+          </imsld:act>
+          <imsld:act identifier="act-36feac95-49aa-4a14-bead-d46d5ebe61cc">
+            <imsld:title>Submission2</imsld:title>
+            <imsld:role-part identifier="rolepart-7e910ba3-a0b5-436b-ba36-ff8113db948b">
+              <imsld:title>Role Part</imsld:title>
+              <imsld:role-ref ref="Learner" />
+              <imsld:activity-structure-ref ref="as-0924c041-9c2d-4524-8194-dd93966f438d" />
+            </imsld:role-part>
+            <imsld:role-part identifier="rolepart-0da5a83a-4eaa-4b37-875b-7e88ca3ff102">
+              <imsld:title>Role Part</imsld:title>
+              <imsld:role-ref ref="Tutor" />
+              <imsld:learning-activity-ref ref="la-73facdbe-427a-4e59-9585-8729a3968e3e" />
+            </imsld:role-part>
+          </imsld:act>
+          <imsld:act identifier="A-3">
+            <imsld:title>3/3 Reading the final dossier</imsld:title>
+            <imsld:role-part identifier="RP-Learner-3">
+              <imsld:title>Third step</imsld:title>
+              <imsld:role-ref ref="Learner" />
+              <imsld:activity-structure-ref ref="AS-third-step" />
+            </imsld:role-part>
+            <imsld:role-part identifier="RP-Tutor-3">
+              <imsld:title>Reviewing student´s comments and final qualifications</imsld:title>
+              <imsld:role-ref ref="Tutor" />
+              <imsld:support-activity-ref ref="SA-respond-2" />
+            </imsld:role-part>
+            <imsld:complete-act>
+              <imsld:when-role-part-completed ref="RP-Tutor-3" />
+            </imsld:complete-act>
+          </imsld:act>
+          <imsld:complete-play>
+            <imsld:when-last-act-completed />
+          </imsld:complete-play>
+        </imsld:play>
+        <imsld:complete-unit-of-learning>
+          <imsld:when-play-completed ref="P-1" />
+        </imsld:complete-unit-of-learning>
+        <imsld:conditions>
+          <imsld:if>
+            <imsld:not>
+              <imsld:no-value>
+                <imsld:property-ref ref="LP-tutor-comments-submission" />
+              </imsld:no-value>
+            </imsld:not>
+          </imsld:if>
+          <imsld:then>
+            <imsld:show>
+              <imsld:environment-ref ref="E-response-by-tutor" />
+            </imsld:show>
+          </imsld:then>
+          <imsld:else>
+            <imsld:hide>
+              <imsld:environment-ref ref="E-response-by-tutor" />
+            </imsld:hide>
+          </imsld:else>
+          <imsld:if>
+            <imsld:not>
+              <imsld:no-value>
+                <imsld:property-ref ref="LP-tutor-comments-submission2" />
+              </imsld:no-value>
+            </imsld:not>
+          </imsld:if>
+          <imsld:then>
+            <imsld:show>
+              <imsld:environment-ref ref="E-response-by-tutor" />
+            </imsld:show>
+          </imsld:then>
+          <imsld:else>
+            <imsld:hide>
+              <imsld:environment-ref ref="E-response-by-tutor" />
+            </imsld:hide>
+          </imsld:else>
+          <imsld:if>
+            <imsld:complete>
+              <imsld:learning-activity-ref ref="LA-enter-submission" />
+            </imsld:complete>
+          </imsld:if>
+          <imsld:then>
+            <imsld:show>
+              <imsld:class class="C-Activity2-complete" with-control="false" />
+            </imsld:show>
+            <imsld:hide>
+              <imsld:class class="C-Activity2-not-complete" with-control="false" />
+            </imsld:hide>
+          </imsld:then>
+          <imsld:else>
+            <imsld:show>
+              <imsld:class class="C-Activity2-not-complete" with-control="false" />
+            </imsld:show>
+            <imsld:hide>
+              <imsld:class class="C-Activity2-complete" with-control="false" />
+            </imsld:hide>
+          </imsld:else>
+          <imsld:if>
+            <imsld:complete>
+              <imsld:learning-activity-ref ref="la-ef84e555-8a3c-4880-8442-5d2015d7b3c9" />
+            </imsld:complete>
+          </imsld:if>
+          <imsld:then>
+            <imsld:show>
+              <imsld:class class="C-Activity2aentrega-complete" with-control="false" />
+            </imsld:show>
+            <imsld:hide>
+              <imsld:class class="C-Activity2aentrega-not-complete" with-control="false" />
+            </imsld:hide>
+          </imsld:then>
+          <imsld:else>
+            <imsld:show>
+              <imsld:class class="C-Activity2aentrega-not-complete" with-control="false" />
+            </imsld:show>
+            <imsld:hide>
+              <imsld:class class="C-Activity2aentrega-complete" with-control="false" />
+            </imsld:hide>
+          </imsld:else>
+          <imsld:if>
+            <imsld:complete>
+              <imsld:learning-activity-ref ref="LA-respond-to-others" />
+            </imsld:complete>
+          </imsld:if>
+          <imsld:then>
+            <imsld:show>
+              <imsld:class class="C-Activity3-complete" with-control="false" />
+            </imsld:show>
+            <imsld:hide>
+              <imsld:class class="C-Activity3-not-complete" with-control="false" />
+            </imsld:hide>
+          </imsld:then>
+          <imsld:else>
+            <imsld:show>
+              <imsld:class class="C-Activity3-not-complete" with-control="false" />
+            </imsld:show>
+            <imsld:hide>
+              <imsld:class class="C-Activity3-complete" with-control="false" />
+            </imsld:hide>
+          </imsld:else>
+          <imsld:if>
+            <imsld:complete>
+              <imsld:learning-activity-ref ref="LA-respond-to-others-2" />
+            </imsld:complete>
+          </imsld:if>
+          <imsld:then>
+            <imsld:show>
+              <imsld:class class="C-Activity4-complete" with-control="false" />
+            </imsld:show>
+          </imsld:then>
+          <imsld:else>
+            <imsld:hide>
+              <imsld:class class="C-Activity4-complete" with-control="false" />
+            </imsld:hide>
+          </imsld:else>
+        </imsld:conditions>
+      </imsld:method>
+      <imsld:metadata>
+        <ldauthor:root date-created="1264525964250">
+          <ldauthor:images />
+          <ldauthor:overview>
+            <ldauthor:description />
+            <ldauthor:tags />
+            <ldauthor:author />
+            <ldauthor:subject />
+          </ldauthor:overview>
+          <ldauthor:environments>
+            <ldauthor:environment ref="E-overview-remarks">
+              <ldauthor:bounds x="10" y="10" width="200" height="-1" />
+              <ldauthor:monitor ref="S-overview-submission">
+                <ldauthor:bounds x="10" y="10" width="70" height="-1" />
+              </ldauthor:monitor>
+            </ldauthor:environment>
+            <ldauthor:environment ref="E-overview-remarks-2">
+              <ldauthor:bounds x="230" y="10" width="200" height="-1" />
+              <ldauthor:monitor ref="S-overview-submission-2">
+                <ldauthor:bounds x="10" y="10" width="70" height="-1" />
+              </ldauthor:monitor>
+            </ldauthor:environment>
+            <ldauthor:environment ref="E-response-by-tutor">
+              <ldauthor:bounds x="450" y="10" width="200" height="-1" />
+              <ldauthor:learning-object ref="lo-E-response-by-tutor">
+                <ldauthor:bounds x="10" y="10" width="70" height="-1" />
+              </ldauthor:learning-object>
+            </ldauthor:environment>
+            <ldauthor:environment ref="env-c78cd2c3-1420-4dea-b5e8-552528377e55">
+              <ldauthor:bounds x="10" y="120" width="200" height="-1" />
+              <ldauthor:conference ref="conference-2b5381d9-e828-4e58-aedb-d95a0e0b2610">
+                <ldauthor:bounds x="10" y="10" width="70" height="-1" />
+              </ldauthor:conference>
+            </ldauthor:environment>
+          </ldauthor:environments>
+        </ldauthor:root>
+      </imsld:metadata>
+    </imsld:learning-design>
+  </organizations>
+  <resources>
+    <resource identifier="R-intro" type="webcontent" href="intro.html">
+      <file href="intro.html" />
+    </resource>
+    <resource identifier="R-objectives-1" type="webcontent" href="objectives-1.html">
+      <file href="objectives-1.html" />
+    </resource>
+    <resource identifier="R-objectives-2" type="webcontent" href="objectives-2.html">
+      <file href="objectives-2.html" />
+    </resource>
+    <resource identifier="R-objectives-3" type="webcontent" href="objectives-3.html">
+      <file href="objectives-3.html" />
+    </resource>
+    <resource identifier="R-pre-1" type="webcontent" href="pre-1.html">
+      <file href="pre-1.html" />
+    </resource>
+    <resource identifier="R-pre-2" type="webcontent" href="pre-2.html">
+      <file href="pre-2.html" />
+    </resource>
+    <resource identifier="R-pre-3" type="webcontent" href="pre-3.html">
+      <file href="pre-3.html" />
+    </resource>
+    <resource identifier="R-credits" type="webcontent" href="credits.html">
+      <file href="credits.html" />
+    </resource>
+    <resource identifier="R-submission" type="imsldcontent" href="submission-form.xml">
+      <file href="submission-form.xml" />
+    </resource>
+    <resource identifier="R-set-activity2-complete" type="imsldcontent" href="set-activity2-complete.xml">
+      <file href="set-activity2-complete.xml" />
+    </resource>
+    <resource identifier="R-submission-overview" type="imsldcontent" href="submission-overview.xml">
+      <file href="submission-overview.xml" />
+    </resource>
+    <resource identifier="R-submission-overview-2" type="imsldcontent" href="submission-overview-2.xml">
+      <file href="submission-overview-2.xml" />
+    </resource>
+    <resource identifier="R-response-to-submission-form" type="imsldcontent" href="response-to-submission-form.xml">
+      <file href="response-to-submission-form.xml" />
+    </resource>
+    <resource identifier="R-response-to-submission-form-2" type="imsldcontent" href="response-to-submission-form-2.xml">
+      <file href="response-to-submission-form-2.xml" />
+    </resource>
+    <resource identifier="R-response-to-submission-overview" type="imsldcontent" href="responses-overview.xml">
+      <file href="responses-overview.xml" />
+    </resource>
+    <resource identifier="R-response-by-tutor" type="imsldcontent" href="submission-tutor-comments.xml">
+      <file href="submission-tutor-comments.xml" />
+    </resource>
+    <resource identifier="R-response-to-submission-form-tutor" type="imsldcontent" href="submission-tutor-form.xml">
+      <file href="submission-tutor-form.xml" />
+    </resource>
+    <resource identifier="R-response-to-submission-form-tutor-2" type="imsldcontent" href="submission-tutor-form-2.xml">
+      <file href="submission-tutor-form-2.xml" />
+    </resource>
+    <resource identifier="Copiasubmission-form_xml" type="imsldcontent" href="Copiasubmission-form.xml">
+      <file href="Copiasubmission-form.xml" />
+    </resource>
+    <resource identifier="Text" type="webcontent" href="Text.html">
+      <file href="Text.html" />
+    </resource>
+    <resource identifier="Description_of_the_Unit" type="webcontent" href="Description_of_the_Unit.html">
+      <file href="Description_of_the_Unit.html" />
+    </resource>
+    <resource identifier="Description" type="webcontent" href="Description.html">
+      <file href="Description.html" />
+    </resource>
+    <resource identifier="List_of_Students_and_Peer-Students" type="webcontent" href="List_of_Students_and_Peer-Students.html">
+      <file href="List_of_Students_and_Peer-Students.html" />
+    </resource>
+    <resource identifier="Checking_the_submission-peerstudent2" type="webcontent" href="Checking_the_submission-peerstudent2.html">
+      <file href="Checking_the_submission-peerstudent2.html" />
+    </resource>
+    <resource identifier="Correcting_peerstudent2" type="webcontent" href="Correcting_peerstudent2.html">
+      <file href="Correcting_peerstudent2.html" />
+    </resource>
+    <resource identifier="submission-tutor-form3_xml" type="imsldcontent" href="submission-tutor-form3.xml">
+      <file href="submission-tutor-form3.xml" />
+    </resource>
+    <resource identifier="set-activitypeerstudent2-complete_xml" type="imsldcontent" href="set-activitypeerstudent2-complete.xml">
+      <file href="set-activitypeerstudent2-complete.xml" />
+    </resource>
+    <resource identifier="submission-tutor-form4_xml" type="imsldcontent" href="submission-tutor-form4.xml">
+      <file href="submission-tutor-form4.xml" />
+    </resource>
+    <resource identifier="R-response-to-submission-form-tutorPeer" type="imsldcontent" href="submission-tutor-form4.xml">
+      <file href="submission-tutor-form4.xml" />
+    </resource>
+    <resource identifier="Conference" type="webcontent" href="Conference.html">
+      <file href="Conference.html" />
+    </resource>
+  </resources>
+</manifest>
+

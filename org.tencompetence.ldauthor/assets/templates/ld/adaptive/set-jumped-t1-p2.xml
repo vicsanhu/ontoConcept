@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<html xmlns:ld="http://www.imsglobal.org/xsd/imsld_v1p0" xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title>Monitoring t1-p1</title>
+	</head>
+	<body>
+	<div class="C-eleccion-tematica-complete">
+		<div class="C-t1-p2-not-jumped">
+		
+				<p>You can make the student jump a question by choosing selectint the stuend</p>
+		
+		</div>
+	</div>
+
+		<div class="C-t1-p2-jumped">
+			<p>Question t1 has been jumped</p>
+		</div>
+		
+	</body>
+	
+</html>

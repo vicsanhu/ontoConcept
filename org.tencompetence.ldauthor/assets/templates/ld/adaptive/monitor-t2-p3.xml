@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<html xmlns:ld="http://www.imsglobal.org/xsd/imsld_v1p0" xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title>Monitoring t2-p3</title>
+	</head>
+	<body>
+		<div class="C-t2-p3-not-jumped">
+				<big> <b>QUESTION 3 [1.(a)False, 2.(a)True] - Correct answer: a) False </b> </big> <!--P111-->
+				<p>Answer selected:</p>
+				<ld:view-property property-of="supported-person" ref="LP-respuesta-individual-t2-p111X"  view="value"/>
+				
+				<P>Argument for the answer :</P>
+				<ld:view-property  property-of="supported-person" ref="LP-argumento-individual-t2-p111X"  view="value"/>
+				
+				<big> <b>QUESTION 3 [1.(a)False, 2.(a)False] - Correct answer: a) True </b> </big> <!--P112-->
+				<p>Answer selected:</p>
+				<ld:view-property property-of="supported-person" ref="LP-respuesta-individual-t2-p112X"  view="value"/>
+				
+				<P>Argument for the answer :</P>
+				<ld:view-property  property-of="supported-person" ref="LP-argumento-individual-t2-p112X"  view="value"/>
+				
+				<big> <b>QUESTION 3 [1.(a)True, 2.(a)True] - Correct answer: a) True </b> </big> <!--P121-->
+				<p>Answer selected:</p>
+				<ld:view-property property-of="supported-person" ref="LP-respuesta-individual-t2-p121X"  view="value"/>
+				
+				<P>Argument for the answer :</P>
+				<ld:view-property  property-of="supported-person" ref="LP-argumento-individual-t2-p121X"  view="value"/>
+				
+				<big> <b>QUESTION 3 [1.(a)True, 2.(a)False] - Correct answer: a) False </b> </big> <!--P122-->
+				<p>Answer selected:</p>
+				<ld:view-property property-of="supported-person" ref="LP-respuesta-individual-t2-p122X"  view="value"/>
+				
+				<P>Argument for the answer :</P>
+				<ld:view-property  property-of="supported-person" ref="LP-argumento-individual-t2-p122X"  view="value"/>
+				
+				<big> <b><p>Jump to question the end of the questionnaire:</p></b> </big> <!--which means that we jump this question-->
+				<ld:set-property property-of="supported-person" ref="LP-t2-p3-jumped"/>
+				
+		</div>
+		<div class="C-t2-p3-jumped">
+			<div class="C-t2-p3-complete">
+				<p>This question has been jumped for this student</p>
+			</div>
+		</div>
+	</body>
+	
+</html>

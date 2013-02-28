@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: OpenDocument.net Plug-in
+Bundle-SymbolicName: org.tencompetence.ldauthor.opendock;singleton:=true
+Bundle-Version: 1.0.2.qualifier
+Bundle-Activator: org.tencompetence.ldauthor.opendock.OpenDockPlugin
+Bundle-Vendor: Bolton University
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.tencompetence.ldauthor,
+ org.eclipse.ui.forms;bundle-version="3.3.101"
+Bundle-ActivationPolicy: lazy
+Bundle-ClassPath: .,
+ lib/xmlrpc-client-3.0.jar,
+ lib/xmlrpc-common-3.0.jar,
+ lib/ws-commons-util-1.0.1.jar
+Bundle-RequiredExecutionEnvironment: J2SE-1.5

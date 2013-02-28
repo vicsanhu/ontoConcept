@@ -1,0 +1,10 @@
+[Trainer]
+1.Set aside the first or last 5 minutes of the training session for the one-minute-paper reflection. 
+2.Construct one or two questions that learners can answer quickly and briefly. 
+The purpose of the questions may be to enhance thinking about an issue, to collect feedback on a training session or to check learners' level of knowledge after a presentation.
+3.Put the questions on the forum. Distribute the questions of the forum to the learners and make them to write their responses in the same forum.
+Learner names aren’t necessary, although you may choose to have them identify themselves. 
+Ask learners to respond to the questions frankly and concisely. They may use single words, short phrases or very short sentences.
+
+*Use The Support activity 1: Prepare a minute Paper Reflection to add the questions to the learners (steps 1 and 2)
+*Configure the forum to pose the questions to the leaners and use a chat for distributing the questions to the leaners (step 3)

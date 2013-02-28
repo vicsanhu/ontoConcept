@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.5"?>
+<plugin>
+   <extension
+         point="org.eclipse.ui.views">
+      <view
+            category="org.tencompetence.ldauthor"
+            class="org.tencompetence.ldvisualiser.ui.view.LDVisualiserView"
+            icon="icons/view.gif"
+            id="org.tencompetence.ldvisualiser.ldVisualiserView"
+            name="%view_visualiser"
+            restorable="true">
+      </view>
+   </extension>
+   <extension
+         point="org.eclipse.ui.actionSets">
+      <actionSet
+            id="org.tencompetence.ldvisualiser.actionSet"
+            label="LD Visualiser Action Set"
+            visible="true">
+         <action
+               class="org.tencompetence.ldvisualiser.ui.view.OpenVisualiserViewAction"
+               icon="icons/view.gif"
+               id="org.tencompetence.ldvisualiser.actionShowView"
+               label="Visualiser"
+               menubarPath="window/ldauthor_views_additions"
+               style="push"
+               toolbarPath="toolbar_views/end">
+         </action>
+      </actionSet>
+   </extension>
+   <extension
+         point="org.eclipse.core.runtime.preferences">
+      <initializer
+            class="org.tencompetence.ldvisualiser.preferences.PreferenceInitializer">
+      </initializer>
+   </extension>
+
+</plugin>

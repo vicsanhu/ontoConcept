@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.2"?>
+<plugin>
+   <extension
+         point="org.eclipse.ui.actionSets">
+      <actionSet
+            id="org.tencompetence.ldauthor.widgetadvert.actionSet"
+            label="Widget Advert Action Set"
+            visible="true">
+         <action
+               class="org.tencompetence.widgetadvert.ui.QueryWidgetsAction"
+               icon="icons/widget.png"
+               id="org.tencompetence.ldauthor.widgetadvert.actionQueryWidgets"
+               label="Query Widgets..."
+               menubarPath="tools/"
+               style="push"
+               tooltip="Query Widgets"/>
+      </actionSet>
+   </extension>
+
+</plugin>

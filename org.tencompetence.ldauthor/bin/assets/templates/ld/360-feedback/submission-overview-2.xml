@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<html xmlns:ld="http://www.imsglobal.org/xsd/imsld_v1p0" xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title>Qualifications and numerical marks of all the classroom</title>
+	</head>
+	<body>
+		<table width="533" border="0" cellspacing="0" cellpadding="0">
+				  <tr> 
+					<td colspan="2">Personal dossier of all the classroom</td>
+				  </tr>
+					<tr> 
+					<td colspan="2"></td>
+				  </tr>
+				  <tr> 
+					<td>Qualification</td>
+					<td><ld:view-property property-of="supported-person" ref="LP-tutor-comments-submission-qualifications" view="value"/></td>
+				  </tr>
+					<tr> 
+					<td>Mark</td>
+					<td><ld:view-property property-of="supported-person" ref="LP-tutor-comments-submission-mark" view="value"/></td>
+				  </tr>
+		 </table>  
+	</body>
+</html>

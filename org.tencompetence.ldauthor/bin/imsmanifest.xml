@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--This is a Reload version 2.0.1 Learning Design document-->
+<!--Spawned from the Reload Learning Design Generator - http://www.reload.ac.uk-->
+<manifest xmlns="http://www.imsglobal.org/xsd/imscp_v1p1" xmlns:imsmd="http://www.imsglobal.org/xsd/imsmd_v1p2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:imsld="http://www.imsglobal.org/xsd/imsld_v1p0" identifier="MANIFEST-4B5F6E6E-3D3F-5FA4-326F-9E6FE0AC2F59" xsi:schemaLocation="http://www.imsglobal.org/xsd/imscp_v1p1 imscp_v1p1.xsd http://www.imsglobal.org/xsd/imsmd_v1p2 imsmd_v1p2p2.xsd http://www.imsglobal.org/xsd/imsld_v1p0 IMS_LD_Level_A.xsd">
+  <organizations>
+    <imsld:learning-design identifier="LD-377EE190-2378-4DE3-4523-C98FDFA31D08" level="A" uri="http://www.ido.ulstu.ru/pcarchitecture_1">
+      <imsld:title>PC Architecture</imsld:title>
+      <imsld:learning-objectives>
+        <imsld:title>Objectives</imsld:title>
+        <imsld:item identifierref="RES-28B734E2-397A-C7C6-432A-F3C681222EB8" />
+      </imsld:learning-objectives>
+      <imsld:prerequisites>
+        <imsld:title>Prerequisites</imsld:title>
+        <imsld:item identifierref="RES-28B734E2-397A-C7C6-432A-F3C681222EB8" />
+      </imsld:prerequisites>
+      <imsld:components>
+        <imsld:roles identifier="LD-36B2F10D-50CB-9BD2-0828-F40C200823CD">
+          <imsld:learner identifier="LD-9BC5B551-73AE-701A-35F1-75856F826623">
+            <imsld:title>Newcomer</imsld:title>
+            <imsld:information>
+              <imsld:title>Newcomer</imsld:title>
+              <imsld:item identifierref="RES-82D06198-09AC-0947-A0A1-16F04A97A70C" />
+            </imsld:information>
+          </imsld:learner>
+          <imsld:learner identifier="LD-B6734F5C-3A82-F78D-E709-4C7AF4288779">
+            <imsld:title>Experienced</imsld:title>
+            <imsld:information>
+              <imsld:title>Experienced</imsld:title>
+              <imsld:item identifierref="RES-8D72B29D-858E-4FBA-2031-09499A122B46" />
+            </imsld:information>
+          </imsld:learner>
+          <imsld:staff identifier="LD-B56D2EBE-8F7E-DC61-5A4B-0927B7F6245C" min-persons="1" max-persons="1" match-persons="exclusively-in-roles">
+            <imsld:title>Instructor</imsld:title>
+            <imsld:information>
+              <imsld:title>Instructor</imsld:title>
+              <imsld:item identifierref="RES-D0F5A175-C317-3DC6-63B1-B048DC993AFA" />
+            </imsld:information>
+          </imsld:staff>
+        </imsld:roles>
+        <imsld:activities>
+          <imsld:learning-activity identifier="LD-A4A48CCF-B8CB-9C74-A470-4E391BA3D332">
+            <imsld:title>Preparation</imsld:title>
+            <imsld:activity-description>
+              <imsld:title>Preparation</imsld:title>
+              <imsld:item identifierref="RES-6A5DF8D0-EBBE-6C0A-14C5-633A8C35590D" />
+            </imsld:activity-description>
+          </imsld:learning-activity>
+          <imsld:learning-activity identifier="LD-393ECD4D-33D3-5A6B-ADAC-2463DBEC57B8">
+            <imsld:title>Exploring computer case</imsld:title>
+            <imsld:environment-ref ref="LD-3156BAB9-857A-203A-41B2-599EBAF012DF" />
+            <imsld:activity-description>
+              <imsld:title>Exploring computer case</imsld:title>
+              <imsld:item identifierref="RES-BD566172-1CC8-0C2E-7599-2A107E9AC887" />
+            </imsld:activity-description>
+          </imsld:learning-activity>
+          <imsld:learning-activity identifier="LD-1AB7084F-0B39-FB3F-8763-37B671A01CF0">
+            <imsld:title>Assignment: match the items</imsld:title>
+            <imsld:activity-description>
+              <imsld:title>Assignment: match the items</imsld:title>
+              <imsld:item identifierref="RES-ABD2FD62-B02A-C002-4D32-123BEE5B8B26" />
+            </imsld:activity-description>
+            <imsld:complete-activity>
+              <imsld:time-limit>PT1M</imsld:time-limit>
+            </imsld:complete-activity>
+          </imsld:learning-activity>
+          <imsld:learning-activity identifier="LD-A59AE8D6-5E5E-D9B9-835B-AD7057D716CC">
+            <imsld:title>Check yourself</imsld:title>
+            <imsld:activity-description>
+              <imsld:title>Check yourself</imsld:title>
+              <imsld:item identifierref="RES-A6E1BDBA-3E8D-8B40-1ED4-1DFEE978F315" />
+            </imsld:activity-description>
+          </imsld:learning-activity>
+          <imsld:learning-activity identifier="LD-210A8AE3-D972-F38B-EB2B-8483FBE3CD77">
+            <imsld:title>Examine the monitor parameters</imsld:title>
+            <imsld:activity-description>
+              <imsld:title>Examine the monitor parameters</imsld:title>
+              <imsld:item identifierref="RES-48AEE9DE-7985-D2E0-419B-9BAF373BFDE2" />
+            </imsld:activity-description>
+          </imsld:learning-activity>
+          <imsld:learning-activity identifier="LD-19F4EAA3-7DF5-8AD9-017C-72A066CFFC1E">
+            <imsld:title>Answer the questions</imsld:title>
+            <imsld:activity-description>
+              <imsld:title>Answer the questions</imsld:title>
+              <imsld:item identifierref="RES-13CE11ED-BD24-13E3-ED31-9B06570E7D4D" />
+            </imsld:activity-description>
+          </imsld:learning-activity>
+          <imsld:learning-activity identifier="LD-DC5E3300-7E8C-34F7-8D8E-816555D9694C">
+            <imsld:title>Keyboard</imsld:title>
+            <imsld:activity-description>
+              <imsld:title>Keyboard information</imsld:title>
+              <imsld:item identifierref="RES-48590015-4C9B-7D1B-38A8-46A6433334AC" />
+            </imsld:activity-description>
+          </imsld:learning-activity>
+          <imsld:learning-activity identifier="LD-5B0CF601-11B5-BE34-0674-08947736A1DB">
+            <imsld:title>Mouse</imsld:title>
+            <imsld:activity-description>
+              <imsld:title>Mouse info</imsld:title>
+              <imsld:item identifierref="RES-BD240047-E89B-F504-053E-8549E8BC92C0" />
+            </imsld:activity-description>
+          </imsld:learning-activity>
+          <imsld:learning-activity identifier="LD-4F27EDA4-25AD-5F4D-4049-18B4BE936159">
+            <imsld:title>Final test</imsld:title>
+            <imsld:activity-description>
+              <imsld:title>Final test</imsld:title>
+              <imsld:item identifierref="RES-8A4C1D2A-8584-C1A2-7FCF-E3D0179DDBAB" />
+            </imsld:activity-description>
+          </imsld:learning-activity>
+          <imsld:support-activity identifier="LD-62C866E5-94C7-B664-86FC-9A1D7278CD78">
+            <imsld:title>Teacher notes</imsld:title>
+            <imsld:activity-description>
+              <imsld:title>Teacher notes</imsld:title>
+              <imsld:item identifierref="RES-3E35B66A-5A38-9DA6-48BD-A3DF6FEA0169" />
+            </imsld:activity-description>
+          </imsld:support-activity>
+          <imsld:support-activity identifier="LD-FCE308A4-A9E9-423A-9162-D785357E21C0">
+            <imsld:title>Assessment</imsld:title>
+            <imsld:activity-description>
+              <imsld:title>Assessment</imsld:title>
+              <imsld:item identifierref="RES-617CFC75-101A-309B-E3DF-33341059EF98" />
+            </imsld:activity-description>
+          </imsld:support-activity>
+          <imsld:activity-structure identifier="LD-786F29BA-3248-9151-2ECC-423E32D613A8" structure-type="sequence">
+            <imsld:title>Step by step</imsld:title>
+            <imsld:environment-ref ref="LD-3156BAB9-857A-203A-41B2-599EBAF012DF" />
+            <imsld:learning-activity-ref ref="LD-A4A48CCF-B8CB-9C74-A470-4E391BA3D332" />
+            <imsld:learning-activity-ref ref="LD-393ECD4D-33D3-5A6B-ADAC-2463DBEC57B8" />
+            <imsld:learning-activity-ref ref="LD-1AB7084F-0B39-FB3F-8763-37B671A01CF0" />
+            <imsld:learning-activity-ref ref="LD-A59AE8D6-5E5E-D9B9-835B-AD7057D716CC" />
+            <imsld:learning-activity-ref ref="LD-210A8AE3-D972-F38B-EB2B-8483FBE3CD77" />
+            <imsld:learning-activity-ref ref="LD-19F4EAA3-7DF5-8AD9-017C-72A066CFFC1E" />
+            <imsld:learning-activity-ref ref="LD-DC5E3300-7E8C-34F7-8D8E-816555D9694C" />
+            <imsld:learning-activity-ref ref="LD-5B0CF601-11B5-BE34-0674-08947736A1DB" />
+            <imsld:learning-activity-ref ref="LD-4F27EDA4-25AD-5F4D-4049-18B4BE936159" />
+          </imsld:activity-structure>
+          <imsld:activity-structure identifier="LD-0AB7D89A-EEE1-DC54-557E-1852079F1B4F" structure-type="selection">
+            <imsld:title>User choice</imsld:title>
+            <imsld:environment-ref ref="LD-3156BAB9-857A-203A-41B2-599EBAF012DF" />
+            <imsld:learning-activity-ref ref="LD-A4A48CCF-B8CB-9C74-A470-4E391BA3D332" />
+            <imsld:learning-activity-ref ref="LD-393ECD4D-33D3-5A6B-ADAC-2463DBEC57B8" />
+            <imsld:learning-activity-ref ref="LD-1AB7084F-0B39-FB3F-8763-37B671A01CF0" />
+            <imsld:learning-activity-ref ref="LD-A59AE8D6-5E5E-D9B9-835B-AD7057D716CC" />
+            <imsld:learning-activity-ref ref="LD-210A8AE3-D972-F38B-EB2B-8483FBE3CD77" />
+            <imsld:learning-activity-ref ref="LD-19F4EAA3-7DF5-8AD9-017C-72A066CFFC1E" />
+            <imsld:learning-activity-ref ref="LD-DC5E3300-7E8C-34F7-8D8E-816555D9694C" />
+            <imsld:learning-activity-ref ref="LD-5B0CF601-11B5-BE34-0674-08947736A1DB" />
+            <imsld:learning-activity-ref ref="LD-4F27EDA4-25AD-5F4D-4049-18B4BE936159" />
+          </imsld:activity-structure>
+          <imsld:activity-structure identifier="LD-E50511F0-A2AF-5C53-E8E4-EE592539292E" structure-type="selection">
+            <imsld:title>Supervisor</imsld:title>
+            <imsld:environment-ref ref="LD-3156BAB9-857A-203A-41B2-599EBAF012DF" />
+            <imsld:environment-ref ref="LD-AD9A8F37-358C-F681-FAED-1661B8C4C390" />
+            <imsld:support-activity-ref ref="LD-62C866E5-94C7-B664-86FC-9A1D7278CD78" />
+            <imsld:support-activity-ref ref="LD-FCE308A4-A9E9-423A-9162-D785357E21C0" />
+            <imsld:activity-structure-ref ref="LD-0AB7D89A-EEE1-DC54-557E-1852079F1B4F" />
+          </imsld:activity-structure>
+        </imsld:activities>
+        <imsld:environments>
+          <imsld:environment identifier="LD-3156BAB9-857A-203A-41B2-599EBAF012DF">
+            <imsld:title>Study resources</imsld:title>
+            <imsld:learning-object identifier="LD-560A1142-D59F-1B0A-3C0A-30647803C28F" type="knowledge-object">
+              <imsld:title>Looking inside of the case</imsld:title>
+              <imsld:item identifierref="RES-2504D324-4988-DE29-F1DD-681BBA25EF66" />
+            </imsld:learning-object>
+          </imsld:environment>
+          <imsld:environment identifier="LD-AD9A8F37-358C-F681-FAED-1661B8C4C390">
+            <imsld:title>Teacher notes</imsld:title>
+            <imsld:learning-object identifier="LD-BD9396F6-731C-E4A4-CD26-BDF8F8F2BDA6">
+              <imsld:title>Lesson plan</imsld:title>
+              <imsld:item identifierref="RES-3E35B66A-5A38-9DA6-48BD-A3DF6FEA0169" />
+            </imsld:learning-object>
+          </imsld:environment>
+        </imsld:environments>
+      </imsld:components>
+      <imsld:method>
+        <imsld:play identifier="LD-57559F3D-9180-9D7D-951F-8FD7B0BF63AB">
+          <imsld:title>Step by step</imsld:title>
+          <imsld:act identifier="LD-4D8B20BC-7397-C629-6EE5-2C1228FE8F76">
+            <imsld:title>Activities</imsld:title>
+            <imsld:role-part identifier="LD-8C77B90F-27E1-3932-C795-1981EAEE1B0C">
+              <imsld:title>Newcomer role part</imsld:title>
+              <imsld:role-ref ref="LD-9BC5B551-73AE-701A-35F1-75856F826623" />
+              <imsld:activity-structure-ref ref="LD-786F29BA-3248-9151-2ECC-423E32D613A8" />
+            </imsld:role-part>
+          </imsld:act>
+        </imsld:play>
+        <imsld:play identifier="LD-E6C96E2C-23D0-6E63-C3CD-D17FE1BC1923">
+          <imsld:title>User choice</imsld:title>
+          <imsld:act identifier="LD-BB309767-3B40-25A5-8759-6DE86E8CF35C">
+            <imsld:title>Activities</imsld:title>
+            <imsld:role-part identifier="LD-71F2F777-02A7-E73A-4220-7725A35EBC90">
+              <imsld:title>Experienced role part</imsld:title>
+              <imsld:role-ref ref="LD-B6734F5C-3A82-F78D-E709-4C7AF4288779" />
+              <imsld:activity-structure-ref ref="LD-0AB7D89A-EEE1-DC54-557E-1852079F1B4F" />
+            </imsld:role-part>
+          </imsld:act>
+        </imsld:play>
+        <imsld:play identifier="LD-42202B28-28AD-1AB2-8133-ABC492BBA132">
+          <imsld:title>Supervision</imsld:title>
+          <imsld:act identifier="LD-DE74BABE-37CB-A12B-7DBB-398690203867">
+            <imsld:title>Activities</imsld:title>
+            <imsld:role-part identifier="LD-EB69772C-BEDF-0DC9-CB98-AD314DBE94AC">
+              <imsld:title>Instructor role part</imsld:title>
+              <imsld:role-ref ref="LD-B56D2EBE-8F7E-DC61-5A4B-0927B7F6245C" />
+              <imsld:activity-structure-ref ref="LD-E50511F0-A2AF-5C53-E8E4-EE592539292E" />
+            </imsld:role-part>
+          </imsld:act>
+        </imsld:play>
+      </imsld:method>
+    </imsld:learning-design>
+  </organizations>
+  <resources>
+    <resource identifier="RES-2504D324-4988-DE29-F1DD-681BBA25EF66" type="webcontent" href="Resources/Environments/dr2_3_1.swf">
+      <file href="Resources/Environments/dr2_3_1.swf" />
+    </resource>
+    <resource identifier="RES-3E35B66A-5A38-9DA6-48BD-A3DF6FEA0169" type="webcontent" href="Resources/Activities/SupportActivities/TeacherNotes.txt">
+      <file href="Resources/Activities/SupportActivities/TeacherNotes.txt" />
+    </resource>
+    <resource identifier="RES-617CFC75-101A-309B-E3DF-33341059EF98" type="webcontent" href="Resources/Activities/SupportActivities/Assessment.txt">
+      <file href="Resources/Activities/SupportActivities/Assessment.txt" />
+    </resource>
+    <resource identifier="RES-BD240047-E89B-F504-053E-8549E8BC92C0" type="webcontent" href="Resources/Activities/mouse.txt">
+      <file href="Resources/Activities/mouse.txt" />
+    </resource>
+    <resource identifier="RES-48AEE9DE-7985-D2E0-419B-9BAF373BFDE2" type="webcontent" href="Resources/Activities/monitor.txt">
+      <file href="Resources/Activities/monitor.txt" />
+    </resource>
+    <resource identifier="RES-6A5DF8D0-EBBE-6C0A-14C5-633A8C35590D" type="webcontent" href="Resources/Activities/Introduction.txt">
+      <file href="Resources/Activities/Introduction.txt" />
+    </resource>
+    <resource identifier="RES-48590015-4C9B-7D1B-38A8-46A6433334AC" type="webcontent" href="Resources/Activities/keyboard.txt">
+      <file href="Resources/Activities/keyboard.txt" />
+    </resource>
+    <resource identifier="RES-BD566172-1CC8-0C2E-7599-2A107E9AC887" type="webcontent" href="Resources/Activities/case.txt">
+      <file href="Resources/Activities/case.txt" />
+    </resource>
+    <resource identifier="RES-ABD2FD62-B02A-C002-4D32-123BEE5B8B26" type="webcontent" href="Resources/Activities/Match%20the%20items.txt">
+      <file href="Resources/Activities/Match%20the%20items.txt" />
+    </resource>
+    <resource identifier="RES-A6E1BDBA-3E8D-8B40-1ED4-1DFEE978F315" type="webcontent" href="Resources/Activities/Match%20the%20items_answers.txt">
+      <file href="Resources/Activities/Match%20the%20items_answers.txt" />
+    </resource>
+    <resource identifier="RES-13CE11ED-BD24-13E3-ED31-9B06570E7D4D" type="webcontent" href="Resources/Activities/Monitor%20questionary.txt">
+      <file href="Resources/Activities/Monitor%20questionary.txt" />
+    </resource>
+    <resource identifier="RES-8A4C1D2A-8584-C1A2-7FCF-E3D0179DDBAB" type="webcontent" href="Resources/Activities/Final%20test.txt">
+      <file href="Resources/Activities/Final%20test.txt" />
+    </resource>
+    <resource identifier="RES-82D06198-09AC-0947-A0A1-16F04A97A70C" type="webcontent" href="Resources/Information/Newcomer.txt">
+      <file href="Resources/Information/Newcomer.txt" />
+    </resource>
+    <resource identifier="RES-8D72B29D-858E-4FBA-2031-09499A122B46" type="webcontent" href="Resources/Information/Expirienced.txt">
+      <file href="Resources/Information/Expirienced.txt" />
+    </resource>
+    <resource identifier="RES-D0F5A175-C317-3DC6-63B1-B048DC993AFA" type="webcontent" href="Resources/Information/Instructor.txt">
+      <file href="Resources/Information/Instructor.txt" />
+    </resource>
+    <resource identifier="RES-28B734E2-397A-C7C6-432A-F3C681222EB8" type="webcontent" href="Resources/Objectives-Prerequisites/IsthisForYou.txt">
+      <file href="Resources/Objectives-Prerequisites/IsthisForYou.txt" />
+    </resource>
+  </resources>
+</manifest>
+

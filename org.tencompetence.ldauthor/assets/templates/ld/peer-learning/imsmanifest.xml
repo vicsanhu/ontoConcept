@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Edited with ReCourse-->
+<!--Created - Tue Jan 26 19:02:57 CET 2010-->
+<!--Modified - Tue Jan 26 19:02:57 CET 2010-->
+<!--Authors- Mar Pérez-Sanagustín&Patricia Santos, UPF-->
+<manifest xmlns="http://www.imsglobal.org/xsd/imscp_v1p1" xmlns:imsld="http://www.imsglobal.org/xsd/imsld_v1p0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ldauthor="http://www.tencompetence.org/ldauthor" xsi:schemaLocation="http://www.imsglobal.org/xsd/imscp_v1p1 http://www.imsglobal.org/xsd/imscp_v1p1.xsd http://www.imsglobal.org/xsd/imsld_v1p0 http://www.imsglobal.org/xsd/IMS_LD_Level_A.xsd http://www.tencompetence.org/ldauthor ld-author.xsd" identifier="manifest-5c69afd3-fa5a-4141-a215-692d5146fc07">
+  <organizations>
+    <imsld:learning-design identifier="ld-0cb1535c-dcbc-465e-aefa-bb6a46f4b704" version="1.0.0" level="A" uri="http://www.yourURI.here/249896f1-fa77-4fcc-a8bb-ddd299248302" sequence-used="false">
+      <imsld:title>Peer Learning</imsld:title>
+      <imsld:components>
+        <imsld:roles>
+          <imsld:learner identifier="role-a42c8384-5f65-6705-8a93-ea6d1deb3a11">
+            <imsld:title>Peer Tutor 1</imsld:title>
+          </imsld:learner>
+          <imsld:learner identifier="role-8d77fab3-2255-bcff-3b12-c912c0f53768">
+            <imsld:title>Peer Tutor 2</imsld:title>
+          </imsld:learner>
+        </imsld:roles>
+        <imsld:activities>
+          <imsld:learning-activity identifier="la-34229e57-05c9-0b08-f2d6-08bd61268177" isvisible="true">
+            <imsld:title>Prepare topic</imsld:title>
+            <imsld:activity-description>
+              <imsld:title>Activity Description for Prepare topic</imsld:title>
+              <imsld:item identifier="item-5dcf28e4-a5b8-2e83-2fa6-700d34327a05" isvisible="true" identifierref="file-7343b519-1515-a390-123e-13d0d36dba0f.txt">
+                <imsld:title>Prepare topic Activity Description</imsld:title>
+              </imsld:item>
+            </imsld:activity-description>
+            <imsld:complete-activity>
+              <imsld:user-choice />
+            </imsld:complete-activity>
+          </imsld:learning-activity>
+          <imsld:learning-activity identifier="la-fbbeacac-231e-885d-5c95-59d3532c7b2b" isvisible="true">
+            <imsld:title>Discuss topic</imsld:title>
+            <imsld:activity-description>
+              <imsld:title>Activity Description for Discuss</imsld:title>
+              <imsld:item identifier="item-c135759c-b507-723b-0c5b-164169c654fb" isvisible="true" identifierref="file-9a7c731f-756b-cb10-1845-210e39e72b23.txt">
+                <imsld:title>Discuss Activity Description</imsld:title>
+              </imsld:item>
+            </imsld:activity-description>
+            <imsld:complete-activity>
+              <imsld:user-choice />
+            </imsld:complete-activity>
+          </imsld:learning-activity>
+          <imsld:learning-activity identifier="la-35d73392-e963-5934-8594-90cf49cdcce5" isvisible="true">
+            <imsld:title>Present &amp; Discuss topic</imsld:title>
+            <imsld:activity-description>
+              <imsld:title>Activity Description for Present &amp; Discuss</imsld:title>
+              <imsld:item identifier="item-a129ff7d-1225-68f8-5932-856350663ac3" isvisible="true" identifierref="file-379ea4c7-6311-8b18-cafe-50d1574625b4.txt">
+                <imsld:title>Present &amp; Discuss Activity Description</imsld:title>
+              </imsld:item>
+            </imsld:activity-description>
+            <imsld:complete-activity>
+              <imsld:user-choice />
+            </imsld:complete-activity>
+          </imsld:learning-activity>
+          <imsld:learning-activity identifier="la-6b24ea2d-17ff-dc15-f0db-6272d817012b" isvisible="true">
+            <imsld:title>Prepare topic</imsld:title>
+            <imsld:activity-description>
+              <imsld:title>Activity Description for Prepare topic</imsld:title>
+              <imsld:item identifier="item-3c7b63af-9cea-561b-151b-fa41acde6d9a" isvisible="true" identifierref="file-33b829bd-fa2b-1fb5-0130-b861e311c9bc.txt">
+                <imsld:title>Prepare topic Activity Description</imsld:title>
+              </imsld:item>
+            </imsld:activity-description>
+            <imsld:complete-activity>
+              <imsld:user-choice />
+            </imsld:complete-activity>
+          </imsld:learning-activity>
+          <imsld:learning-activity identifier="la-f7d822c9-9277-044b-4cfd-6a41cde8e4a5" isvisible="true">
+            <imsld:title>Present &amp; Discuss topic</imsld:title>
+            <imsld:activity-description>
+              <imsld:title>Activity Description for Present &amp; Discuss</imsld:title>
+              <imsld:item identifier="item-0613c9ef-efcc-46b4-ecc6-0d05cd3e92e6" isvisible="true" identifierref="file-e98dbce3-e951-1045-6ead-1354b0956edf.txt">
+                <imsld:title>Present &amp; Discuss Activity Description</imsld:title>
+              </imsld:item>
+            </imsld:activity-description>
+            <imsld:complete-activity>
+              <imsld:user-choice />
+            </imsld:complete-activity>
+          </imsld:learning-activity>
+          <imsld:learning-activity identifier="la-6867bd5a-1890-aec5-41b5-0b1bb7d5a5ef" isvisible="true">
+            <imsld:title>Discuss topic</imsld:title>
+            <imsld:activity-description>
+              <imsld:title>Activity Description for Discuss topic</imsld:title>
+              <imsld:item identifier="item-3a299a52-95c1-c335-0ffc-9917e5147984" isvisible="true" identifierref="file-33a595ba-dcad-3743-64ad-fd38d3771341.txt">
+                <imsld:title>Discuss topic Activity Description</imsld:title>
+              </imsld:item>
+            </imsld:activity-description>
+            <imsld:complete-activity>
+              <imsld:user-choice />
+            </imsld:complete-activity>
+          </imsld:learning-activity>
+        </imsld:activities>
+      </imsld:components>
+      <imsld:method>
+        <imsld:play identifier="play-9124cdb8-cc25-0c56-1be5-db06de985fcd" isvisible="true">
+          <imsld:title>Peer Learning</imsld:title>
+          <imsld:act identifier="act-e23e2942-a63b-6480-65d2-3df8d35e2a42">
+            <imsld:title>Prepare topic</imsld:title>
+            <imsld:role-part identifier="rolepart-75596567-2bdd-d729-5f92-c9bd4e77429c">
+              <imsld:title>Prepare topic</imsld:title>
+              <imsld:role-ref ref="role-a42c8384-5f65-6705-8a93-ea6d1deb3a11" />
+              <imsld:learning-activity-ref ref="la-34229e57-05c9-0b08-f2d6-08bd61268177" />
+            </imsld:role-part>
+          </imsld:act>
+          <imsld:act identifier="act-76b91592-7c8c-10d3-9f4c-bea88fe3bfcd">
+            <imsld:title>Discuss topic - Present &amp; Discuss topic</imsld:title>
+            <imsld:role-part identifier="rolepart-072196c9-456c-23e2-c198-776886a376e9">
+              <imsld:title>Discuss topic</imsld:title>
+              <imsld:role-ref ref="role-8d77fab3-2255-bcff-3b12-c912c0f53768" />
+              <imsld:learning-activity-ref ref="la-fbbeacac-231e-885d-5c95-59d3532c7b2b" />
+            </imsld:role-part>
+            <imsld:role-part identifier="rolepart-e95df562-eb8b-22e5-4b04-30b86e6ba246">
+              <imsld:title>Present &amp; Discuss topic</imsld:title>
+              <imsld:role-ref ref="role-a42c8384-5f65-6705-8a93-ea6d1deb3a11" />
+              <imsld:learning-activity-ref ref="la-35d73392-e963-5934-8594-90cf49cdcce5" />
+            </imsld:role-part>
+          </imsld:act>
+          <imsld:act identifier="act-9fe214be-79f9-3f21-3fe2-4fb14b1e5123">
+            <imsld:title>Prepare topic</imsld:title>
+            <imsld:role-part identifier="rolepart-4a5b381a-5342-4dfc-e5a5-325aad324eea">
+              <imsld:title>Prepare topic</imsld:title>
+              <imsld:role-ref ref="role-8d77fab3-2255-bcff-3b12-c912c0f53768" />
+              <imsld:learning-activity-ref ref="la-6b24ea2d-17ff-dc15-f0db-6272d817012b" />
+            </imsld:role-part>
+          </imsld:act>
+          <imsld:act identifier="act-c3506da5-5588-c509-3abd-ba9dc5c35e02">
+            <imsld:title>Present &amp; Discuss topic - Discuss topic</imsld:title>
+            <imsld:role-part identifier="rolepart-ae64df0e-b3aa-7e73-eae9-21e1cabb9046">
+              <imsld:title>Present &amp; Discuss topic</imsld:title>
+              <imsld:role-ref ref="role-8d77fab3-2255-bcff-3b12-c912c0f53768" />
+              <imsld:learning-activity-ref ref="la-f7d822c9-9277-044b-4cfd-6a41cde8e4a5" />
+            </imsld:role-part>
+            <imsld:role-part identifier="rolepart-855b815b-bf08-bb6e-abaa-ac6a239d3b7b">
+              <imsld:title>Discuss topic</imsld:title>
+              <imsld:role-ref ref="role-a42c8384-5f65-6705-8a93-ea6d1deb3a11" />
+              <imsld:learning-activity-ref ref="la-6867bd5a-1890-aec5-41b5-0b1bb7d5a5ef" />
+            </imsld:role-part>
+          </imsld:act>
+        </imsld:play>
+      </imsld:method>
+      <imsld:metadata>
+        <ldauthor:root date-created="1264528977906">
+          <ldauthor:images />
+          <ldauthor:overview>
+            <ldauthor:description />
+            <ldauthor:tags />
+            <ldauthor:author />
+            <ldauthor:subject />
+          </ldauthor:overview>
+          <ldauthor:environments />
+        </ldauthor:root>
+      </imsld:metadata>
+    </imsld:learning-design>
+  </organizations>
+  <resources>
+    <resource identifier="file-7343b519-1515-a390-123e-13d0d36dba0f.txt" type="webcontent" href="file-7343b519-1515-a390-123e-13d0d36dba0f.txt">
+      <file href="file-7343b519-1515-a390-123e-13d0d36dba0f.txt" />
+    </resource>
+    <resource identifier="file-9a7c731f-756b-cb10-1845-210e39e72b23.txt" type="webcontent" href="file-9a7c731f-756b-cb10-1845-210e39e72b23.txt">
+      <file href="file-9a7c731f-756b-cb10-1845-210e39e72b23.txt" />
+    </resource>
+    <resource identifier="file-379ea4c7-6311-8b18-cafe-50d1574625b4.txt" type="webcontent" href="file-379ea4c7-6311-8b18-cafe-50d1574625b4.txt">
+      <file href="file-379ea4c7-6311-8b18-cafe-50d1574625b4.txt" />
+    </resource>
+    <resource identifier="file-33b829bd-fa2b-1fb5-0130-b861e311c9bc.txt" type="webcontent" href="file-33b829bd-fa2b-1fb5-0130-b861e311c9bc.txt">
+      <file href="file-33b829bd-fa2b-1fb5-0130-b861e311c9bc.txt" />
+    </resource>
+    <resource identifier="file-e98dbce3-e951-1045-6ead-1354b0956edf.txt" type="webcontent" href="file-e98dbce3-e951-1045-6ead-1354b0956edf.txt">
+      <file href="file-e98dbce3-e951-1045-6ead-1354b0956edf.txt" />
+    </resource>
+    <resource identifier="file-33a595ba-dcad-3743-64ad-fd38d3771341.txt" type="webcontent" href="file-33a595ba-dcad-3743-64ad-fd38d3771341.txt">
+      <file href="file-33a595ba-dcad-3743-64ad-fd38d3771341.txt" />
+    </resource>
+  </resources>
+</manifest>
+

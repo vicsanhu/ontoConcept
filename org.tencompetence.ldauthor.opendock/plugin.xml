@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.2"?>
+<plugin>
+   <extension
+         point="org.eclipse.ui.preferencePages">
+      <page
+            class="org.tencompetence.ldauthor.opendock.preferences.OpenDockPreferencePage"
+            id="org.tencompetence.ldauthor.opendock.preferences"
+            name="OpenDocument.net">
+      </page>
+   </extension>
+   <extension
+         point="org.eclipse.core.runtime.preferences">
+      <initializer
+            class="org.tencompetence.ldauthor.opendock.preferences.PreferenceInitializer">
+      </initializer>
+   </extension>
+   <extension
+         point="org.eclipse.ui.views">
+      <category
+            id="org.tencompetence.ldauthor.opendock"
+            name="OpenDocument.net">
+      </category>
+      <view
+            category="org.tencompetence.ldauthor.opendock"
+            class="org.tencompetence.ldauthor.opendock.ui.OpenDockView"
+            icon="icons/opendock.gif"
+            id="org.tencompetence.ldauthor.opendock.openDockView"
+            name="OpenDocument.net">
+      </view>
+   </extension>
+   <extension
+         point="org.eclipse.ui.actionSets">
+      <actionSet
+            id="org.tencompetence.ldauthor.opendock.actionSet"
+            label="OpenDock Action Set"
+            visible="true">
+         <action
+               class="org.tencompetence.ldauthor.opendock.ui.OpenDockViewAction"
+               icon="icons/opendock.gif"
+               id="org.tencompetence.ldauthor.opendock.actionShowView"
+               label="OpenDocument.net"
+               menubarPath="tools/"
+               style="push"
+               tooltip="OpenDocument.net Window"/>
+      </actionSet>
+   </extension>
+   <extension
+         point="org.eclipse.ui.perspectiveExtensions">
+      <perspectiveExtension
+            targetID="*">
+         <view
+               id="org.tencompetence.ldauthor.opendock.openDockView"
+               ratio="0.25"
+               relationship="bottom"
+               relative="org.eclipse.ui.editorss"
+               visible="false">
+         </view>
+      </perspectiveExtension>
+   </extension>
+
+</plugin>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Edited with ReCourse-->
+<!--Created - Tue Jan 26 12:31:40 CET 2010-->
+<!--Modified - Tue Jan 26 12:39:26 CET 2010-->
+<!--Authors- Mar Pérez-Sanagustín&Patricia Santos, UPF-->
+<!--Adapted from PROLIX templates-->
+<manifest xmlns="http://www.imsglobal.org/xsd/imscp_v1p1" xmlns:imsld="http://www.imsglobal.org/xsd/imsld_v1p0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ldauthor="http://www.tencompetence.org/ldauthor" xsi:schemaLocation="http://www.imsglobal.org/xsd/imscp_v1p1 http://www.imsglobal.org/xsd/imscp_v1p1.xsd http://www.imsglobal.org/xsd/imsld_v1p0 http://www.imsglobal.org/xsd/IMS_LD_Level_A.xsd http://www.tencompetence.org/ldauthor ld-author.xsd" identifier="manifest-8d717d9a-71bf-4061-9076-c834fd38d320">
+  <organizations>
+    <imsld:learning-design identifier="ld-81774cbc-6b61-4821-b70a-022cbec199d4" version="1.0.0" level="A" uri="http://www.yourURI.here/d0b33f88-fb48-4dc9-937c-163f6aebfaa6" sequence-used="false">
+      <imsld:title>Socratic questioning</imsld:title>
+      <imsld:components>
+        <imsld:roles>
+          <imsld:learner identifier="role-006408e6-7cfb-e25e-f208-06844cac885b">
+            <imsld:title>Learner</imsld:title>
+          </imsld:learner>
+          <imsld:staff identifier="role-4b027aee-ad19-fa7e-ae25-c580232ca1aa">
+            <imsld:title>Trainer</imsld:title>
+          </imsld:staff>
+        </imsld:roles>
+        <imsld:activities>
+          <imsld:learning-activity identifier="la-39b29103-6bc4-8503-e91c-898105bcab10" isvisible="true">
+            <imsld:title>Answer &amp; argue</imsld:title>
+            <imsld:environment-ref ref="env-c027051f-c5c8-4035-ac41-1af34c7a19ac" />
+            <imsld:activity-description>
+              <imsld:title>Activity Description for Answer &amp; argue</imsld:title>
+              <imsld:item identifier="item-46f5d688-ce83-dbdd-4690-7f99ec013308" isvisible="true" identifierref="file-9cf63820-0922-bf84-6f5e-2dc93a4d0489.txt">
+                <imsld:title>Answer &amp; argue Activity Description</imsld:title>
+              </imsld:item>
+            </imsld:activity-description>
+            <imsld:complete-activity>
+              <imsld:user-choice />
+            </imsld:complete-activity>
+          </imsld:learning-activity>
+          <imsld:support-activity identifier="sa-633b9d3a-aab1-c781-d3a9-3b8159ce1d13" isvisible="true">
+            <imsld:title>Question</imsld:title>
+            <imsld:environment-ref ref="env-c027051f-c5c8-4035-ac41-1af34c7a19ac" />
+            <imsld:activity-description>
+              <imsld:title>Activity Description for Question</imsld:title>
+              <imsld:item identifier="item-a739c36a-6b8d-120d-49f5-8fd41a452264" isvisible="true" identifierref="file-eb971538-f124-b85a-9304-03765b1639ac.txt">
+                <imsld:title>Question Activity Description</imsld:title>
+              </imsld:item>
+            </imsld:activity-description>
+            <imsld:complete-activity>
+              <imsld:user-choice />
+            </imsld:complete-activity>
+          </imsld:support-activity>
+          <imsld:support-activity identifier="sa-b7b5d017-e246-4bc3-b8b1-2d3073c09eb3" isvisible="true">
+            <imsld:title>SupportActivity: Answer&amp;Argue</imsld:title>
+            <imsld:environment-ref ref="env-c027051f-c5c8-4035-ac41-1af34c7a19ac" />
+            <imsld:activity-description>
+              <imsld:item identifier="item-349c6fc5-6caf-4c04-a835-78163365ba30" isvisible="true" identifierref="SupportActivity__Answer_Argue">
+                <imsld:title>Resource</imsld:title>
+              </imsld:item>
+            </imsld:activity-description>
+            <imsld:complete-activity>
+              <imsld:user-choice />
+            </imsld:complete-activity>
+          </imsld:support-activity>
+        </imsld:activities>
+        <imsld:environments>
+          <imsld:environment identifier="env-c027051f-c5c8-4035-ac41-1af34c7a19ac">
+            <imsld:title>Discussion environment</imsld:title>
+            <imsld:service identifier="conference-c6f5a9b3-3149-447f-9a5a-df262c4bb36d" isvisible="true" parameters="widget=chat">
+              <imsld:conference conference-type="synchronous">
+                <imsld:title>Discussion chat</imsld:title>
+                <imsld:participant role-ref="role-006408e6-7cfb-e25e-f208-06844cac885b" />
+                <imsld:observer role-ref="role-4b027aee-ad19-fa7e-ae25-c580232ca1aa" />
+                <imsld:conference-manager role-ref="role-4b027aee-ad19-fa7e-ae25-c580232ca1aa" />
+                <imsld:moderator role-ref="role-4b027aee-ad19-fa7e-ae25-c580232ca1aa" />
+                <imsld:item identifier="item-61418c92-41be-4a50-b175-437ef5ef5fcf" isvisible="true" identifierref="Conference">
+                  <imsld:title>Item</imsld:title>
+                </imsld:item>
+              </imsld:conference>
+            </imsld:service>
+          </imsld:environment>
+        </imsld:environments>
+      </imsld:components>
+      <imsld:method>
+        <imsld:play identifier="play-27ab7641-11db-cb20-95d9-dafff6d3ead4" isvisible="true">
+          <imsld:title>Socratic questioning</imsld:title>
+          <imsld:act identifier="act-e3ab497d-9991-f302-0e51-d7f34a620719">
+            <imsld:title>Question - Answer &amp; argue</imsld:title>
+            <imsld:role-part identifier="rolepart-b9f153f4-3c34-3e5b-e8e7-576529dcddb9">
+              <imsld:title>Question</imsld:title>
+              <imsld:role-ref ref="role-4b027aee-ad19-fa7e-ae25-c580232ca1aa" />
+              <imsld:support-activity-ref ref="sa-633b9d3a-aab1-c781-d3a9-3b8159ce1d13" />
+            </imsld:role-part>
+            <imsld:role-part identifier="rolepart-daba000e-87ed-89cd-325f-1813d72fd6ed">
+              <imsld:title>Answer &amp; argue</imsld:title>
+              <imsld:role-ref ref="role-006408e6-7cfb-e25e-f208-06844cac885b" />
+              <imsld:learning-activity-ref ref="la-39b29103-6bc4-8503-e91c-898105bcab10" />
+            </imsld:role-part>
+            <imsld:role-part identifier="rolepart-1492ebdc-5dcb-44d8-8fdf-004f3ae189cc">
+              <imsld:title>Role Part</imsld:title>
+              <imsld:role-ref ref="role-4b027aee-ad19-fa7e-ae25-c580232ca1aa" />
+              <imsld:support-activity-ref ref="sa-b7b5d017-e246-4bc3-b8b1-2d3073c09eb3" />
+            </imsld:role-part>
+            <imsld:role-part identifier="rolepart-19a78cca-7d37-445e-8133-07e9f6543463">
+              <imsld:title>Role Part</imsld:title>
+              <imsld:role-ref ref="role-006408e6-7cfb-e25e-f208-06844cac885b" />
+              <imsld:support-activity-ref ref="sa-b7b5d017-e246-4bc3-b8b1-2d3073c09eb3" />
+            </imsld:role-part>
+          </imsld:act>
+        </imsld:play>
+      </imsld:method>
+    </imsld:learning-design>
+  </organizations>
+  <resources>
+    <resource identifier="file-eb971538-f124-b85a-9304-03765b1639ac.txt" type="webcontent" href="file-eb971538-f124-b85a-9304-03765b1639ac.txt">
+      <file href="file-eb971538-f124-b85a-9304-03765b1639ac.txt" />
+    </resource>
+    <resource identifier="file-9cf63820-0922-bf84-6f5e-2dc93a4d0489.txt" type="webcontent" href="file-9cf63820-0922-bf84-6f5e-2dc93a4d0489.txt">
+      <file href="file-9cf63820-0922-bf84-6f5e-2dc93a4d0489.txt" />
+    </resource>
+    <resource identifier="Conference" type="webcontent" href="Conference.html">
+      <file href="Conference.html" />
+    </resource>
+    <resource identifier="SupportActivity__Answer_Argue" type="webcontent" href="SupportActivity__Answer&amp;Argue.html">
+      <file href="SupportActivity__Answer&amp;Argue.html" />
+    </resource>
+  </resources>
+</manifest>
+

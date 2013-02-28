@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.5"?>
+<plugin>
+   
+   <extension-point id="contenthandler"
+   		name="LD Editor Content Handler"
+   		schema="schema/contenthandler.exsd"/>
+	
+	<extension point="org.eclipse.core.runtime.applications" id="app"
+		name="appName">
+		<application>
+			<run class="org.tencompetence.ldauthor.LDAuthorApp">
+			</run>
+		</application>
+	</extension>
+	
+	<extension point="org.eclipse.core.runtime.products" id="product">
+		<product
+        application="org.tencompetence.ldauthor.app"
+        name="ReCourseV4">
+     <property
+           name="appName"
+           value="ReCourseV4"/>
+     <property
+           name="aboutText"
+           value="aboutText"/>
+     <property
+           name="aboutImage"
+           value="images/applogo.png"/>
+     <property
+           name="windowImages"
+           value="images/app/Library-16x16.gif,images/app/Library-32x32.gif,images/app/Library-48x48.gif,images/app/Library-64x64.gif,images/app/Library-128x128.gif"/>
+     <property
+           name="startupProgressRect"
+           value="1,243,358,10"/>
+     <property
+           name="startupMessageRect"
+           value="2,227,358,15"/>
+     <property
+           name="startupForegroundColor"
+           value="000000"/>
+     <property
+           name="preferenceCustomization"
+           value="plugin_customization.ini">
+     </property>
+  </product>
+	</extension>
+	
+	<extension point="org.eclipse.ui.perspectives">
+		
+		<perspective class="org.tencompetence.ldauthor.ui.perspectives.MainPerspective"
+			fixed="false" name="perspective_main"
+			id="org.tencompetence.ldauthor.mainPerspective"/>
+  <perspective
+        class="org.tencompetence.ldauthor.PerspectiveFactoryID"
+        id="org.tencompetence.ldauthor.perspectiveID"
+        name="perspectiveIDvalidation">
+  </perspective>
+		
+	</extension>
+	
+	<extension point="org.eclipse.ui.views">
+		
+		<category id="org.tencompetence.ldauthor" name="ReCourse"/>
+  <view
+        category="org.tencompetence.ldauthor"
+        class="org.tencompetence.ldauthor.ui.views.organiser.OrganiserView"
+        icon="icons/organiser.gif"
+        id="org.tencompetence.ldauthor.organiserView"
+        name="view_library"/>
+  <view
+        category="org.tencompetence.ldauthor"
+        class="org.tencompetence.ldauthor.ui.views.browser.BrowserView"
+        icon="icons/navigate_16.png"
+        id="org.tencompetence.ldauthor.browserView"
+        name="view_browser">
+  </view>
+  <view
+        category="org.tencompetence.ldauthor"
+        class="org.tencompetence.ldauthor.ui.views.checker.CheckerView"
+        icon="icons/tick.png"
+        id="org.tencompetence.ldauthor.checkerView"
+        name="view_checker">
+  </view>
+  <view
+        category="org.tencompetence.ldauthor"
+        class="org.tencompetence.ldauthor.ui.views.publisher.PublisherView"
+        icon="icons/publisher.gif"
+        id="org.tencompetence.ldauthor.publisherView"
+        name="view_ccmanager"/>
+  <view
+        category="org.tencompetence.ldauthor"
+        class="org.tencompetence.ldauthor.ui.views.preview.PreviewView"
+        icon="icons/view.gif"
+        id="org.tencompetence.ldauthor.preView"
+        name="view_preview">
+  </view>
+  <view
+        category="org.tencompetence.ldauthor"
+        class="org.tencompetence.ldauthor.ui.views.inspector.InspectorView"
+        icon="icons/inspector.png"
+        id="org.tencompetence.ldauthor.inspectorView"
+        name="view_inspector"
+        restorable="true">
+  </view>
+  <view
+        category="org.tencompetence.ldauthor"
+        class="org.tencompetence.ldauthor.ui.views.ldproperties.LDPropertiesView"
+        icon="icons/property.gif"
+        id="org.tencompetence.ldauthor.ldPropertiesView"
+        name="view_ldProperties"
+        restorable="true">
+  </view>
+  <view
+        category="org.tencompetence.ldauthor"
+        class="org.tencompetence.ldauthor.ui.views.conditions.ConditionsView"
+        icon="icons/condition.gif"
+        id="org.tencompetence.ldauthor.ldConditionsView"
+        name="view_ldConditions"
+        restorable="true">
+  </view>
+  <view
+        category="org.tencompetence.ldauthor"
+        class="org.tencompetence.ldauthor.ui.views.IDM.IDMethod"
+        icon="icons/flagIcon_chile.png"
+        id="org.tencompetence.ldauthor.viewIDM"
+        name="Terpsícore">
+  </view>
+  <view
+  		category="org.tencompetence.ldauthor"
+  		class="org.tencompetence.ldauthor.ui.views.ontoconcept.ontoConcept"
+  		icon="icons/pato.png"
+  		id="org.tencompetence.ldauthor.ontoConceptView"
+  		name="OntoConcept"
+  		restorable="true">
+  </view>
+  <view
+  		category="org.tencompetence.ldauthor"
+  		class="org.tencompetence.ldauthor.ui.views.ontoconcept.ontoZest"
+  		icon="icons/go.gif"
+  		id="org.tencompetence.ldauthor.ontoZestView"
+  		name="OntoZest"
+  		restorable="true">
+   </view>
+		
+	</extension>
+	
+	<extension point="org.eclipse.ui.actionSets">
+		<actionSet label="Cheat Sheets" visible="true"
+			id="org.eclipse.ui.cheatsheets.actionSet">
+			<action label="action_cheatsheets"
+				class="org.eclipse.ui.cheatsheets.CheatSheetExtensionFactory:helpMenuAction"
+				menubarPath="help/group.additions"
+				id="org.eclipse.ui.cheatsheets.actions.CheatSheetHelpMenuAction">
+			</action>
+		</actionSet>
+		
+	</extension>
+	
+	<extension point="org.eclipse.ui.cheatsheets.cheatSheetContent">
+		<category name="TenCompetence"
+			id="org.tencompetence.ldauthor.cheatsheets">
+		</category>
+		
+	</extension>
+	
+	<extension point="org.eclipse.help.toc">
+		<toc file="help/toc.xml" primary="true"/>
+	</extension>
+	<extension point="org.eclipse.help.contexts">
+		<contexts file="help/contexts.xml"/>
+	</extension>
+ <extension
+       point="org.eclipse.ui.preferencePages">
+    <page
+          class="org.tencompetence.ldauthor.preferences.GeneralPreferencePage"
+          id="org.tencompetence.ldauthor.preferences.general"
+          name="prefsPage_general"/>
+    <page
+          class="org.tencompetence.ldauthor.preferences.CopperCorePreferencePage"
+          id="org.tencompetence.ldauthor.preferences.coppercore"
+          name="prefsPage_ccserver">
+    </page>
+    <page
+          class="org.tencompetence.ldauthor.preferences.StringsPreferencePage"
+          id="org.tencompetence.ldauthor.preferences.strings"
+          name="prefsPage_defaultnames">
+    </page>
+    <page
+          class="org.tencompetence.ldauthor.preferences.editors.EditorsPreferencePage"
+          id="org.tencompetence.ldauthor.preferences.editors"
+          name="prefsPage_editors">
+    </page>
+    <page
+          class="org.tencompetence.ldauthor.preferences.ProxyConnectionPreferencePage"
+          id="org.tencompetence.ldauthor.preferences.proxy"
+          name="prefsPage_proxy">
+    </page>
+    <page
+          class="org.tencompetence.ldauthor.preferences.templates.TemplatesPreferencePage"
+          id="org.tencompetence.ldauthor.preferences.templates"
+          name="prefsPage_templates">
+    </page>
+ </extension>
+ <extension
+       point="org.eclipse.core.runtime.preferences">
+    <initializer class="org.tencompetence.ldauthor.preferences.PreferenceInitializer"/>
+ </extension>
+ <extension
+       point="org.eclipse.ui.newWizards">
+    <wizard
+          class="org.tencompetence.ldauthor.ui.wizards.ld.NewLDWizard"
+          icon="icons/newld.gif"
+          id="org.tencompetence.ldauthor.NewLDWizard"
+          name="learningDesign"/>
+    <wizard
+          class="org.tencompetence.ldauthor.ui.wizards.organiser.NewOrganiserResourceWizard"
+          icon="icons/newresource.gif"
+          id="org.tencompetence.ldauthor.NewOrganiserResourceWizard"
+          name="organiserResource">
+    </wizard>
+ </extension>
+ <extension
+       point="org.eclipse.ui.editors">
+    <editor
+          class="org.tencompetence.ldauthor.ui.editors.ld.LDMultiPageEditor"
+          contributorClass="org.tencompetence.ldauthor.ui.editors.ld.LDMultiPageEditorActionBarContributor"
+          icon="icons/ld.gif"
+          id="org.tencompetence.ldauthor.ldEditor"
+          name="editor_LD">
+    </editor>
+    <editor
+          class="org.tencompetence.ldauthor.ui.editors.browser.BrowserEditor"
+          contributorClass="org.tencompetence.ldauthor.ui.editors.browser.BrowserEditorActionBarContributor"
+          default="false"
+          icon="icons/navigate_16.png"
+          id="org.tencompetence.ldauthor.browserEditor"
+          name="editor_browser">
+    </editor>
+    <editor
+          class="org.tencompetence.ldauthor.ui.editors.richtext.RichTextEditorPart"
+          contributorClass="org.tencompetence.ldauthor.ui.editors.richtext.RTEActionBarContributor"
+          default="false"
+          extensions="htm,html,xhtml"
+          icon="icons/edit.gif"
+          id="org.tencompetence.rte.RichTextEditorPart"
+          name="editor_richtext">
+    </editor>
+      <editor
+            class="org.tencompetence.ldauthor.ui.editors.text.SimpleTextEditor"
+            contributorClass="org.eclipse.ui.texteditor.BasicTextEditorActionContributor"
+            default="false"
+            extensions="txt,xml"
+            icon="icons/edit.gif"
+            id="org.tencompetence.text.SimpleTextEditor"
+            name="editor_text">
+      </editor>
+          
+            
+ </extension>
+ <extension
+       point="org.eclipse.ui.intro">
+    <intro
+          class="org.tencompetence.ldauthor.ui.intro.LDAuthorIntroPart"
+          id="org.tencompetence.ldauthor.app.LDAuthorIntroPart"/>
+    <introProductBinding
+          introId="org.tencompetence.ldauthor.app.LDAuthorIntroPart"
+          productId="org.tencompetence.ldauthor.product"/>
+ </extension>
+ <extension
+       point="org.eclipse.ui.bindings">
+    <key
+          commandId="org.tencompetence.ui.open"
+          schemeId="org.eclipse.ui.defaultAcceleratorConfiguration"
+          sequence="F3"/>
+ </extension>
+ <extension
+       point="org.eclipse.ui.commands">
+    <command
+          id="org.tencompetence.ui.open"
+          name="open"/>
+ </extension>
+ <extension
+       point="org.eclipse.ui.startup">
+    <startup
+          class="org.tencompetence.ldauthor.EarlyStartup"></startup>
+ </extension>
+ <extension
+       point="org.eclipse.ui.menus">
+ </extension>
+	
+</plugin>

@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: QTI Editor Plug-in
+Bundle-SymbolicName: org.tencompetence.qtieditor;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: org.tencompetence.qtieditor.Activator
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.tencompetence.jdom,
+ org.tencompetence.ldauthor,
+ org.eclipse.ui.forms;bundle-version="3.3.101",
+ org.eclipse.core.resources;bundle-version="3.4.1"
+Bundle-ActivationPolicy: lazy
+Export-Package: org.tencompetence.qtieditor,
+ org.tencompetence.qtieditor.ui
+Bundle-ClassPath: .
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-Vendor: OUNL

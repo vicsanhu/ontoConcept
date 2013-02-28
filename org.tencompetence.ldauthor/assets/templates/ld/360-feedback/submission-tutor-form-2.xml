@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<html xmlns:ld="http://www.imsglobal.org/xsd/imsld_v1p0" xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title>Writing final remarks</title>
+	</head>
+	<body>
+		<table width="533" border="0" cellspacing="0" cellpadding="0">
+		  <tr> 
+			<td colspan="3">Personal dossier</td>
+		  </tr>
+		  <tr> 
+			<td width="27"></td>
+			<td width="157">Name</td>
+			<td width="349"><ld:view-property ref="LP-name2" property-of="supported-person" view="value"/></td>
+		  </tr>
+		  <tr> 
+			<td></td>
+			<td>Email</td>
+			<td><ld:view-property ref="LP-email2" property-of="supported-person" view="value"/></td>
+		  </tr>
+		  <tr> 
+			<td></td>
+			<td>Title of assignement</td>
+			<td><ld:view-property ref="LP-title2" property-of="supported-person" view="value"/></td>
+		  </tr>
+		  <tr> 
+			<td></td>
+			<td>File</td>
+			<td><ld:view-property ref="LP-submission2" property-of="supported-person" view="value"/></td>
+		  </tr>
+		  <tr> 
+			<td colspan="3">Teacher notes</td>
+		  </tr>
+		  <tr> 
+			<td height="35"></td>
+			<td height="35">First correction</td>
+			<td><ld:view-property ref="LP-tutor-comments-submission" property-of="supported-person" view="value"/></td>
+		  </tr>
+		  
+		   <tr> 
+			<td height="35"></td>
+			<td height="35">Second correction</td>
+			<td><ld:view-property ref="LP-tutor-comments-submission2" property-of="supported-person" view="value"/></td>
+		  </tr>
+		  
+		  <tr> 
+			<td height="35"></td>
+			<td height="35">Feedback from the student</td>
+			<td><ld:view-property ref="LP-response-to-submission" property-of="supported-person" view="value"/></td>
+		  </tr>
+		  <tr> 
+			<td height="35"></td>
+			<td height="35">Final remark</td>
+			<td><ld:set-property ref="LP-tutor-comments-submission-final" property-of="supported-person" view="value"/></td>
+		  </tr>
+		  <tr> 
+			<td height="35"></td>
+			<td height="35">Qualification</td>
+			<td><ld:set-property ref="LP-tutor-comments-submission-qualifications" property-of="supported-person" view="value"/></td>
+		  </tr>
+		  <tr> 
+			<td height="35"></td>
+			<td height="35">Numerical mark (0-10)</td>
+			<td><ld:set-property ref="LP-tutor-comments-submission-mark" property-of="supported-person" view="value"/></td>
+		  </tr>
+		  <tr> 
+			<td colspan="3"></td>
+		  </tr>  
+		 <!-- <tr>
+			<td height="35"></td>
+			<td height="35">Do you want to close the revision?</td>		  
+			<td><ld:set-property ref="LP-activity-4-completed" view="value"/></td>
+		  </tr>  -->
+		</table>	
+	</body>
+</html>

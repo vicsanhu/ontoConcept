@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<html xmlns:ld="http://www.imsglobal.org/xsd/imsld_v1p0" xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<link type="text/css" rel="stylesheet" href="unfold.css"/>
+		<title>Correcting the assesments</title>
+	</head>
+	<body>
+		<div class="C-Activitypeerstudent2-complete">
+ 		 <table width="533" border="0" cellspacing="0" cellpadding="0">
+ 				   <tr> 
+					<td>The assesment</td>
+					<td><ld:view-property ref="LP-submission" property-of="supported-person" view="value"/></td>
+				  </tr>
+ 				   <tr> 
+					<td>Second correction</td>
+					<td><ld:set-property ref="LP-tutor-comments-submission2" property-of="supported-person" view="value"/></td>
+				  </tr>				  
+				  <tr> 
+					<td colspan="2"></td>
+				  </tr>				  
+ 				   <tr> 
+					<td>Do you want to close the second round of corrections?</td>
+					<td><ld:set-property ref="LP-activity-3-completed"/></td>
+				  </tr>				  
+		 </table>  		
+		</div>
+	</body>
+</html>

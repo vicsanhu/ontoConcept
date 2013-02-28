@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<html xmlns:ld="http://www.imsglobal.org/xsd/imsld_v1p0" xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title>Monitoring t2-p2</title>
+	</head>
+	<body>
+		<div class="C-t2-p2-not-jumped">
+			<div class="C-t2-p11-answered">
+				<big> <b>QUESTION 2 [1.(a)False]- Correct answer: a) True </b> </big> <!--P11-->
+				<p>Answer selected:</p>
+				<ld:view-property property-of="supported-person" ref="LP-respuesta-individual-t2-p11X"  view="value"/>
+				
+				<P>Argument for the answer :</P>
+				<ld:view-property  property-of="supported-person" ref="LP-argumento-individual-t2-p11X"  view="value"/>
+			
+				<big> <b>QUESTION 2 [1.(a)True]- Correct answer: a) False </b> </big> <!--P12-->
+				<p>Answer selected:</p>
+				<ld:view-property property-of="supported-person" ref="LP-respuesta-individual-t2-p12X"  view="value"/>
+				
+				<P>Argument for the answer :</P>
+				<ld:view-property  property-of="supported-person" ref="LP-argumento-individual-t2-p12X"  view="value"/>
+				
+				<p>Jump to question 2:</p> <!--which means that we jump this question-->
+				<ld:set-property property-of="supported-person" ref="LP-t2-p2-jumped"/> 
+			
+			</div>	
+		</div>
+		<div class="C-t2-p2-jumped">
+			<div class="C-t2-p2-complete">
+				<p>This question has been jumped for this student</p>
+			</div>
+		</div>
+	</body>
+	
+</html>

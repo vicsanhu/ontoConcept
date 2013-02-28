@@ -1,0 +1,16 @@
+[Trainer]
+1.Plan significant questions that provide structure and direction to the training session.
+2.Phrase the questions clearly and specifically.
+3.Wait Time: Maintain silence and wait at least 5 to 10 seconds for learners to respond. 
+4.Keep the discussion focused.
+5.Follow up on learners' responses and invite elaboration.
+6.Stimulate the discussion with probing questions.
+7.Periodically summarize (e.g., on webpages or slides) what has been discussed.
+8.Draw as many learners as possible into the discussion.
+9.Do not pose yes/no questions, as they do little to promote thinking or encourage discussion.
+10.Do not pose questions that are vague, ambiguous, or beyond the level of the learners.
+
+* Edit the Learning Activity included to pose the questions to your learners (steps 1,2)
+* Edit the chat included in the environment to facilitate the communication between the learners and the trainer. 
+Keep the discussion focussed and make the learners collaborate and discuss using this chat (steps 3,4,5,6)
+*Use the same chat to periodically summarize textually what has been discussed (steps 7, 8, 9 10)

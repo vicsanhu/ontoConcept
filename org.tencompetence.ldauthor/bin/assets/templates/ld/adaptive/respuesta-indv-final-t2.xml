@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<html xmlns:ld="http://www.imsglobal.org/xsd/imsld_v1p0" xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title>Individual choice and reflection</title>
+	</head>
+	<body>
+		<center><b><big>Summary of the student's answers</big></b></center>
+		<P><center><ld:view-property ref="GP-eleccion-final-profe" property-of="supported-person" view="value"/></center></P>
+		
+		<P><i>Previous knowledge about the topic</i></P>
+		<ld:view-property property-of="supported-person" ref="LP-argumento-eleccion-tematica-alumno" view="value"/>
+		
+		<P><big> <b>QUESTION 1</b> </big></P>
+		
+				<b>QUESTION 1 - Correct answer: a) True </b>
+				<p>Answer selected:
+				<ld:view-property property-of="supported-person" ref="LP-respuesta-individual-t2-p1X"  view="value"/>
+				</p>
+				
+				<P>Argument for the answer :
+				<ld:view-property  property-of="supported-person" ref="LP-argumento-individual-t2-p1X"  view="value"/>
+				</P>
+		
+		<P><big> <b>QUESTION 2</b> </big>	</P>	
+		
+				<b>QUESTION 2 [1.(a)True]- Correct answer: a) False </b> <!--P11-->
+				<p>Answer selected:
+				<ld:view-property property-of="supported-person" ref="LP-respuesta-individual-t2-p11X"  view="value"/>
+				</p>
+				<P>Argument for the answer :
+				<ld:view-property  property-of="supported-person" ref="LP-argumento-individual-t2-p11X"  view="value"/>
+				</P>
+				<b>QUESTION 2 [1.(b)False]- Correct answer: a) True </b> <!--P12-->
+				<p>Answer selected:</p>
+				<ld:view-property property-of="supported-person" ref="LP-respuesta-individual-t2-p12X"  view="value"/>
+				
+				<P>Argument for the answer :</P>
+				
+				
+		<P><big> <b>QUESTION 3</b> </big>	</P>	
+		
+				<b>QUESTION 3 [1.(a)True, 2.(a)False] - Correct answer: a) False </b> <!--P111-->
+				<p>Answer selected:
+				<ld:view-property property-of="supported-person" ref="LP-respuesta-individual-t2-p111X"  view="value"/>
+				</p>
+				<P>Argument for the answer :
+				<ld:view-property  property-of="supported-person" ref="LP-argumento-individual-t2-p111X"  view="value"/>
+				</P>
+				
+				<b>QUESTION 3 [1.(a)True, 2.(b)False] - Correct answer: a) True </b> <!--P112-->
+				<p>Answer selected:
+				<ld:view-property property-of="supported-person" ref="LP-respuesta-individual-t2-p112X"  view="value"/>
+				</p>
+				<P>Argument for the answer :
+				<ld:view-property  property-of="supported-person" ref="LP-argumento-individual-t2-p112X"  view="value"/>
+				</P>
+				
+				<b>QUESTION 3 [1.(a)True, 2.(b)True] - Correct answer: a) False </b><!--P121-->
+				<p>Answer selected:
+				<ld:view-property property-of="supported-person" ref="LP-respuesta-individual-t2-p121X"  view="value"/>
+				</p>
+				<P>Argument for the answer :
+				<ld:view-property  property-of="supported-person" ref="LP-argumento-individual-t2-p121X"  view="value"/>
+				</P>
+				
+				<b>QUESTION 3 [1.(a)True, 2.(b)False] - Correct answer: a) True </b> <!--P122-->
+				<p>Answer selected:
+				<ld:view-property property-of="supported-person" ref="LP-respuesta-individual-t2-p122X"  view="value"/>
+				</p>
+				<P>Argument for the answer :
+				<ld:view-property  property-of="supported-person" ref="LP-argumento-individual-t2-p122X"  view="value"/>
+				</P>
+				
+	</body>
+	<!--Adda change level of question button-->
+	
+</html>

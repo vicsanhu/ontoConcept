@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Edited with ReCourse-->
+<!--Created - Tue Jan 26 18:57:28 CET 2010-->
+<!--Modified - Tue Jan 26 18:57:28 CET 2010-->
+<!--Authors- Mar Pérez-Sanagustín&Patricia Santos, UPF-->
+<!--Adapted from COLLAGE templates-->
+<manifest xmlns="http://www.imsglobal.org/xsd/imscp_v1p1" xmlns:imsld="http://www.imsglobal.org/xsd/imsld_v1p0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ldauthor="http://www.tencompetence.org/ldauthor" xsi:schemaLocation="http://www.imsglobal.org/xsd/imscp_v1p1 http://www.imsglobal.org/xsd/imscp_v1p1.xsd http://www.imsglobal.org/xsd/imsld_v1p0 http://www.imsglobal.org/xsd/IMS_LD_Level_A.xsd http://www.tencompetence.org/ldauthor ld-author.xsd" identifier="manifest-71a00480-4c83-4ed9-9a53-61010fb20a40">
+  <organizations>
+    <imsld:learning-design identifier="ld-d098a353-09f1-4668-ba8b-fc1a64cd5591" version="1.0.0" level="A" uri="http://www.yourURI.here/e9f4620a-f1b8-47fa-82dc-03fc033ff4af" sequence-used="false">
+      <imsld:title>Brainstorming</imsld:title>
+      <imsld:components>
+        <imsld:roles>
+          <imsld:learner identifier="role-8c583de0-59d5-d703-5d22-20a44b7b36d6">
+            <imsld:title>Learner</imsld:title>
+          </imsld:learner>
+          <imsld:learner identifier="role-34f1757f-4927-85c1-1685-4cec4b3776d9">
+            <imsld:title>Brainstorm Participant</imsld:title>
+          </imsld:learner>
+          <imsld:staff identifier="role-f3d9eb93-7d0e-fb9f-ea30-f92de146ae66">
+            <imsld:title>Brainstorm Facilitator</imsld:title>
+          </imsld:staff>
+        </imsld:roles>
+        <imsld:activities>
+          <imsld:learning-activity identifier="la-ba8e3f96-eab6-85d4-9aa7-de29709b3f3d" isvisible="true">
+            <imsld:title>Define problem</imsld:title>
+            <imsld:activity-description>
+              <imsld:item identifier="item-6ba63a6e-215c-b2e4-60d7-99c4c5c09eb0" isvisible="true" identifierref="file-ce012e20-7cd1-5bd5-d035-cddc9f71cc03.txt">
+                <imsld:title>Define problem Activity Description</imsld:title>
+              </imsld:item>
+            </imsld:activity-description>
+          </imsld:learning-activity>
+          <imsld:learning-activity identifier="la-ba44737a-7e0b-e75c-5377-f5b62d0d2722" isvisible="true">
+            <imsld:title>Contribute solutions</imsld:title>
+            <imsld:activity-description>
+              <imsld:item identifier="item-b8f35d2e-9457-5697-4930-a5e69d48d100" isvisible="true" identifierref="file-0228d814-d23e-0bd6-6ae5-11c0678d9f67.txt">
+                <imsld:title>Activity Description for Contribute solutions</imsld:title>
+              </imsld:item>
+            </imsld:activity-description>
+          </imsld:learning-activity>
+          <imsld:learning-activity identifier="la-bba057cf-0fe6-f0ed-9e7f-d79670ac55d5" isvisible="true">
+            <imsld:title>Generate criteria &amp; scores</imsld:title>
+            <imsld:activity-description>
+              <imsld:item identifier="item-6a896c5f-dc55-9747-6fa3-0c28d8764a54" isvisible="true" identifierref="file-90033786-91e6-5471-1b31-f6641be50123.txt">
+                <imsld:title>Generate criteria &amp; score Activity Description</imsld:title>
+              </imsld:item>
+            </imsld:activity-description>
+          </imsld:learning-activity>
+          <imsld:support-activity identifier="sa-009ea853-d4d9-4bcf-79f8-9a7f15208682" isvisible="true">
+            <imsld:title>Set up brainstorm</imsld:title>
+            <imsld:role-ref ref="role-34f1757f-4927-85c1-1685-4cec4b3776d9" />
+            <imsld:activity-description>
+              <imsld:item identifier="item-09cb83d4-6b70-f533-0b6b-c74bb27cff61" isvisible="true" identifierref="file-a8ba9d40-85af-08ae-d9d2-61398a44db0a.txt">
+                <imsld:title>Activity Description for Set up brainstorm</imsld:title>
+              </imsld:item>
+            </imsld:activity-description>
+          </imsld:support-activity>
+          <imsld:support-activity identifier="sa-3f724484-0843-6872-a2b2-11d3cc0e8801" isvisible="true">
+            <imsld:title>Moderate &amp; record ideas</imsld:title>
+            <imsld:role-ref ref="role-34f1757f-4927-85c1-1685-4cec4b3776d9" />
+            <imsld:activity-description>
+              <imsld:item identifier="item-7e8d62c5-4cbb-8ebb-77fa-3d78cc2db5d6" isvisible="true" identifierref="file-4dbcfe57-205f-c89f-8cc4-19c5a1ecc2ee.txt">
+                <imsld:title>Moderate &amp; record Activity Description</imsld:title>
+              </imsld:item>
+            </imsld:activity-description>
+          </imsld:support-activity>
+          <imsld:support-activity identifier="sa-bd934e90-2814-5dd9-8f74-bbb83f4f4ed8" isvisible="true">
+            <imsld:title>Record criteria &amp; scores</imsld:title>
+            <imsld:role-ref ref="role-34f1757f-4927-85c1-1685-4cec4b3776d9" />
+            <imsld:activity-description>
+              <imsld:item identifier="item-8f0a235c-f1ff-026a-fbdd-fcebeb45e986" isvisible="true" identifierref="file-f4a3fa3f-59aa-a6af-77bb-aab8f3f3f355.txt">
+                <imsld:title>Record criteria &amp; scores Activity Description</imsld:title>
+              </imsld:item>
+            </imsld:activity-description>
+          </imsld:support-activity>
+        </imsld:activities>
+      </imsld:components>
+      <imsld:method>
+        <imsld:play identifier="play-abcc41cb-7b26-dd12-c38b-74af7d035380" isvisible="true">
+          <imsld:title>Brainstorming</imsld:title>
+          <imsld:act identifier="act-f1939722-2913-9c85-bb32-f58965b42ebd">
+            <imsld:title>Define problem</imsld:title>
+            <imsld:role-part identifier="rolepart-e642fb15-936d-88d2-87e8-922b1490bca2">
+              <imsld:title>Define problem</imsld:title>
+              <imsld:role-ref ref="role-34f1757f-4927-85c1-1685-4cec4b3776d9" />
+              <imsld:learning-activity-ref ref="la-ba8e3f96-eab6-85d4-9aa7-de29709b3f3d" />
+            </imsld:role-part>
+          </imsld:act>
+          <imsld:act identifier="act-4a863f65-94ec-23bd-3c58-80a9faea494a">
+            <imsld:title>Set up brainstorm</imsld:title>
+            <imsld:role-part identifier="rolepart-a4bfcc29-032a-287d-00be-f77bf1eff501">
+              <imsld:title>Set up brainstorm</imsld:title>
+              <imsld:role-ref ref="role-f3d9eb93-7d0e-fb9f-ea30-f92de146ae66" />
+              <imsld:support-activity-ref ref="sa-009ea853-d4d9-4bcf-79f8-9a7f15208682" />
+            </imsld:role-part>
+          </imsld:act>
+          <imsld:act identifier="act-61e64539-7d7c-fdb4-7d9c-9e884f6b5f95">
+            <imsld:title>Contribute solutions - Moderate &amp; record ideas</imsld:title>
+            <imsld:role-part identifier="rolepart-238234aa-6662-30ee-db62-90390662a9a6">
+              <imsld:title>Contribute solutions</imsld:title>
+              <imsld:role-ref ref="role-34f1757f-4927-85c1-1685-4cec4b3776d9" />
+              <imsld:learning-activity-ref ref="la-ba44737a-7e0b-e75c-5377-f5b62d0d2722" />
+            </imsld:role-part>
+            <imsld:role-part identifier="rolepart-44c10bc6-d2f0-baa7-cac8-d1d07ee94733">
+              <imsld:title>Moderate &amp; record ideas</imsld:title>
+              <imsld:role-ref ref="role-f3d9eb93-7d0e-fb9f-ea30-f92de146ae66" />
+              <imsld:support-activity-ref ref="sa-3f724484-0843-6872-a2b2-11d3cc0e8801" />
+            </imsld:role-part>
+          </imsld:act>
+          <imsld:act identifier="act-5e9c81b2-d0d6-a764-15c3-559b125888e7">
+            <imsld:title>Generate criteria &amp; scores - Record criteria &amp; scores</imsld:title>
+            <imsld:role-part identifier="rolepart-8c495685-cc4f-1c1c-161a-7f4fbd9fc35d">
+              <imsld:title>Generate criteria &amp; scores</imsld:title>
+              <imsld:role-ref ref="role-34f1757f-4927-85c1-1685-4cec4b3776d9" />
+              <imsld:learning-activity-ref ref="la-bba057cf-0fe6-f0ed-9e7f-d79670ac55d5" />
+            </imsld:role-part>
+            <imsld:role-part identifier="rolepart-28e4004a-4bb5-51be-b101-9368803f193a">
+              <imsld:title>Record criteria &amp; scores</imsld:title>
+              <imsld:role-ref ref="role-f3d9eb93-7d0e-fb9f-ea30-f92de146ae66" />
+              <imsld:support-activity-ref ref="sa-bd934e90-2814-5dd9-8f74-bbb83f4f4ed8" />
+            </imsld:role-part>
+          </imsld:act>
+        </imsld:play>
+      </imsld:method>
+      <imsld:metadata>
+        <ldauthor:root date-created="1264528648140">
+          <ldauthor:images />
+          <ldauthor:overview>
+            <ldauthor:description />
+            <ldauthor:tags />
+            <ldauthor:author />
+            <ldauthor:subject />
+          </ldauthor:overview>
+          <ldauthor:environments />
+        </ldauthor:root>
+      </imsld:metadata>
+    </imsld:learning-design>
+  </organizations>
+  <resources>
+    <resource identifier="file-ce012e20-7cd1-5bd5-d035-cddc9f71cc03.txt" type="webcontent" href="file-ce012e20-7cd1-5bd5-d035-cddc9f71cc03.txt">
+      <file href="file-ce012e20-7cd1-5bd5-d035-cddc9f71cc03.txt" />
+    </resource>
+    <resource identifier="file-0228d814-d23e-0bd6-6ae5-11c0678d9f67.txt" type="webcontent" href="file-0228d814-d23e-0bd6-6ae5-11c0678d9f67.txt">
+      <file href="file-0228d814-d23e-0bd6-6ae5-11c0678d9f67.txt" />
+    </resource>
+    <resource identifier="file-90033786-91e6-5471-1b31-f6641be50123.txt" type="webcontent" href="file-90033786-91e6-5471-1b31-f6641be50123.txt">
+      <file href="file-90033786-91e6-5471-1b31-f6641be50123.txt" />
+    </resource>
+    <resource identifier="file-a8ba9d40-85af-08ae-d9d2-61398a44db0a.txt" type="webcontent" href="file-a8ba9d40-85af-08ae-d9d2-61398a44db0a.txt">
+      <file href="file-a8ba9d40-85af-08ae-d9d2-61398a44db0a.txt" />
+    </resource>
+    <resource identifier="file-4dbcfe57-205f-c89f-8cc4-19c5a1ecc2ee.txt" type="webcontent" href="file-4dbcfe57-205f-c89f-8cc4-19c5a1ecc2ee.txt">
+      <file href="file-4dbcfe57-205f-c89f-8cc4-19c5a1ecc2ee.txt" />
+    </resource>
+    <resource identifier="file-f4a3fa3f-59aa-a6af-77bb-aab8f3f3f355.txt" type="webcontent" href="file-f4a3fa3f-59aa-a6af-77bb-aab8f3f3f355.txt">
+      <file href="file-f4a3fa3f-59aa-a6af-77bb-aab8f3f3f355.txt" />
+    </resource>
+  </resources>
+</manifest>
+

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns="http://www.tencompetence.org/ldauthor"
+	targetNamespace="http://www.tencompetence.org/ldauthor"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	xmlns:xsi="http://www.w3.org/2000/10/XMLSchema-instance"
+	elementFormDefault="qualified"
+	version="ReCourse 1.0"
+	attributeFormDefault="unqualified">
+	
+	<xs:annotation>
+        <xs:documentation>
+            XSD Data File Information
+            -------------------------
+            Author:       Phillip Beauvoir
+            Date:         15th October, 2008
+            Version:      1.1.1
+            Status:       Draft
+            Description:  LD Editing Tool Schema.
+        </xs:documentation>
+    </xs:annotation>
+    
+	<xs:group name="grp.any">
+    	<xs:annotation>
+    		<xs:documentation>
+    			Any namespaced element from any namespace may be included within an "any" element. The
+    			namespace for the imported element must be defined in the instance, and the schema must
+    			be imported.
+    		</xs:documentation>
+    	</xs:annotation>
+    	<xs:sequence>
+    		<xs:any namespace="##other" processContents="lax" minOccurs="0" maxOccurs="unbounded" />
+    	</xs:sequence>
+    </xs:group>
+
+
+    <xs:complexType name="rootType">
+		<xs:sequence>
+			<xs:element ref="images" />
+			<xs:element ref="overview" />
+			<xs:element ref="environments" />
+		</xs:sequence>
+		<xs:attribute name="date-created" use="optional" type="xs:string"/>
+	</xs:complexType>
+	
+	<xs:complexType name="imagesType">
+		<xs:sequence>
+			<xs:element name="image" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	
+	<xs:complexType name="overviewType">
+		<xs:sequence>
+			<xs:element name="description" type="xs:string" minOccurs="0" maxOccurs="1"/>
+			<xs:element name="tags" type="xs:string" minOccurs="0" maxOccurs="1"/>
+			<xs:element name="author" type="xs:string" minOccurs="0" maxOccurs="1"/>
+			<xs:element name="subject" type="xs:string" minOccurs="0" maxOccurs="1"/>
+		</xs:sequence>
+	</xs:complexType>
+	
+	<xs:complexType name="environmentsType">
+		<xs:sequence>
+			<xs:choice minOccurs="0" maxOccurs="unbounded">
+				<xs:element ref="environment" />
+				<xs:element ref="note" />
+			</xs:choice>
+			<xs:element ref="environment-connection" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	
+	<xs:complexType name="environmentType">
+		<xs:sequence>
+			<xs:element ref="bounds" />
+			<xs:choice minOccurs="0" maxOccurs="unbounded">
+				<xs:element ref="learning-object" />
+				<xs:element ref="conference" />
+				<xs:element ref="send-mail" />
+				<xs:element ref="index-search" />
+				<xs:element ref="monitor" />
+				<xs:element ref="environment-ref" />
+				<xs:element ref="note" />
+			</xs:choice>
+		</xs:sequence>
+		<xs:attribute name="ref" use="required" type="xs:string"/>
+	</xs:complexType>
+
+	<xs:complexType name="iconType">
+		<xs:sequence>
+			<xs:element ref="bounds" />
+		</xs:sequence>
+		<xs:attribute name="ref" use="required" type="xs:string"/>
+	</xs:complexType>
+	
+	<xs:complexType name="boundsType">
+		<xs:attribute name="x" use="required" type="xs:string"/>
+		<xs:attribute name="y" use="required" type="xs:string"/>
+		<xs:attribute name="width" use="required" type="xs:string"/>
+		<xs:attribute name="height" use="required" type="xs:string"/>
+	</xs:complexType>
+	
+	<xs:complexType name="noteType">
+		<xs:sequence>
+			<xs:element ref="bounds" />
+			<xs:element name="content" type="xs:string" />
+		</xs:sequence>
+	</xs:complexType>
+	
+	<xs:complexType name="connectionType">
+		<xs:attribute name="relationship" use="required" type="xs:string"/>
+		<xs:attribute name="src" use="required" type="xs:string"/>
+		<xs:attribute name="tgt" use="required" type="xs:string"/>
+	</xs:complexType>
+	
+	<xs:element name="root" type="rootType" />
+	<xs:element name="images" type="imagesType" />
+    <xs:element name="overview" type="overviewType" />
+    <xs:element name="environments" type="environmentsType" />
+    <xs:element name="environment" type="environmentType" />
+    <xs:element name="learning-object" type="iconType" />
+    <xs:element name="environment-ref" type="iconType" />
+    <xs:element name="conference" type="iconType" />
+    <xs:element name="index-search" type="iconType" />
+    <xs:element name="monitor" type="iconType" />
+    <xs:element name="send-mail" type="iconType" />
+    <xs:element name="bounds" type="boundsType" />
+    <xs:element name="note" type="noteType" />
+    <xs:element name="environment-connection" type="connectionType" />
+
+</xs:schema>

@@ -1,0 +1,71 @@
+Priority 1
+----------
+* Visualizer Level B visualisation
+* Internal HTML tag Editor with preview
+* LD Checker - checking at level B/C - Properties, Conditions
+
+
+
+Priority 2
+----------
+* Remove invalid referenced objects from LD model
+* Properties Copy and Paste dialog - option to use "ld:" instead of full Namespace
+* The Identifier of properties is not editable, this creates hard to manually check XHTML documents, but also hard
+  to reuse a document with glob-props in this way. I tried to do this by reusing an XHTML file in a new Unit of Learning,
+  but then you have to: change all the property-refs ór (but that is impossible), try to get these references
+  into the new property declarations in the UOL.
+  Best approach would be the same approach as was taken with the resources IDs, but adding loc-prop- etc. to it
+  to identify the type of property in the name (like it is done already).
+* Editable identifiers - propogate thru manifest, warn about content files
+* When selecting file I can choose any file on my system, but when it is not in the package it complains that it
+  should be copied at that place first (It would be nice that in this case the file is copied from the selected
+  location to the package).
+
+
+
+
+Priority 3
+----------
+* Validate XML on loading?
+* Is there still a QTI encoding issue?
+* If an LD element doesn't have a title to display, should we display the ID? (If it's a friendly ID?)
+* Preview - If there is more than one ItemType show it as a hyperlink
+* Icons for Activity Structure types?
+* Selecting top-level Role Parts "Create Activity Group" out of them
+* Add numbers and bullets for RolePart table?
+
+
+
+One Day
+-------
+* Preserve other xml tags from non-ReCourse manifests - Metadata? Other things?
+* Cut/Copy/Paste in Editors
+* Drag and drop web link from browser to Library
+* More fields on Library Resource. Maybe like a CP Resource with file hrefs?  Should we save this info in a separate backing file?
+
+
+
+Maybe never but owuld be useful
+-------------------------------
+* Support for IEEE/IMS Metadata (Ha!)
+
+
+
+Level B adds:
+-------------
+
+1)	The model of components is extended with the element properties, this is the place where the properties are declared.
+2)	The model of complete-activity, complete-act, complete-play and complete-unit-of-learning are extended to include the element when-property-value-is-set. 
+3)	The model of on-completion is extended to include the element change-property-value.
+4)	The model of service is extended to include the element monitor.
+5)	The model of email-data is extended with two attributes (email-property-ref and username-property-ref) referring to global properties with data.
+6)	The model of time-limit is extended with one attribute (property-ref) referring to a property with data.
+7)	The element method is extended to include the element conditions.
+8)	The model of complete-act is extended to include the element when-condition-true.
+
+
+Level C adds:
+-------------
+
+1)	The on-completion model is extended with a notification element.
+2)	The then (and else!) model is extended with a notification element.

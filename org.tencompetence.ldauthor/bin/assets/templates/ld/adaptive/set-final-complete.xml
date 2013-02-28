@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns:ld="http://www.imsglobal.org/xsd/imsld_v1p0" xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<link type="text/css" rel="stylesheet" href="style.css"/>
+		<title>Monitor the answers of the Learners</title>
+	</head>
+	<body>
+	<b><p>Monitor the learner's answers</p></b>
+	<p>You can obtain the summary ofthe answers of each of the learners that have participated on the activity
+	by selecting the student from the select window and clicking on the "Summary of answers" button on the lef
+	menu.</p>
+
+	</body>
+</html>

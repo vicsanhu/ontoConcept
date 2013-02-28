@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Edited with ReCourse-->
+<!--Created - Tue Jan 26 19:05:31 CET 2010-->
+<!--Modified - Tue Jan 26 19:05:31 CET 2010-->
+<!--Authors- Mar Pérez-Sanagustín&Patricia Santos, UPF-->
+<manifest xmlns="http://www.imsglobal.org/xsd/imscp_v1p1" xmlns:imsld="http://www.imsglobal.org/xsd/imsld_v1p0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ldauthor="http://www.tencompetence.org/ldauthor" xsi:schemaLocation="http://www.imsglobal.org/xsd/imscp_v1p1 http://www.imsglobal.org/xsd/imscp_v1p1.xsd http://www.imsglobal.org/xsd/imsld_v1p0 http://www.imsglobal.org/xsd/IMS_LD_Level_B.xsd http://www.tencompetence.org/ldauthor ld-author.xsd" identifier="manifest-45b9f0ba-d968-459c-b71c-2d89d6b1a281">
+  <organizations>
+    <imsld:learning-design identifier="ld-52cfd82c-8402-441c-bf0b-f3def53ef212" version="1.0.0" level="B" uri="http://www.yourURI.here/a6cf93f0-d65a-40c4-bbb9-72c9ac43ee7c" sequence-used="false">
+      <imsld:title>Adaptive assessment-template</imsld:title>
+      <imsld:learning-objectives>
+        <imsld:item identifier="I-objectives" isvisible="true" identifierref="res-objectives">
+          <imsld:title>Learning objectives</imsld:title>
+        </imsld:item>
+      </imsld:learning-objectives>
+      <imsld:components>
+        <imsld:roles>
+          <imsld:learner identifier="student">
+            <imsld:title>Student</imsld:title>
+          </imsld:learner>
+        </imsld:roles>
+        <imsld:properties>
+          <imsld:locpers-property identifier="Name">
+            <imsld:title>Local Personal Property</imsld:title>
+            <imsld:datatype datatype="string" />
+          </imsld:locpers-property>
+          <imsld:locpers-property identifier="Value1">
+            <imsld:title>Local Personal Property</imsld:title>
+            <imsld:datatype datatype="integer" />
+            <imsld:initial-value>0</imsld:initial-value>
+          </imsld:locpers-property>
+          <imsld:locpers-property identifier="Value2">
+            <imsld:title>Local Personal Property</imsld:title>
+            <imsld:datatype datatype="integer" />
+            <imsld:initial-value>0</imsld:initial-value>
+          </imsld:locpers-property>
+          <imsld:locpers-property identifier="Value3">
+            <imsld:title>Local Personal Property</imsld:title>
+            <imsld:datatype datatype="integer" />
+            <imsld:initial-value>0</imsld:initial-value>
+          </imsld:locpers-property>
+          <imsld:locpers-property identifier="Value4">
+            <imsld:title>Local Personal Property</imsld:title>
+            <imsld:datatype datatype="integer" />
+            <imsld:initial-value>0</imsld:initial-value>
+          </imsld:locpers-property>
+          <imsld:locpers-property identifier="Value5">
+            <imsld:title>Local Personal Property</imsld:title>
+            <imsld:datatype datatype="integer" />
+            <imsld:initial-value>0</imsld:initial-value>
+          </imsld:locpers-property>
+          <imsld:locpers-property identifier="total">
+            <imsld:title>Local Personal Property</imsld:title>
+            <imsld:datatype datatype="integer" />
+            <imsld:initial-value>0</imsld:initial-value>
+          </imsld:locpers-property>
+          <imsld:locpers-property identifier="average">
+            <imsld:title>Local Personal Property</imsld:title>
+            <imsld:datatype datatype="real" />
+            <imsld:initial-value>0</imsld:initial-value>
+          </imsld:locpers-property>
+          <imsld:locpers-property identifier="accuracy">
+            <imsld:title>Local Personal Property</imsld:title>
+            <imsld:datatype datatype="integer" />
+            <imsld:initial-value>-1</imsld:initial-value>
+          </imsld:locpers-property>
+          <imsld:locpers-property identifier="number-questions">
+            <imsld:title>Local Personal Property</imsld:title>
+            <imsld:datatype datatype="real" />
+            <imsld:initial-value>1</imsld:initial-value>
+          </imsld:locpers-property>
+          <imsld:locpers-property identifier="all-questions">
+            <imsld:title>Local Personal Property</imsld:title>
+            <imsld:datatype datatype="boolean" />
+            <imsld:initial-value>0</imsld:initial-value>
+          </imsld:locpers-property>
+          <imsld:locpers-property identifier="prop-feedback">
+            <imsld:title>Local Personal Property</imsld:title>
+            <imsld:datatype datatype="string" />
+          </imsld:locpers-property>
+          <imsld:locpers-property identifier="Answer1">
+            <imsld:title>Local Personal Property</imsld:title>
+            <imsld:datatype datatype="string" />
+            <imsld:initial-value>Select</imsld:initial-value>
+            <imsld:restriction restriction-type="enumeration">Select</imsld:restriction>
+            <imsld:restriction restriction-type="enumeration">4-6</imsld:restriction>
+            <imsld:restriction restriction-type="enumeration">0-3</imsld:restriction>
+          </imsld:locpers-property>
+          <imsld:property-group identifier="group-questions">
+            <imsld:title>Questions set</imsld:title>
+            <imsld:property-ref ref="Name" />
+            <imsld:property-ref ref="Answer1" />
+          </imsld:property-group>
+          <imsld:locpers-property identifier="AT-2af4b127-8548-473b-995d-3cc01031d05a.SCORE">
+            <imsld:title>QTI Test</imsld:title>
+            <imsld:datatype datatype="real" />
+            <imsld:initial-value>0</imsld:initial-value>
+          </imsld:locpers-property>
+        </imsld:properties>
+        <imsld:activities>
+          <imsld:learning-activity identifier="questions" isvisible="true">
+            <imsld:title>Questions set</imsld:title>
+            <imsld:learning-objectives>
+              <imsld:item identifier="I2-objectives" isvisible="true" identifierref="res-objectives">
+                <imsld:title>Learning objectives</imsld:title>
+              </imsld:item>
+            </imsld:learning-objectives>
+            <imsld:activity-description>
+              <imsld:item identifier="I-questions" isvisible="true" identifierref="res-questions" />
+            </imsld:activity-description>
+            <imsld:complete-activity>
+              <imsld:when-property-value-is-set>
+                <imsld:property-ref ref="all-questions" />
+                <imsld:property-value>1</imsld:property-value>
+              </imsld:when-property-value-is-set>
+            </imsld:complete-activity>
+          </imsld:learning-activity>
+          <imsld:learning-activity identifier="feedback" isvisible="true">
+            <imsld:title>Results and feedback</imsld:title>
+            <imsld:activity-description>
+              <imsld:item identifier="I-feedback" isvisible="true" identifierref="res-feedback" />
+            </imsld:activity-description>
+          </imsld:learning-activity>
+          <imsld:learning-activity identifier="flow1" isvisible="false">
+            <imsld:title>.</imsld:title>
+            <imsld:activity-description>
+              <imsld:item identifier="I-flow1" isvisible="true" identifierref="res-flow1" />
+            </imsld:activity-description>
+          </imsld:learning-activity>
+          <imsld:learning-activity identifier="flow2" isvisible="false">
+            <imsld:title>Topic 1</imsld:title>
+            <imsld:activity-description>
+              <imsld:item identifier="I-flow2" isvisible="true" identifierref="res-flow2" />
+            </imsld:activity-description>
+          </imsld:learning-activity>
+          <imsld:learning-activity identifier="flow3" isvisible="false">
+            <imsld:title>Topic2</imsld:title>
+            <imsld:activity-description>
+              <imsld:item identifier="I-flow3" isvisible="true" identifierref="res-flow3" />
+            </imsld:activity-description>
+          </imsld:learning-activity>
+          <imsld:learning-activity identifier="la-a9b56a72-3a48-4c57-8472-63cb3260eeb7" isvisible="true">
+            <imsld:title>Test</imsld:title>
+            <imsld:activity-description>
+              <imsld:item identifier="item-76dcdd79-ee8f-4431-8a99-e111eb80c174" isvisible="true" identifierref="test_xml">
+                <imsld:title>QTI Test</imsld:title>
+              </imsld:item>
+            </imsld:activity-description>
+            <imsld:complete-activity>
+              <imsld:user-choice />
+            </imsld:complete-activity>
+          </imsld:learning-activity>
+          <imsld:learning-activity identifier="la-990ea930-95f8-4357-bf52-b4138706d104" isvisible="true">
+            <imsld:title>Test</imsld:title>
+            <imsld:activity-description>
+              <imsld:item identifier="item-1565f85e-80c7-47ad-ada3-f1e1c42b4a7b" isvisible="true" identifierref="test_xml">
+                <imsld:title>QTI Test</imsld:title>
+              </imsld:item>
+            </imsld:activity-description>
+            <imsld:complete-activity>
+              <imsld:user-choice />
+            </imsld:complete-activity>
+          </imsld:learning-activity>
+          <imsld:activity-structure identifier="questionsandanswers" structure-type="sequence">
+            <imsld:title>Questions and answers</imsld:title>
+            <imsld:learning-activity-ref ref="questions" />
+          </imsld:activity-structure>
+        </imsld:activities>
+      </imsld:components>
+      <imsld:method>
+        <imsld:play identifier="play-882dee5c-ea7d-49f3-96d4-7a84d5b825b1" isvisible="true">
+          <imsld:title>Test</imsld:title>
+          <imsld:act identifier="act-df86776b-b175-446f-a561-b00022e2d5a0">
+            <imsld:title>Phase 1</imsld:title>
+            <imsld:role-part identifier="rolepart-3c265df4-05ef-430e-a7f1-579fd16582ea">
+              <imsld:title>Role Part</imsld:title>
+              <imsld:role-ref ref="student" />
+              <imsld:learning-activity-ref ref="la-a9b56a72-3a48-4c57-8472-63cb3260eeb7" />
+            </imsld:role-part>
+          </imsld:act>
+        </imsld:play>
+        <imsld:play identifier="play-b63bf573-46b6-44c6-ae25-4186f9e86186" isvisible="true">
+          <imsld:title>Select your Mark</imsld:title>
+          <imsld:act identifier="act-4e897e3e-2422-40ef-9a28-64cc55dbad9a">
+            <imsld:title>Will you pass the Quiz "to be completed"?</imsld:title>
+            <imsld:role-part identifier="rolepart-eb2950f0-3850-43f4-b821-5e33c13fad5c">
+              <imsld:title>Student</imsld:title>
+              <imsld:role-ref ref="student" />
+              <imsld:activity-structure-ref ref="questionsandanswers" />
+            </imsld:role-part>
+            <imsld:role-part identifier="rolepart-63b6759f-d659-4454-8e86-d9591aa024c7">
+              <imsld:title>Student</imsld:title>
+              <imsld:role-ref ref="student" />
+              <imsld:learning-activity-ref ref="flow1" />
+            </imsld:role-part>
+            <imsld:role-part identifier="rolepart-2d85a14d-8690-4b46-b3fe-c322edcf2b9a">
+              <imsld:title>Student</imsld:title>
+              <imsld:role-ref ref="student" />
+              <imsld:learning-activity-ref ref="flow2" />
+            </imsld:role-part>
+            <imsld:role-part identifier="rolepart-789b0152-e723-4c2b-8049-d962bf801ab5">
+              <imsld:title>Role Part</imsld:title>
+              <imsld:role-ref ref="student" />
+              <imsld:learning-activity-ref ref="flow3" />
+            </imsld:role-part>
+          </imsld:act>
+        </imsld:play>
+        <imsld:conditions>
+          <imsld:if>
+            <imsld:is>
+              <imsld:property-ref ref="Answer1" />
+              <imsld:property-value>4-6</imsld:property-value>
+            </imsld:is>
+          </imsld:if>
+          <imsld:then>
+            <imsld:change-property-value>
+              <imsld:property-ref ref="Value1" />
+              <imsld:property-value>100</imsld:property-value>
+            </imsld:change-property-value>
+          </imsld:then>
+          <imsld:else>
+            <imsld:if>
+              <imsld:is>
+                <imsld:property-ref ref="Answer1" />
+                <imsld:property-value>0-3</imsld:property-value>
+              </imsld:is>
+            </imsld:if>
+            <imsld:then>
+              <imsld:change-property-value>
+                <imsld:property-ref ref="Value1" />
+                <imsld:property-value>55</imsld:property-value>
+              </imsld:change-property-value>
+            </imsld:then>
+          </imsld:else>
+          <imsld:if>
+            <imsld:is-not>
+              <imsld:property-ref ref="Answer1" />
+              <imsld:property-value>Select</imsld:property-value>
+            </imsld:is-not>
+          </imsld:if>
+          <imsld:then>
+            <imsld:change-property-value>
+              <imsld:property-ref ref="all-questions" />
+              <imsld:property-value>1</imsld:property-value>
+            </imsld:change-property-value>
+          </imsld:then>
+          <imsld:if>
+            <imsld:is>
+              <imsld:property-ref ref="all-questions" />
+              <imsld:property-value>1</imsld:property-value>
+            </imsld:is>
+          </imsld:if>
+          <imsld:then>
+            <imsld:show>
+              <imsld:class class="Answered" with-control="false" />
+            </imsld:show>
+          </imsld:then>
+          <imsld:else>
+            <imsld:hide>
+              <imsld:class class="Answered" with-control="false" />
+            </imsld:hide>
+          </imsld:else>
+          <imsld:if>
+            <imsld:is>
+              <imsld:property-ref ref="all-questions" />
+              <imsld:property-value>1</imsld:property-value>
+            </imsld:is>
+          </imsld:if>
+          <imsld:then>
+            <imsld:change-property-value>
+              <imsld:property-ref ref="total" />
+              <imsld:property-value>
+                <imsld:calculate>
+                  <imsld:sum>
+                    <imsld:property-ref ref="Value5" />
+                    <imsld:sum>
+                      <imsld:property-ref ref="Value4" />
+                      <imsld:sum>
+                        <imsld:property-ref ref="Value3" />
+                        <imsld:sum>
+                          <imsld:property-ref ref="Value1" />
+                          <imsld:property-ref ref="Value2" />
+                        </imsld:sum>
+                      </imsld:sum>
+                    </imsld:sum>
+                  </imsld:sum>
+                </imsld:calculate>
+              </imsld:property-value>
+            </imsld:change-property-value>
+            <imsld:change-property-value>
+              <imsld:property-ref ref="average" />
+              <imsld:property-value>
+                <imsld:calculate>
+                  <imsld:divide>
+                    <imsld:property-ref ref="total" />
+                    <imsld:property-ref ref="number-questions" />
+                  </imsld:divide>
+                </imsld:calculate>
+              </imsld:property-value>
+            </imsld:change-property-value>
+            <imsld:change-property-value>
+              <imsld:property-ref ref="accuracy" />
+              <imsld:property-value>
+                <imsld:calculate>
+                  <imsld:multiply>
+                    <imsld:property-ref ref="total" />
+                    <imsld:property-value>1</imsld:property-value>
+                  </imsld:multiply>
+                </imsld:calculate>
+              </imsld:property-value>
+            </imsld:change-property-value>
+          </imsld:then>
+          <imsld:if>
+            <imsld:less-than>
+              <imsld:property-ref ref="accuracy" />
+              <imsld:property-value>1</imsld:property-value>
+            </imsld:less-than>
+          </imsld:if>
+          <imsld:then>
+            <imsld:hide>
+              <imsld:learning-activity-ref ref="flow1" />
+              <imsld:learning-activity-ref ref="flow2" />
+              <imsld:learning-activity-ref ref="flow3" />
+            </imsld:hide>
+          </imsld:then>
+          <imsld:else>
+            <imsld:if>
+              <imsld:and>
+                <imsld:greater-than>
+                  <imsld:property-ref ref="accuracy" />
+                  <imsld:property-value>0</imsld:property-value>
+                </imsld:greater-than>
+                <imsld:less-than>
+                  <imsld:property-ref ref="accuracy" />
+                  <imsld:property-value>50</imsld:property-value>
+                </imsld:less-than>
+              </imsld:and>
+            </imsld:if>
+            <imsld:then>
+              <imsld:show>
+                <imsld:learning-activity-ref ref="flow1" />
+              </imsld:show>
+              <imsld:hide>
+                <imsld:learning-activity-ref ref="flow2" />
+                <imsld:learning-activity-ref ref="flow3" />
+              </imsld:hide>
+              <imsld:change-property-value>
+                <imsld:property-ref ref="prop-feedback" />
+                <imsld:property-value>Sorry, your score is insuficient. You must read more and try again later. Please, select the next learning activity. You are in Level 1</imsld:property-value>
+              </imsld:change-property-value>
+            </imsld:then>
+            <imsld:else>
+              <imsld:if>
+                <imsld:and>
+                  <imsld:greater-than>
+                    <imsld:property-ref ref="accuracy" />
+                    <imsld:property-value>49</imsld:property-value>
+                  </imsld:greater-than>
+                  <imsld:less-than>
+                    <imsld:property-ref ref="accuracy" />
+                    <imsld:property-value>76</imsld:property-value>
+                  </imsld:less-than>
+                </imsld:and>
+              </imsld:if>
+              <imsld:then>
+                <imsld:show>
+                  <imsld:learning-activity-ref ref="flow2" />
+                </imsld:show>
+                <imsld:hide>
+                  <imsld:learning-activity-ref ref="flow1" />
+                  <imsld:learning-activity-ref ref="flow3" />
+                </imsld:hide>
+                <imsld:change-property-value>
+                  <imsld:property-ref ref="prop-feedback" />
+                  <imsld:property-value>Well done! Your score is promising. Anyway, if you read more about Geography you would improve quite a lot. Please, select the next learning activity. You are in Level 2</imsld:property-value>
+                </imsld:change-property-value>
+              </imsld:then>
+              <imsld:else>
+                <imsld:show>
+                  <imsld:learning-activity-ref ref="flow3" />
+                </imsld:show>
+                <imsld:hide>
+                  <imsld:learning-activity-ref ref="flow1" />
+                  <imsld:learning-activity-ref ref="flow2" />
+                </imsld:hide>
+                <imsld:change-property-value>
+                  <imsld:property-ref ref="prop-feedback" />
+                  <imsld:property-value>Congratulations! You have made a great score. It´s sure that you know much about Geography. Pleae, select the next learning activity. You are in Level 3</imsld:property-value>
+                </imsld:change-property-value>
+              </imsld:else>
+            </imsld:else>
+          </imsld:else>
+        </imsld:conditions>
+      </imsld:method>
+      <imsld:metadata>
+        <ldauthor:root date-created="1264529131687">
+          <ldauthor:images />
+          <ldauthor:overview>
+            <ldauthor:description />
+            <ldauthor:tags />
+            <ldauthor:author />
+            <ldauthor:subject />
+          </ldauthor:overview>
+          <ldauthor:environments />
+        </ldauthor:root>
+      </imsld:metadata>
+    </imsld:learning-design>
+  </organizations>
+  <resources>
+    <resource identifier="res-questions" type="imsldcontent" href="questions.xml">
+      <file href="questions.xml" />
+    </resource>
+    <resource identifier="res-objectives" type="webcontent" href="objectives.html">
+      <file href="objectives.html" />
+    </resource>
+    <resource identifier="res-flow1" type="webcontent" href="flow1.html">
+      <file href="flow1.html" />
+    </resource>
+    <resource identifier="res-flow2" type="webcontent" href="flow2.html">
+      <file href="flow2.html" />
+    </resource>
+    <resource identifier="res-flow3" type="webcontent" href="flow3.html">
+      <file href="flow3.html" />
+    </resource>
+    <resource identifier="res-feedback" type="imsldcontent" href="feedback.xml">
+      <file href="feedback.xml" />
+    </resource>
+    <resource identifier="test_xml" type="imsqti_test_xmlv2p1" href="test.xml">
+      <file href="test.xml" />
+    </resource>
+  </resources>
+</manifest>
+

@@ -1,0 +1,116 @@
+2011.03.21 17:36:09.671 CET INFO: *** SYSTEM START ***
+2011.03.21 17:36:10.437 CET INFO: Loading triples from: null -- ProtegeOWLParser.loadTriples()
+2011.03.21 17:36:10.937 CET INFO:     Completed triple loading after 422 ms -- ProtegeOWLParser.loadTriples()
+2011.03.21 17:36:11.437 CET INFO: Importing http://sqwrl.stanford.edu/ontologies/built-ins/3.4/sqwrl.owl from location: http://sqwrl.stanford.edu/ontologies/built-ins/3.4/sqwrl.owl -- AbstractOWLModel.loadImportedAssertions()
+2011.03.21 17:36:12.421 CET INFO: Loading triples from: http://sqwrl.stanford.edu/ontologies/built-ins/3.4/sqwrl.owl -- ProtegeOWLParser.loadTriples()
+2011.03.21 17:36:12.421 CET INFO:     Completed triple loading after 0 ms -- ProtegeOWLParser.loadTriples()
+2011.03.21 17:36:12.875 CET INFO: Importing http://swrl.stanford.edu/ontologies/3.3/swrla.owl from location: http://swrl.stanford.edu/ontologies/3.3/swrla.owl -- AbstractOWLModel.loadImportedAssertions()
+2011.03.21 17:36:13.765 CET INFO: Loading triples from: http://swrl.stanford.edu/ontologies/3.3/swrla.owl -- ProtegeOWLParser.loadTriples()
+2011.03.21 17:36:13.781 CET INFO:     Completed triple loading after 16 ms -- ProtegeOWLParser.loadTriples()
+2011.03.21 17:36:13.781 CET INFO: Importing http://www.w3.org/2003/11/swrl from location: C:\ontologies\retOnto\swrl.owl -- AbstractOWLModel.loadImportedAssertions()
+2011.03.21 17:36:13.781 CET INFO: Loading triples from: http://www.w3.org/2003/11/swrl -- ProtegeOWLParser.loadTriples()
+2011.03.21 17:36:13.812 CET INFO:     Completed triple loading after 31 ms -- ProtegeOWLParser.loadTriples()
+2011.03.21 17:36:13.812 CET INFO: Importing http://www.w3.org/2003/11/swrlb from location: C:\ontologies\retOnto\swrlb.owl -- AbstractOWLModel.loadImportedAssertions()
+2011.03.21 17:36:13.828 CET INFO: Loading triples from: http://www.w3.org/2003/11/swrlb -- ProtegeOWLParser.loadTriples()
+2011.03.21 17:36:13.843 CET INFO:     Completed triple loading after 15 ms -- ProtegeOWLParser.loadTriples()
+2011.03.21 17:36:13.843 CET INFO: Importing http://www.cc.uah.es/ie/ont/idtheories.owl from location: C:\ontologies\retOnto\idtheories.owl -- AbstractOWLModel.loadImportedAssertions()
+2011.03.21 17:36:13.843 CET INFO: Loading triples from: http://www.cc.uah.es/ie/ont/idtheories.owl -- ProtegeOWLParser.loadTriples()
+2011.03.21 17:36:13.859 CET INFO:     Completed triple loading after 16 ms -- ProtegeOWLParser.loadTriples()
+2011.03.21 17:36:13.859 CET INFO: Importing http://www.eume.net/ontology/ld.owl from location: C:\ontologies\retOnto\LD_LevelA_1.0_v1.owl -- AbstractOWLModel.loadImportedAssertions()
+2011.03.21 17:36:13.859 CET INFO: Loading triples from: http://www.eume.net/ontology/ld.owl -- ProtegeOWLParser.loadTriples()
+2011.03.21 17:36:13.921 CET INFO:     Completed triple loading after 62 ms -- ProtegeOWLParser.loadTriples()
+2011.03.21 17:36:13.921 CET INFO: Importing http://www.eume.net/ontology/uol.owl from location: C:\ontologies\retOnto\UOL1.0.owl -- AbstractOWLModel.loadImportedAssertions()
+2011.03.21 17:36:13.921 CET INFO: Loading triples from: http://www.eume.net/ontology/uol.owl -- ProtegeOWLParser.loadTriples()
+2011.03.21 17:36:13.937 CET INFO:     Completed triple loading after 16 ms -- ProtegeOWLParser.loadTriples()
+2011.03.21 17:36:13.937 CET INFO: Importing http://www.eume.net/ontology/lom.owl from location: C:\ontologies\retOnto\LOM1.2.1.owl -- AbstractOWLModel.loadImportedAssertions()
+2011.03.21 17:36:13.937 CET INFO: Loading triples from: http://www.eume.net/ontology/lom.owl -- ProtegeOWLParser.loadTriples()
+2011.03.21 17:36:13.984 CET INFO:     Completed triple loading after 47 ms -- ProtegeOWLParser.loadTriples()
+2011.03.21 17:36:13.984 CET INFO: Postprocess: Process entities with incorrect Java type (2 entities) ...  -- TriplePostProcessor.processFramesWithWrongJavaType()
+2011.03.21 17:36:13.984 CET INFO: 0 ms
+ -- TriplePostProcessor.processFramesWithWrongJavaType()
+2011.03.21 17:36:13.984 CET INFO: Postprocess: Process metaclasses (3 metaclasses) ...  -- TriplePostProcessor.processMetaclasses()
+2011.03.21 17:36:13.984 CET INFO: 0 ms
+ -- TriplePostProcessor.processMetaclasses()
+2011.03.21 17:36:13.984 CET INFO: Postprocess: Process subclasses of rdf:List (2 classes) ...  -- TriplePostProcessor.processSubclassesOfRdfList()
+2011.03.21 17:36:13.984 CET INFO: 0 ms
+ -- TriplePostProcessor.processSubclassesOfRdfList()
+2011.03.21 17:36:13.984 CET INFO: Postprocess: Instances with multiple types (240 instances) ...  -- TriplePostProcessor.processInstancesWithMultipleTypes()
+2011.03.21 17:36:13.984 CET INFO: 0 ms
+ -- TriplePostProcessor.processInstancesWithMultipleTypes()
+2011.03.21 17:36:13.984 CET INFO: Postprocess: Add inferred superclasses ...  -- TriplePostProcessor.processInferredSuperclasses()
+2011.03.21 17:36:13.984 CET INFO: 0 ms
+ -- TriplePostProcessor.processInferredSuperclasses()
+2011.03.21 17:36:14.000 CET INFO: Postprocess: Process orphan classes (72 classes) ...  -- TriplePostProcessor.processOrphanClses()
+2011.03.21 17:36:14.000 CET INFO: 0 ms
+ -- TriplePostProcessor.processOrphanClses()
+2011.03.21 17:36:14.000 CET INFO: Postprocess: Generalized Concept Inclusion (0 axioms) ...  -- TriplePostProcessor.processGeneralizedConceptInclusions()
+2011.03.21 17:36:14.000 CET INFO: 0 ms
+ -- TriplePostProcessor.processGeneralizedConceptInclusions()
+2011.03.21 17:36:14.000 CET INFO: Postprocess: Abstract classes...  -- TriplePostProcessor.processAbstractClasses()
+2011.03.21 17:36:14.000 CET INFO: 0 ms
+ -- TriplePostProcessor.processAbstractClasses()
+2011.03.21 17:36:14.000 CET INFO: Postprocess: Domain and range of properties...  -- TriplePostProcessor.processDomainAndRange()
+2011.03.21 17:36:14.015 CET INFO: 15 ms
+ -- TriplePostProcessor.processDomainAndRange()
+2011.03.21 17:36:14.015 CET INFO: Postprocess: Possibly typed entities (2 resources) ...  -- TriplePostProcessor.processPossiblyTypedResources()
+2011.03.21 17:36:14.015 CET INFO: 0 ms
+ -- TriplePostProcessor.processPossiblyTypedResources()
+2011.03.21 17:36:14.015 CET INFO: Updating underlying frames model in 0 ms -- ProtegeOWLParser.doFinalPostProcessing()
+2011.03.21 17:38:19.593 CET INFO: *** SYSTEM START ***
+2011.03.21 17:38:20.359 CET INFO: Loading triples from: null -- ProtegeOWLParser.loadTriples()
+2011.03.21 17:38:20.859 CET INFO:     Completed triple loading after 422 ms -- ProtegeOWLParser.loadTriples()
+2011.03.21 17:38:21.375 CET INFO: Importing http://sqwrl.stanford.edu/ontologies/built-ins/3.4/sqwrl.owl from location: http://sqwrl.stanford.edu/ontologies/built-ins/3.4/sqwrl.owl -- AbstractOWLModel.loadImportedAssertions()
+2011.03.21 17:38:22.359 CET INFO: Loading triples from: http://sqwrl.stanford.edu/ontologies/built-ins/3.4/sqwrl.owl -- ProtegeOWLParser.loadTriples()
+2011.03.21 17:38:22.359 CET INFO:     Completed triple loading after 0 ms -- ProtegeOWLParser.loadTriples()
+2011.03.21 17:38:22.812 CET INFO: Importing http://swrl.stanford.edu/ontologies/3.3/swrla.owl from location: http://swrl.stanford.edu/ontologies/3.3/swrla.owl -- AbstractOWLModel.loadImportedAssertions()
+2011.03.21 17:38:23.703 CET INFO: Loading triples from: http://swrl.stanford.edu/ontologies/3.3/swrla.owl -- ProtegeOWLParser.loadTriples()
+2011.03.21 17:38:23.718 CET INFO:     Completed triple loading after 15 ms -- ProtegeOWLParser.loadTriples()
+2011.03.21 17:38:23.718 CET INFO: Importing http://www.w3.org/2003/11/swrl from location: C:\ontologies\retOnto\swrl.owl -- AbstractOWLModel.loadImportedAssertions()
+2011.03.21 17:38:23.734 CET INFO: Loading triples from: http://www.w3.org/2003/11/swrl -- ProtegeOWLParser.loadTriples()
+2011.03.21 17:38:23.765 CET INFO:     Completed triple loading after 31 ms -- ProtegeOWLParser.loadTriples()
+2011.03.21 17:38:23.765 CET INFO: Importing http://www.w3.org/2003/11/swrlb from location: C:\ontologies\retOnto\swrlb.owl -- AbstractOWLModel.loadImportedAssertions()
+2011.03.21 17:38:23.765 CET INFO: Loading triples from: http://www.w3.org/2003/11/swrlb -- ProtegeOWLParser.loadTriples()
+2011.03.21 17:38:23.781 CET INFO:     Completed triple loading after 16 ms -- ProtegeOWLParser.loadTriples()
+2011.03.21 17:38:23.781 CET INFO: Importing http://www.cc.uah.es/ie/ont/idtheories.owl from location: C:\ontologies\retOnto\idtheories.owl -- AbstractOWLModel.loadImportedAssertions()
+2011.03.21 17:38:23.796 CET INFO: Loading triples from: http://www.cc.uah.es/ie/ont/idtheories.owl -- ProtegeOWLParser.loadTriples()
+2011.03.21 17:38:23.796 CET INFO:     Completed triple loading after 0 ms -- ProtegeOWLParser.loadTriples()
+2011.03.21 17:38:23.796 CET INFO: Importing http://www.eume.net/ontology/ld.owl from location: C:\ontologies\retOnto\LD_LevelA_1.0_v1.owl -- AbstractOWLModel.loadImportedAssertions()
+2011.03.21 17:38:23.796 CET INFO: Loading triples from: http://www.eume.net/ontology/ld.owl -- ProtegeOWLParser.loadTriples()
+2011.03.21 17:38:23.859 CET INFO:     Completed triple loading after 63 ms -- ProtegeOWLParser.loadTriples()
+2011.03.21 17:38:23.859 CET INFO: Importing http://www.eume.net/ontology/uol.owl from location: C:\ontologies\retOnto\UOL1.0.owl -- AbstractOWLModel.loadImportedAssertions()
+2011.03.21 17:38:23.859 CET INFO: Loading triples from: http://www.eume.net/ontology/uol.owl -- ProtegeOWLParser.loadTriples()
+2011.03.21 17:38:23.875 CET INFO:     Completed triple loading after 16 ms -- ProtegeOWLParser.loadTriples()
+2011.03.21 17:38:23.875 CET INFO: Importing http://www.eume.net/ontology/lom.owl from location: C:\ontologies\retOnto\LOM1.2.1.owl -- AbstractOWLModel.loadImportedAssertions()
+2011.03.21 17:38:23.875 CET INFO: Loading triples from: http://www.eume.net/ontology/lom.owl -- ProtegeOWLParser.loadTriples()
+2011.03.21 17:38:23.921 CET INFO:     Completed triple loading after 46 ms -- ProtegeOWLParser.loadTriples()
+2011.03.21 17:38:23.921 CET INFO: Postprocess: Process entities with incorrect Java type (2 entities) ...  -- TriplePostProcessor.processFramesWithWrongJavaType()
+2011.03.21 17:38:23.921 CET INFO: 0 ms
+ -- TriplePostProcessor.processFramesWithWrongJavaType()
+2011.03.21 17:38:23.921 CET INFO: Postprocess: Process metaclasses (3 metaclasses) ...  -- TriplePostProcessor.processMetaclasses()
+2011.03.21 17:38:23.921 CET INFO: 0 ms
+ -- TriplePostProcessor.processMetaclasses()
+2011.03.21 17:38:23.921 CET INFO: Postprocess: Process subclasses of rdf:List (2 classes) ...  -- TriplePostProcessor.processSubclassesOfRdfList()
+2011.03.21 17:38:23.921 CET INFO: 0 ms
+ -- TriplePostProcessor.processSubclassesOfRdfList()
+2011.03.21 17:38:23.921 CET INFO: Postprocess: Instances with multiple types (240 instances) ...  -- TriplePostProcessor.processInstancesWithMultipleTypes()
+2011.03.21 17:38:23.937 CET INFO: 16 ms
+ -- TriplePostProcessor.processInstancesWithMultipleTypes()
+2011.03.21 17:38:23.937 CET INFO: Postprocess: Add inferred superclasses ...  -- TriplePostProcessor.processInferredSuperclasses()
+2011.03.21 17:38:23.937 CET INFO: 0 ms
+ -- TriplePostProcessor.processInferredSuperclasses()
+2011.03.21 17:38:23.937 CET INFO: Postprocess: Process orphan classes (72 classes) ...  -- TriplePostProcessor.processOrphanClses()
+2011.03.21 17:38:23.937 CET INFO: 0 ms
+ -- TriplePostProcessor.processOrphanClses()
+2011.03.21 17:38:23.937 CET INFO: Postprocess: Generalized Concept Inclusion (0 axioms) ...  -- TriplePostProcessor.processGeneralizedConceptInclusions()
+2011.03.21 17:38:23.937 CET INFO: 0 ms
+ -- TriplePostProcessor.processGeneralizedConceptInclusions()
+2011.03.21 17:38:23.937 CET INFO: Postprocess: Abstract classes...  -- TriplePostProcessor.processAbstractClasses()
+2011.03.21 17:38:23.937 CET INFO: 0 ms
+ -- TriplePostProcessor.processAbstractClasses()
+2011.03.21 17:38:23.937 CET INFO: Postprocess: Domain and range of properties...  -- TriplePostProcessor.processDomainAndRange()
+2011.03.21 17:38:23.968 CET INFO: 31 ms
+ -- TriplePostProcessor.processDomainAndRange()
+2011.03.21 17:38:23.968 CET INFO: Postprocess: Possibly typed entities (2 resources) ...  -- TriplePostProcessor.processPossiblyTypedResources()
+2011.03.21 17:38:23.968 CET INFO: 0 ms
+ -- TriplePostProcessor.processPossiblyTypedResources()
+2011.03.21 17:38:23.968 CET INFO: Updating underlying frames model in 0 ms -- ProtegeOWLParser.doFinalPostProcessing()

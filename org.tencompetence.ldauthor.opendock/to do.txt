@@ -1,0 +1,33 @@
+Clarify the search items.
+Show short desc on table.
+
+App ID is the unique ID of the application client connecting to the OD server.
+User ID user the unique marker for personal actions.
+
+How will the new ReCourse user get these IDs?
+Need to add UI and calls to the Repository to get this. API.
+Need to add a sandbox ids as a default so user can get started.  And link to the HELPME docs.
+When submitting a new user ID we need a form on the Prefs dialog to add:
+    User ID (a unique ID perhaps generated max 32 chars)
+    User Name
+    E-mail address
+    Home Page
+    Lang ("en_GB", "de", "es")
+    Role ("user", "admin", "moderator", "superadmin") Just support "user"
+
+
+http://test5.opendocument.net
+uploadElement() or uploading a URL (refer to uploadContainer for documentation)
+Has to be encoded in BASE64 - is this in the XMRPCClient class?  Apache.
+
+A UoL is an OD "container"
+
+Future function - upload/download elements of UoLs (Activities, Resources...)
+Use Cheat sheet to help user get going with OD.net (link to OD online help resources, etc)
+
+http://recourse.opendocument.net/Repository/server_interface/server.php
+application id : id47fe2bbbc99489.89044190
+repository id :  id47fe2bbbc993c3.23941814
+user id of philip = superadmin 6faf0311be4fefbb25db3db9c58c4b88
+
+Add the Upload button to the Packaging dialog.  If Prefs say "no", then do not show.

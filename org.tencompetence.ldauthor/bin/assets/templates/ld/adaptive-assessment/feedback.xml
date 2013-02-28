@@ -1,0 +1,107 @@
+<?xml version="1.0"?>
+
+<html xmlns:ld="http://www.imsglobal.org/xsd/imsld_v1p0" xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title/>
+	</head>
+	<body>
+<table width="654" border="0" cellspacing="0" cellpadding="0">
+  <tr> 
+    <td colspan="5" bgcolor="#000000"><font color="#FFFFFF" size="3" face="Arial, Helvetica, sans-serif">Your 
+      answers on Geography</font></td>
+  </tr>
+  <tr> 
+    <td colspan="5"> </td>
+  </tr>
+  <tr> 
+    <td width="49" bgcolor="#666666"><font color="#000000" size="2" face="Arial, Helvetica, sans-serif">Number</font></td>
+    <td width="308" bgcolor="#666666"><font color="#000000" size="2" face="Arial, Helvetica, sans-serif">Question</font></td>
+    <td width="128" bgcolor="#666666"><div align="center"><font color="#000000" size="2" face="Arial, Helvetica, sans-serif">Your 
+        Answer</font></div></td>
+    <td width="112" bgcolor="#666666"><div align="center"><font color="#000000" size="2" face="Arial, Helvetica, sans-serif">Right 
+        Answer</font></div></td>
+    <td width="74" bgcolor="#666666"> <div align="center"><font color="#000000" size="2" face="Arial, Helvetica, sans-serif">Value</font></div></td>
+  </tr>
+  <tr> 
+    <td colspan="5"> </td>
+  </tr>
+  <tr bgcolor="#CCCCCC"> 
+    <td height="35"> <div align="center"><font size="2" face="Arial, Helvetica, sans-serif">1</font></div></td>
+    <td height="35"><font size="2" face="Arial, Helvetica, sans-serif">In which country is the highest cable car of South America?</font></td>
+    <td> <div align="center">
+        <p><font size="2" face="Arial, Helvetica, sans-serif"><ld:view-property ref="Answer1" property-of="self" view="value"/></font></p>
+      </div></td>
+    <td><div align="center"><font size="2" face="Arial, Helvetica, sans-serif">Venezuela</font></div></td>
+    <td height="35"><div align="center">
+        <p><font size="2" face="Arial, Helvetica, sans-serif"><ld:view-property ref="Value1" property-of="self" view="value"/></font></p>
+      </div></td>
+  </tr>
+  <tr> 
+    <td height="35"> <div align="center"><font size="2" face="Arial, Helvetica, sans-serif">2</font></div></td>
+    <td height="35"><font size="2" face="Arial, Helvetica, sans-serif">Where is the Mare Tranquilitatis?</font></td>
+    <td> <div align="center">
+        <p><font size="2" face="Arial, Helvetica, sans-serif"><ld:view-property ref="Answer2" property-of="self" view="value"/></font></p>
+      </div></td>
+    <td><div align="center"><font size="2" face="Arial, Helvetica, sans-serif">The Moon</font></div>
+<!-- <br><embed src="tagalo.mp3" controls="smallconsole" autostart="false" height="25" width="145" name="audio" /></br>  -->
+    </td>
+    <td height="35"><div align="center">
+        <p><font size="2" face="Arial, Helvetica, sans-serif"><ld:view-property ref="Value2" property-of="self" view="value"/></font></p>
+      </div></td>
+  </tr>
+  <tr bgcolor="#CCCCCC"> 
+    <td height="35"> <div align="center"><font size="2" face="Arial, Helvetica, sans-serif">3</font></div></td>
+    <td height="35"><font size="2" face="Arial, Helvetica, sans-serif">In which of these countries is the Limburg region?</font></td>
+    <td> <div align="center">
+        <p><font size="2" face="Arial, Helvetica, sans-serif"><ld:view-property ref="Answer3" property-of="self" view="value"/></font></p>
+      </div></td>
+    <td><div align="center"><font size="2" face="Arial, Helvetica, sans-serif">The Netherlands</font></div></td>
+    <td height="35"><div align="center">
+        <p><font size="2" face="Arial, Helvetica, sans-serif"><ld:view-property ref="Value3" property-of="self" view="value"/></font></p>
+      </div></td>
+  </tr>
+  <tr> 
+    <td height="35"> <div align="center"><font size="2" face="Arial, Helvetica, sans-serif">4</font></div></td>
+    <td height="35"><font size="2" face="Arial, Helvetica, sans-serif">Which one is the highest peak in Europe?</font></td>
+    <td> <div align="center">
+        <p><font size="2" face="Arial, Helvetica, sans-serif"><ld:view-property ref="Answer4" property-of="self" view="value"/></font></p>
+      </div></td>
+    <td><div align="center"><font size="2" face="Arial, Helvetica, sans-serif">Elbrus</font></div></td>
+    <td height="35"><div align="center">
+        <p><font size="2" face="Arial, Helvetica, sans-serif"><ld:view-property ref="Value4" property-of="self" view="value"/></font></p>
+      </div></td>
+  </tr>
+  <tr bgcolor="#CCCCCC"> 
+    <td height="35"> <div align="center"><font size="2" face="Arial, Helvetica, sans-serif">5</font></div></td>
+    <td height="35"><font size="2" face="Arial, Helvetica, sans-serif">Where is the dessert of Gobi?</font></td>
+    <td> <div align="center">
+        <p><font size="2" face="Arial, Helvetica, sans-serif"><ld:view-property ref="Answer5" property-of="self" view="value"/></font></p>
+      </div></td>
+    <td><div align="center"><font size="2" face="Arial, Helvetica, sans-serif">Mongolia</font></div></td>
+    <td height="35"><div align="center">
+        <p><font size="2" face="Arial, Helvetica, sans-serif"><ld:view-property ref="Value5" property-of="self" view="value"/></font></p>
+      </div></td>
+  </tr>
+</table>
+<p> </p>
+<table width="654" border="0" cellspacing="0" cellpadding="0">
+  <tr> 
+    <td width="652" bgcolor="#CCCCCC"><font color="#000000" size="3" face="Arial, Helvetica, sans-serif">Raw 
+      numbers</font></td>
+  </tr>
+  <tr> 
+    <td><p><font size="2" face="Arial, Helvetica, sans-serif"><strong><font color="#000099"><ld:view-property ref="Name" property-of="self" view="value"/></font></strong>, 
+        you have got <font color="#000066"><strong><ld:view-property ref="total" property-of="self" view="value"/></strong></font> points 
+        on a total of <font color="#000033"><strong>10</strong></font> points 
+        in a set of <font color="#000066"><strong>5</strong></font> answers, 
+        meaning <strong><font color="#FF0000"><ld:view-property ref="average" property-of="self" view="value"/></font></strong> points of average and a <strong><font color="#FF0000"><ld:view-property ref="accuracy" property-of="self" view="value"/></font></strong>% of accuracy</font></p></td>
+  </tr>
+  <tr> 
+    <td bgcolor="#CCCCCC"><font color="#000000" size="3" face="Arial, Helvetica, sans-serif">Adaptive feedback</font></td>
+  </tr>
+  <tr> 
+    <td><p><font size="2" face="Arial, Helvetica, sans-serif"><em><ld:view-property ref="prop-feedback" property-of="self" view="value"/></em></font></p></td>
+  </tr>
+</table>
+	</body>
+</html>

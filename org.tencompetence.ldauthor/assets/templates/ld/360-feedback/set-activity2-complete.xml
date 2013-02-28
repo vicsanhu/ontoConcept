@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<html xmlns:ld="http://www.imsglobal.org/xsd/imsld_v1p0" xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title>Ckecking and closing the submission</title>
+	</head>
+	<body>
+		<div class="C-Activity2-not-complete">
+			<p>Check the submissions and close it when all is ready</p>
+		</div>
+		<div class="C-Activity2-not-complete">
+			<p>Do you want to close the submission?</p>
+			<ld:set-property ref="LP-activity-2-completed"/>
+		</div>
+		<div class="C-Activity2-complete">
+			<p>You have closed the submission</p>
+		</div>
+	</body>
+</html>

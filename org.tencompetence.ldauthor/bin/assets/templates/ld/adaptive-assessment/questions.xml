@@ -1,0 +1,68 @@
+
+<html xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns="http://www.w3.org/1999/xhtml" xmlns:emlmd="http://eml.ou.nl/eml11/metadata" xmlns:eml="http://eml.ou.nl/eml11">
+	<head>
+		<title/>
+	</head>
+	<body>
+			<div class="Answered">
+				<font color="black"> <p>Perfect. You have entered your answers. Do you want to check your results? Please, <strong>refresh your browser</strong> and go ahead</p></font>
+		</div>
+<table width="600" border="0" cellspacing="0" cellpadding="0">
+  <tr> 
+    <td colspan="3" bgcolor="#000000"><font color="#000000" size="3" face="Arial, Helvetica, sans-serif">A few questions 
+      on Geography</font></td>
+  </tr>
+  <tr> 
+    <td colspan="3"> </td>
+  </tr>
+  
+  <tr> 
+    <td colspan="3"> </td>
+  </tr>    
+  <tr> 
+    <td width="55" bgcolor="#666666"><font color="#000000" size="2" face="Arial, Helvetica, sans-serif">Text</font></td>
+    <td width="350" bgcolor="#666666"><font color="#000000" size="2" face="Arial, Helvetica, sans-serif"></font></td>
+    <td width="195" bgcolor="#666666"> <div align="center"><font color="#000000" size="2" face="Arial, Helvetica, sans-serif">Answer</font></div></td>
+  </tr>
+  <tr> 
+    <td colspan="3"> </td>
+  </tr>
+  <tr bgcolor="#CCCCCC"> 
+    <td height="35"> 
+      <div align="center"><font size="2" face="Arial, Helvetica, sans-serif">1</font></div></td>
+    <td height="35"><font size="2" face="Arial, Helvetica, sans-serif">Please, select the mark that you have obtain in the test:</font></td>
+    <td height="35"> 
+      <div align="center"><font size="2" face="Arial, Helvetica, sans-serif"><p><set-property xmlns="http://www.imsglobal.org/xsd/imsld_v1p0" ref="Answer1" property-of="self" view="value"/></p></font></div></td>
+  </tr>
+  <!--  <tr> 
+  <td height="35">
+<div align="center"><font size="2" face="Arial, Helvetica, sans-serif">2</font></div></td>
+    <td height="35"><font size="2" face="Arial, Helvetica, sans-serif">Where is the Mare Tranquilitatis?</font></td>
+    <td height="35">
+<div align="center"><font size="2" face="Arial, Helvetica, sans-serif"><p><set-property xmlns="http://www.imsglobal.org/xsd/imsld_v1p0" ref="Answer2" property-of="self" view="value"/></p></font></div></td>
+  </tr>
+  <tr bgcolor="#CCCCCC"> 
+    <td height="35"> 
+      <div align="center"><font size="2" face="Arial, Helvetica, sans-serif">3</font></div></td>
+    <td height="35"><font size="2" face="Arial, Helvetica, sans-serif">In which of these countries is the Limburg region?</font></td>
+    <td height="35"> 
+      <div align="center"><font size="2" face="Arial, Helvetica, sans-serif"><p><set-property xmlns="http://www.imsglobal.org/xsd/imsld_v1p0" ref="Answer3" property-of="self" view="value"/></p></font></div></td>
+  </tr>
+  <tr> 
+    <td height="35">
+<div align="center"><font size="2" face="Arial, Helvetica, sans-serif">4</font></div></td>
+    <td height="35"><font size="2" face="Arial, Helvetica, sans-serif">Which one is the highest peak in Europe?</font></td>
+    <td height="35">
+<div align="center"><font size="2" face="Arial, Helvetica, sans-serif"><p><set-property xmlns="http://www.imsglobal.org/xsd/imsld_v1p0" ref="Answer4" property-of="self" view="value"/></p></font></div></td>
+  </tr>
+  <tr bgcolor="#CCCCCC"> 
+    <td height="35"> 
+      <div align="center"><font size="2" face="Arial, Helvetica, sans-serif">5</font></div></td>
+    <td height="35"><font size="2" face="Arial, Helvetica, sans-serif">Where is the dessert of Gobi?</font></td>
+    <td height="35"> 
+      <div align="center"><font size="2" face="Arial, Helvetica, sans-serif"><p><set-property xmlns="http://www.imsglobal.org/xsd/imsld_v1p0" ref="Answer5" property-of="self" view="value"/></p></font></div></td>
+  </tr>-->
+</table>
+
+	</body>
+</html>

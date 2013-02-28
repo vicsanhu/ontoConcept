@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Edited with ReCourse-->
+<!--Created - Wed Dec 23 14:35:47 CET 2009-->
+<!--Modified - Wed Dec 23 14:35:47 CET 2009-->
+<manifest xmlns="http://www.imsglobal.org/xsd/imscp_v1p1" xmlns:imsld="http://www.imsglobal.org/xsd/imsld_v1p0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ldauthor="http://www.tencompetence.org/ldauthor" xsi:schemaLocation="http://www.imsglobal.org/xsd/imscp_v1p1 http://www.imsglobal.org/xsd/imscp_v1p1.xsd http://www.imsglobal.org/xsd/imsld_v1p0 http://www.imsglobal.org/xsd/IMS_LD_Level_B.xsd http://www.tencompetence.org/ldauthor ld-author.xsd" identifier="manifest-f64b3e87-48be-45c2-9639-bfc48f24737a">
+  <organizations>
+    <imsld:learning-design identifier="ld-efb1f5b3-ef18-4135-9a94-c7155d8dcf3d" version="1.0.0" level="B" uri="http://www.yourURI.here/14b71955-7d87-45d1-9bf6-9a77a51f7608" sequence-used="false">
+      <imsld:title>Formative Assessment</imsld:title>
+      <imsld:components>
+        <imsld:roles>
+          <imsld:learner identifier="role-37b1c065-ddab-4a1a-91bc-c7112a97b782">
+            <imsld:title>Learner</imsld:title>
+          </imsld:learner>
+        </imsld:roles>
+        <imsld:properties>
+          <imsld:locpers-property identifier="AT-f67eb483-2f17-453a-a794-2cf6aac5ba41.SCORE">
+            <imsld:title>QTI Test</imsld:title>
+            <imsld:datatype datatype="real" />
+            <imsld:initial-value>0</imsld:initial-value>
+          </imsld:locpers-property>
+          <imsld:locpers-property identifier="AT-d7471f3c-0e31-4184-8645-10995ec1c25e.SCORE">
+            <imsld:title>QTI Test</imsld:title>
+            <imsld:datatype datatype="real" />
+            <imsld:initial-value>0</imsld:initial-value>
+          </imsld:locpers-property>
+          <imsld:locpers-property identifier="AT-842e9ba0-cefb-4112-a299-dc64e2168720.SCORE">
+            <imsld:title>QTI Test</imsld:title>
+            <imsld:datatype datatype="real" />
+            <imsld:initial-value>0</imsld:initial-value>
+          </imsld:locpers-property>
+        </imsld:properties>
+        <imsld:activities>
+          <imsld:learning-activity identifier="la-078ac750-f72b-42b7-8142-d790bca6ab81" isvisible="true">
+            <imsld:title>Leismo, Laismo, Loismo</imsld:title>
+            <imsld:activity-description>
+              <imsld:item identifier="item-dd4013fe-2531-4665-83fc-7fd63cd6ce31" isvisible="true" identifierref="Leismo__Laismo__Loismo">
+                <imsld:title>Resource</imsld:title>
+              </imsld:item>
+            </imsld:activity-description>
+            <imsld:complete-activity>
+              <imsld:user-choice />
+            </imsld:complete-activity>
+          </imsld:learning-activity>
+          <imsld:learning-activity identifier="la-99f77f19-5ff6-4777-bdce-44c88a363044" isvisible="true">
+            <imsld:title>"Se" - Explicacion  C1.2</imsld:title>
+            <imsld:activity-description>
+              <imsld:item identifier="item-e7e25ba3-78ad-4816-9157-c7a066d73b5e" isvisible="true" identifierref="Se_Impersonal_C1_2">
+                <imsld:title>Resource</imsld:title>
+              </imsld:item>
+            </imsld:activity-description>
+            <imsld:complete-activity>
+              <imsld:user-choice />
+            </imsld:complete-activity>
+          </imsld:learning-activity>
+          <imsld:learning-activity identifier="la-bdf99aaa-23d4-4514-883c-9d3d7801dafa" isvisible="true">
+            <imsld:title>Present Perfect Indicative mood</imsld:title>
+            <imsld:activity-description>
+              <imsld:item identifier="item-fbc72c64-4eef-4e15-acaa-542da8865426" isvisible="true" identifierref="Present_Perfect_Indicative">
+                <imsld:title>Resource</imsld:title>
+              </imsld:item>
+            </imsld:activity-description>
+            <imsld:complete-activity>
+              <imsld:user-choice />
+            </imsld:complete-activity>
+          </imsld:learning-activity>
+          <imsld:learning-activity identifier="la-f633b329-8d15-4e56-9c30-5f3f3ed172f2" isvisible="true">
+            <imsld:title>Leveling Test</imsld:title>
+            <imsld:activity-description>
+              <imsld:item identifier="item-898a26e2-7e51-4486-8c97-9ebfedce65eb" isvisible="true" identifierref="Leveling_Test">
+                <imsld:title>QTI Test</imsld:title>
+              </imsld:item>
+            </imsld:activity-description>
+            <imsld:complete-activity>
+              <imsld:user-choice />
+            </imsld:complete-activity>
+          </imsld:learning-activity>
+          <imsld:learning-activity identifier="la-30097ad5-e8a1-416c-abe2-a9d60a951b42" isvisible="true">
+            <imsld:title>"Se" - Explicacion C1.1</imsld:title>
+            <imsld:activity-description>
+              <imsld:item identifier="item-ce71d8d1-a07c-4c22-8f71-3a7b8811349e" isvisible="true" identifierref="Se_Impersonal_C1_1">
+                <imsld:title>Resource</imsld:title>
+              </imsld:item>
+            </imsld:activity-description>
+            <imsld:complete-activity>
+              <imsld:user-choice />
+            </imsld:complete-activity>
+          </imsld:learning-activity>
+          <imsld:learning-activity identifier="la-c2d9a9ad-b7b2-40d8-a2bd-71b4561b42d0" isvisible="true">
+            <imsld:title>Uses of "Se" - Exercises with Answers</imsld:title>
+            <imsld:activity-description>
+              <imsld:item identifier="item-6e71cfaa-c9af-4b59-89eb-d5520b0b680c" isvisible="true" identifierref="Uses_of__Se__-_Exercises_with_Answers">
+                <imsld:title>Resource</imsld:title>
+              </imsld:item>
+            </imsld:activity-description>
+            <imsld:complete-activity>
+              <imsld:user-choice />
+            </imsld:complete-activity>
+          </imsld:learning-activity>
+          <imsld:learning-activity identifier="la-91ef3a97-c9bd-49f4-8ec0-67d465c79fae" isvisible="true">
+            <imsld:title>"Se" to Express Passive Voice - Exercise with Answers</imsld:title>
+            <imsld:activity-description>
+              <imsld:item identifier="item-1301ba5a-da4e-43e3-8ec5-36eb305f3e25" isvisible="true" identifierref="_Se__to_Express_Passive_Voice_-_Exercise_with_Answers">
+                <imsld:title>Resource</imsld:title>
+              </imsld:item>
+            </imsld:activity-description>
+            <imsld:complete-activity>
+              <imsld:user-choice />
+            </imsld:complete-activity>
+          </imsld:learning-activity>
+          <imsld:learning-activity identifier="la-5969cde6-ffbc-44f8-86ac-106c1ab014bc" isvisible="true">
+            <imsld:title>Using "Se" with unplanned occurrences - Exercise with Answers</imsld:title>
+            <imsld:activity-description>
+              <imsld:item identifier="item-01e628ba-ee3d-466d-83ff-8ecfe8de1df2" isvisible="true" identifierref="Using__Se__with_unplanned_occurrences_-_Exercise_with_Answers">
+                <imsld:title>Resource</imsld:title>
+              </imsld:item>
+            </imsld:activity-description>
+            <imsld:complete-activity>
+              <imsld:user-choice />
+            </imsld:complete-activity>
+          </imsld:learning-activity>
+          <imsld:learning-activity identifier="la-fbbd88b4-31b1-43ff-aa3e-c5ab5f120144" isvisible="true">
+            <imsld:title>Forming Hypothetical Present Using Si - Exercise with Answers</imsld:title>
+            <imsld:activity-description>
+              <imsld:item identifier="item-303a693b-6063-46a2-83b8-094453a20d50" isvisible="true" identifierref="Using__Se__in_Si_Pasiva_-_Exercise_with_Answers">
+                <imsld:title>Resource</imsld:title>
+              </imsld:item>
+            </imsld:activity-description>
+            <imsld:complete-activity>
+              <imsld:user-choice />
+            </imsld:complete-activity>
+          </imsld:learning-activity>
+          <imsld:learning-activity identifier="la-6acdd5a3-a213-4371-966d-7aeaa203e828" isvisible="true">
+            <imsld:title>Forms of Passive Voice - Exercise with Answers</imsld:title>
+            <imsld:activity-description>
+              <imsld:item identifier="item-80280b58-4816-495d-85f9-cd4f87dff53a" isvisible="true" identifierref="Forms_of_Passive_Voice_-_Exercise_with_Answers">
+                <imsld:title>Resource</imsld:title>
+              </imsld:item>
+            </imsld:activity-description>
+            <imsld:complete-activity>
+              <imsld:user-choice />
+            </imsld:complete-activity>
+          </imsld:learning-activity>
+          <imsld:learning-activity identifier="la-d99fc378-a257-4c3b-b1ee-02ca578afdff" isvisible="true">
+            <imsld:title>Uses of "Se" - Exercise with Answers</imsld:title>
+            <imsld:activity-description>
+              <imsld:item identifier="item-e8104a9b-959e-4fac-8f27-08ae9f7b97bf" isvisible="true" identifierref="Uses_of__Se__-_Exercise_with_Answers">
+                <imsld:title>Resource</imsld:title>
+              </imsld:item>
+            </imsld:activity-description>
+            <imsld:complete-activity>
+              <imsld:user-choice />
+            </imsld:complete-activity>
+          </imsld:learning-activity>
+          <imsld:learning-activity identifier="la-9e4b5227-ed50-44f1-8c0d-72212571a063" isvisible="true">
+            <imsld:title>Final C1 Test</imsld:title>
+            <imsld:activity-description>
+              <imsld:item identifier="item-a69ff2d0-96b8-4832-8c9f-1cb35199f2b8" isvisible="true" identifierref="Final_C1_Test">
+                <imsld:title>QTI Test</imsld:title>
+              </imsld:item>
+            </imsld:activity-description>
+            <imsld:complete-activity>
+              <imsld:user-choice />
+            </imsld:complete-activity>
+          </imsld:learning-activity>
+          <imsld:learning-activity identifier="la-223a9c23-1af2-4bf1-aab0-2e8e5cab01f6" isvisible="true">
+            <imsld:title>Final C2 Test</imsld:title>
+            <imsld:activity-description>
+              <imsld:item identifier="item-d52a8b77-8965-4acc-bc07-44eb395de30e" isvisible="true" identifierref="Final_C2_Test">
+                <imsld:title>QTI Test</imsld:title>
+              </imsld:item>
+            </imsld:activity-description>
+            <imsld:complete-activity>
+              <imsld:user-choice />
+            </imsld:complete-activity>
+          </imsld:learning-activity>
+          <imsld:activity-structure identifier="as-0e7e41e4-33e6-4100-bd94-d722e454ab51" structure-type="sequence">
+            <imsld:title>Activities C1.1</imsld:title>
+            <imsld:learning-activity-ref ref="la-30097ad5-e8a1-416c-abe2-a9d60a951b42" />
+            <imsld:learning-activity-ref ref="la-c2d9a9ad-b7b2-40d8-a2bd-71b4561b42d0" />
+            <imsld:learning-activity-ref ref="la-91ef3a97-c9bd-49f4-8ec0-67d465c79fae" />
+            <imsld:learning-activity-ref ref="la-5969cde6-ffbc-44f8-86ac-106c1ab014bc" />
+            <imsld:learning-activity-ref ref="la-9e4b5227-ed50-44f1-8c0d-72212571a063" />
+          </imsld:activity-structure>
+          <imsld:activity-structure identifier="as-382abf3d-ac49-4aba-9f49-a5d512c758dd" structure-type="sequence">
+            <imsld:title>Activities C1.2</imsld:title>
+            <imsld:learning-activity-ref ref="la-99f77f19-5ff6-4777-bdce-44c88a363044" />
+            <imsld:learning-activity-ref ref="la-d99fc378-a257-4c3b-b1ee-02ca578afdff" />
+            <imsld:learning-activity-ref ref="la-fbbd88b4-31b1-43ff-aa3e-c5ab5f120144" />
+            <imsld:learning-activity-ref ref="la-6acdd5a3-a213-4371-966d-7aeaa203e828" />
+            <imsld:learning-activity-ref ref="la-223a9c23-1af2-4bf1-aab0-2e8e5cab01f6" />
+          </imsld:activity-structure>
+        </imsld:activities>
+      </imsld:components>
+      <imsld:method>
+        <imsld:play identifier="play-42977ce1-4ef2-4078-afe8-38be2f40bef2" isvisible="true">
+          <imsld:title>Spanish Grammar (C1)</imsld:title>
+          <imsld:act identifier="act-ff8f64bd-0790-409c-bde6-5f966e5d989b">
+            <imsld:title>C1. Spanish Grammar - Formative Assessment</imsld:title>
+            <imsld:role-part identifier="rolepart-9a68094a-57c9-4bc2-bd10-966f2bd9e6b1">
+              <imsld:title>Role Part</imsld:title>
+              <imsld:role-ref ref="role-37b1c065-ddab-4a1a-91bc-c7112a97b782" />
+              <imsld:learning-activity-ref ref="la-f633b329-8d15-4e56-9c30-5f3f3ed172f2" />
+            </imsld:role-part>
+            <imsld:role-part identifier="rolepart-cbcfce80-cb83-4f38-80d0-8fdd5a622e08">
+              <imsld:title>Role Part</imsld:title>
+              <imsld:role-ref ref="role-37b1c065-ddab-4a1a-91bc-c7112a97b782" />
+              <imsld:activity-structure-ref ref="as-0e7e41e4-33e6-4100-bd94-d722e454ab51" />
+            </imsld:role-part>
+            <imsld:role-part identifier="rolepart-ea721740-944a-41fa-9f97-7ccc387fbba9">
+              <imsld:title>Role Part</imsld:title>
+              <imsld:role-ref ref="role-37b1c065-ddab-4a1a-91bc-c7112a97b782" />
+              <imsld:activity-structure-ref ref="as-382abf3d-ac49-4aba-9f49-a5d512c758dd" />
+            </imsld:role-part>
+          </imsld:act>
+        </imsld:play>
+      </imsld:method>
+    </imsld:learning-design>
+  </organizations>
+  <resources>
+    <resource identifier="Leismo__Laismo__Loismo" type="webcontent" href="Leismo,_Laismo,_Loismo.html">
+      <file href="Leismo,_Laismo,_Loismo.html" />
+    </resource>
+    <resource identifier="Se_Impersonal_C1_2" type="webcontent" href="Se_Impersonal.html">
+      <file href="Se_Impersonal.html" />
+    </resource>
+    <resource identifier="Present_Perfect_Indicative" type="webcontent" href="PresentPerfectIndicative.html">
+      <file href="PresentPerfectIndicative.html" />
+    </resource>
+    <resource identifier="Leveling_Test" type="imsqti_test_xmlv2p1" href="Leveling_Test.xml">
+      <file href="Leveling_Test.xml" />
+    </resource>
+    <resource identifier="Se_Impersonal_C1_1" type="webcontent" href="Se_Impersonal_C1.1.html">
+      <file href="Se_Impersonal_C1.1.html" />
+    </resource>
+    <resource identifier="Uses_of__Se__-_Exercises_with_Answers" type="webcontent" href="Uses_of__Se__-_Exercises_with_Answers.html">
+      <file href="Uses_of__Se__-_Exercises_with_Answers.html" />
+    </resource>
+    <resource identifier="_Se__to_Express_Passive_Voice_-_Exercise_with_Answers" type="webcontent" href="_Se__to_Express_Passive_Voice_-_Exercise_with_Answers.html">
+      <file href="_Se__to_Express_Passive_Voice_-_Exercise_with_Answers.html" />
+    </resource>
+    <resource identifier="Using__Se__with_unplanned_occurrences_-_Exercise_with_Answers" type="webcontent" href="Using__Se__with_unplanned_occurrences_-_Exercise_with_Answers.html">
+      <file href="Using__Se__with_unplanned_occurrences_-_Exercise_with_Answers.html" />
+    </resource>
+    <resource identifier="Using__Se__in_Si_Pasiva_-_Exercise_with_Answers" type="webcontent" href="Using__Se__in_Si_Pasiva_-_Exercise_with_Answers.html">
+      <file href="Using__Se__in_Si_Pasiva_-_Exercise_with_Answers.html" />
+    </resource>
+    <resource identifier="Forms_of_Passive_Voice_-_Exercise_with_Answers" type="webcontent" href="Forms_of_Passive_Voice_-_Exercise_with_Answers.html">
+      <file href="Forms_of_Passive_Voice_-_Exercise_with_Answers.html" />
+    </resource>
+    <resource identifier="Uses_of__Se__-_Exercise_with_Answers" type="webcontent" href="Uses_of__Se__-_Exercise_with_Answers.html">
+      <file href="Uses_of__Se__-_Exercise_with_Answers.html" />
+    </resource>
+    <resource identifier="Final_C1_Test" type="imsqti_test_xmlv2p1" href="Final_C1_Test.xml">
+      <file href="Final_C1_Test.xml" />
+    </resource>
+    <resource identifier="Final_C2_Test" type="imsqti_test_xmlv2p1" href="Final_C2_Test.xml">
+      <file href="Final_C2_Test.xml" />
+    </resource>
+  </resources>
+</manifest>
+

@@ -1,0 +1,6 @@
+[Trainer]
+Present concepts to be learned in a presentation. 
+During the presentation, pose a challenging or open-ended question. 
+Ask learners to individually think about the question for about one minute.
+
+*you can use the "Learning Activity: presentation and question" for presenting all the concepts above to the learner.

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<html xmlns:ld="http://www.imsglobal.org/xsd/imsld_v1p0" xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title>Personal info and submission of assignement</title>
+	</head>
+	<body>
+		<div class="C-Activity2aentrega-not-complete">
+			<table width="533" border="0" cellspacing="0" cellpadding="0">
+			  <tr> 
+				<td colspan="3">Enter your personal info and your assesment</td>
+			  </tr>
+			  <tr> 
+				<td width="27"></td>
+				<td width="157">Name</td>
+				<td width="349"><ld:set-property ref="LP-name2" property-of="self" view="value"/></td>
+			  </tr>
+			  <tr> 
+				<td></td>
+				<td>Email</td>
+				<td><ld:set-property ref="LP-email2" property-of="self" view="value"/></td>
+			  </tr>
+			  <tr> 
+				<td></td>
+				<td>Title of assesment</td>
+				<td><ld:set-property ref="LP-title2" property-of="self" view="value"/></td>
+			  </tr>
+			  <tr> 
+				<td></td>
+				<td>File</td>
+				<td><ld:set-property ref="LP-submission2" property-of="self" view="value"/></td>
+			  </tr>
+			</table>
+		</div>
+		<div class="C-Activity2aentrega-complete">
+			<table width="533" border="0" cellspacing="0" cellpadding="0">
+			  <tr> 
+				<td colspan="3">Deadline of submission is now closed. You have sent:</td>
+			  </tr>
+			  <tr> 
+				<td width="27"></td>
+				<td width="157">Name</td>
+				<td width="349"><ld:view-property ref="LP-name2" property-of="self" view="value"/></td>
+			  </tr>
+			  <tr> 
+				<td></td>
+				<td>Email</td>
+				<td><ld:view-property ref="LP-email2" property-of="self" view="value"/></td>
+			  </tr>
+			  <tr> 
+				<td></td>
+				<td>Title of assesment</td>
+				<td><ld:view-property ref="LP-title2" property-of="self" view="value"/></td>
+			  </tr>
+			  <tr> 
+				<td></td>
+				<td>File</td>
+				<td><ld:view-property ref="LP-submission2" property-of="self" view="value"/></td>
+			  </tr>
+			</table>
+		</div>
+	</body>
+</html>

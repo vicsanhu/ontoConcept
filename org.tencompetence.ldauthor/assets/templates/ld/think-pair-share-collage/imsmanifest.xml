@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Edited with ReCourse-->
+<!--Created - Tue Jan 26 16:54:56 CET 2010-->
+<!--Modified - Tue Jan 26 17:09:13 CET 2010-->
+<!--Authors- Mar Pérez-Sanagustín&Patricia Santos, UPF-->
+<!--Adapted from COLLAGE templates-->
+<manifest xmlns="http://www.imsglobal.org/xsd/imscp_v1p1" xmlns:imsld="http://www.imsglobal.org/xsd/imsld_v1p0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ldauthor="http://www.tencompetence.org/ldauthor" xsi:schemaLocation="http://www.imsglobal.org/xsd/imscp_v1p1 http://www.imsglobal.org/xsd/imscp_v1p1.xsd http://www.imsglobal.org/xsd/imsld_v1p0 http://www.imsglobal.org/xsd/IMS_LD_Level_A.xsd http://www.tencompetence.org/ldauthor ld-author.xsd" identifier="manifest-58e2247f-d491-4a8b-ac88-879159817248">
+  <organizations>
+    <imsld:learning-design identifier="ld-381b1823-9e5d-447d-9f4d-2b6b9a2c9ab0" version="1.0.0" level="A" uri="http://www.yourURI.here/3f6c0926-4c70-4a0d-a962-372d98342bcb" sequence-used="false">
+      <imsld:title>Think-Pair-Share- COLLAGE</imsld:title>
+      <imsld:components>
+        <imsld:roles>
+          <imsld:learner identifier="role-4bd1a8d0-ad8a-f0d4-d299-6d4db07ee918">
+            <imsld:title>Learner</imsld:title>
+          </imsld:learner>
+          <imsld:learner identifier="role-cdc9ce30-cc63-c341-25ab-80c3d981cf2d">
+            <imsld:title>Pair member</imsld:title>
+          </imsld:learner>
+          <imsld:staff identifier="role-ec475f5f-277e-aad6-659c-3450988e677d">
+            <imsld:title>Trainer</imsld:title>
+          </imsld:staff>
+        </imsld:roles>
+        <imsld:activities>
+          <imsld:learning-activity identifier="la-3d53c97a-d455-d866-045a-250e4c2f4d35" isvisible="true">
+            <imsld:title>Presentation &amp; question</imsld:title>
+            <imsld:activity-description>
+              <imsld:title>Activity Description for Presentation &amp; question</imsld:title>
+              <imsld:item identifier="item-ca8d4f39-7437-d563-b775-d35895efcb0e" isvisible="true" identifierref="file-6cb0a034-7327-55b4-68fa-b56433960131.txt">
+                <imsld:title>Presentation &amp; question Activity Description</imsld:title>
+              </imsld:item>
+            </imsld:activity-description>
+            <imsld:complete-activity>
+              <imsld:user-choice />
+            </imsld:complete-activity>
+          </imsld:learning-activity>
+          <imsld:learning-activity identifier="la-61b11ad7-fe8d-c892-01f4-096aea22a88b" isvisible="true">
+            <imsld:title>Think about question</imsld:title>
+            <imsld:activity-description>
+              <imsld:title>Activity Description for Think about question</imsld:title>
+              <imsld:item identifier="item-2ecfffed-7e2e-e2f6-ed9a-c3b2a90568e2" isvisible="true" identifierref="file-c1e053b1-454f-926d-73bc-fc63c0319651.txt">
+                <imsld:title>Think about question Activity Description</imsld:title>
+              </imsld:item>
+            </imsld:activity-description>
+            <imsld:complete-activity>
+              <imsld:user-choice />
+            </imsld:complete-activity>
+          </imsld:learning-activity>
+          <imsld:learning-activity identifier="la-247ce20e-2466-531f-f84a-b1d0e39e4715" isvisible="true">
+            <imsld:title>Discuss with other learner</imsld:title>
+            <imsld:environment-ref ref="env-d13909a2-f38c-493d-9129-f19a59ad0fa8" />
+            <imsld:activity-description>
+              <imsld:title>Activity Description for Discuss with other learner</imsld:title>
+              <imsld:item identifier="item-7910c7f0-1782-086a-52e0-e501e4d7bd51" isvisible="true" identifierref="file-2eae5f71-10ca-5721-ca23-4a5c91c0857f.txt">
+                <imsld:title>Discuss with other learner Activity Description</imsld:title>
+              </imsld:item>
+            </imsld:activity-description>
+            <imsld:complete-activity>
+              <imsld:user-choice />
+            </imsld:complete-activity>
+          </imsld:learning-activity>
+          <imsld:learning-activity identifier="la-96027e7d-e7c5-071b-78e1-fd81894e4473" isvisible="true">
+            <imsld:title>Discuss results</imsld:title>
+            <imsld:activity-description>
+              <imsld:title>Activity Description for Discuss results</imsld:title>
+              <imsld:item identifier="item-5b2df609-065a-a4be-1b4c-56b2a88749fc" isvisible="true" identifierref="file-ad0b26b0-663a-a9c3-014a-3ac7ee7a0db7.txt">
+                <imsld:title>Discuss results Activity Description</imsld:title>
+              </imsld:item>
+            </imsld:activity-description>
+            <imsld:complete-activity>
+              <imsld:user-choice />
+            </imsld:complete-activity>
+          </imsld:learning-activity>
+          <imsld:support-activity identifier="sa-09beb8ae-9e7b-d310-a5fe-35ce3ce08463" isvisible="true">
+            <imsld:title>Solicit learner comments</imsld:title>
+            <imsld:role-ref ref="role-4bd1a8d0-ad8a-f0d4-d299-6d4db07ee918" />
+            <imsld:role-ref ref="role-cdc9ce30-cc63-c341-25ab-80c3d981cf2d" />
+            <imsld:environment-ref ref="env-4260fb40-96f7-43f0-97a7-5f2aea9b374d" />
+            <imsld:activity-description>
+              <imsld:title>Activity Description for Solicit learner comments</imsld:title>
+              <imsld:item identifier="item-7c6317d8-6ca5-d257-844a-6618eb8356cb" isvisible="true" identifierref="file-93670291-8bc5-e512-2abe-319d283357ee.txt">
+                <imsld:title>Solicit learner comments Activity Description</imsld:title>
+              </imsld:item>
+            </imsld:activity-description>
+            <imsld:complete-activity>
+              <imsld:user-choice />
+            </imsld:complete-activity>
+          </imsld:support-activity>
+          <imsld:support-activity identifier="sa-28f3ede5-d9c6-4b3c-82a6-6fbf27407dee" isvisible="true">
+            <imsld:title>Support Activity 1: Presentation &amp; Questions</imsld:title>
+            <imsld:activity-description>
+              <imsld:item identifier="item-23f04b63-28b0-424c-b5c4-e451f91f103a" isvisible="true" identifierref="Support_Activity_1__Presentation___Questions">
+                <imsld:title>Resource</imsld:title>
+              </imsld:item>
+            </imsld:activity-description>
+            <imsld:complete-activity>
+              <imsld:user-choice />
+            </imsld:complete-activity>
+          </imsld:support-activity>
+          <imsld:support-activity identifier="sa-84130bb7-99fe-40c2-96da-45b394d91bbf" isvisible="true">
+            <imsld:title>Support Activity 2: Think About a Question</imsld:title>
+            <imsld:activity-description>
+              <imsld:item identifier="item-fd4a68f4-ad00-4e50-8fba-6734b7f083ff" isvisible="true" identifierref="Support_Activity_2__Think_About_a_Question">
+                <imsld:title>Resource</imsld:title>
+              </imsld:item>
+            </imsld:activity-description>
+            <imsld:complete-activity>
+              <imsld:user-choice />
+            </imsld:complete-activity>
+          </imsld:support-activity>
+          <imsld:support-activity identifier="sa-46a7fbdb-b4f7-4b85-9483-bf6b4dce4477" isvisible="true">
+            <imsld:title>Support Activity 3: Discuss with other learner</imsld:title>
+            <imsld:environment-ref ref="env-d13909a2-f38c-493d-9129-f19a59ad0fa8" />
+            <imsld:activity-description>
+              <imsld:item identifier="item-88328d5e-8eff-4417-8727-8b9e6ef95255" isvisible="true" identifierref="Support_Activity_3__Discuss_with_other_learner">
+                <imsld:title>Resource</imsld:title>
+              </imsld:item>
+            </imsld:activity-description>
+            <imsld:complete-activity>
+              <imsld:user-choice />
+            </imsld:complete-activity>
+          </imsld:support-activity>
+          <imsld:support-activity identifier="sa-d874c55c-a793-4482-a1f7-d2517d9de204" isvisible="true">
+            <imsld:title>Support Activity 4: Solicit learner comments-Discuss results</imsld:title>
+            <imsld:environment-ref ref="env-4260fb40-96f7-43f0-97a7-5f2aea9b374d" />
+            <imsld:activity-description>
+              <imsld:item identifier="item-0421f68d-76d5-4c40-9644-50a2536e03d4" isvisible="true" identifierref="Support_Activity_4__Solicit_learner_comments-Discuss_results">
+                <imsld:title>Resource</imsld:title>
+              </imsld:item>
+            </imsld:activity-description>
+            <imsld:complete-activity>
+              <imsld:user-choice />
+            </imsld:complete-activity>
+          </imsld:support-activity>
+        </imsld:activities>
+        <imsld:environments>
+          <imsld:environment identifier="env-d13909a2-f38c-493d-9129-f19a59ad0fa8">
+            <imsld:title>Environment-Pair</imsld:title>
+            <imsld:service identifier="conference-aa102fdf-49db-40db-bbf7-3c0455f179b2" isvisible="true" parameters="widget=chat">
+              <imsld:conference conference-type="synchronous">
+                <imsld:title>Chat for discussing</imsld:title>
+                <imsld:participant role-ref="role-4bd1a8d0-ad8a-f0d4-d299-6d4db07ee918" />
+                <imsld:observer role-ref="role-ec475f5f-277e-aad6-659c-3450988e677d" />
+                <imsld:conference-manager role-ref="role-ec475f5f-277e-aad6-659c-3450988e677d" />
+                <imsld:moderator role-ref="role-ec475f5f-277e-aad6-659c-3450988e677d" />
+                <imsld:item identifier="item-2b5aa2e5-79c3-4776-b9bb-a448e23bf759" isvisible="true" identifierref="Conference-2">
+                  <imsld:title>Item</imsld:title>
+                </imsld:item>
+              </imsld:conference>
+            </imsld:service>
+          </imsld:environment>
+          <imsld:environment identifier="env-4260fb40-96f7-43f0-97a7-5f2aea9b374d">
+            <imsld:title>Environment-share</imsld:title>
+            <imsld:service identifier="conference-9e4b7585-e52d-4416-8820-080a27ba638b" isvisible="true" parameters="widget=discussion">
+              <imsld:conference conference-type="synchronous">
+                <imsld:title>Chat for sharing</imsld:title>
+                <imsld:participant role-ref="role-4bd1a8d0-ad8a-f0d4-d299-6d4db07ee918" />
+                <imsld:observer role-ref="role-ec475f5f-277e-aad6-659c-3450988e677d" />
+                <imsld:conference-manager role-ref="role-ec475f5f-277e-aad6-659c-3450988e677d" />
+                <imsld:moderator role-ref="role-ec475f5f-277e-aad6-659c-3450988e677d" />
+                <imsld:item identifier="item-8fefc0bf-9116-4757-a6fc-4cb43f465d82" isvisible="true" identifierref="Conference-3">
+                  <imsld:title>Item</imsld:title>
+                </imsld:item>
+              </imsld:conference>
+            </imsld:service>
+          </imsld:environment>
+        </imsld:environments>
+      </imsld:components>
+      <imsld:method>
+        <imsld:play identifier="play-5112981c-e59f-2db3-b9c9-f75c69dd3d9a" isvisible="true">
+          <imsld:title>Think-Pair-Share</imsld:title>
+          <imsld:act identifier="act-fba6c8bd-7f51-7103-a76b-b80a8f04cc93">
+            <imsld:title>Presentation &amp; question</imsld:title>
+            <imsld:role-part identifier="rolepart-83e50647-0251-88d2-1137-5fd9b0bb171a">
+              <imsld:title>Presentation &amp; question</imsld:title>
+              <imsld:role-ref ref="role-ec475f5f-277e-aad6-659c-3450988e677d" />
+              <imsld:learning-activity-ref ref="la-3d53c97a-d455-d866-045a-250e4c2f4d35" />
+            </imsld:role-part>
+            <imsld:role-part identifier="rolepart-c9ed2122-ac95-47eb-a4fd-a3b14856377f">
+              <imsld:title>Role Part</imsld:title>
+              <imsld:role-ref ref="role-ec475f5f-277e-aad6-659c-3450988e677d" />
+              <imsld:support-activity-ref ref="sa-28f3ede5-d9c6-4b3c-82a6-6fbf27407dee" />
+            </imsld:role-part>
+            <imsld:role-part identifier="rolepart-2f1a7ffc-ad9c-40f9-97eb-480498852680">
+              <imsld:title>Role Part</imsld:title>
+              <imsld:role-ref ref="role-4bd1a8d0-ad8a-f0d4-d299-6d4db07ee918" />
+              <imsld:learning-activity-ref ref="la-3d53c97a-d455-d866-045a-250e4c2f4d35" />
+            </imsld:role-part>
+          </imsld:act>
+          <imsld:act identifier="act-51b8864f-b747-205c-9034-69eecbf7f31b">
+            <imsld:title>Think about question</imsld:title>
+            <imsld:role-part identifier="rolepart-388a860c-3a12-8061-c43e-32e69b035460">
+              <imsld:title>Think about question</imsld:title>
+              <imsld:role-ref ref="role-4bd1a8d0-ad8a-f0d4-d299-6d4db07ee918" />
+              <imsld:learning-activity-ref ref="la-61b11ad7-fe8d-c892-01f4-096aea22a88b" />
+            </imsld:role-part>
+            <imsld:role-part identifier="rolepart-f7eda965-5553-4266-9040-599da0b84011">
+              <imsld:title>Role Part</imsld:title>
+              <imsld:role-ref ref="role-cdc9ce30-cc63-c341-25ab-80c3d981cf2d" />
+              <imsld:learning-activity-ref ref="la-61b11ad7-fe8d-c892-01f4-096aea22a88b" />
+            </imsld:role-part>
+            <imsld:role-part identifier="rolepart-b57e9307-ac0b-4882-abc4-4e5481e65486">
+              <imsld:title>Role Part</imsld:title>
+              <imsld:role-ref ref="role-ec475f5f-277e-aad6-659c-3450988e677d" />
+              <imsld:support-activity-ref ref="sa-84130bb7-99fe-40c2-96da-45b394d91bbf" />
+            </imsld:role-part>
+          </imsld:act>
+          <imsld:act identifier="act-6411bd15-dfeb-6df3-383c-b0116e2a08b6">
+            <imsld:title>Discuss with other learner</imsld:title>
+            <imsld:role-part identifier="rolepart-7b22f1de-2fdc-b732-3b22-7e4bab3e13e8">
+              <imsld:title>Discuss with other learner</imsld:title>
+              <imsld:role-ref ref="role-cdc9ce30-cc63-c341-25ab-80c3d981cf2d" />
+              <imsld:learning-activity-ref ref="la-247ce20e-2466-531f-f84a-b1d0e39e4715" />
+            </imsld:role-part>
+            <imsld:role-part identifier="rolepart-0cc632e4-beba-434b-bb45-b1b065785b5c">
+              <imsld:title>Role Part</imsld:title>
+              <imsld:role-ref ref="role-4bd1a8d0-ad8a-f0d4-d299-6d4db07ee918" />
+              <imsld:learning-activity-ref ref="la-247ce20e-2466-531f-f84a-b1d0e39e4715" />
+            </imsld:role-part>
+            <imsld:role-part identifier="rolepart-eb4153c5-56ec-413d-a8ec-b073130f1218">
+              <imsld:title>Role Part</imsld:title>
+              <imsld:role-ref ref="role-ec475f5f-277e-aad6-659c-3450988e677d" />
+              <imsld:support-activity-ref ref="sa-46a7fbdb-b4f7-4b85-9483-bf6b4dce4477" />
+            </imsld:role-part>
+          </imsld:act>
+          <imsld:act identifier="act-8fbbe66a-8621-2d53-31a2-b8a8b0415102">
+            <imsld:title>Solicit learner comments - Discuss results</imsld:title>
+            <imsld:role-part identifier="rolepart-d9bb849d-97b0-5b6b-bc19-a02bd9fbccec">
+              <imsld:title>Solicit learner comments</imsld:title>
+              <imsld:role-ref ref="role-ec475f5f-277e-aad6-659c-3450988e677d" />
+              <imsld:support-activity-ref ref="sa-09beb8ae-9e7b-d310-a5fe-35ce3ce08463" />
+            </imsld:role-part>
+            <imsld:role-part identifier="rolepart-885d0e78-4981-4088-946c-edbcc3e110e7">
+              <imsld:title>Role Part</imsld:title>
+              <imsld:role-ref ref="role-4bd1a8d0-ad8a-f0d4-d299-6d4db07ee918" />
+              <imsld:support-activity-ref ref="sa-09beb8ae-9e7b-d310-a5fe-35ce3ce08463" />
+            </imsld:role-part>
+            <imsld:role-part identifier="rolepart-af779e7b-06d8-490b-9628-c77c610fabb8">
+              <imsld:title>Role Part</imsld:title>
+              <imsld:role-ref ref="role-cdc9ce30-cc63-c341-25ab-80c3d981cf2d" />
+              <imsld:support-activity-ref ref="sa-09beb8ae-9e7b-d310-a5fe-35ce3ce08463" />
+            </imsld:role-part>
+            <imsld:role-part identifier="rolepart-0fb08efe-e0af-4315-bacb-e9c2eaec316c">
+              <imsld:title>Role Part</imsld:title>
+              <imsld:role-ref ref="role-ec475f5f-277e-aad6-659c-3450988e677d" />
+              <imsld:support-activity-ref ref="sa-d874c55c-a793-4482-a1f7-d2517d9de204" />
+            </imsld:role-part>
+          </imsld:act>
+        </imsld:play>
+      </imsld:method>
+    </imsld:learning-design>
+  </organizations>
+  <resources>
+    <resource identifier="file-6cb0a034-7327-55b4-68fa-b56433960131.txt" type="webcontent" href="file-6cb0a034-7327-55b4-68fa-b56433960131.html">
+      <file href="file-6cb0a034-7327-55b4-68fa-b56433960131.html" />
+    </resource>
+    <resource identifier="file-c1e053b1-454f-926d-73bc-fc63c0319651.txt" type="webcontent" href="file-c1e053b1-454f-926d-73bc-fc63c0319651.html">
+      <file href="file-c1e053b1-454f-926d-73bc-fc63c0319651.html" />
+    </resource>
+    <resource identifier="file-2eae5f71-10ca-5721-ca23-4a5c91c0857f.txt" type="webcontent" href="file-2eae5f71-10ca-5721-ca23-4a5c91c0857f.html">
+      <file href="file-2eae5f71-10ca-5721-ca23-4a5c91c0857f.html" />
+    </resource>
+    <resource identifier="file-93670291-8bc5-e512-2abe-319d283357ee.txt" type="webcontent" href="file-93670291-8bc5-e512-2abe-319d283357ee.html">
+      <file href="file-93670291-8bc5-e512-2abe-319d283357ee.html" />
+    </resource>
+    <resource identifier="file-ad0b26b0-663a-a9c3-014a-3ac7ee7a0db7.txt" type="webcontent" href="file-ad0b26b0-663a-a9c3-014a-3ac7ee7a0db7.html">
+      <file href="file-ad0b26b0-663a-a9c3-014a-3ac7ee7a0db7.html" />
+    </resource>
+    <resource identifier="Conference" type="webcontent" href="Conference.html">
+      <file href="Conference.html" />
+    </resource>
+    <resource identifier="Conference-1" type="webcontent" href="Conference-1.html">
+      <file href="Conference-1.html" />
+    </resource>
+    <resource identifier="Conference-2" type="webcontent" href="Conference-2.html">
+      <file href="Conference-2.html" />
+    </resource>
+    <resource identifier="Conference-3" type="webcontent" href="Conference-3.html">
+      <file href="Conference-3.html" />
+    </resource>
+    <resource identifier="Support_Activity_1__Presentation___Questions" type="webcontent" href="Support_Activity_1__Presentation_&amp;_Questions.html">
+      <file href="Support_Activity_1__Presentation_&amp;_Questions.html" />
+    </resource>
+    <resource identifier="Support_Activity_2__Think_About_a_Question" type="webcontent" href="Support_Activity_2__Think_About_a_Question.html">
+      <file href="Support_Activity_2__Think_About_a_Question.html" />
+    </resource>
+    <resource identifier="Support_Activity_3__Discuss_with_other_learner" type="webcontent" href="Support_Activity_3__Discuss_with_other_learner.html">
+      <file href="Support_Activity_3__Discuss_with_other_learner.html" />
+    </resource>
+    <resource identifier="Support_Activity_4__Solicit_learner_comments-Discuss_results" type="webcontent" href="Support_Activity_4__Solicit_learner_comments-Discuss_results.html">
+      <file href="Support_Activity_4__Solicit_learner_comments-Discuss_results.html" />
+    </resource>
+  </resources>
+</manifest>
+

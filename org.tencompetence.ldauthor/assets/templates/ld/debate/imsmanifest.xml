@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Edited with ReCourse-->
+<!--Created - Fri May 16 18:47:03 CEST 2008-->
+<!--Modified - Tue Jan 26 18:59:58 CET 2010-->
+<!--Authors- Mar Pérez-Sanagustín&Patricia Santos, UPF-->
+<manifest xmlns="http://www.imsglobal.org/xsd/imscp_v1p1" xmlns:imsld="http://www.imsglobal.org/xsd/imsld_v1p0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ldauthor="http://www.tencompetence.org/ldauthor" xsi:schemaLocation="http://www.imsglobal.org/xsd/imscp_v1p1 http://www.imsglobal.org/xsd/imscp_v1p1.xsd http://www.imsglobal.org/xsd/imsld_v1p0 http://www.imsglobal.org/xsd/IMS_LD_Level_A.xsd http://www.tencompetence.org/ldauthor ld-author.xsd" identifier="manifest-1530119a-ca7c-4be8-a62a-8816657e40b8">
+  <organizations>
+    <imsld:learning-design identifier="ld-29241027-b454-426c-8419-3be0eba8791f" version="1.0.0" level="A" uri="http://www.yourURI.here/c971ba4e-be08-4890-8ab8-b3c33a2a4f82" sequence-used="false">
+      <imsld:title>Debate template</imsld:title>
+      <imsld:components>
+        <imsld:roles>
+          <imsld:learner identifier="role-aa6e97b4-2e31-47a1-ba58-f8fbb44336d9">
+            <imsld:title>Against</imsld:title>
+          </imsld:learner>
+          <imsld:learner identifier="role-b1cfa9e0-4a81-48db-bd2d-838a53bad5ae">
+            <imsld:title>In favour</imsld:title>
+          </imsld:learner>
+          <imsld:staff identifier="role-91efa384-9b0c-4a2d-9dcb-bfaaaaf62984">
+            <imsld:title>Teacher</imsld:title>
+          </imsld:staff>
+        </imsld:roles>
+        <imsld:activities>
+          <imsld:learning-activity identifier="la-2ded5c80-f4d5-4317-8ff0-07b756b1c111" isvisible="true">
+            <imsld:title>Look for evidence in favour</imsld:title>
+            <imsld:environment-ref ref="env-f9a19cc3-ac26-4532-ba86-6f7037fb01c2" />
+            <imsld:environment-ref ref="env-0cede618-8ede-438e-8793-88a889e15e3f" />
+            <imsld:activity-description>
+              <imsld:item identifier="item-584a90a9-b30b-451f-bc08-84cfb153a488" isvisible="true" identifierref="LA1_Description">
+                <imsld:title>Description</imsld:title>
+              </imsld:item>
+            </imsld:activity-description>
+          </imsld:learning-activity>
+          <imsld:learning-activity identifier="la-ce0e1eb5-0374-4cc4-b250-aecc938c9b49" isvisible="true">
+            <imsld:title>Look for evidence against</imsld:title>
+            <imsld:environment-ref ref="env-3a7641e8-4afc-4f8c-b2d6-f5ec12174ed9" />
+            <imsld:environment-ref ref="env-0cede618-8ede-438e-8793-88a889e15e3f" />
+            <imsld:activity-description>
+              <imsld:item identifier="item-ec01aa2f-7efe-4e33-8c5d-0c607e3892ba" isvisible="true" identifierref="LA1_against_description">
+                <imsld:title>against-description</imsld:title>
+              </imsld:item>
+            </imsld:activity-description>
+          </imsld:learning-activity>
+          <imsld:learning-activity identifier="la-505e528c-7830-452a-98c2-b0f4863766ee" isvisible="true">
+            <imsld:title>Debate</imsld:title>
+            <imsld:environment-ref ref="env-8b6ab207-b8e8-4bdb-87ec-482c1c2bb8b6" />
+            <imsld:environment-ref ref="env-6f666a30-4884-470a-9d65-d3bb714d03a0" />
+            <imsld:environment-ref ref="env-df2c5a1c-55c7-4528-b2cc-01c988395f38" />
+            <imsld:activity-description>
+              <imsld:item identifier="item-46743dc8-17b5-41e4-bc12-db9230d2a9e9" isvisible="true" identifierref="LA2_debate_description">
+                <imsld:title>debate-instruction</imsld:title>
+              </imsld:item>
+            </imsld:activity-description>
+          </imsld:learning-activity>
+          <imsld:learning-activity identifier="la-6b004b01-317b-489c-b92e-0f10050e27aa" isvisible="true">
+            <imsld:title>Vote</imsld:title>
+            <imsld:environment-ref ref="env-0370d341-3b69-44b0-b2fb-6673b480b418" />
+            <imsld:activity-description>
+              <imsld:item identifier="item-f49e6b36-2d82-41fd-9ae8-0b109c9effdd" isvisible="true" identifierref="LA3_vote-description">
+                <imsld:title>Vote-description</imsld:title>
+              </imsld:item>
+            </imsld:activity-description>
+          </imsld:learning-activity>
+          <imsld:learning-activity identifier="la-5099350e-3e96-4c7f-96f5-8d5c63040661" isvisible="true">
+            <imsld:title>Chat for the team in favour</imsld:title>
+            <imsld:environment-ref ref="env-6f666a30-4884-470a-9d65-d3bb714d03a0" />
+            <imsld:activity-description>
+              <imsld:item identifier="item-2bebeb2e-8070-4c6a-8701-51d755761424" isvisible="true" identifierref="prep-chat-in-favour-description">
+                <imsld:title>Chat in favour</imsld:title>
+              </imsld:item>
+            </imsld:activity-description>
+          </imsld:learning-activity>
+          <imsld:learning-activity identifier="la-e90ef693-1be4-402c-94fc-02c462c9dbb5" isvisible="true">
+            <imsld:title>Chat for the team against</imsld:title>
+            <imsld:environment-ref ref="env-df2c5a1c-55c7-4528-b2cc-01c988395f38" />
+            <imsld:activity-description>
+              <imsld:item identifier="item-67cacf32-9cdb-484e-8962-d8a73cb096fc" isvisible="true" identifierref="chat-against-info">
+                <imsld:title>Chat against</imsld:title>
+              </imsld:item>
+            </imsld:activity-description>
+          </imsld:learning-activity>
+          <imsld:support-activity identifier="sa-73c3945b-34f9-4a5f-bd9a-624daf105551" isvisible="true">
+            <imsld:title>Support the preparation stage</imsld:title>
+            <imsld:environment-ref ref="env-0cede618-8ede-438e-8793-88a889e15e3f" />
+            <imsld:activity-description>
+              <imsld:item identifier="item-891ba80f-1a75-4ce4-b620-99f3cdebaded" isvisible="true" identifierref="SA1_Description">
+                <imsld:title>My Description</imsld:title>
+              </imsld:item>
+            </imsld:activity-description>
+            <imsld:complete-activity>
+              <imsld:user-choice />
+            </imsld:complete-activity>
+          </imsld:support-activity>
+          <imsld:support-activity identifier="sa-865a45ce-6546-4fa5-b8dc-724afb243835" isvisible="true">
+            <imsld:title>Moderate the debate</imsld:title>
+            <imsld:environment-ref ref="env-8b6ab207-b8e8-4bdb-87ec-482c1c2bb8b6" />
+            <imsld:activity-description>
+              <imsld:item identifier="item-85ac1e5b-390b-45cb-a080-288c7427f798" isvisible="true" identifierref="SA2_moderate">
+                <imsld:title>moderate-instruction</imsld:title>
+              </imsld:item>
+            </imsld:activity-description>
+            <imsld:complete-activity>
+              <imsld:user-choice />
+            </imsld:complete-activity>
+          </imsld:support-activity>
+          <imsld:support-activity identifier="sa-5172d689-e38b-4c24-beb2-72d8c8682cbc" isvisible="true">
+            <imsld:title>Close the debate</imsld:title>
+            <imsld:activity-description>
+              <imsld:item identifier="item-a588705b-25aa-4a17-b171-a5fcc8d45534" isvisible="true" identifierref="SA3_close">
+                <imsld:title>Close</imsld:title>
+              </imsld:item>
+            </imsld:activity-description>
+            <imsld:complete-activity>
+              <imsld:user-choice />
+            </imsld:complete-activity>
+          </imsld:support-activity>
+          <imsld:activity-structure identifier="as-8d2abeb7-3206-41c2-9292-fd054938531d" structure-type="selection">
+            <imsld:title>My Activity Group</imsld:title>
+            <imsld:learning-activity-ref ref="la-2ded5c80-f4d5-4317-8ff0-07b756b1c111" />
+            <imsld:support-activity-ref ref="sa-73c3945b-34f9-4a5f-bd9a-624daf105551" />
+          </imsld:activity-structure>
+        </imsld:activities>
+        <imsld:environments>
+          <imsld:environment identifier="env-3a7641e8-4afc-4f8c-b2d6-f5ec12174ed9">
+            <imsld:title>Preparation against</imsld:title>
+            <imsld:learning-object identifier="lo-0ce43c66-881b-4d2e-976e-bca77a8f5ef2" isvisible="true" type="knowledge-object">
+              <imsld:title>Resources against</imsld:title>
+              <imsld:item identifier="item-13f8b4e9-ba46-433d-91e3-dddb21de5540" isvisible="true" identifierref="links-against">
+                <imsld:title>Links against</imsld:title>
+              </imsld:item>
+            </imsld:learning-object>
+            <imsld:service identifier="conference-5b6bfbff-8185-4102-8a35-805ec6cccd20" isvisible="true" parameters="widget=chat">
+              <imsld:conference conference-type="synchronous">
+                <imsld:title>Preparation chat</imsld:title>
+                <imsld:participant role-ref="role-aa6e97b4-2e31-47a1-ba58-f8fbb44336d9" />
+                <imsld:item identifier="item-baf87201-b327-42c6-9576-18074a8db6c3" isvisible="true" identifierref="prep-chat-against-description">
+                  <imsld:title>Preparation chat</imsld:title>
+                </imsld:item>
+              </imsld:conference>
+            </imsld:service>
+          </imsld:environment>
+          <imsld:environment identifier="env-f9a19cc3-ac26-4532-ba86-6f7037fb01c2">
+            <imsld:title>Preparation In Favour</imsld:title>
+            <imsld:learning-object identifier="lo-47b64810-3dbc-4077-9cf9-d2fe5298efa6" isvisible="true" type="knowledge-object">
+              <imsld:title>Resources in favour</imsld:title>
+              <imsld:item identifier="item-61e2eb24-f549-4924-ace0-b6c82cd275f5" isvisible="true" identifierref="links-for">
+                <imsld:title>Links for</imsld:title>
+              </imsld:item>
+            </imsld:learning-object>
+            <imsld:service identifier="conference-e4366b69-07d1-4562-9243-3de3c5b89855" isvisible="true" parameters="widget=chat">
+              <imsld:conference conference-type="synchronous">
+                <imsld:title>Preparation chat</imsld:title>
+                <imsld:participant role-ref="role-b1cfa9e0-4a81-48db-bd2d-838a53bad5ae" />
+                <imsld:item identifier="item-e1fb69ca-d5de-4781-b376-2842441bbaf8" isvisible="true" identifierref="prep-chat-against-description">
+                  <imsld:title>Preparation chat against</imsld:title>
+                </imsld:item>
+              </imsld:conference>
+            </imsld:service>
+          </imsld:environment>
+          <imsld:environment identifier="env-8b6ab207-b8e8-4bdb-87ec-482c1c2bb8b6">
+            <imsld:title>Debate</imsld:title>
+            <imsld:service identifier="conference-9c173587-7430-4413-b500-88cabef5d04c" isvisible="true" parameters="widget=discussion">
+              <imsld:conference conference-type="synchronous">
+                <imsld:title>Default discussion/forum widget</imsld:title>
+                <imsld:participant role-ref="role-b1cfa9e0-4a81-48db-bd2d-838a53bad5ae" />
+                <imsld:participant role-ref="role-aa6e97b4-2e31-47a1-ba58-f8fbb44336d9" />
+                <imsld:conference-manager role-ref="role-91efa384-9b0c-4a2d-9dcb-bfaaaaf62984" />
+                <imsld:item identifier="item-f3ba469a-e0aa-4418-b51b-77a51ca2e084" isvisible="true" identifierref="LA2_debate_description">
+                  <imsld:title>debate-info</imsld:title>
+                </imsld:item>
+              </imsld:conference>
+            </imsld:service>
+          </imsld:environment>
+          <imsld:environment identifier="env-6f666a30-4884-470a-9d65-d3bb714d03a0">
+            <imsld:title>Chat in favour</imsld:title>
+            <imsld:service identifier="conference-b0055fde-d7fd-4589-8963-62689a3c70bc" isvisible="true" parameters="widget=chat">
+              <imsld:conference conference-type="synchronous">
+                <imsld:title>Default chat widget</imsld:title>
+                <imsld:participant role-ref="role-b1cfa9e0-4a81-48db-bd2d-838a53bad5ae" />
+                <imsld:item identifier="item-4c17b916-1840-43ad-80db-03a4cf10d057" isvisible="true" identifierref="chat-in-favour-info">
+                  <imsld:title>chat-in-favour</imsld:title>
+                </imsld:item>
+              </imsld:conference>
+            </imsld:service>
+          </imsld:environment>
+          <imsld:environment identifier="env-df2c5a1c-55c7-4528-b2cc-01c988395f38">
+            <imsld:title>Chat against</imsld:title>
+            <imsld:service identifier="conference-e6c1e4ee-2972-4d2b-955a-d852dbdacc06" isvisible="true" parameters="widget=chat">
+              <imsld:conference conference-type="synchronous">
+                <imsld:title>Default chat widget</imsld:title>
+                <imsld:participant role-ref="role-aa6e97b4-2e31-47a1-ba58-f8fbb44336d9" />
+                <imsld:item identifier="item-253fccb0-781b-4d41-97e3-4a156527cbfd" isvisible="true" identifierref="chat-against-info">
+                  <imsld:title>chat-against</imsld:title>
+                </imsld:item>
+              </imsld:conference>
+            </imsld:service>
+          </imsld:environment>
+          <imsld:environment identifier="env-0cede618-8ede-438e-8793-88a889e15e3f">
+            <imsld:title>Preparation forum</imsld:title>
+            <imsld:service identifier="conference-20c37639-2646-4ab4-ab01-463924b75c2e" isvisible="true" parameters="widget=discussion">
+              <imsld:conference conference-type="synchronous">
+                <imsld:title>Default discussion/forum widget</imsld:title>
+                <imsld:participant role-ref="role-aa6e97b4-2e31-47a1-ba58-f8fbb44336d9" />
+                <imsld:participant role-ref="role-b1cfa9e0-4a81-48db-bd2d-838a53bad5ae" />
+                <imsld:conference-manager role-ref="role-91efa384-9b0c-4a2d-9dcb-bfaaaaf62984" />
+                <imsld:item identifier="item-5f292c46-fc34-417a-ae0c-306b675459c4" isvisible="true" identifierref="prep-forum-description">
+                  <imsld:title>Preparation forum</imsld:title>
+                </imsld:item>
+              </imsld:conference>
+            </imsld:service>
+          </imsld:environment>
+          <imsld:environment identifier="env-0370d341-3b69-44b0-b2fb-6673b480b418">
+            <imsld:title>Vote</imsld:title>
+            <imsld:service identifier="conference-f941c38e-25fe-4efa-8afe-15a8e0ca2697" isvisible="true" parameters="widget=vote">
+              <imsld:conference conference-type="synchronous">
+                <imsld:title>Default vote widget</imsld:title>
+                <imsld:participant role-ref="role-b1cfa9e0-4a81-48db-bd2d-838a53bad5ae" />
+                <imsld:participant role-ref="role-aa6e97b4-2e31-47a1-ba58-f8fbb44336d9" />
+                <imsld:conference-manager role-ref="role-91efa384-9b0c-4a2d-9dcb-bfaaaaf62984" />
+                <imsld:item identifier="item-7573801a-6c76-46fb-be83-1d2740f16d14" isvisible="true" identifierref="LA3_vote-description">
+                  <imsld:title>vote</imsld:title>
+                </imsld:item>
+              </imsld:conference>
+            </imsld:service>
+          </imsld:environment>
+        </imsld:environments>
+      </imsld:components>
+      <imsld:method>
+        <imsld:play identifier="play-f9eaf540-fc6b-42fb-a770-e4a6fe7927e4" isvisible="true">
+          <imsld:title>Debate template</imsld:title>
+          <imsld:act identifier="act-7ebaa458-e75b-485e-8986-90d45a0c50ed">
+            <imsld:title>Looking at the evidence</imsld:title>
+            <imsld:role-part identifier="rolepart-faa6a764-3338-4450-98e0-71a89afdecd2">
+              <imsld:title>Role Part 2</imsld:title>
+              <imsld:role-ref ref="role-91efa384-9b0c-4a2d-9dcb-bfaaaaf62984" />
+              <imsld:support-activity-ref ref="sa-73c3945b-34f9-4a5f-bd9a-624daf105551" />
+            </imsld:role-part>
+            <imsld:role-part identifier="rolepart-6d77796a-7826-4239-8ce3-732e2f82c4c6">
+              <imsld:title>Role Part</imsld:title>
+              <imsld:role-ref ref="role-aa6e97b4-2e31-47a1-ba58-f8fbb44336d9" />
+              <imsld:learning-activity-ref ref="la-ce0e1eb5-0374-4cc4-b250-aecc938c9b49" />
+            </imsld:role-part>
+            <imsld:role-part identifier="rolepart-a104b0fe-1cea-4ee5-8702-049a7d486c8e">
+              <imsld:title>Role Part</imsld:title>
+              <imsld:role-ref ref="role-b1cfa9e0-4a81-48db-bd2d-838a53bad5ae" />
+              <imsld:learning-activity-ref ref="la-2ded5c80-f4d5-4317-8ff0-07b756b1c111" />
+            </imsld:role-part>
+            <imsld:complete-act>
+              <imsld:when-role-part-completed ref="rolepart-faa6a764-3338-4450-98e0-71a89afdecd2" />
+            </imsld:complete-act>
+          </imsld:act>
+          <imsld:act identifier="act-86ed91bd-4d62-48f0-b344-62a8a2a53a01">
+            <imsld:title>Debate</imsld:title>
+            <imsld:role-part identifier="rolepart-3b61f229-27f5-4c1b-a8c4-3c0308d872ca">
+              <imsld:title>Role Part</imsld:title>
+              <imsld:role-ref ref="role-aa6e97b4-2e31-47a1-ba58-f8fbb44336d9" />
+              <imsld:learning-activity-ref ref="la-505e528c-7830-452a-98c2-b0f4863766ee" />
+            </imsld:role-part>
+            <imsld:role-part identifier="rolepart-0b9fc273-ae44-4396-8e19-848ff57a5cf4">
+              <imsld:title>Role Part</imsld:title>
+              <imsld:role-ref ref="role-b1cfa9e0-4a81-48db-bd2d-838a53bad5ae" />
+              <imsld:learning-activity-ref ref="la-505e528c-7830-452a-98c2-b0f4863766ee" />
+            </imsld:role-part>
+            <imsld:role-part identifier="rolepart-65335435-e990-44f8-b032-edc4da230d24">
+              <imsld:title>Role Part</imsld:title>
+              <imsld:role-ref ref="role-91efa384-9b0c-4a2d-9dcb-bfaaaaf62984" />
+              <imsld:support-activity-ref ref="sa-865a45ce-6546-4fa5-b8dc-724afb243835" />
+            </imsld:role-part>
+            <imsld:complete-act>
+              <imsld:when-role-part-completed ref="rolepart-65335435-e990-44f8-b032-edc4da230d24" />
+            </imsld:complete-act>
+          </imsld:act>
+          <imsld:act identifier="act-21a507b5-f3f6-46bc-93de-ef3cff1a50d9">
+            <imsld:title>Vote</imsld:title>
+            <imsld:role-part identifier="rolepart-7c97c750-0a3e-4907-ae49-a394fd5a6883">
+              <imsld:title>Role Part</imsld:title>
+              <imsld:role-ref ref="role-aa6e97b4-2e31-47a1-ba58-f8fbb44336d9" />
+              <imsld:learning-activity-ref ref="la-6b004b01-317b-489c-b92e-0f10050e27aa" />
+            </imsld:role-part>
+            <imsld:role-part identifier="rolepart-4ec24530-23fe-4965-a9d6-fefb204a7b54">
+              <imsld:title>Role Part</imsld:title>
+              <imsld:role-ref ref="role-b1cfa9e0-4a81-48db-bd2d-838a53bad5ae" />
+              <imsld:learning-activity-ref ref="la-6b004b01-317b-489c-b92e-0f10050e27aa" />
+            </imsld:role-part>
+            <imsld:role-part identifier="rolepart-1a8663ae-f06b-407a-94e2-78de9a3d80b0">
+              <imsld:title>Role Part</imsld:title>
+              <imsld:role-ref ref="role-91efa384-9b0c-4a2d-9dcb-bfaaaaf62984" />
+              <imsld:support-activity-ref ref="sa-5172d689-e38b-4c24-beb2-72d8c8682cbc" />
+            </imsld:role-part>
+            <imsld:role-part identifier="rolepart-388bf836-dac2-4e82-baf1-adda05cd77e3">
+              <imsld:title>Role Part</imsld:title>
+              <imsld:role-ref ref="role-91efa384-9b0c-4a2d-9dcb-bfaaaaf62984" />
+              <imsld:learning-activity-ref ref="la-6b004b01-317b-489c-b92e-0f10050e27aa" />
+            </imsld:role-part>
+            <imsld:complete-act>
+              <imsld:when-role-part-completed ref="rolepart-1a8663ae-f06b-407a-94e2-78de9a3d80b0" />
+            </imsld:complete-act>
+          </imsld:act>
+        </imsld:play>
+        <imsld:complete-unit-of-learning>
+          <imsld:when-play-completed ref="play-f9eaf540-fc6b-42fb-a770-e4a6fe7927e4" />
+        </imsld:complete-unit-of-learning>
+      </imsld:method>
+      <imsld:metadata>
+        <ldauthor:root date-created="1210956423640">
+          <ldauthor:images />
+          <ldauthor:overview>
+            <ldauthor:description>This is a template for creating a debate for two groups. It was made by Dai Griffiths, 16th May 2008 with ReCourse v.1.5.1&#xD;
+Feel free to use it and edit it, with attribution.&#xD;
+To add resources for the two teams in the debate, the easiest thing to do is to paste text with links from a web page into the files "links-against.html" and "links-for.html". You will find them in the "Resources" tab.  I prefer the links to open in a new window. &#xD;
+You can also edit the generic descriptions in the "UOL_Files" folder i(to to the resoures tab).</ldauthor:description>
+            <ldauthor:tags />
+            <ldauthor:author />
+            <ldauthor:subject />
+          </ldauthor:overview>
+          <ldauthor:environments>
+            <ldauthor:environment ref="env-3a7641e8-4afc-4f8c-b2d6-f5ec12174ed9">
+              <ldauthor:bounds x="10" y="10" width="200" height="-1" />
+              <ldauthor:learning-object ref="lo-0ce43c66-881b-4d2e-976e-bca77a8f5ef2">
+                <ldauthor:bounds x="10" y="10" width="70" height="-1" />
+              </ldauthor:learning-object>
+              <ldauthor:conference ref="conference-5b6bfbff-8185-4102-8a35-805ec6cccd20">
+                <ldauthor:bounds x="90" y="10" width="70" height="-1" />
+              </ldauthor:conference>
+            </ldauthor:environment>
+            <ldauthor:environment ref="env-f9a19cc3-ac26-4532-ba86-6f7037fb01c2">
+              <ldauthor:bounds x="445" y="11" width="200" height="-1" />
+              <ldauthor:learning-object ref="lo-47b64810-3dbc-4077-9cf9-d2fe5298efa6">
+                <ldauthor:bounds x="10" y="10" width="70" height="-1" />
+              </ldauthor:learning-object>
+              <ldauthor:conference ref="conference-e4366b69-07d1-4562-9243-3de3c5b89855">
+                <ldauthor:bounds x="90" y="10" width="70" height="-1" />
+              </ldauthor:conference>
+            </ldauthor:environment>
+            <ldauthor:environment ref="env-8b6ab207-b8e8-4bdb-87ec-482c1c2bb8b6">
+              <ldauthor:bounds x="223" y="163" width="200" height="-1" />
+              <ldauthor:conference ref="conference-9c173587-7430-4413-b500-88cabef5d04c">
+                <ldauthor:bounds x="10" y="10" width="70" height="-1" />
+              </ldauthor:conference>
+            </ldauthor:environment>
+            <ldauthor:environment ref="env-6f666a30-4884-470a-9d65-d3bb714d03a0">
+              <ldauthor:bounds x="443" y="162" width="200" height="-1" />
+              <ldauthor:conference ref="conference-b0055fde-d7fd-4589-8963-62689a3c70bc">
+                <ldauthor:bounds x="66" y="10" width="70" height="-1" />
+              </ldauthor:conference>
+            </ldauthor:environment>
+            <ldauthor:environment ref="env-df2c5a1c-55c7-4528-b2cc-01c988395f38">
+              <ldauthor:bounds x="9" y="163" width="200" height="-1" />
+              <ldauthor:conference ref="conference-e6c1e4ee-2972-4d2b-955a-d852dbdacc06">
+                <ldauthor:bounds x="10" y="10" width="70" height="-1" />
+              </ldauthor:conference>
+            </ldauthor:environment>
+            <ldauthor:environment ref="env-0cede618-8ede-438e-8793-88a889e15e3f">
+              <ldauthor:bounds x="226" y="10" width="200" height="-1" />
+              <ldauthor:conference ref="conference-20c37639-2646-4ab4-ab01-463924b75c2e">
+                <ldauthor:bounds x="10" y="10" width="70" height="-1" />
+              </ldauthor:conference>
+            </ldauthor:environment>
+            <ldauthor:environment ref="env-0370d341-3b69-44b0-b2fb-6673b480b418">
+              <ldauthor:bounds x="222" y="303" width="200" height="-1" />
+              <ldauthor:conference ref="conference-f941c38e-25fe-4efa-8afe-15a8e0ca2697">
+                <ldauthor:bounds x="10" y="10" width="70" height="-1" />
+              </ldauthor:conference>
+            </ldauthor:environment>
+          </ldauthor:environments>
+        </ldauthor:root>
+      </imsld:metadata>
+    </imsld:learning-design>
+  </organizations>
+  <resources>
+    <resource identifier="LA1_Description" type="webcontent" href="UOL-files/la1-description-in-favour.html">
+      <file href="UOL-files/la1-description-in-favour.html" />
+    </resource>
+    <resource identifier="SA1_Description" type="webcontent" href="UOL-files/sa1-description.html">
+      <file href="UOL-files/sa1-description.html" />
+    </resource>
+    <resource identifier="LO1_Description" type="webcontent" href="UOL-files/lo1-resource.html">
+      <file href="UOL-files/lo1-resource.html" />
+    </resource>
+    <resource identifier="LA2_debate_description" type="webcontent" href="UOL-files/debate-instruction.html">
+      <file href="UOL-files/debate-instruction.html" />
+    </resource>
+    <resource identifier="LA3_vote-description" type="webcontent" href="UOL-files/la3-description-vote.html">
+      <file href="UOL-files/la3-description-vote.html" />
+    </resource>
+    <resource identifier="LA1_against_description" type="webcontent" href="UOL-files/la2-description-against.html">
+      <file href="UOL-files/la2-description-against.html" />
+    </resource>
+    <resource identifier="SA2_moderate" type="webcontent" href="UOL-files/SA2_moderate.html">
+      <file href="UOL-files/SA2_moderate.html" />
+    </resource>
+    <resource identifier="SA3_close" type="webcontent" href="UOL-files/SA3-close.html">
+      <file href="UOL-files/SA3-close.html" />
+    </resource>
+    <resource identifier="chat-against-info" type="webcontent" href="UOL-files/chat-against.html">
+      <file href="UOL-files/chat-against.html" />
+    </resource>
+    <resource identifier="chat-in-favour-info" type="webcontent" href="UOL-files/chat-in-favour.html">
+      <file href="UOL-files/chat-in-favour.html" />
+    </resource>
+    <resource identifier="debate-forum-info" type="webcontent" href="UOL-files/debate-info.html">
+      <file href="UOL-files/debate-info.html" />
+    </resource>
+    <resource identifier="prep-chat-against-description" type="webcontent" href="UOL-files/chat-against-act-description.html">
+      <file href="UOL-files/chat-against-act-description.html" />
+    </resource>
+    <resource identifier="prep-chat-in-favour-description" type="webcontent" href="UOL-files/chat-in-favour-act-description.html">
+      <file href="UOL-files/chat-in-favour-act-description.html" />
+    </resource>
+    <resource identifier="prep-forum-description" type="webcontent" href="UOL-files/debate-act-description.html">
+      <file href="UOL-files/debate-act-description.html" />
+    </resource>
+    <resource identifier="vote-description" type="webcontent" href="UOL-files/vote-description.html">
+      <file href="UOL-files/vote-description.html" />
+    </resource>
+    <resource identifier="links-against" type="webcontent" href="input-files/links-against.html">
+      <file href="input-files/links-against.html" />
+    </resource>
+    <resource identifier="links-for" type="webcontent" href="input-files/links-for.html">
+      <file href="input-files/links-for.html" />
+    </resource>
+  </resources>
+</manifest>
+

@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Edited with ReCourse-->
+<!--Created - Tue Jan 26 13:11:17 CET 2010-->
+<!--Modified - Tue Jan 26 13:26:01 CET 2010-->
+<!--Authors- Mar Pérez-Sanagustín&Patricia Santos, UPF-->
+<!--Adapted from COLLAGE templates-->
+<manifest xmlns="http://www.imsglobal.org/xsd/imscp_v1p1" xmlns:imsld="http://www.imsglobal.org/xsd/imsld_v1p0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ldauthor="http://www.tencompetence.org/ldauthor" xsi:schemaLocation="http://www.imsglobal.org/xsd/imscp_v1p1 http://www.imsglobal.org/xsd/imscp_v1p1.xsd http://www.imsglobal.org/xsd/imsld_v1p0 http://www.imsglobal.org/xsd/IMS_LD_Level_A.xsd http://www.tencompetence.org/ldauthor ld-author.xsd" identifier="manifest-2b49d46e-34c0-407c-beca-6fca82e2ad2c">
+  <organizations>
+    <imsld:learning-design identifier="ld-e8e2160b-e24a-48ab-9d20-d71d27e1261b" version="1.0.0" level="A" uri="http://www.yourURI.here/f3129b8e-b831-48b1-b245-cd037f8e4a81" sequence-used="false">
+      <imsld:title>Jigsaw</imsld:title>
+      <imsld:components>
+        <imsld:roles>
+          <imsld:learner identifier="role-97683fa5-95de-4bc0-930e-ec6a4a33f929">
+            <imsld:title>Individual learner in a jigsaw group</imsld:title>
+          </imsld:learner>
+          <imsld:learner identifier="role-dbe879f0-f096-4f7e-9a46-202af2b0c263">
+            <imsld:title>Expert A</imsld:title>
+          </imsld:learner>
+          <imsld:learner identifier="role-19abed27-e63e-4d7b-afd4-6a3b8b90b861">
+            <imsld:title>Expert B</imsld:title>
+          </imsld:learner>
+          <imsld:learner identifier="role-bca4b026-1076-437e-9765-d0c65be32021">
+            <imsld:title>Expert C</imsld:title>
+          </imsld:learner>
+          <imsld:learner identifier="role-7ff147a2-059d-4ee7-b597-1f5c437baed9">
+            <imsld:title>Expert D</imsld:title>
+          </imsld:learner>
+          <imsld:staff identifier="role-ab8464ad-4ae9-4f2f-a62d-6546476cc308">
+            <imsld:title>Trainer</imsld:title>
+          </imsld:staff>
+        </imsld:roles>
+        <imsld:activities>
+          <imsld:learning-activity identifier="la-5a5873bc-61d0-4c8e-b47c-0b0aabdca962" isvisible="true">
+            <imsld:title>Individual activity</imsld:title>
+            <imsld:activity-description>
+              <imsld:item identifier="item-2606a839-4a50-40bf-99e7-1bfe94edf5a3" isvisible="true" identifierref="Individual_activity">
+                <imsld:title>Resource</imsld:title>
+              </imsld:item>
+            </imsld:activity-description>
+            <imsld:complete-activity>
+              <imsld:user-choice />
+            </imsld:complete-activity>
+          </imsld:learning-activity>
+          <imsld:learning-activity identifier="la-909d963e-adae-4072-ad37-613d7af95041" isvisible="true">
+            <imsld:title>Activity for a group of experts A</imsld:title>
+            <imsld:environment-ref ref="env-47ab4721-dbd7-4939-a1cb-522a690198e4" />
+            <imsld:activity-description>
+              <imsld:item identifier="item-8369dead-09cb-4208-b412-93dea2903bc6" isvisible="true" identifierref="Activity_for_a_group_of_experts_A">
+                <imsld:title>Resource</imsld:title>
+              </imsld:item>
+            </imsld:activity-description>
+            <imsld:complete-activity>
+              <imsld:user-choice />
+            </imsld:complete-activity>
+          </imsld:learning-activity>
+          <imsld:learning-activity identifier="la-e5b19258-c1c7-4d8d-9900-42ab275982c1" isvisible="true">
+            <imsld:title>Activity for a group of experts B</imsld:title>
+            <imsld:environment-ref ref="env-9a4c8702-fa39-4b96-80ce-c0dbe6534a12" />
+            <imsld:activity-description>
+              <imsld:item identifier="item-bd23202b-83f7-4fbe-8d1a-dd35fbea8758" isvisible="true" identifierref="Activity_for_a_group_of_experts_B">
+                <imsld:title>Resource</imsld:title>
+              </imsld:item>
+            </imsld:activity-description>
+            <imsld:complete-activity>
+              <imsld:user-choice />
+            </imsld:complete-activity>
+          </imsld:learning-activity>
+          <imsld:learning-activity identifier="la-3c001f91-370e-4d27-9e63-d485c940a7df" isvisible="true">
+            <imsld:title>Activity for a group of experts C</imsld:title>
+            <imsld:environment-ref ref="env-df15e2a7-419b-4f93-8ec5-203b8e7a6670" />
+            <imsld:activity-description>
+              <imsld:item identifier="item-f6ad75eb-508a-43ff-9622-476927294b14" isvisible="true" identifierref="Activity_for_a_group_of_experts_C">
+                <imsld:title>Resource</imsld:title>
+              </imsld:item>
+            </imsld:activity-description>
+            <imsld:complete-activity>
+              <imsld:user-choice />
+            </imsld:complete-activity>
+          </imsld:learning-activity>
+          <imsld:learning-activity identifier="la-abb8aeaa-03d5-42ef-93da-04820b746acd" isvisible="true">
+            <imsld:title>Activity for a group of experts D</imsld:title>
+            <imsld:environment-ref ref="env-99b869cd-fdd0-44b6-a18a-892834186270" />
+            <imsld:activity-description>
+              <imsld:item identifier="item-3623f96c-3152-4a04-b1d6-e72f8faa4976" isvisible="true" identifierref="Activity_for_a_group_of_experts_D">
+                <imsld:title>Resource</imsld:title>
+              </imsld:item>
+            </imsld:activity-description>
+            <imsld:complete-activity>
+              <imsld:user-choice />
+            </imsld:complete-activity>
+          </imsld:learning-activity>
+          <imsld:learning-activity identifier="la-a547b0a1-b71e-4df3-8cdf-7f95fb2c732c" isvisible="true">
+            <imsld:title>Final activity in jigsaw groups</imsld:title>
+            <imsld:environment-ref ref="env-98e01550-f75a-436e-8d32-996c2975f7e5" />
+            <imsld:activity-description>
+              <imsld:item identifier="item-214d68d9-5c6b-43ed-b75b-c5c26b0d0064" isvisible="true" identifierref="Final_activity_in_jigsaw_groups">
+                <imsld:title>Resource</imsld:title>
+              </imsld:item>
+            </imsld:activity-description>
+            <imsld:complete-activity>
+              <imsld:user-choice />
+            </imsld:complete-activity>
+          </imsld:learning-activity>
+          <imsld:support-activity identifier="sa-ca83b9d4-b16c-4f63-b4d6-451b09002da6" isvisible="true">
+            <imsld:title>Support Activity1: Individual activity</imsld:title>
+            <imsld:activity-description>
+              <imsld:item identifier="item-a509b5e4-8989-41d9-856b-47f0ccb048e6" isvisible="true" identifierref="Support_Activity1__Individual_activity">
+                <imsld:title>Resource</imsld:title>
+              </imsld:item>
+            </imsld:activity-description>
+            <imsld:complete-activity>
+              <imsld:user-choice />
+            </imsld:complete-activity>
+          </imsld:support-activity>
+          <imsld:support-activity identifier="sa-e7d6ce42-07c8-4be1-bbb6-912ff701c8cb" isvisible="true">
+            <imsld:title>Expert phase</imsld:title>
+            <imsld:activity-description>
+              <imsld:item identifier="item-464d4af1-b2ff-415c-8d41-e0141213d237" isvisible="true" identifierref="Expert_phase">
+                <imsld:title>Resource</imsld:title>
+              </imsld:item>
+            </imsld:activity-description>
+            <imsld:complete-activity>
+              <imsld:user-choice />
+            </imsld:complete-activity>
+          </imsld:support-activity>
+          <imsld:support-activity identifier="sa-7d515613-802b-402c-b430-4576da6c3776" isvisible="true">
+            <imsld:title>Support Activity:Jigsaw Phase</imsld:title>
+            <imsld:activity-description>
+              <imsld:item identifier="item-c2a941b8-3c12-4d36-8353-1f939fdf9b7e" isvisible="true" identifierref="Support_Activity_Jigsaw_Phase">
+                <imsld:title>Resource</imsld:title>
+              </imsld:item>
+            </imsld:activity-description>
+            <imsld:complete-activity>
+              <imsld:user-choice />
+            </imsld:complete-activity>
+          </imsld:support-activity>
+        </imsld:activities>
+        <imsld:environments>
+          <imsld:environment identifier="env-47ab4721-dbd7-4939-a1cb-522a690198e4">
+            <imsld:title>EnvironmentA</imsld:title>
+            <imsld:service identifier="conference-53a163b4-251f-4e81-aab8-f8b5b1cd4f10" isvisible="true" parameters="widget=discussion">
+              <imsld:conference conference-type="synchronous">
+                <imsld:title>Default discussion/forum widget</imsld:title>
+                <imsld:participant role-ref="role-97683fa5-95de-4bc0-930e-ec6a4a33f929" />
+                <imsld:item identifier="item-e19acaa6-9f52-4ae7-b6a3-9b7bbf6924ab" isvisible="true" identifierref="Conference-1">
+                  <imsld:title>Item</imsld:title>
+                </imsld:item>
+              </imsld:conference>
+            </imsld:service>
+          </imsld:environment>
+          <imsld:environment identifier="env-9a4c8702-fa39-4b96-80ce-c0dbe6534a12">
+            <imsld:title>Environment-B</imsld:title>
+            <imsld:service identifier="conference-f920574c-4895-4060-9f29-7b9c5368cbbc" isvisible="true" parameters="widget=discussion">
+              <imsld:conference conference-type="synchronous">
+                <imsld:title>Default discussion/forum widget</imsld:title>
+                <imsld:participant role-ref="role-97683fa5-95de-4bc0-930e-ec6a4a33f929" />
+                <imsld:item identifier="item-8711d489-6e6f-45fc-9bcd-29267dba99ae" isvisible="true" identifierref="Conference">
+                  <imsld:title>Item</imsld:title>
+                </imsld:item>
+              </imsld:conference>
+            </imsld:service>
+          </imsld:environment>
+          <imsld:environment identifier="env-df15e2a7-419b-4f93-8ec5-203b8e7a6670">
+            <imsld:title>Environment-C</imsld:title>
+            <imsld:service identifier="conference-681e1684-8f14-4bd8-b3ad-5353a82ff8c1" isvisible="true" parameters="widget=discussion">
+              <imsld:conference conference-type="synchronous">
+                <imsld:title>Default discussion/forum widget</imsld:title>
+                <imsld:participant role-ref="role-97683fa5-95de-4bc0-930e-ec6a4a33f929" />
+                <imsld:item identifier="item-bdb3bd8b-04da-41dc-831b-493d1b4c084b" isvisible="true" identifierref="Conference-2">
+                  <imsld:title>Item</imsld:title>
+                </imsld:item>
+              </imsld:conference>
+            </imsld:service>
+          </imsld:environment>
+          <imsld:environment identifier="env-99b869cd-fdd0-44b6-a18a-892834186270">
+            <imsld:title>Environment-D</imsld:title>
+            <imsld:service identifier="conference-f7e2d061-872b-4c2a-99e7-ba85e298e628" isvisible="true" parameters="widget=discussion">
+              <imsld:conference conference-type="synchronous">
+                <imsld:title>Default discussion/forum widget</imsld:title>
+                <imsld:participant role-ref="role-97683fa5-95de-4bc0-930e-ec6a4a33f929" />
+                <imsld:item identifier="item-2b2afc25-8800-48cc-862a-a7b1afce7ee9" isvisible="true" identifierref="Conference-3">
+                  <imsld:title>Item</imsld:title>
+                </imsld:item>
+              </imsld:conference>
+            </imsld:service>
+          </imsld:environment>
+          <imsld:environment identifier="env-98e01550-f75a-436e-8d32-996c2975f7e5">
+            <imsld:title>Environment</imsld:title>
+          </imsld:environment>
+        </imsld:environments>
+      </imsld:components>
+      <imsld:method>
+        <imsld:play identifier="play-bc17ed74-99a2-451d-b891-9a2a6362b99a" isvisible="true">
+          <imsld:title>Individual phase</imsld:title>
+          <imsld:act identifier="act-3955328d-7394-4650-997a-f0f3a7dc46dc">
+            <imsld:title>Phase 1</imsld:title>
+            <imsld:role-part identifier="rolepart-51f28d1b-f86c-4722-96d1-ef8546a31787">
+              <imsld:title>Role Part</imsld:title>
+              <imsld:role-ref ref="role-ab8464ad-4ae9-4f2f-a62d-6546476cc308" />
+              <imsld:learning-activity-ref ref="la-5a5873bc-61d0-4c8e-b47c-0b0aabdca962" />
+            </imsld:role-part>
+            <imsld:role-part identifier="rolepart-f3fc5384-6036-4dff-b126-cb7bb3ddd8fc">
+              <imsld:title>Role Part</imsld:title>
+              <imsld:role-ref ref="role-ab8464ad-4ae9-4f2f-a62d-6546476cc308" />
+              <imsld:support-activity-ref ref="sa-ca83b9d4-b16c-4f63-b4d6-451b09002da6" />
+            </imsld:role-part>
+            <imsld:role-part identifier="rolepart-d0d94cf8-6155-40da-9901-acb24d33411b">
+              <imsld:title>Role Part</imsld:title>
+              <imsld:role-ref ref="role-97683fa5-95de-4bc0-930e-ec6a4a33f929" />
+              <imsld:support-activity-ref ref="sa-ca83b9d4-b16c-4f63-b4d6-451b09002da6" />
+            </imsld:role-part>
+          </imsld:act>
+        </imsld:play>
+        <imsld:play identifier="play-5d718cf9-9354-4300-9a7e-86f288632063" isvisible="true">
+          <imsld:title>Expert phase</imsld:title>
+          <imsld:act identifier="act-93cd9a2c-3c8b-4be1-84a9-f0af215b75af">
+            <imsld:title>Phase 2</imsld:title>
+            <imsld:role-part identifier="rolepart-49af53c8-c3b7-4ced-b898-3b0fe225e1aa">
+              <imsld:title>Role Part</imsld:title>
+              <imsld:role-ref ref="role-dbe879f0-f096-4f7e-9a46-202af2b0c263" />
+              <imsld:learning-activity-ref ref="la-909d963e-adae-4072-ad37-613d7af95041" />
+            </imsld:role-part>
+            <imsld:role-part identifier="rolepart-f196800d-d928-456b-9c81-cc6f1e59b116">
+              <imsld:title>Role Part</imsld:title>
+              <imsld:role-ref ref="role-ab8464ad-4ae9-4f2f-a62d-6546476cc308" />
+              <imsld:support-activity-ref ref="sa-e7d6ce42-07c8-4be1-bbb6-912ff701c8cb" />
+            </imsld:role-part>
+            <imsld:role-part identifier="rolepart-3cca7578-80f7-4253-ab5a-67fc60d9d6a9">
+              <imsld:title>Role Part</imsld:title>
+              <imsld:role-ref ref="role-19abed27-e63e-4d7b-afd4-6a3b8b90b861" />
+              <imsld:learning-activity-ref ref="la-e5b19258-c1c7-4d8d-9900-42ab275982c1" />
+            </imsld:role-part>
+            <imsld:role-part identifier="rolepart-5394acaa-33ef-4136-91be-543f1dbe7edf">
+              <imsld:title>Role Part</imsld:title>
+              <imsld:role-ref ref="role-bca4b026-1076-437e-9765-d0c65be32021" />
+              <imsld:learning-activity-ref ref="la-3c001f91-370e-4d27-9e63-d485c940a7df" />
+            </imsld:role-part>
+            <imsld:role-part identifier="rolepart-422ef882-f4b3-4eb5-9acf-d5f5d263d524">
+              <imsld:title>Role Part</imsld:title>
+              <imsld:role-ref ref="role-7ff147a2-059d-4ee7-b597-1f5c437baed9" />
+              <imsld:learning-activity-ref ref="la-abb8aeaa-03d5-42ef-93da-04820b746acd" />
+            </imsld:role-part>
+          </imsld:act>
+        </imsld:play>
+        <imsld:play identifier="play-e3176ef1-6dcb-420c-9907-b1786337d5a3" isvisible="true">
+          <imsld:title>Jigsaw phase</imsld:title>
+          <imsld:act identifier="act-9902c1ac-4ea5-4fe4-82bb-2ae7b8ec3dce">
+            <imsld:title>Phase 3</imsld:title>
+            <imsld:role-part identifier="rolepart-f84d4c55-c726-4272-9fa8-105f286677c5">
+              <imsld:title>Role Part</imsld:title>
+              <imsld:role-ref ref="role-97683fa5-95de-4bc0-930e-ec6a4a33f929" />
+              <imsld:learning-activity-ref ref="la-a547b0a1-b71e-4df3-8cdf-7f95fb2c732c" />
+            </imsld:role-part>
+            <imsld:role-part identifier="rolepart-da7f1f1b-1c0e-4e5c-9811-deec5016d447">
+              <imsld:title>Role Part</imsld:title>
+              <imsld:role-ref ref="role-ab8464ad-4ae9-4f2f-a62d-6546476cc308" />
+              <imsld:support-activity-ref ref="sa-7d515613-802b-402c-b430-4576da6c3776" />
+            </imsld:role-part>
+            <imsld:role-part identifier="rolepart-fcf86183-ca16-4e4a-a003-fc356db9d141">
+              <imsld:title>Role Part</imsld:title>
+              <imsld:role-ref ref="role-ab8464ad-4ae9-4f2f-a62d-6546476cc308" />
+              <imsld:learning-activity-ref ref="la-a547b0a1-b71e-4df3-8cdf-7f95fb2c732c" />
+            </imsld:role-part>
+          </imsld:act>
+        </imsld:play>
+      </imsld:method>
+    </imsld:learning-design>
+  </organizations>
+  <resources>
+    <resource identifier="Individual_activity" type="webcontent" href="Individual_activity.html">
+      <file href="Individual_activity.html" />
+    </resource>
+    <resource identifier="Activity_for_a_group_of_experts_A" type="webcontent" href="Activity_for_a_group_of_experts_A.html">
+      <file href="Activity_for_a_group_of_experts_A.html" />
+    </resource>
+    <resource identifier="Activity_for_a_group_of_experts_B" type="webcontent" href="Activity_for_a_group_of_experts_B.html">
+      <file href="Activity_for_a_group_of_experts_B.html" />
+    </resource>
+    <resource identifier="Activity_for_a_group_of_experts_C" type="webcontent" href="Activity_for_a_group_of_experts_C.html">
+      <file href="Activity_for_a_group_of_experts_C.html" />
+    </resource>
+    <resource identifier="Activity_for_a_group_of_experts_D" type="webcontent" href="Activity_for_a_group_of_experts_D.html">
+      <file href="Activity_for_a_group_of_experts_D.html" />
+    </resource>
+    <resource identifier="Final_activity_in_jigsaw_groups" type="webcontent" href="Final_activity_in_jigsaw_groups.html">
+      <file href="Final_activity_in_jigsaw_groups.html" />
+    </resource>
+    <resource identifier="Conference" type="webcontent" href="Conference.html">
+      <file href="Conference.html" />
+    </resource>
+    <resource identifier="Conference-1" type="webcontent" href="Conference-1.html">
+      <file href="Conference-1.html" />
+    </resource>
+    <resource identifier="Conference-2" type="webcontent" href="Conference-2.html">
+      <file href="Conference-2.html" />
+    </resource>
+    <resource identifier="Conference-3" type="webcontent" href="Conference-3.html">
+      <file href="Conference-3.html" />
+    </resource>
+    <resource identifier="Support_Activity1__Individual_activity" type="webcontent" href="Support_Activity1__Individual_activity.html">
+      <file href="Support_Activity1__Individual_activity.html" />
+    </resource>
+    <resource identifier="Expert_phase" type="webcontent" href="Expert_phase.html">
+      <file href="Expert_phase.html" />
+    </resource>
+    <resource identifier="Support_Activity_Jigsaw_Phase" type="webcontent" href="Support_Activity_Jigsaw_Phase.html">
+      <file href="Support_Activity_Jigsaw_Phase.html" />
+    </resource>
+  </resources>
+</manifest>
+

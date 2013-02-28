@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Edited with ReCourse-->
+<!--Created - Tue Jan 26 19:03:54 CET 2010-->
+<!--Modified - Tue Jan 26 19:03:54 CET 2010-->
+<!--Authors- Mar Pérez-Sanagustín&Patricia Santos, UPF-->
+<manifest xmlns="http://www.imsglobal.org/xsd/imscp_v1p1" xmlns:imsld="http://www.imsglobal.org/xsd/imsld_v1p0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ldauthor="http://www.tencompetence.org/ldauthor" xsi:schemaLocation="http://www.imsglobal.org/xsd/imscp_v1p1 http://www.imsglobal.org/xsd/imscp_v1p1.xsd http://www.imsglobal.org/xsd/imsld_v1p0 http://www.imsglobal.org/xsd/IMS_LD_Level_B.xsd http://www.tencompetence.org/ldauthor ld-author.xsd" identifier="manifest-05a7bea7-4e26-40f8-a1e5-da7801b3b3d6">
+  <organizations>
+    <imsld:learning-design identifier="ld-d9619873-c995-4267-8dae-5718f48b74d8" version="1.0.0" level="B" uri="http://www.yourURI.here/2e17e6df-01f2-4893-90d9-786312bf1c95" sequence-used="false">
+      <imsld:title>Summative Assessment</imsld:title>
+      <imsld:components>
+        <imsld:roles>
+          <imsld:learner identifier="role-40a5655f-9d1d-499a-b145-c98879fdf175">
+            <imsld:title>Learner</imsld:title>
+          </imsld:learner>
+        </imsld:roles>
+        <imsld:properties>
+          <imsld:locpers-property identifier="AT-a64ebab2-3ef7-42c6-be36-833d607efcc3.SCORE">
+            <imsld:title>QTI Test</imsld:title>
+            <imsld:datatype datatype="real" />
+            <imsld:initial-value>0</imsld:initial-value>
+          </imsld:locpers-property>
+        </imsld:properties>
+        <imsld:activities>
+          <imsld:learning-activity identifier="la-7b7b3066-2e8c-4354-9916-5216c55e7d20" isvisible="true">
+            <imsld:title>List of Proverbs and Sayings</imsld:title>
+            <imsld:activity-description>
+              <imsld:item identifier="item-98ab80c4-8d88-4402-8b85-a1d5e6302ac3" isvisible="true" identifierref="List_of_Proverbs_and_Sayings">
+                <imsld:title>Resource</imsld:title>
+              </imsld:item>
+            </imsld:activity-description>
+            <imsld:complete-activity>
+              <imsld:user-choice />
+            </imsld:complete-activity>
+          </imsld:learning-activity>
+          <imsld:learning-activity identifier="la-4424e476-ba2f-42b2-907d-ca4edb241683" isvisible="true">
+            <imsld:title>Test of Proverbs and Sayings</imsld:title>
+            <imsld:activity-description>
+              <imsld:item identifier="item-3397010e-3f23-4c65-9b77-f3ab309e14f7" isvisible="true" identifierref="Test_of_Proverbs_and_Sayings">
+                <imsld:title>QTI Test</imsld:title>
+              </imsld:item>
+            </imsld:activity-description>
+            <imsld:complete-activity>
+              <imsld:user-choice />
+            </imsld:complete-activity>
+          </imsld:learning-activity>
+        </imsld:activities>
+      </imsld:components>
+      <imsld:method>
+        <imsld:play identifier="play-c082877b-1224-4556-9e11-1f4be93336d1" isvisible="true">
+          <imsld:title>Summative Assessment</imsld:title>
+          <imsld:act identifier="act-8d0e858e-286e-4933-b84f-1e0f3d317192">
+            <imsld:title>Proverbs and Sayings</imsld:title>
+            <imsld:role-part identifier="rolepart-dc7ffffb-a9d0-4849-94ce-2f1911ed5f02">
+              <imsld:title>Role Part</imsld:title>
+              <imsld:role-ref ref="role-40a5655f-9d1d-499a-b145-c98879fdf175" />
+              <imsld:learning-activity-ref ref="la-7b7b3066-2e8c-4354-9916-5216c55e7d20" />
+            </imsld:role-part>
+            <imsld:role-part identifier="rolepart-0e9bb4f6-7b09-453e-9d4f-dab9f8e54765">
+              <imsld:title>Role Part</imsld:title>
+              <imsld:role-ref ref="role-40a5655f-9d1d-499a-b145-c98879fdf175" />
+              <imsld:learning-activity-ref ref="la-4424e476-ba2f-42b2-907d-ca4edb241683" />
+            </imsld:role-part>
+          </imsld:act>
+        </imsld:play>
+      </imsld:method>
+      <imsld:metadata>
+        <ldauthor:root date-created="1264529034062">
+          <ldauthor:images />
+          <ldauthor:overview>
+            <ldauthor:description />
+            <ldauthor:tags />
+            <ldauthor:author />
+            <ldauthor:subject />
+          </ldauthor:overview>
+          <ldauthor:environments />
+        </ldauthor:root>
+      </imsld:metadata>
+    </imsld:learning-design>
+  </organizations>
+  <resources>
+    <resource identifier="List_of_Proverbs_and_Sayings" type="webcontent" href="List_of_Proverbs_and_Sayings.html">
+      <file href="List_of_Proverbs_and_Sayings.html" />
+    </resource>
+    <resource identifier="Test_of_Proverbs_and_Sayings" type="imsqti_test_xmlv2p1" href="Test_of_Proverbs_and_Sayings.xml">
+      <file href="Test_of_Proverbs_and_Sayings.xml" />
+    </resource>
+  </resources>
+</manifest>
+

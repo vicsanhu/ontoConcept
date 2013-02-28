@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<methods>
+	<method id-method="RET-met1-1">
+			<rule>
+				<id-rule>met1-1-1</id-rule>
+				<class-onto>http://www.cc.uah.es/ie/ont/elabtheory.owl#ConceptLearningActivity</class-onto>
+				<property-onto>http://www.cc.uah.es/ie/ont/elabtheory.owl#RET-rule-1-1-1 </property-onto>
+				<ld-object>  </ld-object>
+				<recomm>El LD podria incluir al menos dos Conceptos incluidos por otro concepto</recomm>
+			</rule>
+			<rule>
+				<id-rule>met1-1-2</id-rule>
+				<class-onto>http://www.cc.uah.es/ie/ont/elabtheory.owl#ConceptLearningActivity</class-onto>
+				<property-onto>http://www.cc.uah.es/ie/ont/elabtheory.owl#RET-rule-1-1-2 </property-onto>
+				<ld-object>  </ld-object>
+				<recomm>El LD podria considerar un Concepto que posea al menos dos conceptos del mismo tipo </recomm>
+			</rule>
+			<rule>
+				<id-rule>met1-1-3</id-rule>
+				<class-onto>http://www.cc.uah.es/ie/ont/elabtheory.owl#ConceptLearningActivity</class-onto>
+				<property-onto>http://www.cc.uah.es/ie/ont/elabtheory.owl#RET-rule-1-1-3 </property-onto>
+				<ld-object>  </ld-object>
+				<recomm>El LD podria considerar un Concepto que esté compuesto por al menos dos partes</recomm>
+			</rule>
+			<rule>
+				<id-rule>met1-1-4</id-rule>
+				<class-onto>http://www.cc.uah.es/ie/ont/elabtheory.owl#ConceptLearningActivity</class-onto>
+				<property-onto>http://www.cc.uah.es/ie/ont/elabtheory.owl#RET-rule-1-1-4 </property-onto>
+				<ld-object>  </ld-object>
+				<recomm>El LD podria considerar un Concepto que tenga al menos dos Contenidos de Soporte</recomm>
+			</rule>
+	</method>
+	<method id-method="RET-met1-2">
+			<rule>
+				<id-rule>met1-2</id-rule>
+				<class-onto>http://www.eume.net/ontology/ld.owl#Activity-Structure</class-onto>
+				<property-onto>http://www.cc.uah.es/ie/ont/elabtheory.owl#RET-rule-1-2 </property-onto>
+				<ld-object>  </ld-object>
+				<recomm>Las actividades de aprendizaje asociadas con conceptos mas amplios deben ser presentados en primer lugar</recomm>
+			</rule>
+	</method>
+	<method id-method="RET-met1-4">
+			<rule>
+				<id-rule>met1-4</id-rule>
+				<class-onto>http://www.cc.uah.es/ie/ont/elabtheory.owl#ConceptLearningActivity</class-onto>
+				<property-onto>http://www.cc.uah.es/ie/ont/elabtheory.owl#RET-rule-1-4 </property-onto>
+				<ld-object>  </ld-object>
+				<recomm>Un concepto considerado en el LD debe tener un Contenido de Soporte</recomm>
+			</rule>
+	</method>
+	<method id-method="RET-met1-5">
+			<rule>
+				<id-rule>met1-5-1</id-rule>
+				<class-onto>http://www.eume.net/ontology/ld.owl#Method</class-onto>
+				<property-onto>http://www.cc.uah.es/ie/ont/elabtheory.owl#RET-rule-1-5-1 </property-onto>
+				<ld-object>  </ld-object>
+				<recomm>El LD debe tener un Play con al manos dos Actos</recomm>
+			</rule>
+			<rule>
+				<id-rule>met1-5-2</id-rule>
+				<class-onto>http://www.eume.net/ontology/ld.owl#Activity-Structure</class-onto>
+				<property-onto>http://www.cc.uah.es/ie/ont/elabtheory.owl#RET-rule-1-5-2 </property-onto>
+				<ld-object>  </ld-object>
+				<recomm>El LD podria tener una Estructura de Actividades que agrupe al menos a dos actividades</recomm>
+			</rule>
+	</method>
+	<method id-method="RET-met1-6">
+			<rule>
+				<id-rule>met1-6-1</id-rule>
+				<class-onto>http://www.eume.net/ontology/ld.owl#Method</class-onto>
+				<property-onto>http://www.cc.uah.es/ie/ont/elabtheory.owl#RET-rule-1-6-1 </property-onto>
+				<ld-object>  </ld-object>
+				<recomm>El estudiante deberia poder elegir el proximo Play</recomm>
+			</rule>
+			<rule>
+				<id-rule>met1-6-2</id-rule>
+				<class-onto>http://www.eume.net/ontology/ld.owl#Method</class-onto>
+				<property-onto>http://www.cc.uah.es/ie/ont/elabtheory.owl#RET-rule-1-6-2 </property-onto>
+				<ld-object>  </ld-object>
+				<recomm>El estudiante deberia poder elegir el proximo Acto</recomm>
+			</rule>
+	</method>
+	<method id-method="RET-met3-1">
+			<rule>
+				<id-rule>met3-1-1</id-rule>
+				<class-onto>http://www.cc.uah.es/ie/ont/elabtheory.owl#ConceptLearningActivity</class-onto>
+				<property-onto>http://www.cc.uah.es/ie/ont/elabtheory.owl#RET-rule-3-1-1 </property-onto>
+				<ld-object>  </ld-object>
+				<recomm>El LD debe usar Conceptos que tengan al menos dos niveles de profundidad</recomm>
+			</rule>
+			<rule>
+				<id-rule>met3-1-2</id-rule>
+				<class-onto>http://www.cc.uah.es/ie/ont/elabtheory.owl#ConceptLearningActivity</class-onto>
+				<property-onto>http://www.cc.uah.es/ie/ont/elabtheory.owl#RET-rule-3-1-2 </property-onto>
+				<ld-object>  </ld-object>
+				<recomm>El LD debe usar al menos un Concepto que incluya a otros dos, y uno de estos debe tener al menos un nivel de profundidad</recomm>
+			</rule>
+	</method>
+	<method id-method="RET-met3-5">
+			<rule>
+				<id-rule>met3-5-1</id-rule>
+				<class-onto>http://www.eume.net/ontology/ld.owl#Method</class-onto>
+				<property-onto>http://www.cc.uah.es/ie/ont/elabtheory.owl#RET-rule-3-5-1 </property-onto>
+				<ld-object>  </ld-object>
+				<recomm>El LD debe usar un Concepto y su Contenido de Soporte en el mismo Play</recomm>
+			</rule>
+			<rule>
+				<id-rule>met3-5-2</id-rule>
+				<class-onto>http://www.eume.net/ontology/ld.owl#Method</class-onto>
+				<property-onto>http://www.cc.uah.es/ie/ont/elabtheory.owl#RET-rule-3-5-2 </property-onto>
+				<ld-object>  </ld-object>
+				<recomm>El LD debe usar un Concepto y el Contenido de Soporte de otro que lo contiene en el mismo Play</recomm>
+			</rule>
+			<rule>
+				<id-rule>met3-5-3</id-rule>
+				<class-onto>http://www.eume.net/ontology/ld.owl#Method</class-onto>
+				<property-onto>http://www.cc.uah.es/ie/ont/elabtheory.owl#RET-rule-3-5-3 </property-onto>
+				<ld-object>  </ld-object>
+				<recomm>El LD debe usar un Concepto y el Contenido de Soporte de otro del cual es parte, en el mismo Play</recomm>
+			</rule>
+			<rule>
+				<id-rule>met3-5-4</id-rule>
+				<class-onto>http://www.eume.net/ontology/ld.owl#Method</class-onto>
+				<property-onto>http://www.cc.uah.es/ie/ont/elabtheory.owl#RET-rule-3-5-4 </property-onto>
+				<ld-object>  </ld-object>
+				<recomm>El LD debe usar un Concepto y el Contenido de Soporte de otro del cual es un tipo, en el mismo Play</recomm>
+			</rule>
+			
+	</method>
+	<method id-method="RET-met3-6">
+			<rule>
+				<id-rule>met3-6-1</id-rule>
+				<class-onto>http://www.eume.net/ontology/ld.owl#Method</class-onto>
+				<property-onto>http://www.cc.uah.es/ie/ont/elabtheory.owl#RET-rule-3-6-1 </property-onto>
+				<ld-object>  </ld-object>
+				<recomm>El LD debe tener un Play con al menos dos Actos</recomm>
+			</rule>
+			<rule>
+				<id-rule>met3-6-2</id-rule>
+				<class-onto>http://www.eume.net/ontology/ld.owl#Activity-Structure</class-onto>
+				<property-onto>http://www.cc.uah.es/ie/ont/elabtheory.owl#RET-rule-3-6-2 </property-onto>
+				<ld-object>  </ld-object>
+				<recomm>El LD debete usar una Estructura de Actividades que agrupe al menos a dos Actividades</recomm>
+			</rule>
+	</method>
+	<method id-method="RET-met3-7"> 
+			<rule>
+				<id-rule>met3-7</id-rule>
+				<class-onto>http://www.eume.net/ontology/ld.owl#Method</class-onto>
+				<property-onto>http://www.cc.uah.es/ie/ont/elabtheory.owl#RET-rule-3-7 </property-onto>
+				<ld-object>  </ld-object>
+				<recomm>El estudiante deberia poder elegir la proxima Actividad de Aprendizaje</recomm>
+			</rule>
+	</method>
+</methods>

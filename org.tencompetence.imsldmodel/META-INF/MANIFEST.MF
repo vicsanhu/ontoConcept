@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: IMS LD 1.0 Library
+Bundle-SymbolicName: org.tencompetence.imsldmodel
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: Bolton University
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Require-Bundle: org.tencompetence.jdom;bundle-version="1.0.0"
+Export-Package: org.tencompetence.imsldmodel,
+ org.tencompetence.imsldmodel.activities,
+ org.tencompetence.imsldmodel.environments,
+ org.tencompetence.imsldmodel.expressions,
+ org.tencompetence.imsldmodel.method,
+ org.tencompetence.imsldmodel.properties,
+ org.tencompetence.imsldmodel.resources,
+ org.tencompetence.imsldmodel.roles,
+ org.tencompetence.imsldmodel.types,
+ org.tencompetence.imsldmodel.util

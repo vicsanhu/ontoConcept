@@ -1,0 +1,28 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: CopperCore Publisher Plug-in
+Bundle-SymbolicName: org.tencompetence.ldpublisher
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: Bolton University
+Require-Bundle: org.tencompetence.jdom
+Bundle-ClassPath: .,
+ lib/axis/axis.jar,
+ lib/axis/commons-discovery-0.2.jar,
+ lib/axis/jaxrpc.jar,
+ lib/axis/saaj.jar,
+ lib/axis/wsdl4j-1.5.1.jar,
+ lib/axis/xercesImpl.jar,
+ lib/axis/xmlParserAPIs.jar,
+ lib/coppercore/adapter-coppercore.jar,
+ lib/coppercore/ccsi.jar,
+ lib/coppercore/coppercore-client-ws.jar,
+ lib/upload/commons-codec-1.3.jar,
+ lib/upload/commons-httpclient-3.0.1.jar,
+ lib/upload/commons-logging-1.1.jar
+Export-Package: javax.xml.rpc,
+ org.apache.commons.httpclient,
+ org.tencompetence.ldpublisher;uses:="org.tencompetence.ldpublisher.connection",
+ org.tencompetence.ldpublisher.connection,
+ org.tencompetence.ldpublisher.model,
+ org.tencompetence.ldpublisher.upload
+Bundle-RequiredExecutionEnvironment: J2SE-1.5

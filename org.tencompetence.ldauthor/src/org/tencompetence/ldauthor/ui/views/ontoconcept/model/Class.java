@@ -106,11 +106,7 @@ public class Class extends GenealogyElement
 	public boolean setParentsMarriage(Relation newParentMarriage) {
 		if (parentsMarriage == newParentMarriage)
 			return false;
-		if (parentsMarriage != null) {
-			Relation oldParentMarriage = parentsMarriage;
-			parentsMarriage = null;
-			oldParentMarriage.removeOffspring(this);
-		}
+	
 		parentsMarriage = newParentMarriage;
 		if (parentsMarriage != null)
 			parentsMarriage.addOffspring(this);

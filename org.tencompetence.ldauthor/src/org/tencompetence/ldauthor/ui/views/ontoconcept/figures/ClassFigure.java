@@ -1,7 +1,18 @@
 package org.tencompetence.ldauthor.ui.views.ontoconcept.figures;
 
-import org.eclipse.draw2d.*;
-import org.eclipse.draw2d.geometry.*;
+import org.eclipse.draw2d.ColorConstants;
+import org.eclipse.draw2d.CompoundBorder;
+import org.eclipse.draw2d.Figure;
+import org.eclipse.draw2d.Graphics;
+import org.eclipse.draw2d.GridData;
+import org.eclipse.draw2d.GridLayout;
+import org.eclipse.draw2d.IFigure;
+import org.eclipse.draw2d.ImageFigure;
+import org.eclipse.draw2d.Label;
+import org.eclipse.draw2d.LineBorder;
+import org.eclipse.draw2d.MarginBorder;
+import org.eclipse.draw2d.ToolbarLayout;
+import org.eclipse.draw2d.geometry.Rectangle;
 import org.eclipse.swt.graphics.Image;
 import org.eclipse.swt.graphics.Pattern;
 import org.eclipse.swt.widgets.Display;
@@ -10,10 +21,9 @@ import org.eclipse.swt.widgets.Display;
 public class ClassFigure extends Figure {
 
 	public static final Image MALE = new Image(Display.getCurrent(),
-			ClassFigure.class.getResourceAsStream("male.png"));
+			ClassFigure.class.getResourceAsStream("Letter-P-icon.png"));
 	public static final Image FEMALE = new Image(Display.getCurrent(),
-			ClassFigure.class.getResourceAsStream("female.png"));
-	
+			ClassFigure.class.getResourceAsStream("Letter-H-icon.png"));
 	private final Label nameFigure;
 	
 	public ClassFigure(String name, Image image) {
@@ -24,7 +34,7 @@ public class ClassFigure extends Figure {
 		setBorder(new CompoundBorder(
 			new LineBorder(1),
 			new MarginBorder(2, 2, 2, 2)));
-		
+				
 		IFigure imageNameDates = new Figure();
 		final GridLayout gridLayout = new GridLayout(2, false);
 		gridLayout.marginHeight = 0;

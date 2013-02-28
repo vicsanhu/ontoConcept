@@ -61,7 +61,7 @@ class GenealogyZestContentProvider
 	 * Answer <code>true</code> if the specified model element has children.
 	 */
 	public boolean hasChildren(Object element) {
-		/* if (element instanceof Person)
+		/*if (element instanceof Class)
 			return true;*/
 		return false;
 	}

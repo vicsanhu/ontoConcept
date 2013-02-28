@@ -1,5 +1,6 @@
 package org.tencompetence.ldauthor.ui.views.ontoconcept;
 
+import java.io.FileNotFoundException;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
@@ -8,11 +9,14 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
 
+import javax.xml.bind.JAXBException;
+
 import org.jdom.Attribute;
 import org.jdom.Document;
 import org.jdom.Element;
 import org.jdom.output.Format;
 import org.jdom.output.XMLOutputter;
+import org.tencompetence.ldauthor.ui.views.ontoconcept.jaxb.GenerateXML;
 
 import edu.stanford.smi.protege.exception.OntologyLoadException;
 import edu.stanford.smi.protegex.owl.ProtegeOWL;
@@ -93,7 +97,6 @@ public class runOntology {
 					iterator();it.hasNext();) {
 				OWLNamedClass searchClass = (OWLNamedClass)it.next();
 				OWLIndividual superClass = retModel.getOWLIndividual(searchClass.getLocalName());
-				System.out.println("  ->Class: "+superClass.getLocalName());
 				for(Iterator<?> jt = searchClass.getSubclasses(false).iterator();
 						jt.hasNext();) {
 					OWLNamedClass searchSubClass = (OWLNamedClass)jt.next();
@@ -121,7 +124,6 @@ public class runOntology {
 						OWLIndividual subClass = retModel.getOWLIndividual(hasValue.getLocalName());
 						superClass.addPropertyValue(hasPart, subClass);
 					}
-					System.out.println("  ->searchProperty: "+searchProperty.getBrowserText());
 				}
 			}
 		}
@@ -191,46 +193,22 @@ public class runOntology {
 			}
 		}
         try {
-        	Element genealogy = new Element("genealogy");
-			Document doc = new Document(genealogy);
-			doc.setRootElement(genealogy);
 			eccModel = ProtegeOWL.createJenaOWLModel();
 			eccModel.createOWLNamedClass(topic);
 			hasMapArray.clear();
-			int countPrimary = 0;
-			int countSecundary = 0;
 			for(Iterator<?> it = searchedTopic.getSubclasses(true).iterator();it.hasNext();) {
 				RDFSClass searchSubClass = (RDFSClass)it.next();
 				if((searchSubClass instanceof OWLNamedClass)) {
-					Element person = new Element("person");
-					person.setAttribute(new Attribute("id", Integer.toString(countPrimary)));
-					person.setAttribute(new Attribute("name", searchSubClass.getLocalName()));
-					person.setAttribute(new Attribute("gender", "MALE"));
-					doc.getRootElement().addContent(person);
-					countPrimary++;
 					if(!(searchSubClass.isMetaclass()) || (searchSubClass.isVisible())) {
 						List<OWLNamedClass> arrayAddSuperclass = new ArrayList<OWLNamedClass>();
-						countSecundary = countPrimary;
 						for(Iterator<?> jt =  searchSubClass.
 								getNamedSuperclasses(false).iterator(); jt.hasNext();) {
 							OWLNamedClass searchSuperClass = (OWLNamedClass)jt.next();
 							if(eccModel.getOWLNamedClass(searchSuperClass.getLocalName()) != null) {
-								countSecundary++;
-								Element person1 = new Element("person");
-								person1.setAttribute(new Attribute("id", Integer.toString(countSecundary)));
-								person1.setAttribute(new Attribute("name", searchSuperClass.getLocalName()));
-								person1.setAttribute(new Attribute("gender", "MALE"));
-								doc.getRootElement().addContent(person1);
 								OWLNamedClass var1 = eccModel.getOWLNamedClass(searchSuperClass.getLocalName());
 								OWLNamedClass var2 = eccModel.createOWLNamedClass(searchSubClass.getLocalName());
 								var2.addSuperclass(var1);
 								var2.removeSuperclass(eccModel.getOWLThingClass());
-								Element relation = new Element("marriage");
-								relation.setAttribute(new Attribute("typeRelation","is_a"));
-								relation.setAttribute(new Attribute("superclassId",Integer.toString(countPrimary)));
-								relation.setAttribute(new Attribute("subclassId",Integer.toString(countSecundary)));
-								doc.getRootElement().addContent(relation);
-								countPrimary = countSecundary;
 							}else {
 								arrayAddSuperclass.add(searchSuperClass);
 								hasMapArray.put(searchSubClass, arrayAddSuperclass);
@@ -305,16 +283,9 @@ public class runOntology {
 					}
 				}
 			}
-			XMLOutputter xmlOutput = new XMLOutputter();
-			xmlOutput.setFormat(Format.getPrettyFormat());
-			xmlOutput.output(doc, new FileWriter("c:\\ontologies\\file.xml"));
-			System.out.println("File Saved!");
 			incorporateTerpsicore(searchedTopic.getLocalName());
 		} catch(OntologyLoadException oe) {
 			oe.printStackTrace();
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
 		}
 		try {
 			FileWriter writer = new FileWriter("C:/ontologies/retOnto/prueba.owl");
@@ -324,6 +295,16 @@ public class runOntology {
 		     writer.close();
 		} catch(Exception e) {
 			 System.out.println("Exception: " + e);
+		}
+		try {
+			new GenerateXML(topic).ontoZestGraph();
+			//generateXML();
+		} catch (JAXBException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
 		}
 	}
 	

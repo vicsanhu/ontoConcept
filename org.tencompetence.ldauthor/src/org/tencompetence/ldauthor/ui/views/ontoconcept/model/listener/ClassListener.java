@@ -10,8 +10,6 @@ public interface ClassListener
 	extends NoteContainerListener, OntoZestElementListener
 {
 	void nameChanged(String newName);
-	void birthYearChanged(int birthYear);
-	void deathYearChanged(int deathYear);
 	void marriageChanged(Relation marriage);
 	void parentsMarriageChanged(Relation marriage);
 }

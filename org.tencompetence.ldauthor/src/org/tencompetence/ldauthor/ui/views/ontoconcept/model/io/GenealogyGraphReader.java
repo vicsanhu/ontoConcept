@@ -9,15 +9,13 @@ import javax.xml.parsers.ParserConfigurationException;
 import javax.xml.parsers.SAXParser;
 import javax.xml.parsers.SAXParserFactory;
 
+import org.tencompetence.ldauthor.ui.views.ontoconcept.model.Class;
+import org.tencompetence.ldauthor.ui.views.ontoconcept.model.GenealogyGraph;
+import org.tencompetence.ldauthor.ui.views.ontoconcept.model.Note;
+import org.tencompetence.ldauthor.ui.views.ontoconcept.model.Relation;
 import org.xml.sax.Attributes;
 import org.xml.sax.SAXException;
 import org.xml.sax.helpers.DefaultHandler;
-
-import org.tencompetence.ldauthor.ui.views.ontoconcept.model.GenealogyElement;
-import org.tencompetence.ldauthor.ui.views.ontoconcept.model.GenealogyGraph;
-import org.tencompetence.ldauthor.ui.views.ontoconcept.model.Relation;
-import org.tencompetence.ldauthor.ui.views.ontoconcept.model.Note;
-import org.tencompetence.ldauthor.ui.views.ontoconcept.model.Class;
 
 /**
  * Loads information from an XML stream into a {@link GenealogyGraph}

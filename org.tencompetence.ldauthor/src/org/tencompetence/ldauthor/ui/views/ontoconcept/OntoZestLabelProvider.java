@@ -17,7 +17,6 @@ class OntoZestLabelProvider extends LabelProvider
 	IEntityConnectionStyleProvider
 {
 	private final Color backgroundColor;
-
 	public OntoZestLabelProvider(Color backgroundColor) {
 		this.backgroundColor = backgroundColor;
 	}
